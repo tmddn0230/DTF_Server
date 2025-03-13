@@ -132,13 +132,20 @@
     <ClInclude Include="framework.h" />
     <ClInclude Include="myDefine.h" />
     <ClInclude Include="myEnum.h" />
+    <ClInclude Include="myGlobal.h" />
+    <ClInclude Include="myInclude.h" />
     <ClInclude Include="packet.h" />
     <ClInclude Include="protocol.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DTF_MainServer.cpp" />
+    <ClCompile Include="myGlobal.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DTF_MainServer.rc" />

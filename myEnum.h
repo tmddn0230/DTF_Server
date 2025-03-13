@@ -2,7 +2,7 @@
 
 enum enDigimon
 {
-	None,
+	NoneDigimon,
 	//1 cost =============
 	Veemon,		    // 브이몬
 	Hawkmon,	    // 호크몬
@@ -78,7 +78,7 @@ enum enDigimon
 
 enum enItem
 {
-	None,
+	NoneItem,
 	FenrirSword,
 	BerserkSword,
 	Bushido,

@@ -38,9 +38,30 @@
     <ClInclude Include="myEnum.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="myGlobal.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="myInclude.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DTF_MainServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="myGlobal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
