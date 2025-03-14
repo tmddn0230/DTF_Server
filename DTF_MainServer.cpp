@@ -78,6 +78,7 @@ BOOL WinSockStart()
 
 unsigned __stdcall ServerThread(void* pArg)
 {
+    Log("Digimon Team Fight ServerThread Start..TCPPort : %d", gServerPort);
     char szBuffer[1024];	memset(szBuffer, 0x00, sizeof(szBuffer));
 
     gServerSocket = socket(AF_INET, SOCK_STREAM, 0);
@@ -139,7 +140,7 @@ unsigned __stdcall ServerThread(void* pArg)
         {
             closesocket(socket);
 
-            printf("ADDUser Fail %d.%d.%d.%d",
+            Log("ADDUser Fail %d.%d.%d.%d",
                 ca.sin_addr.S_un.S_un_b.s_b1,
                 ca.sin_addr.S_un.S_un_b.s_b2,
                 ca.sin_addr.S_un.S_un_b.s_b3,
@@ -230,6 +231,19 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     // TODO: 여기에 코드를 입력합니다.
 
 
+    // 전역 문자열을 초기화합니다.
+    LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
+    LoadStringW(hInstance, IDC_DTFMAINSERVER, szWindowClass, MAX_LOADSTRING);
+    MyRegisterClass(hInstance);
+
+    // 애플리케이션 초기화를 수행합니다:
+    if (!InitInstance(hInstance, nCmdShow))
+    {
+        return FALSE;
+    }
+
+    HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_DTFMAINSERVER));
+
     Init();
 
     //----------------------------------------------------------------------------------------------------------
@@ -258,46 +272,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         gUserHandle[i] = NULL;
         gUserHandle[i] = (HANDLE)_beginthreadex(NULL, 0, UserThread, (void*)i, 0, NULL);
     }
-
-
-   // 이부분을 버튼 누르면 종료되는 이벤트를 넣어서 대체해야대
-   //MSG msg;
-   //
-   //while (GetMessage(&msg, nullptr, 0, 0))
-   //{
-   //    if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
-   //    {
-   //        TranslateMessage(&msg);
-   //        DispatchMessage(&msg);
-   //    }
-   //}
-   //
-   //return (int)msg.wParam;
-   // Press Ctrl+C, Binding FUNCTION 
-
-
-    if (::SetConsoleCtrlHandler(
-        (PHANDLER_ROUTINE)CtrlHandler, TRUE) == FALSE)
-        puts("ERROR: Unsigned Ctrl+C Event.");
-
-    while (CtrlHandler)
-    {
-
-    }
-
-
-    // 전역 문자열을 초기화합니다.
-    LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
-    LoadStringW(hInstance, IDC_DTFMAINSERVER, szWindowClass, MAX_LOADSTRING);
-    MyRegisterClass(hInstance);
-
-    // 애플리케이션 초기화를 수행합니다:
-    if (!InitInstance (hInstance, nCmdShow))
-    {
-        return FALSE;
-    }
-
-    HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_DTFMAINSERVER));
 
     MSG msg;
 
