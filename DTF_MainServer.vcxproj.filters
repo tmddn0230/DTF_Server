@@ -50,6 +50,9 @@
     <ClInclude Include="User.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DTF_MainServer.cpp">
@@ -62,6 +65,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="UserManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
