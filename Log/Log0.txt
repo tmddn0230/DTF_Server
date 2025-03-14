@@ -1,0 +1,5 @@
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
