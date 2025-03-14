@@ -2,16 +2,16 @@
 
 Monitor::Monitor(void)
 {
-	//d_mutex = CreateMutex(NULL, false, NULL);
-	//if (d_mutex == NULL)
-	//	throw MessageBox(NULL, "Monitor() - Mutex creation failed.", NULL, MB_OK);
+	d_mutex = CreateMutex(NULL, false, NULL);
+	if (d_mutex == NULL)
+		throw MessageBox(NULL, "Monitor() - Mutex creation failed.", NULL, MB_OK);
 
 }
 Monitor::Monitor(char* name)
 {
-	//d_mutex = CreateMutex(NULL, false, name);
-	//if (d_mutex == NULL)
-	//	throw MessageBox(NULL, "Monitor() - Mutex creation failed.", NULL, MB_OK);
+	d_mutex = CreateMutex(NULL, false, name);
+	if (d_mutex == NULL)
+		throw MessageBox(NULL, "Monitor() - Mutex creation failed.", NULL, MB_OK);
 
 }
 

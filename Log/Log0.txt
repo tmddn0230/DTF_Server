@@ -3,3 +3,29 @@ Digimon Team Fight ServerThread Start..TCPPort : 25000
 Digimon Team Fight ServerThread Start..TCPPort : 25000
 Digimon Team Fight ServerThread Start..TCPPort : 25000
 AddUser: 0 172.30.1.78
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Failed Socket Create
