@@ -1,6 +1,7 @@
 #pragma once
 #include "myInclude.h"
 #include "myDefine.h"
+#include "myEnum.h"
 
 class User
 {
@@ -20,6 +21,7 @@ public:
 
 	char mName[32];
 
+	enTamersDigimon mSelectedTDigimon;
 
 public:
 	User(void);
@@ -41,6 +43,8 @@ public:
 
 public: //RECV
 	void RecvLoginReq(char* packet);
+	void RecvEnterLobby(char* packet);
+	void RecvGetUserInfo(char* packet);
 	void RecvEnterGame(char* packet);
 	void RecvLoadingFinish(char* packet);
 	void RecvStart(char* packet);

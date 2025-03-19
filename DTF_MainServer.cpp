@@ -300,7 +300,7 @@ void Init()
 {
     gServerPort = 25000;
     gServerNum = 0;
-    gUserper = 20;
+    gUserper = 1;
     //gbUseUDP = 0;
 }
 

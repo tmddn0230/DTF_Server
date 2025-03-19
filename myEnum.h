@@ -1,5 +1,20 @@
 #pragma once
 
+enum enTamersDigimon
+{
+	T_None,
+	T_Koromon,
+	T_Tsunomon,
+	T_Tokomon,
+	T_Nyaromon,
+	T_Yokomon,
+	T_Tanemon,
+	T_Motimon,
+	T_Bukamon,
+	T_END
+};
+
+
 enum enDigimon
 {
 	NoneDigimon,

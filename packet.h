@@ -21,10 +21,12 @@ struct stLoginReq : public stHeader
 {
 	int32 UID;
 	int32 Result;
+	byte playerID[128];
 	stLoginReq()
 	{
 		UID = 0;
 		Result = 0;
+		memset(playerID, 0x00, sizeof(playerID));
 		SetHeader(prLoginReq, sizeof(stLoginReq));
 	};
 };
@@ -33,13 +35,57 @@ struct stLoginAck : public stHeader
 {
 	int32 UID;
 	int32 Result;
+	byte playerID[128];
 	stLoginAck()
 	{
 		UID = 0;
 		Result = 0;
+		memset(playerID, 0x00, sizeof(playerID));
 		SetHeader(prLoginAck, sizeof(stLoginAck));
 	};
 };
+// 	prEnterLobbyReq, prEnterLobbyAck,
+// 로비 입장
+struct stEnterLobbyReq : public stHeader
+{
+	int32 UID;
+	enTamersDigimon selectedTD;
+
+	stEnterLobbyReq()
+	{
+		UID = 0;
+		selectedTD = enTamersDigimon::T_None;
+		SetHeader(prEnterLobbyReq, sizeof(stEnterLobbyReq));
+	};
+};
+
+struct stEnterLobbyAck : public stHeader
+{
+	int32 UID;
+	enTamersDigimon selectedTD;
+
+	stEnterLobbyAck()
+	{
+		UID = 0;
+		selectedTD = enTamersDigimon::T_None;
+		SetHeader(prEnterLobbyAck, sizeof(stEnterLobbyAck));
+	};
+};
+
+// prGetUserInfo
+struct stGetUserInfo : public stHeader
+{
+	int32 UID;
+	enTamersDigimon selectedTD;
+
+	stGetUserInfo()
+	{
+		UID = 0;
+		selectedTD = enTamersDigimon::T_None;
+		SetHeader(prGetUserInfo, sizeof(stGetUserInfo));
+	};
+};
+
 
 // 	prEnterGameReq, prEnterGameAck,
 // 게임 입장 , 오브젝트, 맵 등을 로드하기 시작한다.
@@ -51,7 +97,7 @@ struct stEnterGameReq : public stHeader
 	{
 		UID = 0;
 		Result = 0;
-		SetHeader(prEnterGameReq, sizeof(prEnterGameReq));
+		SetHeader(prEnterGameReq, sizeof(stEnterGameReq));
 	};
 };
 
@@ -63,7 +109,7 @@ struct stEnterGameAck : public stHeader
 	{
 		UID = 0;
 		Result = 0;
-		SetHeader(prEnterGameAck, sizeof(prEnterGameAck));
+		SetHeader(prEnterGameAck, sizeof(stEnterGameAck));
 	};
 };
 
@@ -72,12 +118,11 @@ struct stEnterGameAck : public stHeader
 struct stLoadingFinishReq : public stHeader
 {
 	int32 UID;
-	int32 Result;
+
 	stLoadingFinishReq()
 	{
 		UID = 0;
-		Result = 0;
-		SetHeader(prLoadingFinishgReq, sizeof(prLoadingFinishgReq));
+		SetHeader(prLoadingFinishgReq, sizeof(stLoadingFinishReq));
 	};
 };
 
@@ -86,12 +131,11 @@ struct stLoadingFinishReq : public stHeader
 struct stLoadingFinishAck : public stHeader
 {
 	int32 UID;
-	int32 Result;
+
 	stLoadingFinishAck()
 	{
 		UID = 0;
-		Result = 0;
-		SetHeader(prLoadingFinishAck, sizeof(prLoadingFinishAck));
+		SetHeader(prLoadingFinishAck, sizeof(stLoadingFinishAck));
 	};
 };
 
@@ -103,7 +147,7 @@ struct stStartGame : public stHeader
 	stStartGame()
 	{
 		UID = 0;
-		SetHeader(prStartGame, sizeof(prStartGame));
+		SetHeader(prStartGame, sizeof(stStartGame));
 	};
 };
 
@@ -118,24 +162,28 @@ struct stStartGame : public stHeader
 struct stSelectedReq : public stHeader
 {
 	int32 UID;
-	int32 Result;
+	int32 SelectedDigimon;
+	int32 SelectedItem;
 	stSelectedReq()
 	{
 		UID = 0;
-		Result = 0;
-		SetHeader(prSelectedReq, sizeof(prSelectedReq));
+		SelectedDigimon = 0;
+		SelectedItem = 0;
+		SetHeader(prSelectedReq, sizeof(stSelectedReq));
 	};
 };
 
 struct stSelectedAck : public stHeader
 {
 	int32 UID;
-	int32 Result;
+	enDigimon SelectedDigimon;
+	enItem    SelectedItem;
 	stSelectedAck()
 	{
 		UID = 0;
-		Result = 0;
-		SetHeader(prSelectedAck, sizeof(prSelectedAck));
+		SelectedDigimon = enDigimon::NoneDigimon;
+		SelectedItem	= enItem::NoneItem;
+		SetHeader(prSelectedAck, sizeof(stSelectedAck));
 	};
 };
 
@@ -151,7 +199,7 @@ struct stRClickedReq : public stHeader
 		UID = 0;
 		memset(v, 0, sizeof(v));
 		memset(q, 0, sizeof(q));
-		SetHeader(prRClickedReq, sizeof(prRClickedReq));
+		SetHeader(prRClickedReq, sizeof(stRClickedReq));
 	};
 };
 
@@ -165,7 +213,7 @@ struct stRClickedAck : public stHeader
 		UID = 0;
 		memset(v, 0, sizeof(v));
 		memset(q, 0, sizeof(q));
-		SetHeader(prRClickedAck, sizeof(prRClickedAck));
+		SetHeader(prRClickedAck, sizeof(stRClickedAck));
 	};
 };
 
@@ -180,7 +228,7 @@ struct stLClickedReq : public stHeader
 		UID = 0;
 		TileIndex = 0;
 
-		SetHeader(prLClickedReq, sizeof(prLClickedReq));
+		SetHeader(prLClickedReq, sizeof(stLClickedReq));
 	};
 };
 
@@ -193,7 +241,7 @@ struct stLClickedAck : public stHeader
 		UID = 0;
 		TileIndex = 0;
 
-		SetHeader(prLClickedAck, sizeof(prLClickedAck));
+		SetHeader(prLClickedAck, sizeof(stLClickedAck));
 	};
 };
 
@@ -213,7 +261,7 @@ struct stBoughtReq : public stHeader
 		UID = 0;
 		boughtDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prBoughtReq, sizeof(prBoughtReq));
+		SetHeader(prBoughtReq, sizeof(stBoughtReq));
 	};
 };
 
@@ -226,7 +274,7 @@ struct stBoughtAck : public stHeader
 		UID = 0;
 		boughtDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prBoughtAck, sizeof(prBoughtAck));
+		SetHeader(prBoughtAck, sizeof(stBoughtAck));
 	};
 };
 
@@ -241,7 +289,7 @@ struct stSoldReq : public stHeader
 		UID = 0;
 		soldDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prSoldReq, sizeof(prSoldReq));
+		SetHeader(prSoldReq, sizeof(stSoldReq));
 	};
 };
 
@@ -254,7 +302,7 @@ struct stSoldAck : public stHeader
 		UID = 0;
 		soldDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prSoldAck, sizeof(prSoldAck));
+		SetHeader(prSoldAck, sizeof(stSoldAck));
 	};
 };
 
@@ -266,7 +314,7 @@ struct stMatchStart : public stHeader
 	stMatchStart()
 	{
 		UID = 0;
-		SetHeader(prMatchStart, sizeof(prMatchStart));
+		SetHeader(prMatchStart, sizeof(stMatchStart));
 	};
 };
 
@@ -278,7 +326,7 @@ struct stMatchEnd : public stHeader
 	stMatchEnd()
 	{
 		UID = 0;
-		SetHeader(prMatchEnd, sizeof(prMatchEnd));
+		SetHeader(prMatchEnd, sizeof(stMatchEnd));
 	};
 };
 
@@ -303,7 +351,7 @@ struct stMoveReq : public stHeader
 		movingDigimon = enDigimon::NoneDigimon;
 		memset(v, 0, sizeof(v));
 		memset(q, 0, sizeof(q));
-		SetHeader(prMoveReq, sizeof(prMoveReq));
+		SetHeader(prMoveReq, sizeof(stMoveReq));
 	};
 };
 
@@ -321,7 +369,7 @@ struct stMoveAck : public stHeader
 		memset(v, 0, sizeof(v));
 		memset(q, 0, sizeof(q));
 
-		SetHeader(prMoveAck, sizeof(prMoveAck));
+		SetHeader(prMoveAck, sizeof(stMoveAck));
 	};
 };
 
@@ -337,7 +385,7 @@ struct stAttackReq : public stHeader
 		UID = 0;
 		attackDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prAttackReq, sizeof(prAttackReq));
+		SetHeader(prAttackReq, sizeof(stAttackReq));
 	};
 };
 
@@ -350,7 +398,7 @@ struct stAttackAck : public stHeader
 		UID = 0;
 		attackDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prAttackAck, sizeof(prAttackAck));
+		SetHeader(prAttackAck, sizeof(stAttackAck));
 	};
 };
 
@@ -364,7 +412,7 @@ struct stSkillReq : public stHeader
 		UID = 0;
 		skilledDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prSkillReq, sizeof(prSkillReq));
+		SetHeader(prSkillReq, sizeof(stSkillReq));
 	};
 };
 
@@ -377,7 +425,7 @@ struct stSkillAck : public stHeader
 		UID = 0;
 		skilledDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prSkillAck, sizeof(prSkillAck));
+		SetHeader(prSkillAck, sizeof(stSkillAck));
 	};
 };
 
@@ -392,7 +440,7 @@ struct stDieReq : public stHeader
 		UID = 0;
 		diedDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prDieReq, sizeof(prDieReq));
+		SetHeader(prDieReq, sizeof(stDieReq));
 	};
 };
 
@@ -405,7 +453,7 @@ struct stDieAck : public stHeader
 		UID = 0;
 		diedDigimon = enDigimon::NoneDigimon;
 
-		SetHeader(prDieAck, sizeof(prDieAck));
+		SetHeader(prDieAck, sizeof(stDieAck));
 	};
 };
 
@@ -426,7 +474,7 @@ struct stAttachedReq : public stHeader
 		UID = 0;
 		attachedDigimon = enDigimon::NoneDigimon;
 		attachedItem = enItem::NoneItem;
-		SetHeader(prAttachedReq, sizeof(prAttachedReq));
+		SetHeader(prAttachedReq, sizeof(stAttachedReq));
 	};
 };
 
@@ -440,7 +488,7 @@ struct stAttachedAck : public stHeader
 		UID = 0;
 		attachedDigimon = enDigimon::NoneDigimon;
 		attachedItem = enItem::NoneItem;
-		SetHeader(prAttachedAck, sizeof(prAttachedAck));
+		SetHeader(prAttachedAck, sizeof(stAttachedAck));
 	};
 };
 
@@ -456,7 +504,7 @@ struct stDetachedReq : public stHeader
 		UID = 0;
 		detachedDigimon = enDigimon::NoneDigimon;
 		detachedItem = enItem::NoneItem;
-		SetHeader(prDetachedReq, sizeof(prDetachedReq));
+		SetHeader(prDetachedReq, sizeof(stDetachedReq));
 	};
 };
 
@@ -470,7 +518,7 @@ struct stDetachedAck : public stHeader
 		UID = 0;
 		detachedDigimon = enDigimon::NoneDigimon;
 		detachedItem = enItem::NoneItem;
-		SetHeader(prDetachedAck, sizeof(prDetachedAck));
+		SetHeader(prDetachedAck, sizeof(stDetachedAck));
 	};
 };
 
@@ -490,7 +538,7 @@ struct stArgPickedReq : public stHeader
 	{
 		UID = 0;
 		pickedArg = enArgument::None;
-		SetHeader(prArgPickedReq, sizeof(prArgPickedReq));
+		SetHeader(prArgPickedReq, sizeof(stArgPickedReq));
 	};
 };
 
@@ -502,6 +550,6 @@ struct stArgPicKedAck : public stHeader
 	{
 		UID = 0;
 		pickedArg = enArgument::None;
-		SetHeader(prArgPicKedAck, sizeof(prArgPicKedAck));
+		SetHeader(prArgPicKedAck, sizeof(stArgPicKedAck));
 	};
 };

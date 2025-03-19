@@ -19,6 +19,7 @@ public:
 	void DelUser(int index);
 	User* GetUser(int uid);
 
+	void Send(int index, char* buff, int size);
 	void SendOther(int index, char* buff, int size);
 	void SendAll(char* buff, int size);
 

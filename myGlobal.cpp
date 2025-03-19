@@ -4,7 +4,7 @@ HWND gMainWnd = NULL;
 HWND gListboxWindow = NULL;
 HFONT gArialFont = NULL;
 
-int gUserper = 0;
+int gUserper = 1;
 int MAX_QUEUE = 0;
 int MAX_THREAD = 0;
 int gbUseUDP = 1;

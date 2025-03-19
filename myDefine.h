@@ -15,7 +15,7 @@ typedef union stICAddress
 #define MAX_SEND 65535 // 
 
 //#define MAX_UDP 50 , udp 사용 예정 없음
-#define MAX_USER 8
+#define MAX_USER 2
 
 #define DEL(p)  {if(p){delete    (p); (p) = NULL;}} //1차원 동적배열 메모리 해제
 #define DELS(p) {1f(p){delete[]  (p); (p) = NULL;}}

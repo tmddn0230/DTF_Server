@@ -76,6 +76,11 @@ User* UserManager::GetUser(int uid)
 	return NULL;
 }
 
+void UserManager::Send(int index, char* buff, int size)
+{
+	mUser[index].Send(buff, size);
+}
+
 void UserManager::SendOther(int index, char* buff, int size)
 {
 	int i;

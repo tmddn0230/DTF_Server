@@ -29,3 +29,311 @@ Failed Socket Create
 Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
 Digimon Team Fight ServerThread Start..TCPPort : 25000
 Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 1 172.30.1.78
+AddUser: 2 172.30.1.72
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+AddUser: 1 172.30.1.26
+AddUser: 2 172.30.1.26
+AddUser: 3 172.30.1.26
+AddUser: 4 172.30.1.26
+AddUser: 5 172.30.1.26
+AddUser: 6 172.30.1.26
+AddUser: 7 172.30.1.26
+ADDUser Fail 172.30.1.26
+ADDUser Fail 172.30.1.26
+ADDUser Fail 172.30.1.26
+ADDUser Fail 172.30.1.26
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+AddUser: 1 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+AddUser: 1 172.30.1.26
+AddUser: 2 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+AddUser: 1 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Recv Select Packet And Send Other
+AddUser: 0 172.30.1.26
+Recv Select Packet And Send Other
+AddUser: 0 172.30.1.26
+Recv Select Packet And Send Other
+AddUser: 0 172.30.1.26
+AddUser: 0 172.30.1.26
+Recv Select Packet And Send Other
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Recv Select Packet And Send Other
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Loading Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Loading Finish
+Loading Finish
+AddUser: 0 172.30.1.26
+Loading Finish
+AddUser: 0 172.30.1.26
+Loading Finish
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Loading Finish
+AddUser: 0 172.30.1.26
+Loading Finish
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Loading Finish
+Loading Finish
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Loading Finish
+Loading Finish
+Loading Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 1 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[  i) ]
+Login :[ –j" ]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ ê¢0) ]
+Login :[ ‡† ]
+AddUser: 0 172.30.1.78
+Login :[ †Ål) ]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ 0kà˝ ]
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Login :[ êU{˝ ]
+AddUser: 0 172.30.1.78
+Login :[ pΩB ˝ ]
+Login :[ Äj˝ ]
+Login :[ –á|˝ ]
+Login :[  ]
+Login :[ p·é&˝ ]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ †◊>˝ ]
+Login :[ 5∞Ì¸ ]
+Login :[ –j¥Ì¸ ]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ ∞„—˝ ]
+Enter Enter
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Login :[ †
+Y˝ ]
+Enter Enter
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[  ]
+Enter Enter
+AddUser: 0 172.30.1.78
+Login :[ †}R˝ ]
+Enter Enter
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ 0¯ ˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ ¿Âø#˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ –∑ã#˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Login :[ ∞iâ˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ X{˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ ∞‡ø#˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ pJ{ ˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ @Zz ˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ 0X‘˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ ∞?> ˝ ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ ∞º˝ ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[  ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ ´®˝ ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ p›í'B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ Xc'B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ ∞Ôì'B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[  ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ ∞P/(B ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ p'C$B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ †W_&B ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+AddUser: 1 172.30.1.78
+AddUser: 0 172.30.1.72
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+AddUser: 1 172.30.1.78
+Login :[ ;™6 ]
+Enter Lobby
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ –⁄í'B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ 0{w(B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ –‘ê&B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ ¿(B ]
+Enter Lobby
+AddUser: 0 172.30.1.78
+Login :[ !'B ]
+Enter Lobby

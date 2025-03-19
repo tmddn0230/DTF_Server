@@ -10,6 +10,8 @@ enum enProtocol
 	PROTOCOL_START = 0,
 	prConnectAck,
 	prLoginReq, prLoginAck,
+	prEnterLobbyReq, prEnterLobbyAck,
+	prGetUserInfo,
 	prEnterGameReq, prEnterGameAck,
 	prLoadingFinishgReq, prLoadingFinishAck,
 	prStartGame,
