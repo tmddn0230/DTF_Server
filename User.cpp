@@ -231,8 +231,7 @@ void User::Parse(int protocol, char* packet)
 	case prLClickedReq:		    RecvLClicked(packet);   break;
 	case prBoughtReq:		    RecvBought(packet);   break;
 	case prSoldReq:			    RecvSold(packet);   break;
-	case prMatchStart:		    RecvMatchStart(packet);   break;
-	case prMatchEnd:		    RecvMatchEnd(packet);   break;
+	case prSpawnReq:			RecvSpawn(packet);		 break;
 	case prAttackReq:		    RecvAttack(packet);   break;
 	case prSkillReq:		    RecvSkill(packet);   break;
 	case prMoveReq:			    RecvMove(packet);   break;
@@ -240,6 +239,7 @@ void User::Parse(int protocol, char* packet)
 	case prAttachedReq:		    RecvAttached(packet);   break;
 	case prDetachedReq:		    RecvDetached(packet);   break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
+	case prWaitingFin:			break;
 		//default:			SendDefault(packet);	break;
 	}
 
@@ -444,23 +444,6 @@ void User::RecvSold(char* packet)
 	puts("Recv And Send All Packet");
 }
 
-void User::RecvMatchStart(char* packet)
-{
-	stMatchStart req;
-	memcpy(&req, packet, sizeof(stMatchStart));
-
-	g_User.SendOther(req.UID, packet, sizeof(stMatchStart));
-	puts("Recv And Send All Packet");
-}
-
-void User::RecvMatchEnd(char* packet)
-{
-	stMatchEnd req;
-	memcpy(&req, packet, sizeof(stMatchEnd));
-
-	g_User.SendOther(req.UID, packet, sizeof(stMatchEnd));
-	puts("Recv And Send All Packet");
-}
 
 void User::RecvAttack(char* packet)
 {
@@ -523,4 +506,43 @@ void User::RecvArgPicked(char* packet)
 
 	g_User.SendOther(req.UID, packet, sizeof(stArgPicKedAck));
 	puts("Recv And Send All Packet");
+}
+
+void User::RecvSpawn(char* packet)
+{
+	stSpawnReq req;
+	memcpy(&req, packet, sizeof(stSpawnReq));
+
+	stSpawnAck ack;
+
+	ack.UID = req.UID;
+	ack.spawnedDigimon = req.spawnedDigimon;
+	ack.spawnedTileIndex = req.spawnedTileIndex;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSpawnAck));
+
+	g_User.SendAll(buffer, sizeof(stSpawnAck));
+	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
+	Log("Spawn Digimon");
+}
+
+void User::RecvWaitingFin(char* packet)
+{
+	stWaitingFin req;
+	memcpy(&req, packet, sizeof(stWaitingFin));
+
+	g_User.mWaitingCnt++;
+	// waiting cnt check
+	if (g_User.mWaitingCnt == g_User.GetUserCount())
+	{
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		// Round 체크해서 증강인지 준비인지 
+		g_User.SendAll(buffer, sizeof(stSpawnAck));
+		//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
+		Log("Waiting Finish");
+	}
 }

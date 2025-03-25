@@ -53,8 +53,7 @@ public: //RECV
 	void RecvLClicked(char* packet);
 	void RecvBought(char* packet);
 	void RecvSold(char* packet);
-	void RecvMatchStart(char* packet);
-	void RecvMatchEnd(char* packet);
+	void RecvSpawn(char* packet);
 	void RecvAttack(char* packet);
 	void RecvSkill(char* packet);
 	void RecvMove(char* packet);
@@ -62,5 +61,6 @@ public: //RECV
 	void RecvAttached(char* packet);
 	void RecvDetached(char* packet);
 	void RecvArgPicked(char* packet);
+	void RecvWaitingFin(char* packet);
 };
 

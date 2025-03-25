@@ -23,8 +23,7 @@ enum enProtocol
 	// 게임 정보 동기화 관련
 	prBoughtReq, prBoughtAck,
 	prSoldReq, prSoldAck,
-	prMatchStart,
-	prMatchEnd,
+	prSpawnReq, prSpawnAck,
 	// 디지몬 동작 동기화 관련
 	prAttackReq, prAttackAck,
 	prSkillReq, prSkillAck,
@@ -35,8 +34,12 @@ enum enProtocol
 	prDetachedReq, prDetachedAck,
 	// 증강 동기화 관련
 	prArgPickedReq, prArgPicKedAck,
-	// 게임 시스템 관련
-	prSpawnReq,	prSpawnAck,
+	// 게임 플로우 관련
+	prWaitingStart, prWaitingFin,
+	prReadyStageStart, prReadyFin,
+	prArgStagStart, prArgFin,
+	prRoundStart,	prRoundFin,
+	prSelectStart,
 
 	PROTOCOL_END
 };

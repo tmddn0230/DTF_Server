@@ -313,30 +313,35 @@ struct stSoldAck : public stHeader
 	};
 };
 
-// 	prMatchStart,
-// 매 전투 시작 시 모든 클라에게 호출
-struct stMatchStart : public stHeader
+struct stSpawnReq : public stHeader
 {
 	int32 UID;
-	stMatchStart()
+	int32 spawnedTileIndex;
+	enDigimon spawnedDigimon;
+
+	stSpawnReq()
 	{
 		UID = 0;
-		SetHeader(prMatchStart, sizeof(stMatchStart));
+		spawnedTileIndex = 0;
+		spawnedDigimon = enDigimon::NoneDigimon;
+		SetHeader(prSpawnReq, sizeof(stSpawnReq));
 	};
 };
 
-// 	prMatchEnd,
-// 매 전투 종료 시 모든 클라에게 호출
-struct stMatchEnd : public stHeader
+struct stSpawnAck : public stHeader
 {
 	int32 UID;
-	stMatchEnd()
+	int32 spawnedTileIndex;
+	enDigimon spawnedDigimon;
+
+	stSpawnAck()
 	{
 		UID = 0;
-		SetHeader(prMatchEnd, sizeof(stMatchEnd));
+		spawnedTileIndex = 0;
+		spawnedDigimon = enDigimon::NoneDigimon;
+		SetHeader(prSpawnAck, sizeof(stSpawnAck));
 	};
 };
-
 
 /*
 ==================================================================
@@ -560,3 +565,22 @@ struct stArgPicKedAck : public stHeader
 		SetHeader(prArgPicKedAck, sizeof(stArgPicKedAck));
 	};
 };
+
+
+/*
+==================================================================
+================   게임 시스템 관련 패킷   =======================
+==================================================================
+*/
+
+struct stWaitingFin : public stHeader
+{
+	int32 UID;
+
+	stWaitingFin()
+	{
+		UID = 0;
+		SetHeader(prWaitingFin, sizeof(stWaitingFin));
+	};
+};
+

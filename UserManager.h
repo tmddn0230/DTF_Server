@@ -9,6 +9,9 @@ public:
 	int mPreIndex;
 	int mChatIndex;
 
+	int mWaitingCnt = 0;
+	int mCombatCnt = 0;
+
 	bool mbStart;
 
 public:
