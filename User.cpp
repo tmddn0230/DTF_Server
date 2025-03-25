@@ -16,6 +16,8 @@ User::User(void)
 	mUID = 0;
 	mIndex = INVALID_VALUE;
 
+	mSelectedTDigimon = enTamersDigimon::T_None;
+
 	memset(mName, 0x00, sizeof(mName));
 }
 
@@ -220,7 +222,7 @@ void User::Parse(int protocol, char* packet)
 	{
 	case prLoginReq:			RecvLoginReq(packet);	break;
 	case prEnterLobbyReq:		RecvEnterLobby(packet);	break;
-	case prGetUserInfo:			RecvEnterLobby(packet);	break;
+	case prGetUserInfo:			RecvGetUserInfo(packet);	break;
 	case prEnterGameReq:		RecvEnterGame(packet);	break;
 	case prLoadingFinishgReq:   RecvLoadingFinish(packet);   break;
 	case prStartGame:			RecvStart(packet);   break;
@@ -244,6 +246,10 @@ void User::Parse(int protocol, char* packet)
 
 }
 
+/*
+Login 에서 UID 를 부여 할 것 본인만 주고 받음
+각 클라에게 정보를 넘겨 주는 것은 EnterGame
+*/
 void User::RecvLoginReq(char* packet)
 {
 	stLoginReq req;
@@ -251,15 +257,21 @@ void User::RecvLoginReq(char* packet)
 
 	stLoginAck ack;
 
-	ack.UID = mIndex;
+	ack.UID = g_User.GetUserCount() - 1;
 	ack.Result = 1; // SUCCESS
-	memcpy(ack.playerID, &req.playerID, sizeof(req.playerID));
 
-	char buffer[1024];
+	memcpy(ack.playerID, &req.playerID, sizeof(req.playerID));
+	// mName 저장
+	memcpy(g_User.mUser[ack.UID].mName, &req.playerID, sizeof(req.playerID));
+
+
+
+	char buffer[128];
 	memset(buffer, 0x00, sizeof(buffer));
 
 	memcpy(buffer, &ack, sizeof(stLoginAck));
-	g_User.SendAll(buffer, sizeof(stLoginAck));
+	//_User.SendAll(buffer, sizeof(stLoginAck));
+	g_User.Send(ack.UID, buffer, sizeof(stLoginAck));
 
 	Log("Login :[ %s ]" ,req.playerID);
 }
@@ -280,36 +292,48 @@ void User::RecvEnterLobby(char* packet)
 
 	g_User.mUser[req.UID].mSelectedTDigimon = req.selectedTD;
 
-	g_User.Send(mIndex, buffer, sizeof(stEnterLobbyAck));
+	g_User.Send(req.UID, buffer, sizeof(stEnterLobbyAck));
 	Log("Enter Lobby");
 
+	// 현재 혼자라면 보내지 않음
+	if (g_User.GetUserCount() == 1) return;
+
 	// 자기자신의 정보를 다른 유저들에게 전달
-	stGetUserInfo infoack;
+	stMyInfo infoack;
 
 	infoack.UID = req.UID;
 	infoack.selectedTD = req.selectedTD;
+	memcpy(infoack.playerID, &g_User.mUser[req.UID].mName, sizeof(g_User.mUser[req.UID].mName));
 
 	char infobuffer[64];
-	memcpy(&infobuffer, &infoack, sizeof(stGetUserInfo));
-	g_User.SendOther(mIndex, infobuffer, sizeof(stGetUserInfo));
+	memset(infobuffer, 0x00, sizeof(infobuffer));
+	memcpy(infobuffer, &infoack, sizeof(stMyInfo));
+
+	g_User.SendOther(mIndex, infobuffer, sizeof(stMyInfo));
 	Log("Send My Info");
 }
 
+
+
 void User::RecvGetUserInfo(char* packet)
 {
+	stGetUserInfo req;
+	memcpy(&req, packet, sizeof(stGetUserInfo));
+
 	for (int i = 0; i < g_User.GetUserCount(); i++)
 	{
-		if (i = mIndex) continue;
+		if (i == req.UID) continue;
 
 		stGetUserInfo ack;
 
 		ack.UID = g_User.GetUser(i)->mUID;
 		ack.selectedTD = g_User.GetUser(i)->mSelectedTDigimon;
+		memcpy(ack.playerID, &req.playerID, sizeof(req.playerID));
 
 		char buffer[64];
-		memcpy(&buffer, &ack, sizeof(stGetUserInfo));
+		memcpy(buffer, &ack, sizeof(stGetUserInfo));
 		
-		g_User.Send(mIndex, buffer, sizeof(stGetUserInfo));
+		g_User.Send(req.UID, buffer, sizeof(stGetUserInfo));
 
 		Log("Send User Info [%d]", i);
 	}
@@ -375,11 +399,21 @@ void User::RecvSelected(char* packet)
 
 void User::RecvRClicked(char* packet)
 {
-	stRClickedAck req;
-	memcpy(&req, packet, sizeof(stRClickedAck));
+	stRClickedReq req;
+	memcpy(&req, packet, sizeof(stRClickedReq));
 
-	g_User.SendOther(req.UID, packet, sizeof(stRClickedAck));
-	puts("Recv And Send All Packet");
+	stRClickedAck ack;
+	ack.UID = req.UID;
+	for (int i = 0; i < 3; i++)
+	{
+		ack.v[i] = req.v[i];
+	}
+
+    char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stRClickedAck));
+
+	g_User.SendAll(buffer, sizeof(stRClickedAck));
 }
 
 void User::RecvLClicked(char* packet)

@@ -21,7 +21,8 @@ struct stLoginReq : public stHeader
 {
 	int32 UID;
 	int32 Result;
-	byte playerID[128];
+	char playerID[32];
+
 	stLoginReq()
 	{
 		UID = 0;
@@ -35,7 +36,8 @@ struct stLoginAck : public stHeader
 {
 	int32 UID;
 	int32 Result;
-	byte playerID[128];
+	char playerID[32];
+
 	stLoginAck()
 	{
 		UID = 0;
@@ -72,16 +74,34 @@ struct stEnterLobbyAck : public stHeader
 	};
 };
 
+// prMyInfo
+struct stMyInfo : public stHeader
+{
+	int32 UID;
+	enTamersDigimon selectedTD;
+	char playerID[32];
+
+	stMyInfo()
+	{
+		UID = 0;
+		selectedTD = enTamersDigimon::T_None;
+		memset(playerID, 0x00, sizeof(playerID));
+		SetHeader(prGetUserInfo, sizeof(stMyInfo));
+	};
+};
+
 // prGetUserInfo
 struct stGetUserInfo : public stHeader
 {
 	int32 UID;
 	enTamersDigimon selectedTD;
+	char playerID[32];
 
 	stGetUserInfo()
 	{
 		UID = 0;
 		selectedTD = enTamersDigimon::T_None;
+		memset(playerID, 0x00, sizeof(playerID));
 		SetHeader(prGetUserInfo, sizeof(stGetUserInfo));
 	};
 };
@@ -193,12 +213,12 @@ struct stRClickedReq : public stHeader
 {
 	int32 UID;
 	float v[3];
-	float q[4];
+
 	stRClickedReq()
 	{
 		UID = 0;
 		memset(v, 0, sizeof(v));
-		memset(q, 0, sizeof(q));
+
 		SetHeader(prRClickedReq, sizeof(stRClickedReq));
 	};
 };
@@ -207,12 +227,12 @@ struct stRClickedAck : public stHeader
 {
 	int32 UID;
 	float v[3];
-	float q[4];
+
 	stRClickedAck()
 	{
 		UID = 0;
 		memset(v, 0, sizeof(v));
-		memset(q, 0, sizeof(q));
+
 		SetHeader(prRClickedAck, sizeof(stRClickedAck));
 	};
 };

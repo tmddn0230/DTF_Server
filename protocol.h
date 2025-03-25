@@ -11,13 +11,14 @@ enum enProtocol
 	prConnectAck,
 	prLoginReq, prLoginAck,
 	prEnterLobbyReq, prEnterLobbyAck,
+	prMyInfo,
 	prGetUserInfo,
 	prEnterGameReq, prEnterGameAck,
 	prLoadingFinishgReq, prLoadingFinishAck,
 	prStartGame,
 	// 테이머 동작 동기화 관련
-	prSelectedReq, prSelectedAck,
-	prRClickedReq, prRClickedAck,
+	prSelectedReq, prSelectedAck,   // 초밥 선택
+	prRClickedReq, prRClickedAck,	// 이동 신호
 	prLClickedReq, prLClickedAck,   // Drag Drop 시 Drop 에서 
 	// 게임 정보 동기화 관련
 	prBoughtReq, prBoughtAck,
@@ -34,6 +35,8 @@ enum enProtocol
 	prDetachedReq, prDetachedAck,
 	// 증강 동기화 관련
 	prArgPickedReq, prArgPicKedAck,
+	// 게임 시스템 관련
+	prSpawnReq,	prSpawnAck,
 
 	PROTOCOL_END
 };

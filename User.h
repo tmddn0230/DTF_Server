@@ -19,7 +19,7 @@ public:
 	int mSendSize;
 	char mSendBuffer[MAX_SEND];
 
-	char mName[32];
+	unsigned char mName[32];
 
 	enTamersDigimon mSelectedTDigimon;
 

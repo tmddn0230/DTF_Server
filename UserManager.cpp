@@ -64,7 +64,7 @@ void UserManager::DelUser(int index)
 
 User* UserManager::GetUser(int uid)
 {
-	if (uid <= 0)
+	if (uid < 0)
 		return NULL;
 
 	int i;
