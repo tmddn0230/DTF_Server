@@ -223,7 +223,7 @@ void User::Parse(int protocol, char* packet)
 	case prLoginReq:			RecvLoginReq(packet);	break;
 	case prEnterLobbyReq:		RecvEnterLobby(packet);	break;
 	case prGetUserInfo:			RecvGetUserInfo(packet);	break;
-	case prEnterGameReq:		RecvEnterGame(packet);	break;
+	case prEnterGame:	    	RecvEnterGame(packet);	break;
 	case prLoadingFinishgReq:   RecvLoadingFinish(packet);   break;
 	case prStartGame:			RecvStart(packet);   break;
 	case prSelectedReq:			RecvSelected(packet);   break;
@@ -341,15 +341,15 @@ void User::RecvGetUserInfo(char* packet)
 
 void User::RecvEnterGame(char* packet)
 {
-	stEnterGameReq req;
-	memcpy(&req, packet, sizeof(stEnterGameReq));
+	stEnterGame req;
+	req.Result = 1;
 
-	stEnterGameAck ack;
 
-	char buffer[64];	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stEnterGameAck));
+	char buffer[64];	
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &req, sizeof(stEnterGame));
 
-	g_User.SendAll(buffer, sizeof(stEnterGameAck));
+	g_User.SendAll(buffer, sizeof(stEnterGame));
 
 	//g_User.SendOther(req.UID, packet, sizeof(stEnterGameAck));
 	Log("Enter Game");
@@ -414,6 +414,7 @@ void User::RecvRClicked(char* packet)
 	memcpy(buffer, &ack, sizeof(stRClickedAck));
 
 	g_User.SendAll(buffer, sizeof(stRClickedAck));
+	Log("Player : [%d] MoveTo ([%f], [%f], [%f]) ", req.UID, req.v[0], req.v[1], req.v[2]);
 }
 
 void User::RecvLClicked(char* packet)

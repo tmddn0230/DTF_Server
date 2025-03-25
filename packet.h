@@ -109,29 +109,16 @@ struct stGetUserInfo : public stHeader
 
 // 	prEnterGameReq, prEnterGameAck,
 // 게임 입장 , 오브젝트, 맵 등을 로드하기 시작한다.
-struct stEnterGameReq : public stHeader
+struct stEnterGame : public stHeader
 {
-	int32 UID;
 	int32 Result;
-	stEnterGameReq()
+	stEnterGame()
 	{
-		UID = 0;
 		Result = 0;
-		SetHeader(prEnterGameReq, sizeof(stEnterGameReq));
+		SetHeader(prEnterGame, sizeof(stEnterGame));
 	};
 };
 
-struct stEnterGameAck : public stHeader
-{
-	int32 UID;
-	int32 Result;
-	stEnterGameAck()
-	{
-		UID = 0;
-		Result = 0;
-		SetHeader(prEnterGameAck, sizeof(stEnterGameAck));
-	};
-};
 
 // 	prLoadingFinishgReq, prLoadingFinishAck,
 // 클라->서버 : 필요한 에셋 로드가 끝났다고 알림

@@ -13,7 +13,7 @@ enum enProtocol
 	prEnterLobbyReq, prEnterLobbyAck,
 	prMyInfo,
 	prGetUserInfo,
-	prEnterGameReq, prEnterGameAck,
+	prEnterGame,
 	prLoadingFinishgReq, prLoadingFinishAck,
 	prStartGame,
 	// 테이머 동작 동기화 관련
