@@ -239,7 +239,8 @@ void User::Parse(int protocol, char* packet)
 	case prAttachedReq:		    RecvAttached(packet);   break;
 	case prDetachedReq:		    RecvDetached(packet);   break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
-	case prWaitingFin:			break;
+	case prEncounterStart:		break; // 사실상 안쓰임
+	case prFadeInFin:			break;
 		//default:			SendDefault(packet);	break;
 	}
 
@@ -377,8 +378,14 @@ void User::RecvStart(char* packet)
 {
 	stStartGame req;
 	memcpy(&req, packet, sizeof(stStartGame));
+	
+	stEncounterStart ack;
 
-	g_User.SendOther(req.UID, packet, sizeof(stStartGame));
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stEncounterStart));
+
+	g_User.SendAll(buffer, sizeof(stEncounterStart));
 	puts("Recv And Send All Packet");
 }
 
@@ -508,6 +515,8 @@ void User::RecvArgPicked(char* packet)
 	puts("Recv And Send All Packet");
 }
 
+
+
 void User::RecvSpawn(char* packet)
 {
 	stSpawnReq req;
@@ -528,10 +537,24 @@ void User::RecvSpawn(char* packet)
 	Log("Spawn Digimon");
 }
 
-void User::RecvWaitingFin(char* packet)
+void User::RecvRoundFin(char* packet)
 {
-	stWaitingFin req;
-	memcpy(&req, packet, sizeof(stWaitingFin));
+	stRoundFin req;
+	memcpy(&req, packet, sizeof(stRoundFin));
+
+	g_User.mRoundCnt++;
+	if (g_User.mRoundCnt == g_User.GetUserCount())
+	{
+		g_GameMgr.NextRound(); // Round Count ++
+
+
+	}
+}
+
+void User::RecvFadeInFin(char* packet)
+{
+	stFadeInFin req;
+	memcpy(&req, packet, sizeof(stFadeInFin));
 
 	g_User.mWaitingCnt++;
 	// waiting cnt check
@@ -541,7 +564,8 @@ void User::RecvWaitingFin(char* packet)
 		memset(buffer, 0x00, sizeof(buffer));
 
 		// Round 체크해서 증강인지 준비인지 
-		g_User.SendAll(buffer, sizeof(stSpawnAck));
+		
+		g_User.SendAll(buffer, sizeof(stFadeInFin));
 		//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
 		Log("Waiting Finish");
 	}

@@ -130,6 +130,7 @@
     <ClInclude Include="Core.h" />
     <ClInclude Include="DTF_MainServer.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="GameManager.h" />
     <ClInclude Include="Monitor.h" />
     <ClInclude Include="myDefine.h" />
     <ClInclude Include="myEnum.h" />
@@ -144,6 +145,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DTF_MainServer.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Monitor.cpp" />
     <ClCompile Include="myGlobal.cpp" />
     <ClCompile Include="User.cpp" />

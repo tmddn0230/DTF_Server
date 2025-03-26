@@ -35,11 +35,13 @@ enum enProtocol
 	// 증강 동기화 관련
 	prArgPickedReq, prArgPicKedAck,
 	// 게임 플로우 관련
-	prWaitingStart, prWaitingFin,
-	prReadyStageStart, prReadyFin,
-	prArgStagStart, prArgFin,
+	prEncounterStart, prEncounterFin,
+	prFadeInStart, prFadeInFin,
+
+
+
+
 	prRoundStart,	prRoundFin,
-	prSelectStart,
 
 	PROTOCOL_END
 };

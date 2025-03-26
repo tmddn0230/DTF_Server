@@ -9,6 +9,7 @@ public:
 	int mPreIndex;
 	int mChatIndex;
 
+	int mRoundCnt = 0;
 	int mWaitingCnt = 0;
 	int mCombatCnt = 0;
 

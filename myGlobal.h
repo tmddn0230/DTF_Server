@@ -4,6 +4,7 @@
 #include "framework.h"
 #include "myDefine.h"
 #include "UserManager.h"
+#include "GameManager.h"
 
 // Variable
 extern HWND gMainWnd;
@@ -32,6 +33,7 @@ extern int gServerNum;
 
 // User
 extern UserManager g_User;
+extern GameManager g_GameMgr;
 
 // Function
 void Log(const char* format, ...);

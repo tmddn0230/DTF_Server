@@ -61,6 +61,7 @@ public: //RECV
 	void RecvAttached(char* packet);
 	void RecvDetached(char* packet);
 	void RecvArgPicked(char* packet);
-	void RecvWaitingFin(char* packet);
+	void RecvRoundFin(char* packet);
+	void RecvFadeInFin(char* packet);
 };
 

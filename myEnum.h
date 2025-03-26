@@ -154,3 +154,16 @@ enum enArgument
 	TiniestTitan,		   // 꼬꼬마 거인
 	LevelUp				   // 레벨업
 };
+
+
+// 라운드 종류
+enum enRoundType
+{
+	Type_None,
+	Type_Encounter,
+	Type_Creep,
+	Type_ArgSelect,
+	Type_Combat,
+	Type_Rolling,
+	Type_Boss
+};

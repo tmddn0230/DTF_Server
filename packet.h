@@ -151,6 +151,7 @@ struct stLoadingFinishAck : public stHeader
 struct stStartGame : public stHeader
 {
 	int32 UID;
+
 	stStartGame()
 	{
 		UID = 0;
@@ -573,14 +574,47 @@ struct stArgPicKedAck : public stHeader
 ==================================================================
 */
 
-struct stWaitingFin : public stHeader
+struct stEncounterStart : public stHeader
+{
+
+
+
+	stEncounterStart()
+	{
+		SetHeader(prEncounterStart, sizeof(stEncounterStart));
+	};
+};
+
+struct stRoundFin : public stHeader
 {
 	int32 UID;
 
-	stWaitingFin()
+	stRoundFin()
 	{
 		UID = 0;
-		SetHeader(prWaitingFin, sizeof(stWaitingFin));
+		SetHeader(prRoundFin, sizeof(stRoundFin));
+	};
+};
+
+struct stFadeInStart : public stHeader
+{
+	enRoundType round;
+
+	stFadeInStart()
+	{
+		round = enRoundType::Type_None;
+		SetHeader(prFadeInStart, sizeof(stFadeInStart));
+	};
+};
+
+struct stFadeInFin : public stHeader
+{
+	int32 UID;
+
+	stFadeInFin()
+	{
+		UID = 0;
+		SetHeader(prFadeInFin, sizeof(stFadeInFin));
 	};
 };
 

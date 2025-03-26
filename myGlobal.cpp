@@ -23,6 +23,7 @@ int gServerNum = 0;
 int gUDPPort = 0;
 
 UserManager g_User;
+GameManager g_GameMgr;
 
 int logcount = 0;
 

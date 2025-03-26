@@ -992,3 +992,200 @@ Login :[ T_Tsunomon ]
 Enter Lobby
 Enter Game
 Player : [0] MoveTo ([-50.528008], [0.000000], [-4.826211]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+AddUser: 0 172.30.1.26
+AddUser: 0 172.30.1.26
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-39.784794], [0.000000], [-3.098096]) 
+Player : [0] MoveTo ([-50.894020], [0.000000], [-4.693439]) 
+Player : [0] MoveTo ([-52.024288], [-0.000000], [1.130479]) 
+Player : [0] MoveTo ([-47.722824], [0.000000], [-7.186751]) 
+Player : [0] MoveTo ([-37.238579], [0.000000], [-3.946494]) 
+Player : [0] MoveTo ([-39.218662], [-0.000000], [4.855441]) 
+Player : [0] MoveTo ([-47.730762], [-0.000000], [7.244923]) 
+Player : [0] MoveTo ([-50.462990], [0.000000], [-2.953158]) 
+Player : [0] MoveTo ([-45.762375], [0.000000], [-7.360864]) 
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Failed Socket Create
