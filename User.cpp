@@ -4,6 +4,7 @@
 
 #include "protocol.h"
 #include "packet.h"
+#include "myEnum.h"
 
 User::User(void)
 {
@@ -239,8 +240,12 @@ void User::Parse(int protocol, char* packet)
 	case prAttachedReq:		    RecvAttached(packet);   break;
 	case prDetachedReq:		    RecvDetached(packet);   break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
-	case prEncounterStart:		break; // 사실상 안쓰임
-	case prFadeInFin:			break;
+	case prEncounterFin:		RecvEncountFin(packet);	break; // 사실상 안쓰임
+	case prFadeInFin:			RecvFadeInFin(packet); break;
+	case prBattleReadyFin:		RecvBattleReadyFin(packet); break;
+	case prBattleFin:			RecvBattleFin(packet);	break;
+	case prManageFin:			RecvManageFin(packet); break;
+	case prRoundFin:			RecvRoundFin(packet); break;
 		//default:			SendDefault(packet);	break;
 	}
 
@@ -537,36 +542,116 @@ void User::RecvSpawn(char* packet)
 	Log("Spawn Digimon");
 }
 
+void User::RecvEncountFin(char* packet)
+{
+	stEncounterFin req;
+	memcpy(&req, packet, sizeof(stEncounterFin));
+
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		// Fade-inout start
+		stFadeInStart ack;
+		ack.round = g_GameMgr.GetCurrentRoundType();
+		ack.timer = enTimerType::TT_Fade_In;
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stFadeInStart));
+		g_User.SendAll(buffer, sizeof(stFadeInStart));
+		g_User.mTimerCnt = 0;
+	}
+}
+
+
+void User::RecvFadeInFin(char* packet)
+{
+	Log("Fade In & Out Finish");
+}
+
+void User::RecvBattleReadyFin(char* packet)
+{
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		// Fade-inout start
+		stBattleStart ack;
+		
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stBattleStart));
+		g_User.SendAll(buffer, sizeof(stBattleStart));
+		g_User.mTimerCnt = 0;
+	}
+
+	Log("Battle Ready Finish");
+}
+
+void User::RecvBattleFin(char* packet)
+{
+	if (g_GameMgr.GetCurrentRoundType() != enRoundType::Type_Creep)
+	{
+		// 크립 제외한 라운드 -> 무빙 타이머, Fade IN
+		g_User.mTimerCnt++;
+		if (g_User.mTimerCnt == g_User.GetUserCount())
+		{
+			// Fade-inout start
+			stFadeInStart ack;
+			ack.round = g_GameMgr.GetCurrentRoundType();
+			ack.timer = enTimerType::TT_Fade_In;
+
+			char buffer[64];
+			memset(buffer, 0x00, sizeof(buffer));
+
+			memcpy(buffer, &ack, sizeof(stFadeInStart));
+			g_User.SendAll(buffer, sizeof(stFadeInStart));
+			g_User.mTimerCnt = 0;
+		}
+	}
+	Log("Battle Finish");
+}
+
+
+void User::RecvManageFin(char* packet)
+{
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		// Fade-inout start
+		stBattleReadyStart ack;
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
+		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
+		g_User.mTimerCnt = 0;
+	}
+
+	Log("Manage Finish");
+}
+
 void User::RecvRoundFin(char* packet)
 {
 	stRoundFin req;
 	memcpy(&req, packet, sizeof(stRoundFin));
 
-	g_User.mRoundCnt++;
-	if (g_User.mRoundCnt == g_User.GetUserCount())
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
 		g_GameMgr.NextRound(); // Round Count ++
 
+		stRoundStart ack;
+		ack.round = g_GameMgr.GetCurrentRoundType();
+		ack.timer = g_GameMgr.GetNextTimerType();
 
-	}
-}
-
-void User::RecvFadeInFin(char* packet)
-{
-	stFadeInFin req;
-	memcpy(&req, packet, sizeof(stFadeInFin));
-
-	g_User.mWaitingCnt++;
-	// waiting cnt check
-	if (g_User.mWaitingCnt == g_User.GetUserCount())
-	{
 		char buffer[64];
 		memset(buffer, 0x00, sizeof(buffer));
 
-		// Round 체크해서 증강인지 준비인지 
-		
-		g_User.SendAll(buffer, sizeof(stFadeInFin));
-		//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
-		Log("Waiting Finish");
+		memcpy(buffer, &ack, sizeof(stRoundStart));
+		g_User.SendAll(buffer, sizeof(stRoundStart));
+		g_User.mTimerCnt = 0;
 	}
 }

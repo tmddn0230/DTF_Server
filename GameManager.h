@@ -28,8 +28,10 @@ private:
 	{
 		{0,  enRoundType::Type_Encounter},   // 시작 캐러셀
 		{1,  enRoundType::Type_Creep},       // 1라운드 PvE
-		{2,  enRoundType::Type_Creep},       // 1라운드 PvE
-		{3,  enRoundType::Type_Creep},       // 1라운드 PvE
+		{2,  enRoundType::Type_ArgSelect},   // temp : 증강
+		{3,  enRoundType::Type_Rolling},     // temp : 초밥
+		//{2,  enRoundType::Type_Creep},     // 1라운드 PvE
+		//{3,  enRoundType::Type_Creep},     // 1라운드 PvE
 		{4,  enRoundType::Type_ArgSelect},   // 2라운드 증강
 		{5,  enRoundType::Type_Combat},      // 2라운드 전투
 		{6,  enRoundType::Type_Combat},      // 2라운드 전투
@@ -51,9 +53,10 @@ public:
 	enRoundType GetCurrentRoundType() { return roundList[m_Round].second; }
 	int			GetCurrentRound() { return m_Round; }
 
+	enTimerType GetNextTimerType();
 	void NextRound();
 
-
+	
 
 };
 

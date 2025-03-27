@@ -576,33 +576,30 @@ struct stArgPicKedAck : public stHeader
 
 struct stEncounterStart : public stHeader
 {
-
-
-
 	stEncounterStart()
 	{
 		SetHeader(prEncounterStart, sizeof(stEncounterStart));
 	};
 };
 
-struct stRoundFin : public stHeader
+struct stEncounterFin : public stHeader
 {
-	int32 UID;
-
-	stRoundFin()
+	stEncounterFin()
 	{
-		UID = 0;
-		SetHeader(prRoundFin, sizeof(stRoundFin));
+		SetHeader(prEncounterFin, sizeof(stEncounterFin));
 	};
 };
+
 
 struct stFadeInStart : public stHeader
 {
 	enRoundType round;
+	enTimerType	timer;
 
 	stFadeInStart()
 	{
 		round = enRoundType::Type_None;
+		timer = enTimerType::TT_Fade_In;
 		SetHeader(prFadeInStart, sizeof(stFadeInStart));
 	};
 };
@@ -618,3 +615,78 @@ struct stFadeInFin : public stHeader
 	};
 };
 
+struct stBattleReadyStart : public stHeader
+{
+	stBattleReadyStart()
+	{
+
+		SetHeader(prBattleReadyStart, sizeof(stBattleReadyStart));
+	};
+};
+
+struct stBattleReadyFin : public stHeader
+{
+
+	stBattleReadyFin()
+	{
+		SetHeader(prBattleReadyFin, sizeof(stBattleReadyFin));
+	};
+};
+
+
+struct stBattleStart : public stHeader
+{
+	stBattleStart()
+	{
+
+		SetHeader(prBattleStart, sizeof(stBattleStart));
+	};
+};
+
+struct stBattleFin : public stHeader
+{
+
+	stBattleFin()
+	{
+		SetHeader(prBattleFin, sizeof(stBattleFin));
+	};
+};
+
+struct stManageStart : public stHeader
+{
+	stManageStart()
+	{
+
+		SetHeader(prManageStart, sizeof(stManageStart));
+	};
+};
+
+struct stManageFin : public stHeader
+{
+	stManageFin()
+	{
+		SetHeader(prManageFin, sizeof(stManageFin));
+	};
+};
+
+
+struct stRoundStart : public stHeader
+{
+	enRoundType round;
+	enTimerType timer;
+
+	stRoundStart()
+	{
+		round = enRoundType::Type_None;
+		timer = enTimerType::TT_None;
+		SetHeader(prRoundStart, sizeof(stRoundStart));
+	};
+};
+
+struct stRoundFin : public stHeader
+{
+	stRoundFin()
+	{
+		SetHeader(prRoundFin, sizeof(stRoundFin));
+	};
+};

@@ -167,3 +167,17 @@ enum enRoundType
 	Type_Rolling,
 	Type_Boss
 };
+
+// 타이머 종류
+enum enTimerType
+{
+	TT_None,
+	TT_Encounter,
+	TT_Fade_In, // 이동과 묶어져 있음
+	TT_Battle_ready,
+	TT_Battle, // creep, boss, combat
+	TT_AdditionalBattle,
+	TT_Manage,
+	TT_Move,
+	TT_Select
+};

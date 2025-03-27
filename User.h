@@ -61,7 +61,11 @@ public: //RECV
 	void RecvAttached(char* packet);
 	void RecvDetached(char* packet);
 	void RecvArgPicked(char* packet);
+	void RecvEncountFin(char* packet);
 	void RecvRoundFin(char* packet);
 	void RecvFadeInFin(char* packet);
+	void RecvBattleFin(char* packet);
+	void RecvManageFin(char* packet);
+	void RecvBattleReadyFin(char* packet);
 };
 

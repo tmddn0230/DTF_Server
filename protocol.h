@@ -37,9 +37,9 @@ enum enProtocol
 	// 게임 플로우 관련
 	prEncounterStart, prEncounterFin,
 	prFadeInStart, prFadeInFin,
-
-
-
+	prBattleReadyStart, prBattleReadyFin,
+	prBattleStart, prBattleFin,
+	prManageStart, prManageFin,
 
 	prRoundStart,	prRoundFin,
 

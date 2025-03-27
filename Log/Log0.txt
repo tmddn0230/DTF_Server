@@ -1189,3 +1189,599 @@ Login :[ T_Tokomon ]
 Enter Lobby
 Enter Game
 Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-50.021217], [0.000000], [-1.447589]) 
+Player : [0] MoveTo ([-34.481697], [-0.000000], [0.662602]) 
+Player : [0] MoveTo ([-40.867428], [0.000000], [-7.584436]) 
+Player : [0] MoveTo ([-45.187977], [0.000000], [-8.729917]) 
+Player : [0] MoveTo ([-53.101875], [0.000000], [-5.115228]) 
+Player : [0] MoveTo ([-53.740993], [-0.000000], [0.833743]) 
+Player : [0] MoveTo ([-51.528893], [-0.000000], [4.158429]) 
+Player : [0] MoveTo ([-40.561275], [-0.000000], [1.267481]) 
+Player : [0] MoveTo ([-42.896755], [0.000000], [-4.659285]) 
+Player : [0] MoveTo ([-47.720406], [0.000000], [-4.790661]) 
+Player : [0] MoveTo ([-43.269814], [0.000000], [-3.152892]) 
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+AddUser: 0 172.30.1.72
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-49.242584], [0.000000], [-6.777851]) 
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Yokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-49.943836], [0.000000], [-6.360816]) 
+Player : [0] MoveTo ([-44.860680], [0.000000], [-12.284683]) 
+Player : [0] MoveTo ([-41.960552], [0.000000], [-5.685955]) 
+Player : [0] MoveTo ([-38.933800], [0.000000], [-2.575672]) 
+Player : [0] MoveTo ([-39.637466], [-0.000000], [3.862424]) 
+Player : [0] MoveTo ([-51.069191], [0.000000], [-3.783043]) 
+Player : [0] MoveTo ([-47.551826], [0.000000], [-7.863960]) 
+Player : [0] MoveTo ([-41.752090], [0.000000], [-9.301182]) 
+Player : [0] MoveTo ([-37.994827], [0.000000], [-1.057643]) 
+Fade In & Out Finish
+Player : [0] MoveTo ([-2.747509], [-0.000000], [1.363014]) 
+Player : [0] MoveTo ([-1.120571], [-0.000000], [1.205684]) 
+Player : [0] MoveTo ([-0.482475], [0.000000], [-3.019385]) 
+Player : [0] MoveTo ([-3.430172], [-0.000000], [0.931455]) 
+Player : [0] MoveTo ([-0.807887], [-0.000000], [0.736440]) 
+Player : [0] MoveTo ([0.837350], [0.000000], [-4.974247]) 
+Player : [0] MoveTo ([3.737133], [-0.000000], [0.892396]) 
+Player : [0] MoveTo ([-0.967434], [-0.000000], [1.363019]) 
+Player : [0] MoveTo ([-2.440781], [0.000000], [-1.809613]) 
+Player : [0] MoveTo ([-0.256626], [0.000000], [-4.272066]) 
+Player : [0] MoveTo ([1.806435], [0.000000], [-3.703225]) 
+Player : [0] MoveTo ([1.962723], [-0.000000], [0.775385]) 
+Player : [0] MoveTo ([-1.875469], [-0.000000], [0.194164]) 
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 1 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 1 172.30.1.78
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 1 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 1 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 1 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-42.480339], [0.000000], [-4.787558]) 
+Player : [0] MoveTo ([-42.477837], [0.000000], [-2.536782]) 
+Player : [0] MoveTo ([-44.858288], [0.000000], [-2.567664]) 
+Player : [0] MoveTo ([-47.414368], [0.000000], [-3.708589]) 
+Player : [0] MoveTo ([-48.221058], [0.000000], [-4.283862]) 
+Player : [0] MoveTo ([-48.684158], [0.000000], [-4.312212]) 
+Player : [0] MoveTo ([-49.880455], [0.000000], [-1.972296]) 
+Player : [0] MoveTo ([-51.192039], [-0.000000], [0.593455]) 
+Player : [0] MoveTo ([-51.628712], [-0.000000], [1.174597]) 
+Player : [0] MoveTo ([-53.021523], [0.000000], [-2.813260]) 
+Player : [0] MoveTo ([-52.437126], [0.000000], [-7.957343]) 
+Player : [0] MoveTo ([-46.206997], [0.000000], [-9.977104]) 
+Player : [0] MoveTo ([-40.042992], [0.000000], [-7.770136]) 
+Player : [0] MoveTo ([-40.655960], [-0.000000], [4.453468]) 
+Player : [0] MoveTo ([-53.185020], [-0.000000], [8.153822]) 
+Player : [0] MoveTo ([-50.898949], [0.000000], [-0.660375]) 
+Player : [0] MoveTo ([-49.434559], [0.000000], [-5.835665]) 
+Player : [0] MoveTo ([-52.801331], [0.000000], [-7.580919]) 
+Player : [0] MoveTo ([-49.599766], [0.000000], [-4.925189]) 
+Player : [0] MoveTo ([-40.025478], [0.000000], [-5.034614]) 
+Player : [0] MoveTo ([-40.116940], [0.000000], [-5.170465]) 
+Player : [0] MoveTo ([-40.783825], [0.000000], [-5.519301]) 
+Player : [0] MoveTo ([-40.783825], [0.000000], [-5.519301]) 
+Player : [0] MoveTo ([-35.874100], [-0.000000], [5.141741]) 
+Player : [0] MoveTo ([-37.261116], [-0.000000], [3.825712]) 
+Player : [0] MoveTo ([-38.479774], [-0.000000], [3.784415]) 
+Player : [0] MoveTo ([-38.479774], [-0.000000], [3.784415]) 
+Player : [0] MoveTo ([-50.870846], [-0.000000], [6.121039]) 
+Player : [0] MoveTo ([-50.870846], [-0.000000], [6.121039]) 
+Player : [0] MoveTo ([-51.372585], [0.000000], [-7.675758]) 
+Player : [0] MoveTo ([-51.372585], [0.000000], [-7.675758]) 
+Player : [0] MoveTo ([-42.583447], [0.000000], [-8.753825]) 
+Player : [0] MoveTo ([-28.838978], [0.000000], [-12.361602]) 
+Player : [0] MoveTo ([-28.838978], [0.000000], [-12.361602]) 
+Player : [0] MoveTo ([-41.258347], [0.000000], [-5.519300]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+AddUser: 1 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-41.726875], [0.000000], [-3.664825]) 
+Player : [0] MoveTo ([-45.117607], [-0.000000], [4.184566]) 
+Player : [0] MoveTo ([-50.854595], [-0.000000], [0.081158]) 
+Player : [0] MoveTo ([-51.704777], [0.000000], [-4.450261]) 
+AddUser: 0 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-49.527580], [0.000000], [-2.934991]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-50.385887], [0.000000], [-5.939943]) 
+Player : [0] MoveTo ([-51.427322], [-0.000000], [1.999156]) 
+Player : [0] MoveTo ([-48.561348], [-0.000000], [5.360909]) 
+Player : [0] MoveTo ([-47.321960], [-0.000000], [5.715680]) 
+Player : [0] MoveTo ([-46.800522], [-0.000000], [4.538422]) 
+Player : [0] MoveTo ([-45.124237], [-0.000000], [4.074816]) 
+Player : [0] MoveTo ([-42.370228], [0.000000], [-0.422154]) 
+Player : [0] MoveTo ([-42.362080], [0.000000], [-2.690872]) 
+Player : [0] MoveTo ([-45.671490], [0.000000], [-5.224541]) 
+Player : [0] MoveTo ([-48.773586], [0.000000], [-5.861768]) 
+Player : [0] MoveTo ([-51.868382], [0.000000], [-2.874192]) 
+Player : [0] MoveTo ([-50.870705], [-0.000000], [1.137803]) 
+Player : [0] MoveTo ([-51.933441], [-0.000000], [3.214189]) 
+Player : [0] MoveTo ([-53.209797], [-0.000000], [2.461864]) 
+Player : [0] MoveTo ([-55.742996], [-0.000000], [0.027249]) 
+Player : [0] MoveTo ([-56.859200], [0.000000], [-2.350305]) 
+Player : [0] MoveTo ([-57.276283], [0.000000], [-5.116220]) 
+Player : [0] MoveTo ([-56.184986], [0.000000], [-6.578888]) 
+Player : [0] MoveTo ([-56.618958], [0.000000], [-7.050135]) 
+Player : [0] MoveTo ([-57.506378], [0.000000], [-9.149683]) 
+Player : [0] MoveTo ([-54.340782], [0.000000], [-10.567000]) 
+Player : [0] MoveTo ([-49.379623], [0.000000], [-10.606899]) 
+Player : [0] MoveTo ([-39.643837], [0.000000], [-10.726078]) 
+Fade In & Out Finish
+Player : [0] MoveTo ([-1.943878], [0.000000], [-2.057075]) 
+Player : [0] MoveTo ([-1.773229], [0.000000], [-1.869853]) 
+Player : [0] MoveTo ([-1.062852], [0.000000], [-1.666264]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+AddUser: 1 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+AddUser: 1 172.30.1.78
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Battle Finish
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Battle Finish
+Fade In & Out Finish
