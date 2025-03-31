@@ -6,6 +6,9 @@
 class GameManager
 {
 
+public:
+	int m_Digicode = 0;
+
 private:
 	/*
 	0 : 시작 조우자 

@@ -3,6 +3,8 @@
 #include "myDefine.h"
 #include "myEnum.h"
 
+#include "framework.h"
+
 class User
 {
 public:
@@ -22,6 +24,8 @@ public:
 	unsigned char mName[32];
 
 	enTamersDigimon mSelectedTDigimon;
+
+	std::list<int> mydigimonCodes;
 
 public:
 	User(void);

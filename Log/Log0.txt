@@ -1785,3 +1785,1005 @@ Manage Finish
 Battle Ready Finish
 Battle Finish
 Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Player : [0] MoveTo ([-38.806042], [0.000000], [-5.576849]) 
+Player : [0] MoveTo ([-33.758873], [0.000000], [-1.829275]) 
+Player : [0] MoveTo ([-33.463554], [-0.000000], [3.022966]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Player : [0] MoveTo ([-39.984638], [0.000000], [-9.266091]) 
+Player : [0] MoveTo ([-37.996510], [0.100000], [-7.314273]) 
+Player : [0] MoveTo ([-37.619675], [0.100000], [-6.658359]) 
+Player : [0] MoveTo ([-34.911854], [0.000000], [-4.205425]) 
+Player : [0] MoveTo ([-34.263805], [0.000000], [-3.775151]) 
+Player : [0] MoveTo ([-34.105068], [0.000000], [-3.775151]) 
+Battle Finish
+Fade In & Out Finish
+Player : [0] MoveTo ([-33.266407], [0.000000], [-3.022352]) 
+Player : [0] MoveTo ([-35.077553], [0.000000], [-4.252267]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Battle Finish
+Fade In & Out Finish
+Player : [0] MoveTo ([-41.301693], [0.000000], [-5.618463]) 
+Player : [0] MoveTo ([-39.510437], [0.178660], [-5.636395]) 
+Player : [0] MoveTo ([-36.878311], [0.000000], [-5.451092]) 
+Player : [0] MoveTo ([-41.232941], [0.000000], [-5.535091]) 
+Player : [0] MoveTo ([-41.232941], [0.000000], [-5.535091]) 
+Player : [0] MoveTo ([-39.076973], [0.000000], [-5.905411]) 
+Player : [0] MoveTo ([-43.821499], [0.000000], [-7.621824]) 
+Player : [0] MoveTo ([-38.681076], [0.000000], [-5.323931]) 
+Player : [0] MoveTo ([-39.694294], [0.323180], [-5.636574]) 
+Player : [0] MoveTo ([-35.258980], [0.000000], [-5.824174]) 
+Player : [0] MoveTo ([-36.577900], [0.000000], [-5.659910]) 
+Player : [0] MoveTo ([-42.912155], [0.000000], [-5.065222]) 
+Player : [0] MoveTo ([-41.162434], [0.806168], [-5.138332]) 
+Player : [0] MoveTo ([-38.545166], [0.000000], [-3.677436]) 
+Player : [0] MoveTo ([-38.784325], [0.000000], [-3.677436]) 
+Player : [0] MoveTo ([-28.550751], [0.000000], [-1.885955]) 
+Player : [0] MoveTo ([-39.696194], [0.815714], [-5.144462]) 
+Player : [0] MoveTo ([-39.903065], [0.000000], [-4.345443]) 
+Player : [0] MoveTo ([-40.019508], [0.000000], [-4.158352]) 
+Player : [0] MoveTo ([-36.499115], [0.000000], [-4.391750]) 
+Player : [0] MoveTo ([-39.721138], [0.611294], [-4.529334]) 
+Player : [0] MoveTo ([-39.721138], [0.611294], [-4.529334]) 
+Player : [0] MoveTo ([-42.359783], [0.000000], [-0.578685]) 
+Player : [0] MoveTo ([-38.822945], [0.000000], [-1.885955]) 
+Player : [0] MoveTo ([-38.826553], [0.000000], [-3.726402]) 
+Player : [0] MoveTo ([-46.658142], [0.000000], [-4.845047]) 
+Player : [0] MoveTo ([-46.466141], [0.000000], [-4.298969]) 
+Player : [0] MoveTo ([-37.649300], [0.000000], [-3.479553]) 
+Player : [0] MoveTo ([-35.994347], [0.000000], [-3.677436]) 
+Player : [0] MoveTo ([-35.096230], [0.000000], [-5.065222]) 
+Player : [0] MoveTo ([-41.457729], [0.000000], [-3.628262]) 
+Player : [0] MoveTo ([-41.377842], [0.000000], [-3.628264]) 
+Player : [0] MoveTo ([-35.767303], [0.000000], [-5.238337]) 
+Player : [0] MoveTo ([-37.861183], [0.572085], [-5.328264]) 
+Player : [0] MoveTo ([-39.086571], [0.000000], [-3.227642]) 
+Player : [0] MoveTo ([-37.631523], [0.000000], [-2.866112]) 
+Player : [0] MoveTo ([-40.965542], [0.000000], [-4.889419]) 
+Player : [0] MoveTo ([-40.969265], [0.000000], [-4.800526]) 
+Player : [0] MoveTo ([-37.698868], [0.000000], [-3.578897]) 
+Player : [0] MoveTo ([-40.258537], [0.000000], [-3.726402]) 
+Player : [0] MoveTo ([-37.728237], [0.693393], [-5.277559]) 
+Player : [0] MoveTo ([-37.071850], [0.718543], [-3.723422]) 
+Player : [0] MoveTo ([-42.904675], [0.000000], [-4.205424]) 
+Player : [0] MoveTo ([-42.904675], [0.000000], [-4.205424]) 
+Player : [0] MoveTo ([-39.588310], [0.664911], [-5.301738]) 
+Player : [0] MoveTo ([-39.017406], [0.000000], [-4.483833]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Player : [0] MoveTo ([-42.228645], [0.000000], [-4.345442]) 
+Player : [0] MoveTo ([-40.065746], [0.000000], [-1.248336]) 
+Player : [0] MoveTo ([-42.927414], [0.818305], [-4.758896]) 
+Player : [0] MoveTo ([-37.844978], [0.864297], [-4.790003]) 
+Player : [0] MoveTo ([-42.591755], [0.000000], [-5.238338]) 
+Player : [0] MoveTo ([-43.088448], [0.431201], [-4.035038]) 
+Player : [0] MoveTo ([-44.897720], [-0.000000], [1.146128]) 
+Player : [0] MoveTo ([-40.097794], [0.416000], [-3.591527]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Battle Ready Finish
+Battle Finish
+Player : [0] MoveTo ([-38.575981], [-0.000000], [2.473432]) 
+Player : [0] MoveTo ([-40.196777], [1.597421], [0.718104]) 
+Player : [0] MoveTo ([-40.325470], [1.839218], [0.822057]) 
+Player : [0] MoveTo ([-40.170589], [0.777562], [2.724092]) 
+Player : [0] MoveTo ([-36.066502], [0.000000], [-2.054611]) 
+Manage Finish
+Player : [0] MoveTo ([-41.812698], [-0.000000], [-0.005271]) 
+Player : [0] MoveTo ([-42.567131], [0.000000], [-2.110348]) 
+Player : [0] MoveTo ([-42.600121], [0.000000], [-3.775153]) 
+Player : [0] MoveTo ([-42.442001], [0.000000], [-4.529581]) 
+Battle Ready Finish
+Player : [0] MoveTo ([-37.427132], [0.000000], [-0.702937]) 
+Player : [0] MoveTo ([-37.729481], [0.685362], [0.854820]) 
+Player : [0] MoveTo ([-37.729481], [0.685362], [0.854820]) 
+Player : [0] MoveTo ([-33.054661], [0.000000], [-2.547705]) 
+Player : [0] MoveTo ([-39.017311], [0.000000], [-5.366462]) 
+Player : [0] MoveTo ([-38.138332], [0.640677], [-5.117597]) 
+Player : [0] MoveTo ([-39.026417], [0.748248], [0.578046]) 
+Player : [0] MoveTo ([-38.324089], [-0.000000], [4.443909]) 
+Player : [0] MoveTo ([-33.802807], [0.000000], [-0.702935]) 
+Player : [0] MoveTo ([-38.475239], [0.000000], [-5.021501]) 
+Player : [0] MoveTo ([-40.489552], [0.000000], [-5.864872]) 
+Player : [0] MoveTo ([-43.058548], [0.000000], [-5.905411]) 
+Player : [0] MoveTo ([-37.726528], [0.375477], [-3.804187]) 
+Player : [0] MoveTo ([-37.701210], [0.516075], [-3.763538]) 
+Player : [0] MoveTo ([-37.342606], [0.683427], [-3.452986]) 
+Player : [0] MoveTo ([-35.822426], [0.812667], [-4.885742]) 
+Player : [0] MoveTo ([-37.013798], [0.000000], [-5.905411]) 
+Player : [0] MoveTo ([-36.192638], [0.000000], [-2.330878]) 
+Player : [0] MoveTo ([-35.324924], [-0.000000], [0.660722]) 
+Player : [0] MoveTo ([-38.246346], [-0.000000], [0.524992]) 
+Battle Finish
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([-40.528454], [0.000000], [-4.111137]) 
+Player : [1] MoveTo ([-40.528454], [0.000000], [-4.111137]) 
+Player : [1] MoveTo ([-35.866413], [0.000000], [-3.628263]) 
+Player : [1] MoveTo ([-35.866413], [0.000000], [-3.628263]) 
+Player : [0] MoveTo ([3.952421], [0.000000], [-3.920343]) 
+Player : [0] MoveTo ([3.952421], [0.000000], [-3.920343]) 
+Player : [0] MoveTo ([3.952421], [0.000000], [-3.920343]) 
+Player : [0] MoveTo ([3.952421], [0.000000], [-3.920343]) 
+Player : [0] MoveTo ([3.952421], [0.000000], [-3.920343]) 
+Player : [0] MoveTo ([3.952421], [0.000000], [-3.920343]) 
+Player : [0] MoveTo ([0.956946], [0.000000], [-6.118155]) 
+Player : [0] MoveTo ([0.956946], [0.000000], [-6.118155]) 
+Player : [1] MoveTo ([-46.637970], [0.661347], [-6.636024]) 
+Player : [1] MoveTo ([-46.637970], [0.661347], [-6.636024]) 
+Player : [1] MoveTo ([-46.609119], [0.168585], [-6.035708]) 
+Player : [1] MoveTo ([-46.609119], [0.168585], [-6.035708]) 
+Player : [1] MoveTo ([-43.140907], [0.000000], [-5.576849]) 
+Player : [1] MoveTo ([-43.140907], [0.000000], [-5.576849]) 
+Player : [1] MoveTo ([-42.428322], [0.000000], [-5.021500]) 
+Player : [1] MoveTo ([-42.428322], [0.000000], [-5.021500]) 
+Player : [0] MoveTo ([8.899156], [0.000000], [-3.294555]) 
+Player : [0] MoveTo ([8.899156], [0.000000], [-3.294555]) 
+Player : [0] MoveTo ([-6.363591], [0.000000], [-6.360753]) 
+Player : [0] MoveTo ([-6.363591], [0.000000], [-6.360753]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([-2.636961], [0.000000], [-4.025679]) 
+Player : [1] MoveTo ([-2.636961], [0.000000], [-4.025679]) 
+Player : [1] MoveTo ([-2.575554], [0.000000], [-4.025678]) 
+Player : [1] MoveTo ([-2.575554], [0.000000], [-4.025678]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([-2.203387], [0.000000], [-4.097075]) 
+Player : [1] MoveTo ([4.388598], [-0.000000], [4.712537]) 
+Player : [1] MoveTo ([4.388598], [-0.000000], [4.712537]) 
+Player : [1] MoveTo ([-0.995870], [0.000000], [-3.222842]) 
+Player : [1] MoveTo ([-0.995870], [0.000000], [-3.222842]) 
+Player : [1] MoveTo ([-5.018426], [-0.000000], [1.522739]) 
+Player : [1] MoveTo ([-5.018426], [-0.000000], [1.522739]) 
+Player : [1] MoveTo ([4.896655], [0.000000], [-9.873629]) 
+Player : [1] MoveTo ([4.896655], [0.000000], [-9.873629]) 
+Player : [1] MoveTo ([-9.405883], [0.000000], [-7.543430]) 
+Player : [1] MoveTo ([-9.405883], [0.000000], [-7.543430]) 
+Player : [1] MoveTo ([3.073752], [0.000000], [-9.239303]) 
+Player : [1] MoveTo ([3.073752], [0.000000], [-9.239303]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [0] MoveTo ([-1.701774], [0.000000], [-7.357578]) 
+Player : [0] MoveTo ([-1.701774], [0.000000], [-7.357578]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [1] MoveTo ([-41.478363], [1.023704], [-6.854266]) 
+Player : [1] MoveTo ([-41.478363], [1.023704], [-6.854266]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [1] MoveTo ([-40.985081], [0.100000], [-6.770567]) 
+Player : [1] MoveTo ([-40.985081], [0.100000], [-6.770567]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [1] MoveTo ([-39.603161], [0.100000], [-6.807707]) 
+Player : [1] MoveTo ([-39.603161], [0.100000], [-6.807707]) 
+Player : [1] MoveTo ([-38.806168], [0.950222], [-6.817476]) 
+Player : [1] MoveTo ([-38.806168], [0.950222], [-6.817476]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [1] MoveTo ([-38.234749], [0.000000], [-5.783335]) 
+Player : [0] MoveTo ([0.552286], [0.000000], [-7.011960]) 
+Player : [1] MoveTo ([-38.234749], [0.000000], [-5.783335]) 
+Player : [1] MoveTo ([-38.393795], [0.000000], [-4.933627]) 
+Player : [1] MoveTo ([-38.393795], [0.000000], [-4.933627]) 
+Player : [1] MoveTo ([-38.977375], [0.768015], [-3.470160]) 
+Player : [1] MoveTo ([-38.977375], [0.768015], [-3.470160]) 
+Player : [1] MoveTo ([-40.150761], [0.000000], [-1.715114]) 
+Player : [1] MoveTo ([-40.150761], [0.000000], [-1.715114]) 
+Player : [1] MoveTo ([-41.242455], [0.862935], [-2.041842]) 
+Player : [1] MoveTo ([-41.242455], [0.862935], [-2.041842]) 
+Player : [0] MoveTo ([1.156960], [0.000000], [-6.718822]) 
+Player : [0] MoveTo ([1.156960], [0.000000], [-6.718822]) 
+Player : [1] MoveTo ([-41.083900], [0.000000], [-1.008675]) 
+Player : [1] MoveTo ([-41.083900], [0.000000], [-1.008675]) 
+Player : [1] MoveTo ([-41.083900], [0.000000], [-1.008675]) 
+Player : [1] MoveTo ([-41.083900], [0.000000], [-1.008675]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([1.864898], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([-5.398508], [0.000000], [-6.953698]) 
+Player : [0] MoveTo ([-5.398508], [0.000000], [-6.953698]) 
+Player : [0] MoveTo ([-2.950581], [0.000000], [-7.808374]) 
+Player : [0] MoveTo ([-2.950581], [0.000000], [-7.808374]) 
+Player : [1] MoveTo ([-37.235882], [0.580264], [-3.666769]) 
+Player : [1] MoveTo ([-37.235882], [0.580264], [-3.666769]) 
+Player : [1] MoveTo ([-37.200512], [0.570056], [-3.707468]) 
+Player : [1] MoveTo ([-37.200512], [0.570056], [-3.707468]) 
+Player : [1] MoveTo ([-36.996120], [0.000000], [-4.345441]) 
+Player : [1] MoveTo ([-36.996120], [0.000000], [-4.345441]) 
+Player : [1] MoveTo ([-36.996120], [0.000000], [-4.345441]) 
+Player : [1] MoveTo ([-36.996120], [0.000000], [-4.345441]) 
+Player : [1] MoveTo ([-37.259308], [0.491585], [-3.648412]) 
+Player : [1] MoveTo ([-37.259308], [0.491585], [-3.648412]) 
+Player : [1] MoveTo ([-39.691605], [-0.000000], [0.936080]) 
+Player : [1] MoveTo ([-39.691605], [-0.000000], [0.936080]) 
+Player : [1] MoveTo ([-40.022293], [0.000000], [-0.764636]) 
+Player : [1] MoveTo ([-40.022293], [0.000000], [-0.764636]) 
+Player : [1] MoveTo ([-38.659317], [0.000000], [-3.578897]) 
+Player : [1] MoveTo ([-38.659317], [0.000000], [-3.578897]) 
+Player : [1] MoveTo ([-38.257011], [0.000000], [-4.620594]) 
+Player : [1] MoveTo ([-38.257011], [0.000000], [-4.620594]) 
+Player : [1] MoveTo ([-37.958755], [0.712212], [-4.642823]) 
+Player : [1] MoveTo ([-37.958755], [0.712212], [-4.642823]) 
+Player : [1] MoveTo ([-37.337643], [0.000000], [-0.702936]) 
+Player : [1] MoveTo ([-37.337643], [0.000000], [-0.702936]) 
+Player : [1] MoveTo ([-37.955238], [0.000000], [-2.276121]) 
+Player : [1] MoveTo ([-37.955238], [0.000000], [-2.276121]) 
+Player : [1] MoveTo ([-40.709240], [0.000000], [-1.772290]) 
+Player : [1] MoveTo ([-40.709240], [0.000000], [-1.772290]) 
+Player : [1] MoveTo ([-39.978428], [0.000000], [-1.715114]) 
+Player : [1] MoveTo ([-39.978428], [0.000000], [-1.715114]) 
+Player : [1] MoveTo ([-39.467239], [0.000000], [-1.998637]) 
+Player : [1] MoveTo ([-39.467239], [0.000000], [-1.998637]) 
+Player : [1] MoveTo ([-38.348110], [0.517650], [-3.619383]) 
+Player : [1] MoveTo ([-38.348110], [0.517650], [-3.619383]) 
+Player : [1] MoveTo ([-39.582294], [0.000000], [-3.726402]) 
+Player : [1] MoveTo ([-39.582294], [0.000000], [-3.726402]) 
+Player : [1] MoveTo ([-39.298237], [0.000000], [-3.529353]) 
+Player : [1] MoveTo ([-39.298237], [0.000000], [-3.529353]) 
+Player : [1] MoveTo ([-38.681061], [0.874255], [-3.553717]) 
+Player : [1] MoveTo ([-38.681061], [0.874255], [-3.553717]) 
+Player : [1] MoveTo ([-38.098003], [0.000000], [-2.493840]) 
+Player : [1] MoveTo ([-38.098003], [0.000000], [-2.493840]) 
+Player : [1] MoveTo ([-37.942024], [0.000000], [-2.110350]) 
+Player : [1] MoveTo ([-37.942024], [0.000000], [-2.110350]) 
+Player : [1] MoveTo ([-37.942024], [0.000000], [-2.110350]) 
+Player : [1] MoveTo ([-37.942024], [0.000000], [-2.110350]) 
+Player : [1] MoveTo ([-37.942024], [0.000000], [-2.110350]) 
+Player : [1] MoveTo ([-37.942024], [0.000000], [-2.110350]) 
+Player : [1] MoveTo ([-37.521980], [0.000000], [-0.263047]) 
+Player : [1] MoveTo ([-37.521980], [0.000000], [-0.263047]) 
+Player : [1] MoveTo ([-37.158649], [0.799634], [-0.514898]) 
+Player : [1] MoveTo ([-37.158649], [0.799634], [-0.514898]) 
+Player : [1] MoveTo ([-37.499599], [0.000000], [-0.516169]) 
+Player : [1] MoveTo ([-37.499599], [0.000000], [-0.516169]) 
+Player : [1] MoveTo ([-38.970493], [-0.000000], [2.628437]) 
+Player : [1] MoveTo ([-38.970493], [-0.000000], [2.628437]) 
+Player : [1] MoveTo ([-38.970493], [-0.000000], [2.628437]) 
+Player : [1] MoveTo ([-38.970493], [-0.000000], [2.628437]) 
+Player : [1] MoveTo ([-44.573444], [-0.000000], [4.619711]) 
+Player : [1] MoveTo ([-44.573444], [-0.000000], [4.619711]) 
+Player : [1] MoveTo ([-44.619984], [0.688238], [0.920509]) 
+Player : [1] MoveTo ([-44.619984], [0.688238], [0.920509]) 
+Player : [1] MoveTo ([-44.409916], [-0.000000], [1.721457]) 
+Player : [1] MoveTo ([-44.409916], [-0.000000], [1.721457]) 
+Player : [1] MoveTo ([-43.618248], [-0.000000], [2.863940]) 
+Player : [1] MoveTo ([-43.618248], [-0.000000], [2.863940]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([-2.271304], [0.000000], [-9.821669]) 
+Player : [1] MoveTo ([-2.271304], [0.000000], [-9.821669]) 
+Player : [1] MoveTo ([5.241579], [0.000000], [-1.994920]) 
+Player : [1] MoveTo ([5.241579], [0.000000], [-1.994920]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([-1.638255], [0.000000], [-4.450193]) 
+Player : [1] MoveTo ([-1.638255], [0.000000], [-4.450193]) 
+Player : [0] MoveTo ([0.884679], [0.000000], [-6.718821]) 
+Player : [0] MoveTo ([0.884679], [0.000000], [-6.718821]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Battle Ready Finish
+Player : [1] MoveTo ([44.584679], [0.000000], [-5.701192]) 
+Player : [1] MoveTo ([44.584679], [0.000000], [-5.701192]) 
+Player : [0] MoveTo ([-35.256390], [0.100000], [-7.174361]) 
+Player : [0] MoveTo ([-35.256390], [0.100000], [-7.174361]) 
+Player : [0] MoveTo ([-35.837257], [0.100000], [-7.174362]) 
+Player : [0] MoveTo ([-35.837257], [0.100000], [-7.174362]) 
+Player : [0] MoveTo ([-38.640182], [0.100000], [-7.105996]) 
+Player : [0] MoveTo ([-38.640182], [0.100000], [-7.105996]) 
+Player : [0] MoveTo ([-42.821365], [0.100000], [-7.071657]) 
+Player : [0] MoveTo ([-42.821365], [0.100000], [-7.071657]) 
+Player : [0] MoveTo ([-46.977520], [0.691166], [-7.399544]) 
+Player : [0] MoveTo ([-46.977520], [0.691166], [-7.399544]) 
+Player : [0] MoveTo ([-46.973743], [0.735296], [-7.353923]) 
+Player : [0] MoveTo ([-46.973743], [0.735296], [-7.353923]) 
+Battle Finish
+Battle Finish
+Player : [0] MoveTo ([-46.973743], [0.735296], [-7.353923]) 
+Player : [0] MoveTo ([-46.973743], [0.735296], [-7.353923]) 
+Player : [0] MoveTo ([-46.973743], [0.735296], [-7.353923]) 
+Player : [0] MoveTo ([-46.973743], [0.735296], [-7.353923]) 
+Manage Finish
+Battle Ready Finish
+Battle Finish
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [0] MoveTo ([1.748800], [0.000000], [-8.835149]) 
+Player : [0] MoveTo ([1.748800], [0.000000], [-8.835149]) 
+Player : [1] MoveTo ([3.441284], [0.000000], [-5.339372]) 
+Player : [1] MoveTo ([3.441284], [0.000000], [-5.339372]) 
+Player : [0] MoveTo ([5.467173], [0.000000], [-5.179420]) 
+Player : [0] MoveTo ([5.467173], [0.000000], [-5.179420]) 
+Player : [1] MoveTo ([6.351656], [0.000000], [-1.915710]) 
+Player : [1] MoveTo ([6.351656], [0.000000], [-1.915710]) 
+Player : [0] MoveTo ([-3.030420], [0.000000], [-4.593163]) 
+Player : [0] MoveTo ([-3.030420], [0.000000], [-4.593163]) 
+Player : [0] MoveTo ([-3.438563], [0.000000], [-6.480875]) 
+Player : [0] MoveTo ([-3.438563], [0.000000], [-6.480875]) 
+Player : [1] MoveTo ([-4.834411], [0.000000], [-5.137805]) 
+Player : [1] MoveTo ([-4.834411], [0.000000], [-5.137805]) 
+Player : [0] MoveTo ([-7.074796], [0.000000], [-4.526899]) 
+Player : [0] MoveTo ([-7.074796], [0.000000], [-4.526899]) 
+Player : [1] MoveTo ([-2.734325], [0.000000], [-9.239304]) 
+Player : [1] MoveTo ([-2.734325], [0.000000], [-9.239304]) 
+Player : [1] MoveTo ([7.576942], [0.000000], [-8.636428]) 
+Player : [1] MoveTo ([7.576942], [0.000000], [-8.636428]) 
+Player : [0] MoveTo ([-7.724977], [0.000000], [-2.575599]) 
+Player : [0] MoveTo ([-7.724977], [0.000000], [-2.575599]) 
+Player : [1] MoveTo ([13.740167], [0.000000], [-0.264801]) 
+Player : [0] MoveTo ([-3.104492], [0.000000], [-7.863904]) 
+Player : [1] MoveTo ([13.740167], [0.000000], [-0.264801]) 
+Player : [0] MoveTo ([-3.104492], [0.000000], [-7.863904]) 
+Player : [0] MoveTo ([-1.682588], [0.000000], [-8.991859]) 
+Player : [0] MoveTo ([-1.682588], [0.000000], [-8.991859]) 
+Player : [0] MoveTo ([5.662064], [0.000000], [-3.851788]) 
+Player : [0] MoveTo ([5.662064], [0.000000], [-3.851788]) 
+Player : [1] MoveTo ([-2.238207], [0.000000], [-4.589688]) 
+Player : [1] MoveTo ([-2.238207], [0.000000], [-4.589688]) 
+Player : [0] MoveTo ([2.158212], [0.000000], [-7.243096]) 
+Player : [0] MoveTo ([2.158212], [0.000000], [-7.243096]) 
+Player : [0] MoveTo ([-5.228069], [0.000000], [-7.011958]) 
+Player : [0] MoveTo ([-5.228069], [0.000000], [-7.011958]) 
+Player : [1] MoveTo ([-3.054035], [0.000000], [-9.239305]) 
+Player : [1] MoveTo ([-3.054035], [0.000000], [-9.239305]) 
+Player : [0] MoveTo ([-6.748503], [0.000000], [-6.360754]) 
+Player : [0] MoveTo ([-6.748503], [0.000000], [-6.360754]) 
+Player : [1] MoveTo ([4.549499], [0.000000], [-10.831257]) 
+Player : [1] MoveTo ([4.549499], [0.000000], [-10.831257]) 
+Player : [0] MoveTo ([-4.256995], [0.000000], [-9.249966]) 
+Player : [0] MoveTo ([-4.256995], [0.000000], [-9.249966]) 
+Player : [0] MoveTo ([-2.622222], [0.000000], [-10.099323]) 
+Player : [0] MoveTo ([-2.622222], [0.000000], [-10.099323]) 
+Player : [0] MoveTo ([3.097313], [0.000000], [-5.685889]) 
+Player : [0] MoveTo ([3.097313], [0.000000], [-5.685889]) 
+Player : [1] MoveTo ([4.477789], [0.000000], [-4.097077]) 
+Player : [1] MoveTo ([4.477789], [0.000000], [-4.097077]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Battle Finish
+Manage Finish
+Manage Finish
+Battle Ready Finish
+Battle Finish
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [0] MoveTo ([2.953094], [0.000000], [-7.974496]) 
+Player : [0] MoveTo ([2.953094], [0.000000], [-7.974496]) 
+Player : [0] MoveTo ([4.931469], [0.000000], [-1.136130]) 
+Player : [0] MoveTo ([4.931469], [0.000000], [-1.136130]) 
+Player : [0] MoveTo ([-8.180981], [0.000000], [-6.600241]) 
+Player : [0] MoveTo ([-8.180981], [0.000000], [-6.600241]) 
+Player : [1] MoveTo ([4.818564], [0.000000], [-4.309715]) 
+Player : [1] MoveTo ([4.818564], [0.000000], [-4.309715]) 
+Player : [0] MoveTo ([5.335467], [0.000000], [-7.527959]) 
+Player : [0] MoveTo ([5.335467], [0.000000], [-7.527959]) 
+Player : [0] MoveTo ([-1.486311], [0.000000], [-8.782576]) 
+Player : [0] MoveTo ([-1.486311], [0.000000], [-8.782576]) 
+Player : [1] MoveTo ([-2.015651], [0.000000], [-2.846999]) 
+Player : [1] MoveTo ([-2.015651], [0.000000], [-2.846999]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([-1.823071], [-0.000000], [4.289288]) 
+Player : [1] MoveTo ([-1.823071], [-0.000000], [4.289288]) 
+Player : [0] MoveTo ([-0.099520], [0.000000], [-9.402984]) 
+Player : [0] MoveTo ([-0.099520], [0.000000], [-9.402984]) 
+Player : [1] MoveTo ([-9.802721], [0.000000], [-0.857361]) 
+Player : [1] MoveTo ([-9.802721], [0.000000], [-0.857361]) 
+Player : [0] MoveTo ([-16.924549], [0.000000], [-7.185572]) 
+Player : [0] MoveTo ([-16.924549], [0.000000], [-7.185572]) 
+Player : [0] MoveTo ([-20.045815], [0.000000], [-6.480874]) 
+Player : [0] MoveTo ([-20.045815], [0.000000], [-6.480874]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Player : [0] MoveTo ([-47.127335], [0.945812], [-7.253537]) 
+Player : [0] MoveTo ([-47.127335], [0.945812], [-7.253537]) 
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([6.662523], [0.000000], [-1.595720]) 
+Player : [1] MoveTo ([6.662523], [0.000000], [-1.595720]) 
+Player : [0] MoveTo ([2.468452], [0.000000], [-5.872382]) 
+Player : [0] MoveTo ([2.468452], [0.000000], [-5.872382]) 
+Player : [0] MoveTo ([-1.065407], [0.000000], [-9.147191]) 
+Player : [0] MoveTo ([-1.065407], [0.000000], [-9.147191]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Yokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([3.960376], [-0.000000], [0.168635]) 
+Player : [1] MoveTo ([3.960376], [-0.000000], [0.168635]) 
+Player : [1] MoveTo ([5.091564], [0.000000], [-3.148257]) 
+Player : [1] MoveTo ([5.091564], [0.000000], [-3.148257]) 
+Player : [0] MoveTo ([5.862086], [0.000000], [-7.243096]) 
+Player : [0] MoveTo ([5.862086], [0.000000], [-7.243096]) 
+Player : [1] MoveTo ([4.329073], [0.000000], [-6.817060]) 
+Player : [1] MoveTo ([4.329073], [0.000000], [-6.817060]) 
+Player : [0] MoveTo ([-3.298340], [0.000000], [-9.198682]) 
+Player : [0] MoveTo ([-3.298340], [0.000000], [-9.198682]) 
+Player : [1] MoveTo ([-4.552517], [0.000000], [-7.895952]) 
+Player : [1] MoveTo ([-4.552517], [0.000000], [-7.895952]) 
+Player : [0] MoveTo ([-6.601940], [0.000000], [-5.934102]) 
+Player : [0] MoveTo ([-6.601940], [0.000000], [-5.934102]) 
+Player : [1] MoveTo ([-4.588884], [0.000000], [-3.591774]) 
+Player : [1] MoveTo ([-4.588884], [0.000000], [-3.591774]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([6.792812], [0.000000], [-7.062460]) 
+Player : [1] MoveTo ([6.792812], [0.000000], [-7.062460]) 
+Player : [0] MoveTo ([1.097038], [0.000000], [-9.804417]) 
+Player : [0] MoveTo ([1.097038], [0.000000], [-9.804417]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.78
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [0] MoveTo ([-2.605052], [0.000000], [-9.654989]) 
+Player : [0] MoveTo ([-2.605052], [0.000000], [-9.654989]) 
+Player : [0] MoveTo ([3.103797], [0.000000], [-7.471336]) 
+Player : [0] MoveTo ([3.103797], [0.000000], [-7.471336]) 
+Player : [0] MoveTo ([-0.717388], [0.000000], [-5.179419]) 
+Player : [0] MoveTo ([-0.717388], [0.000000], [-5.179419]) 
+Player : [0] MoveTo ([-2.467770], [0.000000], [-7.919314]) 
+Player : [0] MoveTo ([-2.467770], [0.000000], [-7.919314]) 
+Player : [0] MoveTo ([0.849306], [0.000000], [-7.974496]) 
+Player : [0] MoveTo ([0.849306], [0.000000], [-7.974496]) 
+Player : [0] MoveTo ([1.360707], [0.000000], [-10.579519]) 
+Player : [0] MoveTo ([1.360707], [0.000000], [-10.579519]) 
+Player : [0] MoveTo ([-3.987266], [0.000000], [-8.939799]) 
+Player : [0] MoveTo ([-3.987266], [0.000000], [-8.939799]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon
+Spawn Digimon
+Battle Ready Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([3.957045], [0.000000], [-8.394678]) 
+Player : [0] MoveTo ([0.734466], [0.000000], [-5.703798]) 
+Player : [0] MoveTo ([0.933422], [0.000000], [-9.822853]) 
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Battle Finish
+Manage Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+AddUser: 0 172.30.1.26
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.26]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.26
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Fade In & Out Finish
+Spawn Digimon
+Battle Ready Finish

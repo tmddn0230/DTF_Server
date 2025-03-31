@@ -67,6 +67,8 @@ bool User::Init(int index, SOCKET sock, sockaddr_in ip)
 	mSelectedTDigimon = enTamersDigimon::T_None;
 	//SendConnect();
 
+	mydigimonCodes = std::list<int>();
+
 	int t = mThreadNum;
 	if (t < 0 || t > MAX_QUEUE)
 		return false;
@@ -384,14 +386,19 @@ void User::RecvStart(char* packet)
 	stStartGame req;
 	memcpy(&req, packet, sizeof(stStartGame));
 	
-	stEncounterStart ack;
+	g_User.mWaitingCnt++;
+	if (g_User.mWaitingCnt == g_User.GetUserCount())
+	{
+		stEncounterStart ack;
 
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stEncounterStart));
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+		memcpy(buffer, &ack, sizeof(stEncounterStart));
 
-	g_User.SendAll(buffer, sizeof(stEncounterStart));
-	puts("Recv And Send All Packet");
+		g_User.SendAll(buffer, sizeof(stEncounterStart));
+		puts("Recv And Send All Packet");
+		g_User.mWaitingCnt = 0;
+	}
 }
 
 void User::RecvSelected(char* packet)
@@ -530,14 +537,22 @@ void User::RecvSpawn(char* packet)
 	stSpawnAck ack;
 
 	ack.UID = req.UID;
-	ack.spawnedDigimon = req.spawnedDigimon;
-	ack.spawnedTileIndex = req.spawnedTileIndex;
+	ack.spawnedSeatIndex = req.spawnedSeatIndex;
+	// DIGICODE 부여
+	ack.digicode = g_GameMgr.m_Digicode + DTF;
+	g_GameMgr.m_Digicode++;
+	// 서버에서 디지몬 관리
+	g_User.mUser[ack.UID].mydigimonCodes.push_back(ack.digicode);
+
+	memcpy(ack.spawnDigimonName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
+	// mName 저장
+	memcpy(g_User.mUser[ack.UID].mName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
 
 	char buffer[64];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stSpawnAck));
 
-	g_User.SendAll(buffer, sizeof(stSpawnAck));
+	g_User.SendAll( buffer, sizeof(stSpawnAck));
 	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
 	Log("Spawn Digimon");
 }

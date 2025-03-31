@@ -317,14 +317,16 @@ struct stSoldAck : public stHeader
 struct stSpawnReq : public stHeader
 {
 	int32 UID;
-	int32 spawnedTileIndex;
-	enDigimon spawnedDigimon;
+	int32 spawnedSeatIndex;
+	int32 digicode;
+	char  spawnDigimonName[32];
 
 	stSpawnReq()
 	{
 		UID = 0;
-		spawnedTileIndex = 0;
-		spawnedDigimon = enDigimon::NoneDigimon;
+		spawnedSeatIndex = 0;
+		digicode = 0;
+		memset(spawnDigimonName, 0x00, sizeof(spawnDigimonName));
 		SetHeader(prSpawnReq, sizeof(stSpawnReq));
 	};
 };
@@ -332,14 +334,16 @@ struct stSpawnReq : public stHeader
 struct stSpawnAck : public stHeader
 {
 	int32 UID;
-	int32 spawnedTileIndex;
-	enDigimon spawnedDigimon;
+	int32 spawnedSeatIndex;
+	int32 digicode;
+	char  spawnDigimonName[32];
 
 	stSpawnAck()
 	{
 		UID = 0;
-		spawnedTileIndex = 0;
-		spawnedDigimon = enDigimon::NoneDigimon;
+		spawnedSeatIndex = 0;
+		digicode = 0;
+		memset(spawnDigimonName, 0x00, sizeof(spawnDigimonName));
 		SetHeader(prSpawnAck, sizeof(stSpawnAck));
 	};
 };
