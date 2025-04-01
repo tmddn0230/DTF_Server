@@ -45,7 +45,7 @@ public:
 	void Recv();
 	void Parse(int protocol, char* packet);
 
-	bool IsValidDigicode(int digicode);
+	bool IsValidDigicode(int uid, int digicode);
 
 
 public: //RECV

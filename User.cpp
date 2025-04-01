@@ -256,14 +256,12 @@ void User::Parse(int protocol, char* packet)
 
 }
 
-bool User::IsValidDigicode(int digicode)
+bool User::IsValidDigicode(int uid, int digicode)
 {
-	for (int k = 0; k < mydigimonCodes.size(); k++)
-	{
-		if (mydigimonCodes[k] == digicode)
-			return true;
-	}
-
+	auto it = std::find(g_User.mUser[uid].mydigimonCodes.begin(), g_User.mUser[uid].mydigimonCodes.end(), digicode);
+		
+	if (it != g_User.mUser[uid].mydigimonCodes.end()) // 찾았다.
+		return true;
 
 	return false;
 }
@@ -574,7 +572,7 @@ void User::RecvSpawn(char* packet)
 	ack.UID = req.UID;
 	ack.spawnedSeatIndex = req.spawnedSeatIndex;
 	// DIGICODE 부여
-	ack.digicode = g_GameMgr.m_Digicode + DTF;
+	ack.digicode = g_GameMgr.m_Digicode;
 	g_GameMgr.m_Digicode++;
 	// 서버에서 디지몬 관리
 	g_User.mUser[ack.UID].mydigimonCodes.push_back(ack.digicode);
@@ -589,7 +587,7 @@ void User::RecvSpawn(char* packet)
 
 	g_User.SendAll( buffer, sizeof(stSpawnAck));
 	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
-	Log("Spawn Digimon");
+	Log("Spawn Digimon [%d]", g_GameMgr.m_Digicode);
 }
 
 void User::RecvTransform(char* packet)
@@ -602,7 +600,7 @@ void User::RecvTransform(char* packet)
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
 
-	if (IsValidDigicode(req.Digicode))
+	if (g_User.mUser[req.UID].IsValidDigicode(req.UID, req.Digicode))
 	{
 		for (int i = 0; i < 3; i++)
 		{
