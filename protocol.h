@@ -27,9 +27,9 @@ enum enProtocol
 	prSpawnReq, prSpawnAck,
 	// 디지몬 동작 동기화 관련
 	prSyncTrReq, prSyncTrAck,
-	prAttackReq, prAttackAck,
-	prSkillReq, prSkillAck,
-	prMoveReq, prMoveAck,
+	prSetMoveReq, prSetMoveAck, 
+	prSetTargetReq, prSetTargetAck,
+	prHpReq, prHpAck, 
 	prDieReq, prDieAck,
 	// 장비 동기화 관련
 	prAttachedReq, prAttachedAck,

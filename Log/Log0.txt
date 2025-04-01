@@ -11231,3 +11231,177 @@ AddUser: 0 192.168.0.109
 Login :[ T_Tokomon ]
 Enter Lobby
 Failed Socket Create
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.232
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 192.168.75.232
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.232
+AddUser: 1 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([4.639417], [0.000000], [-5.601667]) 
+Player : [1] MoveTo ([4.639417], [0.000000], [-5.601667]) 
+Player : [1] MoveTo ([0.475603], [0.000000], [-8.225079]) 
+Player : [1] MoveTo ([0.475603], [0.000000], [-8.225079]) 
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Player : [1] MoveTo ([39.766346], [0.953070], [-6.758896]) 
+Player : [1] MoveTo ([39.766346], [0.953070], [-6.758896]) 
+Player : [1] MoveTo ([38.473408], [0.000000], [-3.790583]) 
+Player : [1] MoveTo ([38.473408], [0.000000], [-3.790583]) 
+Player : [1] MoveTo ([39.094795], [0.000000], [-2.163605]) 
+Player : [1] MoveTo ([39.094795], [0.000000], [-2.163605]) 
+Player : [1] MoveTo ([42.502415], [0.100000], [-6.437231]) 
+Player : [1] MoveTo ([42.502415], [0.100000], [-6.437231]) 
+Teleport_Tamer[1] to [0]
+Teleport_Tamer[1] to [0]
+Teleport_Tamer[1] to [0]
+Teleport_Tamer[1] to [0]
+Player : [1] MoveTo ([-38.737232], [0.000000], [-5.466906]) 
+Player : [1] MoveTo ([-38.737232], [0.000000], [-5.466906]) 
+Player : [1] MoveTo ([-39.160244], [0.000000], [-2.320521]) 
+Player : [1] MoveTo ([-39.160244], [0.000000], [-2.320521]) 
+Player : [1] MoveTo ([-39.503544], [0.000000], [-1.433036]) 
+Player : [1] MoveTo ([-39.503544], [0.000000], [-1.433036]) 
+Player : [1] MoveTo ([-41.196434], [-0.000000], [0.444162]) 
+Player : [1] MoveTo ([-41.196434], [-0.000000], [0.444162]) 
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Koromon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Player : [0] MoveTo ([-43.693150], [0.000000], [-4.398445]) 
+Player : [0] MoveTo ([-43.693150], [0.000000], [-4.398445]) 
+Player : [0] MoveTo ([-41.403065], [1.547573], [-7.807413]) 
+Player : [0] MoveTo ([-41.403065], [1.547573], [-7.807413]) 
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Battle Finish
+Manage Finish
+Manage Finish
+Battle Ready Finish
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Battle Finish
+Manage Finish
+Manage Finish
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish

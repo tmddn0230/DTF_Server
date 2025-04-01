@@ -236,11 +236,11 @@ void User::Parse(int protocol, char* packet)
 	case prBoughtReq:		    RecvBought(packet);   break;
 	case prSoldReq:			    RecvSold(packet);   break;
 	case prSpawnReq:			RecvSpawn(packet);		 break;
-	case prAttackReq:		    RecvAttack(packet);   break;
-	case prSkillReq:		    RecvSkill(packet);   break;
-	case prMoveReq:			    RecvMove(packet);   break;
-	case prDieReq:			    RecvDie(packet);   break;
 	case prSyncTrReq:			RecvTransform(packet); break;
+	case prSetMoveReq:			RecvSetMove(packet); break;
+	case prSetTargetReq:		RecvTarget(packet);	break;
+	case prHpReq:				RecvSetHp(packet); break;
+	case prDieReq:			    RecvDie(packet);   break;
 	case prAttachedReq:		    RecvAttached(packet);   break;
 	case prDetachedReq:		    RecvDetached(packet);   break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
@@ -496,34 +496,6 @@ void User::RecvSold(char* packet)
 	puts("Recv And Send All Packet");
 }
 
-
-void User::RecvAttack(char* packet)
-{
-	stAttackAck req;
-	memcpy(&req, packet, sizeof(stAttackAck));
-
-	g_User.SendOther(req.UID, packet, sizeof(stAttackAck));
-	puts("Recv And Send All Packet");
-}
-
-void User::RecvSkill(char* packet)
-{
-	stSkillAck req;
-	memcpy(&req, packet, sizeof(stSkillAck));
-
-	g_User.SendOther(req.UID, packet, sizeof(stSkillAck));
-	puts("Recv And Send All Packet");
-}
-
-void User::RecvMove(char* packet)
-{
-	stMoveAck req;
-	memcpy(&req, packet, sizeof(stMoveAck));
-
-	g_User.SendOther(req.UID, packet, sizeof(stMoveAck));
-	puts("Recv And Send All Packet");
-}
-
 void User::RecvDie(char* packet)
 {
 	stDieAck req;
@@ -622,6 +594,59 @@ void User::RecvTransform(char* packet)
 		Log("InValid Digicode in User[%d]", req.UID);
 	}
 	
+}
+
+void User::RecvSetMove(char* packet)
+{
+	stSetMoveReq req;
+	memcpy(&req, packet, sizeof(stSetMoveReq));
+
+	stSetMoveAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetMoveAck));
+
+	g_User.SendOther(req.UID, buffer, sizeof(stSetMoveAck));
+}
+
+void User::RecvTarget(char* packet)
+{
+	stSetTargetReq req;
+	memcpy(&req, packet, sizeof(stSetTargetReq));
+
+	stSetTargetAck ack;
+
+	ack.UID = req.UID;
+	ack.myDigicode = req.myDigicode;
+	ack.tgDigicode = req.tgDigicode;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetTargetAck));
+
+	g_User.SendOther(req.UID, buffer, sizeof(stSetTargetAck));
+}
+
+void User::RecvSetHp(char* packet)
+{
+	stHpReq req;
+	memcpy(&req, packet, sizeof(stHpReq));
+
+	stHpAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.Hp = req.Hp;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stHpAck));
+
+	g_User.SendAll(buffer, sizeof(stHpAck));
 }
 
 void User::RecvEncountFin(char* packet)

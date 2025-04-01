@@ -416,97 +416,93 @@ struct stSyncTrAck :public stHeader
 	};
 };
 
-
-// 	prMoveReq, prMoveAck,
-// 이동 관련 패킷, 사실 여기가 동기화가 잘 되어야 적 탐색, 스킬 사용 등 동기화에 문제가 없어짐
-struct stMoveReq : public stHeader
+// prSetMoveReq, prSetMoveAck
+struct stSetMoveReq : public stHeader
 {
 	int32 UID;
-	enDigimon movingDigimon;
-	float v[3];
-	float q[4];
+	int32 Digicode;
 
-	stMoveReq()
+	stSetMoveReq()
 	{
 		UID = 0;
-		movingDigimon = enDigimon::NoneDigimon;
-		memset(v, 0, sizeof(v));
-		memset(q, 0, sizeof(q));
-		SetHeader(prMoveReq, sizeof(stMoveReq));
+		Digicode = 0;
+		SetHeader(prSetMoveReq, sizeof(stSetMoveReq));
 	};
 };
 
-struct stMoveAck : public stHeader
+struct stSetMoveAck : public stHeader
 {
 	int32 UID;
-	enDigimon movingDigimon;
-	float v[3];
-	float q[4];
+	int32 Digicode;
 
-	stMoveAck()
+	stSetMoveAck()
 	{
 		UID = 0;
-		movingDigimon = enDigimon::NoneDigimon;
-		memset(v, 0, sizeof(v));
-		memset(q, 0, sizeof(q));
-
-		SetHeader(prMoveAck, sizeof(stMoveAck));
+		Digicode = 0;
+		SetHeader(prSetMoveAck, sizeof(stSetMoveAck));
 	};
 };
 
-
-// 	prAttackReq, prAttackAck,
-// 해당 디지몬의 공격 sign
-struct stAttackReq : public stHeader
+// prSetTargetReq, prSetTargetAck
+// 타겟 설정
+struct stSetTargetReq : public stHeader
 {
 	int32 UID;
-	enDigimon attackDigimon;
-	stAttackReq()
+	int32 myDigicode;
+	int32 tgDigicode;
+
+	stSetTargetReq()
 	{
 		UID = 0;
-		attackDigimon = enDigimon::NoneDigimon;
-
-		SetHeader(prAttackReq, sizeof(stAttackReq));
+		myDigicode = 0;
+		tgDigicode = 0;
+		SetHeader(prSetTargetReq, sizeof(stSetTargetReq));
 	};
 };
 
-struct stAttackAck : public stHeader
+struct stSetTargetAck : public stHeader
 {
 	int32 UID;
-	enDigimon attackDigimon;
-	stAttackAck()
+	int32 myDigicode;
+	int32 tgDigicode;
+
+	stSetTargetAck()
 	{
 		UID = 0;
-		attackDigimon = enDigimon::NoneDigimon;
-
-		SetHeader(prAttackAck, sizeof(stAttackAck));
+		myDigicode = 0;
+		tgDigicode = 0;
+		SetHeader(prSetTargetAck, sizeof(stSetTargetAck));
 	};
 };
 
-// 스킬
-struct stSkillReq : public stHeader
+// HP
+struct stHpReq : public stHeader
 {
 	int32 UID;
-	enDigimon skilledDigimon;
-	stSkillReq()
+	int32 Digicode;
+	float Hp;
+
+	stHpReq()
 	{
 		UID = 0;
-		skilledDigimon = enDigimon::NoneDigimon;
-
-		SetHeader(prSkillReq, sizeof(stSkillReq));
+		Digicode = 0;
+		Hp = 0;
+		SetHeader(prHpReq, sizeof(stHpReq));
 	};
 };
 
-struct stSkillAck : public stHeader
+struct stHpAck : public stHeader
 {
 	int32 UID;
-	enDigimon skilledDigimon;
-	stSkillAck()
+	int32 Digicode;
+	float Hp;
+
+	stHpAck()
 	{
 		UID = 0;
-		skilledDigimon = enDigimon::NoneDigimon;
-
-		SetHeader(prSkillAck, sizeof(stSkillAck));
+		Digicode = 0;
+		Hp = 0;
+		SetHeader(prHpAck, sizeof(stHpAck));
 	};
 };
 
