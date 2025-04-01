@@ -195,6 +195,33 @@ struct stSelectedAck : public stHeader
 	};
 };
 
+struct stTTeleportReq : public stHeader
+{
+	int32 startUID;
+	int32 distUID;
+
+	stTTeleportReq()
+	{
+		startUID = 0;
+		distUID = 0;
+		SetHeader(prTTelePortReq, sizeof(stTTeleportReq));
+	};
+};
+
+struct stTTeleportAck : public stHeader
+{
+	int32 startUID;
+	int32 distUID;
+
+	stTTeleportAck()
+	{
+		startUID = 0;
+		distUID = 0;
+		SetHeader(prTTelePortAck, sizeof(stTTeleportAck));
+	};
+};
+
+
 // prRClickedReq, prRClickedAck,
 // 테이머의 우클릭 패킷, 전설이가 이동할 위치값을 넘겨 동기화 (2D 평면 위 움직임 x, y)
 struct stRClickedReq : public stHeader
@@ -353,6 +380,43 @@ struct stSpawnAck : public stHeader
 ================   디지몬 동작 관련 패킷   =======================
 ==================================================================
 */
+
+//     prSyncTrReq, prSyncTrAck,
+struct stSyncTrReq :public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+	float v[3];
+	float q[4];
+
+	stSyncTrReq()
+	{
+		UID = 0;
+		Digicode = 0;
+		memset(v, 0, sizeof(v));
+		memset(q, 0, sizeof(q));
+		SetHeader(prSyncTrReq, sizeof(stSyncTrReq));
+	};
+};
+
+struct stSyncTrAck :public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+	float v[3];
+	float q[4];
+
+	stSyncTrAck()
+	{
+		UID = 0;
+		Digicode = 0;
+		memset(v, 0, sizeof(v));
+		memset(q, 0, sizeof(q));
+		SetHeader(prSyncTrAck, sizeof(stSyncTrAck));
+	};
+};
+
+
 // 	prMoveReq, prMoveAck,
 // 이동 관련 패킷, 사실 여기가 동기화가 잘 되어야 적 탐색, 스킬 사용 등 동기화에 문제가 없어짐
 struct stMoveReq : public stHeader

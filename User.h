@@ -45,6 +45,9 @@ public:
 	void Recv();
 	void Parse(int protocol, char* packet);
 
+	bool IsValidDigicode(int digicode);
+
+
 public: //RECV
 	void RecvLoginReq(char* packet);
 	void RecvEnterLobby(char* packet);
@@ -53,11 +56,13 @@ public: //RECV
 	void RecvLoadingFinish(char* packet);
 	void RecvStart(char* packet);
 	void RecvSelected(char* packet);
+	void RecvTeleport_Tamer(char* packet);
 	void RecvRClicked(char* packet);
 	void RecvLClicked(char* packet);
 	void RecvBought(char* packet);
 	void RecvSold(char* packet);
 	void RecvSpawn(char* packet);
+	void RecvTransform(char* packet);
 	void RecvAttack(char* packet);
 	void RecvSkill(char* packet);
 	void RecvMove(char* packet);

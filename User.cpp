@@ -230,6 +230,7 @@ void User::Parse(int protocol, char* packet)
 	case prLoadingFinishgReq:   RecvLoadingFinish(packet);   break;
 	case prStartGame:			RecvStart(packet);   break;
 	case prSelectedReq:			RecvSelected(packet);   break;
+	case prTTelePortReq:		RecvTeleport_Tamer(packet);   break;
 	case prRClickedReq:         RecvRClicked(packet);   break;
 	case prLClickedReq:		    RecvLClicked(packet);   break;
 	case prBoughtReq:		    RecvBought(packet);   break;
@@ -239,6 +240,7 @@ void User::Parse(int protocol, char* packet)
 	case prSkillReq:		    RecvSkill(packet);   break;
 	case prMoveReq:			    RecvMove(packet);   break;
 	case prDieReq:			    RecvDie(packet);   break;
+	case prSyncTrReq:			RecvTransform(packet); break;
 	case prAttachedReq:		    RecvAttached(packet);   break;
 	case prDetachedReq:		    RecvDetached(packet);   break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
@@ -252,6 +254,18 @@ void User::Parse(int protocol, char* packet)
 	}
 
 
+}
+
+bool User::IsValidDigicode(int digicode)
+{
+	for (int k = 0; k < mydigimonCodes.size(); k++)
+	{
+		if (mydigimonCodes[k] == digicode)
+			return true;
+	}
+
+
+	return false;
 }
 
 /*
@@ -416,6 +430,27 @@ void User::RecvSelected(char* packet)
 	Log("Recv Select Packet And Send Other");
 }
 
+void User::RecvTeleport_Tamer(char* packet)
+{
+	stTTeleportReq req;
+	memcpy(&req, packet, sizeof(stTTeleportReq));
+
+	stTTeleportAck ack;
+
+	ack.startUID = req.startUID;
+	ack.distUID = req.distUID;
+
+	//g_User.SendOther(req.UID, packet, sizeof(stSelectedAck));
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stTTeleportAck));
+
+	g_User.SendAll(buffer, sizeof(stTTeleportAck));
+	Log("Teleport_Tamer[%d] to [%d]", req.startUID, req.distUID);
+}
+
+
+
 void User::RecvRClicked(char* packet)
 {
 	stRClickedReq req;
@@ -555,6 +590,40 @@ void User::RecvSpawn(char* packet)
 	g_User.SendAll( buffer, sizeof(stSpawnAck));
 	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
 	Log("Spawn Digimon");
+}
+
+void User::RecvTransform(char* packet)
+{
+	stSyncTrReq req;
+	memcpy(&req, packet, sizeof(stSyncTrReq));
+
+	stSyncTrAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+
+	if (IsValidDigicode(req.Digicode))
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			ack.v[i] = req.v[i];
+		}
+		for (int j = 0; j < 4; j++)
+		{
+			ack.q[j] = req.q[j];
+		}
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+		memcpy(buffer, &ack, sizeof(stSyncTrAck));
+
+		g_User.SendOther(req.UID, buffer, sizeof(stSyncTrAck));
+	}
+	else
+	{
+		Log("InValid Digicode in User[%d]", req.UID);
+	}
+	
 }
 
 void User::RecvEncountFin(char* packet)
