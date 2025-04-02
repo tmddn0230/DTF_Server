@@ -29,13 +29,16 @@ enum enProtocol
     // 디지몬 동작 동기화 관련
     prSyncTrReq, prSyncTrAck,
     prSetMoveReq, prSetMoveAck,
+    prSetAttackReq, prSetAttackAck,
     prSetTargetReq, prSetTargetAck,
+    // 디지몬 스텟 동기화 관련
     prHpReq, prHpAck,
     prMpReq, prMpAck,
     prDieReq, prDieAck,
     // 크립 동기화 관련
     prCreepDieReq, prCreepDieAck,
     prPickingReq, prPickingAck,
+    prPickingObjReq, prPickingObjAck,
     // 장비 동기화 관련
     prAttachedReq, prAttachedAck,
     prDetachedReq, prDetachedAck,

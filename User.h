@@ -64,6 +64,7 @@ public: //RECV
 	void RecvSpawn(char* packet);
 	void RecvTransform(char* packet);
 	void RecvSetMove(char* packet);
+	void RecvSetAttack(char* packet);
 	void RecvTarget(char* packet);
 	void RecvSetHp(char* packet);
 	void RecvSetMp(char* packet);
@@ -72,6 +73,7 @@ public: //RECV
 	void RecvDetached(char* packet);
 	void RecvCreepDie(char* packet);
 	void RecvPicking(char* packet);
+	void RecvPickingObj(char* packet);
 	void RecvArgPicked(char* packet);
 	void RecvEncountFin(char* packet);
 	void RecvRoundFin(char* packet);

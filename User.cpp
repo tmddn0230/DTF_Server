@@ -238,6 +238,7 @@ void User::Parse(int protocol, char* packet)
 	case prSpawnReq:			RecvSpawn(packet);		 break;
 	case prSyncTrReq:			RecvTransform(packet); break;
 	case prSetMoveReq:			RecvSetMove(packet); break;
+	case prSetAttackReq:		RecvSetAttack(packet); break;
 	case prSetTargetReq:		RecvTarget(packet);	break;
 	case prHpReq:				RecvSetHp(packet); break;
 	case prMpReq:				RecvSetMp(packet); break;
@@ -246,6 +247,7 @@ void User::Parse(int protocol, char* packet)
 	case prDetachedReq:		    RecvDetached(packet);   break;
 	case prCreepDieReq:			RecvCreepDie(packet); break;
 	case prPickingReq:			RecvPicking(packet); break;
+	case prPickingObjReq:		RecvPickingObj(packet); break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
 	case prEncounterFin:		RecvEncountFin(packet);	break; // 사실상 안쓰임
 	case prFadeInFin:			RecvFadeInFin(packet); break;
@@ -560,6 +562,27 @@ void User::RecvPicking(char* packet)
 	Log("Picking Item");
 }
 
+void User::RecvPickingObj(char* packet)
+{
+	stPickingObjReq req;
+	memcpy(&req, packet, sizeof(stPickingObjReq));
+
+	stPickingObjAck ack;
+	ack.UID = req.UID;
+	ack.getItem = req.getItem;
+	for (int i = 0; i < 3; i++)
+	{
+		ack.v[i] = req.v[i];
+	}
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stPickingObjAck));
+	g_User.SendAll(buffer, sizeof(stPickingObjAck));
+
+	Log("Picking Item OBJ");
+}
+
 
 void User::RecvArgPicked(char* packet)
 {
@@ -648,7 +671,24 @@ void User::RecvSetMove(char* packet)
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stSetMoveAck));
 
-	g_User.SendOther(req.UID, buffer, sizeof(stSetMoveAck));
+	g_User.SendAll(buffer, sizeof(stSetMoveAck));
+}
+
+void User::RecvSetAttack(char* packet)
+{
+	stSetAttackReq req;
+	memcpy(&req, packet, sizeof(stSetAttackReq));
+
+	stSetAttackAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetAttackAck));
+
+	g_User.SendAll(buffer, sizeof(stSetAttackAck));
 }
 
 void User::RecvTarget(char* packet)

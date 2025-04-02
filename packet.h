@@ -443,6 +443,34 @@ struct stSetMoveAck : public stHeader
 	};
 };
 
+// prAttachedReq, prAttachedAck
+struct stSetAttackReq : public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+
+	stSetAttackReq()
+	{
+		UID = 0;
+		Digicode = 0;
+		SetHeader(prSetAttackReq, sizeof(stSetMoveReq));
+	};
+};
+
+struct stSetAttackAck : public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+
+	stSetAttackAck()
+	{
+		UID = 0;
+		Digicode = 0;
+		SetHeader(prSetAttackAck, sizeof(stSetAttackAck));
+	};
+};
+
+
 // prSetTargetReq, prSetTargetAck
 // 타겟 설정
 struct stSetTargetReq : public stHeader
@@ -620,6 +648,37 @@ struct stPickingAck : public stHeader
 		UID = 0;
 		getItem = enItem::NoneItem;
 		SetHeader(prPickingAck, sizeof(stPickingAck));
+	};
+};
+
+// prPickingReq, prPickingAck
+struct stPickingObjReq : public stHeader
+{
+	int32 UID;
+	enItem getItem;
+	float v[3];
+
+	stPickingObjReq()
+	{
+		UID = 0;
+		getItem = enItem::NoneItem;
+		memset(v, 0, sizeof(v));
+		SetHeader(prPickingObjReq, sizeof(stPickingObjReq));
+	};
+};
+
+struct stPickingObjAck : public stHeader
+{
+	int32 UID;
+	enItem getItem;
+	float v[3];
+
+	stPickingObjAck()
+	{
+		UID = 0;
+		getItem = enItem::NoneItem;
+		memset(v, 0, sizeof(v));
+		SetHeader(prPickingObjAck, sizeof(stPickingObjAck));
 	};
 };
 
