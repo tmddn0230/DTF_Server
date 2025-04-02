@@ -30,7 +30,11 @@ enum enProtocol
 	prSetMoveReq, prSetMoveAck, 
 	prSetTargetReq, prSetTargetAck,
 	prHpReq, prHpAck, 
+	prMpReq, prMpAck,
 	prDieReq, prDieAck,
+	// 크립 동기화 관련
+	prCreepDieReq, prCreepDieAck,
+	prPickingReq, prPickingAck,
 	// 장비 동기화 관련
 	prAttachedReq, prAttachedAck,
 	prDetachedReq, prDetachedAck,

@@ -1,4 +1,4 @@
-ï»¿#pragma once
+#pragma once
 
 
 #include "Core.h"
@@ -47,7 +47,7 @@ struct stLoginAck : public stHeader
 	};
 };
 // 	prEnterLobbyReq, prEnterLobbyAck,
-// ë¡œë¹„ ì…ì¥
+// ·Îºñ ÀÔÀå
 struct stEnterLobbyReq : public stHeader
 {
 	int32 UID;
@@ -108,7 +108,7 @@ struct stGetUserInfo : public stHeader
 
 
 // 	prEnterGameReq, prEnterGameAck,
-// ê²Œì„ ì…ì¥ , ì˜¤ë¸Œì íŠ¸, ë§µ ë“±ì„ ë¡œë“œí•˜ê¸° ì‹œì‘í•œë‹¤.
+// °ÔÀÓ ÀÔÀå , ¿ÀºêÁ§Æ®, ¸Ê µîÀ» ·ÎµåÇÏ±â ½ÃÀÛÇÑ´Ù.
 struct stEnterGame : public stHeader
 {
 	int32 Result;
@@ -121,7 +121,7 @@ struct stEnterGame : public stHeader
 
 
 // 	prLoadingFinishgReq, prLoadingFinishAck,
-// í´ë¼->ì„œë²„ : í•„ìš”í•œ ì—ì…‹ ë¡œë“œê°€ ëë‚¬ë‹¤ê³  ì•Œë¦¼
+// Å¬¶ó->¼­¹ö : ÇÊ¿äÇÑ ¿¡¼Â ·Îµå°¡ ³¡³µ´Ù°í ¾Ë¸²
 struct stLoadingFinishReq : public stHeader
 {
 	int32 UID;
@@ -133,8 +133,8 @@ struct stLoadingFinishReq : public stHeader
 	};
 };
 
-// ì„œë²„->í´ë¼ : ê° í”Œë ˆì´ì–´ì˜ ë¡œë”© 100% ì²´í¬ë¼ê³  ìƒê°í•˜ë©´ ë¨
-// ìƒëµí•˜ê³  ì‹œì‘í•´ë„ ë¬´ê´€
+// ¼­¹ö->Å¬¶ó : °¢ ÇÃ·¹ÀÌ¾îÀÇ ·Îµù 100% Ã¼Å©¶ó°í »ı°¢ÇÏ¸é µÊ
+// »ı·«ÇÏ°í ½ÃÀÛÇØµµ ¹«°ü
 struct stLoadingFinishAck : public stHeader
 {
 	int32 UID;
@@ -147,7 +147,7 @@ struct stLoadingFinishAck : public stHeader
 };
 
 // 	prStarGame,
-// í´ë¼ê°€ ì´ íŒ¨í‚·ì„ ì „ë‹¬ ë°›ìœ¼ë©´ ê²Œì„ì„ ì‹œì‘í•˜ë©´ ë¨ : ì´ˆë°¥ ì‹œì‘ trigger
+// Å¬¶ó°¡ ÀÌ ÆĞÅ¶À» Àü´Ş ¹ŞÀ¸¸é °ÔÀÓÀ» ½ÃÀÛÇÏ¸é µÊ : ÃÊ¹ä ½ÃÀÛ trigger
 struct stStartGame : public stHeader
 {
 	int32 UID;
@@ -161,12 +161,12 @@ struct stStartGame : public stHeader
 
 /*
 ==================================================================
-================   í…Œì´ë¨¸ ë™ì‘ ê´€ë ¨ íŒ¨í‚·   =======================
+================   Å×ÀÌ¸Ó µ¿ÀÛ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 
 // 	prSelectedReq, prSelectedAck,
-// ì´ˆë°¥ì—ì„œ ì±”í”¼ì–¸, ì•„ì´í…œì„ ê³ ë¥¼ ë•Œ 
+// ÃÊ¹ä¿¡¼­ Ã¨ÇÇ¾ğ, ¾ÆÀÌÅÛÀ» °í¸¦ ¶§ 
 struct stSelectedReq : public stHeader
 {
 	int32 UID;
@@ -223,7 +223,7 @@ struct stTTeleportAck : public stHeader
 
 
 // prRClickedReq, prRClickedAck,
-// í…Œì´ë¨¸ì˜ ìš°í´ë¦­ íŒ¨í‚·, ì „ì„¤ì´ê°€ ì´ë™í•  ìœ„ì¹˜ê°’ì„ ë„˜ê²¨ ë™ê¸°í™” (2D í‰ë©´ ìœ„ ì›€ì§ì„ x, y)
+// Å×ÀÌ¸ÓÀÇ ¿ìÅ¬¸¯ ÆĞÅ¶, Àü¼³ÀÌ°¡ ÀÌµ¿ÇÒ À§Ä¡°ªÀ» ³Ñ°Ü µ¿±âÈ­ (2D Æò¸é À§ ¿òÁ÷ÀÓ x, y)
 struct stRClickedReq : public stHeader
 {
 	int32 UID;
@@ -253,7 +253,7 @@ struct stRClickedAck : public stHeader
 };
 
 //	prLClickedReq, prLClickedAck,
-// Drag and drop ì‹œ ë³€ê²½ëœ íƒ€ì¼ì˜ ìœ„ì¹˜
+// Drag and drop ½Ã º¯°æµÈ Å¸ÀÏÀÇ À§Ä¡
 struct stLClickedReq : public stHeader
 {
 	int32 UID;
@@ -282,11 +282,11 @@ struct stLClickedAck : public stHeader
 
 /*
 ==================================================================
-================   ê²Œì„ í”Œë ˆì´ ê´€ë ¨ íŒ¨í‚·   =======================
+================   °ÔÀÓ ÇÃ·¹ÀÌ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 // 	prBoughtReq, prBoughtAck,
-//  ë””ì§€ëª¬ êµ¬ë§¤ì‹œ í˜¸ì¶œ , êµ¬ë§¤í•œ ë””ì§€ëª¬ ëª…ë‹¨ë§Œ ëª¨ë“  í´ë¼ì— ë„˜ê²¨ì£¼ê³  ê° í´ë¼ì˜ ë§¤ë‹ˆì € í´ë˜ìŠ¤ì—ì„œ ë™ê¸°í™” í•˜ë©´ì„œ ê¸°ë¬¼ ì»¨íŠ¸ë¡¤, ê³¨ë“œ ì»¨íŠ¸ë¡¤ 
+//  µğÁö¸ó ±¸¸Å½Ã È£Ãâ , ±¸¸ÅÇÑ µğÁö¸ó ¸í´Ü¸¸ ¸ğµç Å¬¶ó¿¡ ³Ñ°ÜÁÖ°í °¢ Å¬¶óÀÇ ¸Å´ÏÀú Å¬·¡½º¿¡¼­ µ¿±âÈ­ ÇÏ¸é¼­ ±â¹° ÄÁÆ®·Ñ, °ñµå ÄÁÆ®·Ñ 
 struct stBoughtReq : public stHeader
 {
 	int32 UID;
@@ -314,7 +314,7 @@ struct stBoughtAck : public stHeader
 };
 
 // 	prSoldReq, prSoldAck,
-// êµ¬ë§¤ì™€ ë™ì¼
+// ±¸¸Å¿Í µ¿ÀÏ
 struct stSoldReq : public stHeader
 {
 	int32 UID;
@@ -377,7 +377,7 @@ struct stSpawnAck : public stHeader
 
 /*
 ==================================================================
-================   ë””ì§€ëª¬ ë™ì‘ ê´€ë ¨ íŒ¨í‚·   =======================
+================   µğÁö¸ó µ¿ÀÛ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 
@@ -416,129 +416,102 @@ struct stSyncTrAck :public stHeader
 	};
 };
 
-// prSetMoveReq, prSetMoveAck
-struct stSetMoveReq : public stHeader
+
+// 	prMoveReq, prMoveAck,
+// ÀÌµ¿ °ü·Ã ÆĞÅ¶, »ç½Ç ¿©±â°¡ µ¿±âÈ­°¡ Àß µÇ¾î¾ß Àû Å½»ö, ½ºÅ³ »ç¿ë µî µ¿±âÈ­¿¡ ¹®Á¦°¡ ¾ø¾îÁü
+struct stMoveReq : public stHeader
 {
 	int32 UID;
-	int32 Digicode;
+	enDigimon movingDigimon;
+	float v[3];
+	float q[4];
 
-	stSetMoveReq()
+	stMoveReq()
 	{
 		UID = 0;
-		Digicode = 0;
-		SetHeader(prSetMoveReq, sizeof(stSetMoveReq));
+		movingDigimon = enDigimon::NoneDigimon;
+		memset(v, 0, sizeof(v));
+		memset(q, 0, sizeof(q));
+		SetHeader(prMoveReq, sizeof(stMoveReq));
 	};
 };
 
-struct stSetMoveAck : public stHeader
+struct stMoveAck : public stHeader
 {
 	int32 UID;
-	int32 Digicode;
+	enDigimon movingDigimon;
+	float v[3];
+	float q[4];
 
-	stSetMoveAck()
+	stMoveAck()
 	{
 		UID = 0;
-		Digicode = 0;
-		SetHeader(prSetMoveAck, sizeof(stSetMoveAck));
+		movingDigimon = enDigimon::NoneDigimon;
+		memset(v, 0, sizeof(v));
+		memset(q, 0, sizeof(q));
+
+		SetHeader(prMoveAck, sizeof(stMoveAck));
 	};
 };
 
-// prSetTargetReq, prSetTargetAck
-// íƒ€ê²Ÿ ì„¤ì •
-struct stSetTargetReq : public stHeader
+
+// 	prAttackReq, prAttackAck,
+// ÇØ´ç µğÁö¸óÀÇ °ø°İ sign
+struct stAttackReq : public stHeader
 {
 	int32 UID;
-	int32 myDigicode;
-	int32 tgDigicode;
-
-	stSetTargetReq()
+	enDigimon attackDigimon;
+	stAttackReq()
 	{
 		UID = 0;
-		myDigicode = 0;
-		tgDigicode = 0;
-		SetHeader(prSetTargetReq, sizeof(stSetTargetReq));
+		attackDigimon = enDigimon::NoneDigimon;
+
+		SetHeader(prAttackReq, sizeof(stAttackReq));
 	};
 };
 
-struct stSetTargetAck : public stHeader
+struct stAttackAck : public stHeader
 {
 	int32 UID;
-	int32 myDigicode;
-	int32 tgDigicode;
-
-	stSetTargetAck()
+	enDigimon attackDigimon;
+	stAttackAck()
 	{
 		UID = 0;
-		myDigicode = 0;
-		tgDigicode = 0;
-		SetHeader(prSetTargetAck, sizeof(stSetTargetAck));
+		attackDigimon = enDigimon::NoneDigimon;
+
+		SetHeader(prAttackAck, sizeof(stAttackAck));
 	};
 };
 
-// HP
-struct stHpReq : public stHeader
+// ½ºÅ³
+struct stSkillReq : public stHeader
 {
 	int32 UID;
-	int32 Digicode;
-	float Hp;
-
-	stHpReq()
+	enDigimon skilledDigimon;
+	stSkillReq()
 	{
 		UID = 0;
-		Digicode = 0;
-		Hp = 0;
-		SetHeader(prHpReq, sizeof(stHpReq));
+		skilledDigimon = enDigimon::NoneDigimon;
+
+		SetHeader(prSkillReq, sizeof(stSkillReq));
 	};
 };
 
-struct stHpAck : public stHeader
+struct stSkillAck : public stHeader
 {
 	int32 UID;
-	int32 Digicode;
-	float Hp;
-
-	stHpAck()
+	enDigimon skilledDigimon;
+	stSkillAck()
 	{
 		UID = 0;
-		Digicode = 0;
-		Hp = 0;
-		SetHeader(prHpAck, sizeof(stHpAck));
-	};
-};
+		skilledDigimon = enDigimon::NoneDigimon;
 
-// MP
-struct stMpReq : public stHeader
-{
-	int32 UID;
-	int32 Digicode;
-	float Mp;
-
-	stMpReq()
-	{
-		UID = 0;
-		Digicode = 0;
-		Mp = 0;
-		SetHeader(prMpReq, sizeof(stMpReq));
-	};
-};
-
-struct stMpAck : public stHeader
-{
-	int32 UID;
-	int32 Digicode;
-	float Mp;
-
-	stMpAck()
-	{
-		UID = 0;
-		Digicode = 0;
-		Mp = 0;
-		SetHeader(prHpAck, sizeof(stMpAck));
+		SetHeader(prSkillAck, sizeof(stSkillAck));
 	};
 };
 
 // 	prDieReq, prDieAck,
-// ì˜¤ë¸Œì íŠ¸ off
+// ¿ÀºêÁ§Æ® off
 struct stDieReq : public stHeader
 {
 	int32 UID;
@@ -564,9 +537,10 @@ struct stDieAck : public stHeader
 		SetHeader(prDieAck, sizeof(stDieAck));
 	};
 };
+
 /*
 ==================================================================
-================   í¬ë¦½ ë™ê¸°í™” ê´€ë ¨ íŒ¨í‚·   =======================
+================   Å©¸³ µ¿±âÈ­ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 // prCreepDieReq, prCreepDieAck,
@@ -625,11 +599,11 @@ struct stPickingAck : public stHeader
 
 /*
 ==================================================================
-================   ì¥ë¹„ ë™ê¸°í™” ê´€ë ¨ íŒ¨í‚·   =======================
+================   Àåºñ µ¿±âÈ­ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 // 	prAttachedReq, prAttachedAck,
-// ì¥ë¹„ ì°©ìš©ì‹œ attachedDigimon : ì¥ì°©í•˜ëŠ” ë””ì§€ëª¬ , attachedItem : ì¥ë¹„
+// Àåºñ Âø¿ë½Ã attachedDigimon : ÀåÂøÇÏ´Â µğÁö¸ó , attachedItem : Àåºñ
 struct stAttachedReq : public stHeader
 {
 	int32 UID;
@@ -659,7 +633,7 @@ struct stAttachedAck : public stHeader
 };
 
 // 	prDetachedReq, prDetachedAck,
-// attach ì™€ ë™ì¼
+// attach ¿Í µ¿ÀÏ
 struct stDetachedReq : public stHeader
 {
 	int32 UID;
@@ -690,7 +664,7 @@ struct stDetachedAck : public stHeader
 
 /*
 ==================================================================
-================   ì¦ê°• ë™ê¸°í™” ê´€ë ¨ íŒ¨í‚·   =======================
+================   Áõ°­ µ¿±âÈ­ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 
@@ -723,7 +697,7 @@ struct stArgPicKedAck : public stHeader
 
 /*
 ==================================================================
-================   ê²Œì„ ì‹œìŠ¤í…œ ê´€ë ¨ íŒ¨í‚·   =======================
+================   °ÔÀÓ ½Ã½ºÅÛ °ü·Ã ÆĞÅ¶   =======================
 ==================================================================
 */
 

@@ -63,10 +63,9 @@ public: //RECV
 	void RecvSold(char* packet);
 	void RecvSpawn(char* packet);
 	void RecvTransform(char* packet);
-	void RecvSetMove(char* packet);
-	void RecvTarget(char* packet);
-	void RecvSetHp(char* packet);
-	void RecvSetMp(char* packet);
+	void RecvAttack(char* packet);
+	void RecvSkill(char* packet);
+	void RecvMove(char* packet);
 	void RecvDie(char* packet);
 	void RecvAttached(char* packet);
 	void RecvDetached(char* packet);
