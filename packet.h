@@ -533,7 +533,7 @@ struct stMpAck : public stHeader
 		UID = 0;
 		Digicode = 0;
 		Mp = 0;
-		SetHeader(prHpAck, sizeof(stMpAck));
+		SetHeader(prMpAck, sizeof(stMpAck));
 	};
 };
 

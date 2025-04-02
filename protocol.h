@@ -7,49 +7,50 @@
 
 enum enProtocol
 {
-	PROTOCOL_START = 0,
-	prConnectAck,
-	prLoginReq, prLoginAck,
-	prEnterLobbyReq, prEnterLobbyAck,
-	prMyInfo,
-	prGetUserInfo,
-	prEnterGame,
-	prLoadingFinishgReq, prLoadingFinishAck,
-	prStartGame,
-	// 테이머 동작 동기화 관련
-	prSelectedReq, prSelectedAck,   // 초밥 선택
-	prTTelePortReq, prTTelePortAck, // 텔레포트
-	prRClickedReq, prRClickedAck,	// 이동 신호
-	prLClickedReq, prLClickedAck,   // Drag Drop 시 Drop 에서 
-	// 게임 정보 동기화 관련
-	prBoughtReq, prBoughtAck,
-	prSoldReq, prSoldAck,
-	prSpawnReq, prSpawnAck,
-	// 디지몬 동작 동기화 관련
-	prSyncTrReq, prSyncTrAck,
-	prSetMoveReq, prSetMoveAck, 
-	prSetTargetReq, prSetTargetAck,
-	prHpReq, prHpAck, 
-	prMpReq, prMpAck,
-	prDieReq, prDieAck,
-	// 크립 동기화 관련
-	prCreepDieReq, prCreepDieAck,
-	prPickingReq, prPickingAck,
-	// 장비 동기화 관련
-	prAttachedReq, prAttachedAck,
-	prDetachedReq, prDetachedAck,
-	// 증강 동기화 관련
-	prArgPickedReq, prArgPicKedAck,
-	// 게임 플로우 관련
-	prEncounterStart, prEncounterFin,
-	prFadeInStart, prFadeInFin,
-	prBattleReadyStart, prBattleReadyFin,
-	prBattleStart, prBattleFin,
-	prManageStart, prManageFin,
+    PROTOCOL_START = 0,
+    // 게임 플로우 관련
+    prConnectAck,
+    prLoginReq, prLoginAck,
+    prEnterLobbyReq, prEnterLobbyAck,
+    prMyInfo,
+    prGetUserInfo,
+    prEnterGame,
+    prLoadingFinishgReq, prLoadingFinishAck,
+    prStartGame,
+    // 테이머 동작 동기화 관련
+    prSelectedReq, prSelectedAck,   // 초밥 선택
+    prTTelePortReq, prTTelePortAck, // 텔레포트
+    prRClickedReq, prRClickedAck, // 이동 신호
+    prLClickedReq, prLClickedAck,   // Drag Drop 시 Drop 에서 
+    // 게임 정보 동기화 관련
+    prBoughtReq, prBoughtAck,
+    prSoldReq, prSoldAck,
+    prSpawnReq, prSpawnAck,
+    // 디지몬 동작 동기화 관련
+    prSyncTrReq, prSyncTrAck,
+    prSetMoveReq, prSetMoveAck,
+    prSetTargetReq, prSetTargetAck,
+    prHpReq, prHpAck,
+    prMpReq, prMpAck,
+    prDieReq, prDieAck,
+    // 크립 동기화 관련
+    prCreepDieReq, prCreepDieAck,
+    prPickingReq, prPickingAck,
+    // 장비 동기화 관련
+    prAttachedReq, prAttachedAck,
+    prDetachedReq, prDetachedAck,
+    // 증강 동기화 관련
+    prArgPickedReq, prArgPicKedAck,
+    // 게임 플로우 타이머 관련
+    prEncounterStart, prEncounterFin,
+    prFadeInStart, prFadeInFin,
+    prBattleReadyStart, prBattleReadyFin,
+    prBattleStart, prBattleFin,
+    prManageStart, prManageFin,
 
-	prRoundStart,	prRoundFin,
+    prRoundStart, prRoundFin,
 
-	PROTOCOL_END
+    PROTOCOL_END
 };
 
 
