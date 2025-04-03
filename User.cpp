@@ -239,6 +239,7 @@ void User::Parse(int protocol, char* packet)
 	case prSyncTrReq:			RecvTransform(packet); break;
 	case prSetMoveReq:			RecvSetMove(packet); break;
 	case prSetAttackReq:		RecvSetAttack(packet); break;
+	case prSetWinReq:			RecvSetWin(packet); break;
 	case prSetTargetReq:		RecvTarget(packet);	break;
 	case prHpReq:				RecvSetHp(packet); break;
 	case prMpReq:				RecvSetMp(packet); break;
@@ -689,6 +690,23 @@ void User::RecvSetAttack(char* packet)
 	memcpy(buffer, &ack, sizeof(stSetAttackAck));
 
 	g_User.SendAll(buffer, sizeof(stSetAttackAck));
+}
+
+void User::RecvSetWin(char* packet)
+{
+	stSetWinReq req;
+	memcpy(&req, packet, sizeof(stSetWinReq));
+
+	stSetWinAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetWinAck));
+
+	g_User.SendAll(buffer, sizeof(stSetWinAck));
 }
 
 void User::RecvTarget(char* packet)

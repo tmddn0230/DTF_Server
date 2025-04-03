@@ -17312,3 +17312,1933 @@ Player : [0] MoveTo ([-42.848034], [-0.000000], [4.459697])
 Player : [0] MoveTo ([-42.017445], [0.169240], [3.750839]) 
 Picking Item
 Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [0] MoveTo ([-1.953189], [0.000000], [-8.090215]) 
+Player : [0] MoveTo ([-1.953189], [0.000000], [-8.090215]) 
+Player : [0] MoveTo ([-0.579588], [0.000000], [-8.987812]) 
+Player : [0] MoveTo ([-0.579588], [0.000000], [-8.987812]) 
+Player : [1] MoveTo ([4.482850], [0.000000], [-7.390334]) 
+Player : [1] MoveTo ([4.482850], [0.000000], [-7.390334]) 
+Player : [0] MoveTo ([2.369301], [0.000000], [-5.770527]) 
+Player : [0] MoveTo ([2.369301], [0.000000], [-5.770527]) 
+Player : [1] MoveTo ([6.078239], [-0.000000], [0.297165]) 
+Player : [1] MoveTo ([6.078239], [-0.000000], [0.297165]) 
+Player : [0] MoveTo ([2.977830], [0.000000], [-3.449148]) 
+Player : [0] MoveTo ([2.977830], [0.000000], [-3.449148]) 
+Player : [0] MoveTo ([-0.798682], [0.000000], [-5.289083]) 
+Player : [0] MoveTo ([-0.798682], [0.000000], [-5.289083]) 
+Player : [0] MoveTo ([12.033194], [0.000000], [-9.535684]) 
+Player : [0] MoveTo ([12.033194], [0.000000], [-9.535684]) 
+Player : [0] MoveTo ([11.320237], [0.000000], [-3.125107]) 
+Player : [0] MoveTo ([11.320237], [0.000000], [-3.125107]) 
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Player : [0] MoveTo ([-40.374298], [1.547573], [-7.547319]) 
+Player : [0] MoveTo ([-40.374298], [1.547573], [-7.547319]) 
+Player : [0] MoveTo ([-40.455715], [0.000000], [-5.515127]) 
+Player : [0] MoveTo ([-40.455715], [0.000000], [-5.515127]) 
+Battle Ready Finish
+Battle Ready Finish
+Player : [1] MoveTo ([39.067856], [0.100000], [-6.599108]) 
+Player : [1] MoveTo ([39.067856], [0.100000], [-6.599108]) 
+Player : [1] MoveTo ([38.622200], [-0.000000], [-0.070971]) 
+Player : [1] MoveTo ([38.622200], [-0.000000], [-0.070971]) 
+Creep Die : [1] of [1]
+Creep Die : [1] of [1]
+Battle Finish
+Battle Finish
+Player : [1] MoveTo ([38.156021], [0.242481], [3.838664]) 
+Player : [1] MoveTo ([38.156021], [0.242481], [3.838664]) 
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Player : [1] MoveTo ([37.047813], [0.000000], [-0.142928]) 
+Player : [1] MoveTo ([37.047813], [0.000000], [-0.142928]) 
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Player : [1] MoveTo ([40.437622], [0.276386], [2.277549]) 
+Player : [1] MoveTo ([40.437622], [0.276386], [2.277549]) 
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Creep Die : [0] of [1]
+Creep Die : [0] of [1]
+Player : [1] MoveTo ([42.986092], [0.391227], [3.916298]) 
+Player : [1] MoveTo ([42.986092], [0.391227], [3.916298]) 
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Manage Finish
+Manage Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Player : [0] MoveTo ([-41.511227], [1.547573], [-7.641121]) 
+Player : [0] MoveTo ([-41.511227], [1.547573], [-7.641121]) 
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Player : [1] MoveTo ([37.508556], [0.320357], [4.110017]) 
+Player : [1] MoveTo ([37.508556], [0.320357], [4.110017]) 
+Player : [1] MoveTo ([37.701096], [0.344970], [3.886082]) 
+Player : [1] MoveTo ([37.701096], [0.344970], [3.886082]) 
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Battle Finish
+Battle Finish
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Creep Die : [2] of [0]
+Player : [1] MoveTo ([40.710968], [0.311863], [2.318488]) 
+Player : [1] MoveTo ([40.710968], [0.311863], [2.318488]) 
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Creep Die : [0] of [1]
+Creep Die : [0] of [1]
+Creep Die : [0] of [1]
+Player : [1] MoveTo ([42.987259], [0.351167], [3.877524]) 
+Player : [1] MoveTo ([42.987259], [0.351167], [3.877524]) 
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Picking Item
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Manage Finish
+Manage Finish
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Battle Finish
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [0]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [0] of [1]
+Creep Die : [0] of [1]
+Creep Die : [1] of [1]
+Creep Die : [1] of [1]
+Player : [1] MoveTo ([37.761745], [0.467979], [3.998442]) 
+Player : [1] MoveTo ([37.761745], [0.467979], [3.998442]) 
+Player : [1] MoveTo ([37.818542], [0.323055], [3.822236]) 
+Player : [1] MoveTo ([37.818542], [0.323055], [3.822236]) 
+Battle Finish
+Battle Finish
+Player : [1] MoveTo ([42.442947], [0.000000], [0.443544]) 
+Player : [1] MoveTo ([42.442947], [0.000000], [0.443544]) 
+Player : [1] MoveTo ([43.332638], [0.313253], [3.835691]) 
+Player : [1] MoveTo ([43.332638], [0.313253], [3.835691]) 
+Player : [1] MoveTo ([42.510750], [0.000000], [-1.573040]) 
+Player : [1] MoveTo ([42.510750], [0.000000], [-1.573040]) 
+Player : [1] MoveTo ([44.402008], [-0.000000], [2.107711]) 
+Player : [1] MoveTo ([44.402008], [-0.000000], [2.107711]) 
+Player : [1] MoveTo ([40.956791], [0.000000], [-4.191111]) 
+Player : [1] MoveTo ([40.956791], [0.000000], [-4.191111]) 
+Teleport_Tamer[1] to [0]
+Teleport_Tamer[1] to [0]
+Player : [1] MoveTo ([-39.028999], [0.000000], [-2.686620]) 
+Player : [1] MoveTo ([-39.028999], [0.000000], [-2.686620]) 
+Player : [1] MoveTo ([-40.648415], [0.000000], [-0.705678]) 
+Player : [1] MoveTo ([-40.648415], [0.000000], [-0.705678]) 
+Player : [1] MoveTo ([-42.828175], [0.000000], [-1.312089]) 
+Player : [1] MoveTo ([-42.828175], [0.000000], [-1.312089]) 
+Player : [0] MoveTo ([-36.841846], [0.000000], [-0.699147]) 
+Player : [0] MoveTo ([-36.841846], [0.000000], [-0.699147]) 
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Player : [0] MoveTo ([-36.597317], [0.000000], [-1.821066]) 
+Player : [0] MoveTo ([-36.597317], [0.000000], [-1.821066]) 
+Manage Finish
+Manage Finish
+Battle Ready Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([0.728111], [0.000000], [-7.323512]) 
+Player : [1] MoveTo ([0.728111], [0.000000], [-7.323512]) 
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Player : [0] MoveTo ([-39.065117], [0.000000], [-0.966530]) 
+Player : [0] MoveTo ([-39.065117], [0.000000], [-0.966530]) 
+Creep Die : [1] of [0]
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-42.886662], [0.000000], [-1.400692]) 
+Player : [0] MoveTo ([-42.886662], [0.000000], [-1.400692]) 
+Creep Die : [0] of [1]
+Player : [1] MoveTo ([43.119484], [-0.000000], [3.604992]) 
+Player : [1] MoveTo ([43.119484], [-0.000000], [3.604992]) 
+Player : [1] MoveTo ([42.880817], [0.316447], [3.925469]) 
+Player : [1] MoveTo ([42.880817], [0.316447], [3.925469]) 
+Player : [1] MoveTo ([43.303707], [0.031203], [3.749370]) 
+Player : [1] MoveTo ([43.303707], [0.031203], [3.749370]) 
+Creep Die : [1] of [1]
+Creep Die : [1] of [1]
+Battle Finish
+Player : [1] MoveTo ([40.810474], [-0.000000], [6.099402]) 
+Player : [1] MoveTo ([40.810474], [-0.000000], [6.099402]) 
+Player : [1] MoveTo ([39.059143], [-0.000000], [6.316150]) 
+Player : [1] MoveTo ([39.059143], [-0.000000], [6.316150]) 
+Player : [1] MoveTo ([37.816177], [0.274722], [3.794652]) 
+Player : [1] MoveTo ([37.816177], [0.274722], [3.794652]) 
+Player : [1] MoveTo ([39.500122], [0.000000], [-0.636544]) 
+Player : [1] MoveTo ([39.500122], [0.000000], [-0.636544]) 
+Creep Die : [2] of [0]
+Creep Die : [2] of [0]
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [1]
+Player : [0] MoveTo ([-41.591530], [-0.000000], [1.647145]) 
+Player : [0] MoveTo ([-41.591530], [-0.000000], [1.647145]) 
+Player : [0] MoveTo ([-42.213753], [0.277833], [3.803951]) 
+Player : [0] MoveTo ([-42.213753], [0.277833], [3.803951]) 
+Battle Finish
+Player : [0] MoveTo ([-43.599854], [-0.000000], [5.897655]) 
+Player : [0] MoveTo ([-43.599854], [-0.000000], [5.897655]) 
+Player : [0] MoveTo ([-39.557030], [-0.000000], [5.759316]) 
+Player : [0] MoveTo ([-39.557030], [-0.000000], [5.759316]) 
+Player : [1] MoveTo ([40.436634], [0.404289], [2.373096]) 
+Player : [1] MoveTo ([40.436634], [0.404289], [2.373096]) 
+Player : [1] MoveTo ([40.436634], [0.404289], [2.373096]) 
+Player : [1] MoveTo ([40.436634], [0.404289], [2.373096]) 
+Player : [1] MoveTo ([40.145653], [0.000000], [-1.443192]) 
+Player : [1] MoveTo ([40.145653], [0.000000], [-1.443192]) 
+Picking Item
+Player : [0] MoveTo ([-37.131557], [-0.000000], [4.058804]) 
+Player : [0] MoveTo ([-37.131557], [-0.000000], [4.058804]) 
+Player : [0] MoveTo ([-40.780518], [0.000000], [-1.821066]) 
+Player : [0] MoveTo ([-40.780518], [0.000000], [-1.821066]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tanemon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([4.143667], [0.000000], [-4.195537]) 
+Player : [1] MoveTo ([4.143667], [0.000000], [-4.195537]) 
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Creep Die : [0] of [0]
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.44
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Battle Finish
+Battle Finish
+Creep Die : [1] of [0]
+Creep Die : [1] of [0]
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-42.188805], [-0.000000], [3.512780]) 
+Player : [0] MoveTo ([-42.188805], [-0.000000], [3.512780]) 
+Player : [0] MoveTo ([-42.179035], [0.408158], [3.892782]) 
+Player : [0] MoveTo ([-42.179035], [0.408158], [3.892782]) 
+Picking Item
+Picking Item
+Picking Item
+Manage Finish
+Manage Finish
+Creep Die : [2] of [0]
+Creep Die : [2] of [0]
+Creep Die : [2] of [0]
+Battle Ready Finish
+Battle Ready Finish
+Player : [0] MoveTo ([-39.509319], [0.445168], [2.406963]) 
+Player : [0] MoveTo ([-39.509319], [0.445168], [2.406963]) 
+Picking Item
+Picking Item
+Picking Item
+Battle Finish
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[1] to [0]
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-41.602070], [-0.000000], [4.459692]) 
+Player : [0] MoveTo ([-42.006813], [0.409328], [3.891155]) 
+Picking Item
+Creep Die : [2] of [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([4.253850], [0.000000], [-6.148357]) 
+Player : [1] MoveTo ([4.253850], [0.000000], [-6.148357]) 
+Player : [0] MoveTo ([5.646106], [0.000000], [-4.994276]) 
+Player : [0] MoveTo ([5.646106], [0.000000], [-4.994276]) 
+Player : [0] MoveTo ([1.322131], [0.000000], [-10.140847]) 
+Player : [0] MoveTo ([1.322131], [0.000000], [-10.140847]) 
+Player : [1] MoveTo ([7.724419], [0.000000], [-0.663009]) 
+Player : [1] MoveTo ([7.724419], [0.000000], [-0.663009]) 
+Player : [0] MoveTo ([3.594336], [0.000000], [-7.921990]) 
+Player : [0] MoveTo ([3.594336], [0.000000], [-7.921990]) 
+Player : [0] MoveTo ([7.626753], [0.077309], [-1.242708]) 
+Player : [0] MoveTo ([7.626753], [0.077309], [-1.242708]) 
+Player : [1] MoveTo ([4.355797], [-0.000000], [6.457137]) 
+Player : [1] MoveTo ([4.355797], [-0.000000], [6.457137]) 
+Player : [0] MoveTo ([8.277436], [-0.000000], [2.172397]) 
+Player : [0] MoveTo ([8.277436], [-0.000000], [2.172397]) 
+Player : [0] MoveTo ([4.139823], [-0.000000], [1.083931]) 
+Player : [0] MoveTo ([4.139823], [-0.000000], [1.083931]) 
+Player : [1] MoveTo ([-4.651111], [-0.000000], [2.032349]) 
+Player : [1] MoveTo ([-4.651111], [-0.000000], [2.032349]) 
+Player : [0] MoveTo ([4.114277], [0.316328], [3.443256]) 
+Player : [0] MoveTo ([4.114277], [0.316328], [3.443256]) 
+Player : [0] MoveTo ([-8.153982], [0.000000], [-1.657994]) 
+Player : [0] MoveTo ([-8.153982], [0.000000], [-1.657994]) 
+Player : [1] MoveTo ([-4.314682], [0.000000], [-3.470934]) 
+Player : [1] MoveTo ([-4.314682], [0.000000], [-3.470934]) 
+Player : [0] MoveTo ([-9.005677], [0.000000], [-8.090214]) 
+Player : [0] MoveTo ([-9.005677], [0.000000], [-8.090214]) 
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Player : [1] MoveTo ([-2.961483], [0.000000], [-4.894214]) 
+Player : [1] MoveTo ([-2.961483], [0.000000], [-4.894214]) 
+Player : [1] MoveTo ([-2.663889], [0.000000], [-5.346354]) 
+Player : [1] MoveTo ([-2.663889], [0.000000], [-5.346354]) 
+Player : [0] MoveTo ([-3.679398], [0.000000], [-7.808656]) 
+Player : [0] MoveTo ([-3.679398], [0.000000], [-7.808656]) 
+Player : [1] MoveTo ([36.723656], [1.547573], [-7.518939]) 
+Player : [1] MoveTo ([36.723656], [1.547573], [-7.518939]) 
+Player : [1] MoveTo ([33.426334], [1.547573], [-7.555082]) 
+Player : [1] MoveTo ([33.426334], [1.547573], [-7.555082]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Player : [0] MoveTo ([-37.792187], [0.000000], [-3.949119]) 
+Player : [0] MoveTo ([-37.792187], [0.000000], [-3.949119]) 
+Player : [0] MoveTo ([-39.175495], [0.000000], [-2.387707]) 
+Player : [0] MoveTo ([-39.175495], [0.000000], [-2.387707]) 
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Battle Finish
+Player : [1] MoveTo ([37.058437], [-0.000000], [0.746138]) 
+Player : [1] MoveTo ([37.058437], [-0.000000], [0.746138]) 
+Battle Finish
+Player : [1] MoveTo ([37.693092], [0.197053], [3.806732]) 
+Player : [1] MoveTo ([37.693092], [0.197053], [3.806732]) 
+Picking Item
+Creep Die : [2] of [0]
+Player : [1] MoveTo ([38.832375], [-0.000000], [-0.214519]) 
+Player : [1] MoveTo ([38.832375], [-0.000000], [-0.214519]) 
+Player : [1] MoveTo ([36.749763], [0.000000], [-1.045919]) 
+Player : [1] MoveTo ([36.749763], [0.000000], [-1.045919]) 
+Creep Die : [2] of [1]
+Player : [1] MoveTo ([37.116070], [-0.000000], [1.775819]) 
+Player : [1] MoveTo ([37.116070], [-0.000000], [1.775819]) 
+Player : [1] MoveTo ([38.484760], [0.000000], [-2.863138]) 
+Player : [1] MoveTo ([38.484760], [0.000000], [-2.863138]) 
+Player : [1] MoveTo ([40.437851], [-0.000000], [1.940859]) 
+Player : [1] MoveTo ([40.437851], [-0.000000], [1.940859]) 
+Player : [1] MoveTo ([40.656429], [0.275427], [2.278735]) 
+Player : [1] MoveTo ([40.656429], [0.275427], [2.278735]) 
+Picking Item
+Player : [1] MoveTo ([39.862968], [0.000000], [-2.979419]) 
+Player : [1] MoveTo ([39.862968], [0.000000], [-2.979419]) 
+Player : [1] MoveTo ([37.898212], [0.000000], [-1.246032]) 
+Player : [1] MoveTo ([37.898212], [0.000000], [-1.246032]) 
+Player : [1] MoveTo ([42.269066], [0.000000], [0.220733]) 
+Player : [1] MoveTo ([42.269066], [0.000000], [0.220733]) 
+Player : [1] MoveTo ([40.694340], [0.000000], [-4.243381]) 
+Player : [1] MoveTo ([40.694340], [0.000000], [-4.243381]) 
+Player : [1] MoveTo ([38.035244], [0.000000], [-0.427148]) 
+Player : [1] MoveTo ([38.035244], [0.000000], [-0.427148]) 
+Player : [1] MoveTo ([41.313339], [-0.000000], [1.940858]) 
+Player : [1] MoveTo ([41.313339], [-0.000000], [1.940858]) 
+Player : [1] MoveTo ([41.455688], [0.000000], [-1.443193]) 
+Player : [1] MoveTo ([41.455688], [0.000000], [-1.443193]) 
+Creep Die : [0] of [0]
+Player : [1] MoveTo ([41.908092], [0.000000], [0.220731]) 
+Player : [1] MoveTo ([41.908092], [0.000000], [0.220731]) 
+Player : [1] MoveTo ([38.550941], [0.000000], [-3.208875]) 
+Player : [1] MoveTo ([38.550941], [0.000000], [-3.208875]) 
+Player : [1] MoveTo ([45.643497], [-0.000000], [1.133613]) 
+Player : [1] MoveTo ([45.643497], [-0.000000], [1.133613]) 
+Player : [1] MoveTo ([40.860970], [0.000000], [-0.285801]) 
+Player : [1] MoveTo ([40.860970], [0.000000], [-0.285801]) 
+Player : [1] MoveTo ([39.620247], [-0.000000], [1.694018]) 
+Player : [1] MoveTo ([39.620247], [-0.000000], [1.694018]) 
+Player : [1] MoveTo ([38.571850], [-0.000000], [4.557561]) 
+Player : [1] MoveTo ([38.571850], [-0.000000], [4.557561]) 
+Player : [1] MoveTo ([41.629333], [0.000000], [-0.978563]) 
+Player : [1] MoveTo ([41.629333], [0.000000], [-0.978563]) 
+Creep Die : [0] of [1]
+Player : [1] MoveTo ([45.432011], [-0.000000], [4.655996]) 
+Player : [1] MoveTo ([45.432011], [-0.000000], [4.655996]) 
+Player : [1] MoveTo ([43.624115], [-0.000000], [3.979219]) 
+Player : [1] MoveTo ([43.624115], [-0.000000], [3.979219]) 
+Player : [1] MoveTo ([43.355938], [0.087590], [3.767337]) 
+Player : [1] MoveTo ([43.355938], [0.087590], [3.767337]) 
+Picking Item
+Player : [1] MoveTo ([41.845570], [0.000000], [-4.501411]) 
+Player : [1] MoveTo ([41.845570], [0.000000], [-4.501411]) 
+Player : [1] MoveTo ([40.135014], [0.000000], [-3.378187]) 
+Player : [1] MoveTo ([40.135014], [0.000000], [-3.378187]) 
+Player : [1] MoveTo ([36.432602], [0.000000], [0.294629]) 
+Player : [1] MoveTo ([36.432602], [0.000000], [0.294629]) 
+Player : [1] MoveTo ([36.177177], [-0.000000], [1.055302]) 
+Player : [1] MoveTo ([36.177177], [-0.000000], [1.055302]) 
+Player : [1] MoveTo ([43.086620], [0.000000], [-3.151879]) 
+Player : [1] MoveTo ([43.086620], [0.000000], [-3.151879]) 
+Player : [1] MoveTo ([42.136692], [0.000000], [-4.603023]) 
+Player : [1] MoveTo ([42.136692], [0.000000], [-4.603023]) 
+Player : [1] MoveTo ([38.640064], [0.000000], [-5.432637]) 
+Player : [1] MoveTo ([38.640064], [0.000000], [-5.432637]) 
+Player : [1] MoveTo ([38.004635], [-0.000000], [0.001399]) 
+Player : [1] MoveTo ([38.004635], [-0.000000], [0.001399]) 
+Manage Finish
+Player : [0] MoveTo ([-34.681278], [-0.000000], [2.748541]) 
+Player : [0] MoveTo ([-34.681278], [-0.000000], [2.748541]) 
+Player : [0] MoveTo ([-38.355469], [-0.000000], [4.058804]) 
+Player : [0] MoveTo ([-38.355469], [-0.000000], [4.058804]) 
+Player : [0] MoveTo ([-39.581013], [-0.000000], [3.935119]) 
+Player : [0] MoveTo ([-39.581013], [-0.000000], [3.935119]) 
+Picking Item
+Player : [1] MoveTo ([58.762939], [-0.000000], [8.521428]) 
+Player : [1] MoveTo ([58.762939], [-0.000000], [8.521428]) 
+Player : [1] MoveTo ([58.762939], [-0.000000], [8.521428]) 
+Player : [1] MoveTo ([58.762939], [-0.000000], [8.521428]) 
+Player : [1] MoveTo ([59.354401], [-0.000000], [9.537269]) 
+Player : [1] MoveTo ([59.354401], [-0.000000], [9.537269]) 
+Player : [1] MoveTo ([60.122509], [-0.000000], [10.750004]) 
+Player : [1] MoveTo ([60.122509], [-0.000000], [10.750004]) 
+Player : [1] MoveTo ([60.122509], [-0.000000], [10.750004]) 
+Player : [1] MoveTo ([60.122509], [-0.000000], [10.750004]) 
+Player : [1] MoveTo ([60.848354], [-0.000000], [9.022350]) 
+Player : [1] MoveTo ([60.848354], [-0.000000], [9.022350]) 
+Player : [1] MoveTo ([64.864624], [-0.000000], [12.955524]) 
+Player : [1] MoveTo ([64.864624], [-0.000000], [12.955524]) 
+Player : [1] MoveTo ([68.102280], [-0.000000], [17.059982]) 
+Player : [1] MoveTo ([68.102280], [-0.000000], [17.059982]) 
+Player : [1] MoveTo ([67.414391], [-0.000000], [15.958575]) 
+Player : [1] MoveTo ([67.414391], [-0.000000], [15.958575]) 
+Player : [0] MoveTo ([-32.113194], [-0.000000], [5.217175]) 
+Player : [0] MoveTo ([-32.113194], [-0.000000], [5.217175]) 
+Manage Finish
+Player : [1] MoveTo ([67.414391], [-0.000000], [15.958575]) 
+Player : [1] MoveTo ([67.414391], [-0.000000], [15.958575]) 
+Picking Item
+Player : [1] MoveTo ([68.161072], [-0.000000], [16.502516]) 
+Player : [1] MoveTo ([68.161072], [-0.000000], [16.502516]) 
+Player : [1] MoveTo ([68.091728], [-0.000000], [16.138397]) 
+Player : [1] MoveTo ([68.091728], [-0.000000], [16.138397]) 
+Player : [0] MoveTo ([-34.944801], [-0.000000], [1.228400]) 
+Player : [0] MoveTo ([-34.944801], [-0.000000], [1.228400]) 
+Player : [1] MoveTo ([68.172440], [-0.000000], [16.138401]) 
+Player : [1] MoveTo ([68.172440], [-0.000000], [16.138401]) 
+Player : [0] MoveTo ([-36.499004], [-0.000000], [1.647150]) 
+Player : [0] MoveTo ([-36.499004], [-0.000000], [1.647150]) 
+Player : [1] MoveTo ([65.636078], [-0.000000], [13.111485]) 
+Player : [1] MoveTo ([65.636078], [-0.000000], [13.111485]) 
+Player : [0] MoveTo ([-42.323460], [-0.000000], [0.231671]) 
+Player : [0] MoveTo ([-42.323460], [-0.000000], [0.231671]) 
+Player : [1] MoveTo ([65.560898], [-0.000000], [13.111490]) 
+Player : [1] MoveTo ([65.560898], [-0.000000], [13.111490]) 
+Player : [0] MoveTo ([-42.323460], [-0.000000], [0.231671]) 
+Player : [0] MoveTo ([-42.323460], [-0.000000], [0.231671]) 
+Player : [1] MoveTo ([65.560898], [-0.000000], [13.111490]) 
+Player : [1] MoveTo ([65.560898], [-0.000000], [13.111490]) 
+Player : [1] MoveTo ([65.560898], [-0.000000], [13.111490]) 
+Player : [0] MoveTo ([-48.218079], [-0.000000], [8.436073]) 
+Player : [0] MoveTo ([-48.218079], [-0.000000], [8.436073]) 
+Player : [1] MoveTo ([65.560898], [-0.000000], [13.111490]) 
+Player : [0] MoveTo ([-47.828609], [-0.000000], [13.774363]) 
+Player : [0] MoveTo ([-47.828609], [-0.000000], [13.774363]) 
+Picking Item
+Player : [1] MoveTo ([48.806854], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([48.806854], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([48.806854], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([48.806854], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([48.806854], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([48.806854], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([47.230919], [0.000000], [-2.627246]) 
+Player : [1] MoveTo ([47.230919], [0.000000], [-2.627246]) 
+Player : [0] MoveTo ([-36.956173], [-0.000000], [1.332006]) 
+Player : [0] MoveTo ([-36.956173], [-0.000000], [1.332006]) 
+Player : [1] MoveTo ([44.500156], [0.000000], [-2.863139]) 
+Player : [1] MoveTo ([44.500156], [0.000000], [-2.863139]) 
+Player : [1] MoveTo ([44.316479], [0.000000], [-2.863140]) 
+Player : [1] MoveTo ([44.316479], [0.000000], [-2.863140]) 
+Player : [1] MoveTo ([42.970551], [0.000000], [0.518613]) 
+Player : [1] MoveTo ([42.970551], [0.000000], [0.518613]) 
+Player : [1] MoveTo ([42.873917], [-0.000000], [0.594041]) 
+Player : [1] MoveTo ([42.873917], [-0.000000], [0.594041]) 
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+InValid Digicode in User[0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Player : [0] MoveTo ([-0.768831], [0.000000], [-11.046481]) 
+Player : [0] MoveTo ([5.571004], [0.000000], [-6.005088]) 
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+AddUser: 0 172.30.1.72
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tanemon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [0] MoveTo ([-5.347138], [-0.000000], [6.945310]) 
+Player : [0] MoveTo ([-5.347138], [-0.000000], [6.945310]) 
+Player : [1] MoveTo ([-1.821899], [0.000000], [-1.581929]) 
+Player : [1] MoveTo ([-1.821899], [0.000000], [-1.581929]) 
+Player : [1] MoveTo ([-3.466607], [-0.000000], [2.032350]) 
+Player : [1] MoveTo ([-3.466607], [-0.000000], [2.032350]) 
+Player : [0] MoveTo ([-0.846383], [-0.000000], [12.412793]) 
+Player : [0] MoveTo ([-0.846383], [-0.000000], [12.412793]) 
+Player : [1] MoveTo ([-3.407488], [-0.000000], [3.455060]) 
+Player : [1] MoveTo ([-3.407488], [-0.000000], [3.455060]) 
+Player : [1] MoveTo ([-2.915711], [-0.000000], [6.329710]) 
+Player : [1] MoveTo ([-2.915711], [-0.000000], [6.329710]) 
+Player : [1] MoveTo ([-2.507651], [-0.000000], [6.843373]) 
+Player : [1] MoveTo ([-2.507651], [-0.000000], [6.843373]) 
+Player : [0] MoveTo ([12.357404], [-0.000000], [6.945367]) 
+Player : [0] MoveTo ([12.357404], [-0.000000], [6.945367]) 
+Player : [1] MoveTo ([0.294638], [-0.000000], [7.768444]) 
+Player : [1] MoveTo ([0.294638], [-0.000000], [7.768444]) 
+Player : [1] MoveTo ([1.250748], [-0.000000], [6.973512]) 
+Player : [1] MoveTo ([1.250748], [-0.000000], [6.973512]) 
+Player : [0] MoveTo ([18.712717], [-0.000000], [4.517162]) 
+Player : [0] MoveTo ([18.712717], [-0.000000], [4.517162]) 
+Player : [1] MoveTo ([1.504828], [-0.000000], [6.713966]) 
+Player : [1] MoveTo ([1.504828], [-0.000000], [6.713966]) 
+Player : [1] MoveTo ([2.758866], [-0.000000], [5.826382]) 
+Player : [1] MoveTo ([2.758866], [-0.000000], [5.826382]) 
+Player : [1] MoveTo ([4.410492], [-0.000000], [3.455060]) 
+Player : [1] MoveTo ([4.410492], [-0.000000], [3.455060]) 
+Player : [0] MoveTo ([10.644276], [0.000000], [-7.232673]) 
+Player : [1] MoveTo ([5.301375], [-0.000000], [1.404419]) 
+Player : [0] MoveTo ([10.644276], [0.000000], [-7.232673]) 
+Player : [1] MoveTo ([5.301375], [-0.000000], [1.404419]) 
+Player : [1] MoveTo ([5.432240], [-0.000000], [0.593691]) 
+Player : [1] MoveTo ([5.432240], [-0.000000], [0.593691]) 
+Player : [1] MoveTo ([5.394655], [-0.000000], [0.297162]) 
+Player : [1] MoveTo ([5.394655], [-0.000000], [0.297162]) 
+Player : [1] MoveTo ([5.033352], [0.000000], [-1.401326]) 
+Player : [1] MoveTo ([5.033352], [0.000000], [-1.401326]) 
+Player : [1] MoveTo ([6.159361], [-0.000000], [-0.188209]) 
+Player : [1] MoveTo ([6.159361], [-0.000000], [-0.188209]) 
+Player : [0] MoveTo ([22.628521], [-0.000000], [29.638933]) 
+Player : [0] MoveTo ([22.628521], [-0.000000], [29.638933]) 
+Player : [1] MoveTo ([6.125526], [0.000000], [-2.375887]) 
+Player : [1] MoveTo ([6.125526], [0.000000], [-2.375887]) 
+Player : [0] MoveTo ([6.970576], [-0.000000], [11.186391]) 
+Player : [0] MoveTo ([6.970576], [-0.000000], [11.186391]) 
+Player : [1] MoveTo ([6.885147], [-0.000000], [0.593691]) 
+Player : [1] MoveTo ([6.885147], [-0.000000], [0.593691]) 
+Player : [0] MoveTo ([1.254097], [-0.000000], [6.109143]) 
+Player : [0] MoveTo ([1.254097], [-0.000000], [6.109143]) 
+Player : [1] MoveTo ([5.941659], [0.546606], [3.473316]) 
+Player : [1] MoveTo ([5.941659], [0.546606], [3.473316]) 
+Player : [0] MoveTo ([-2.077346], [-0.000000], [5.141512]) 
+Player : [0] MoveTo ([-2.077346], [-0.000000], [5.141512]) 
+Player : [1] MoveTo ([5.934927], [-0.000000], [3.910836]) 
+Player : [1] MoveTo ([5.934927], [-0.000000], [3.910836]) 
+Player : [1] MoveTo ([3.605266], [-0.000000], [2.569191]) 
+Player : [1] MoveTo ([3.605266], [-0.000000], [2.569191]) 
+Player : [1] MoveTo ([1.898369], [-0.000000], [1.926492]) 
+Player : [1] MoveTo ([1.898369], [-0.000000], [1.926492]) 
+Player : [1] MoveTo ([1.083435], [-0.000000], [3.910833]) 
+Player : [1] MoveTo ([1.083435], [-0.000000], [3.910833]) 
+Player : [1] MoveTo ([-0.750397], [-0.000000], [5.951241]) 
+Player : [1] MoveTo ([-0.750397], [-0.000000], [5.951241]) 
+Player : [1] MoveTo ([-3.677262], [-0.000000], [3.796067]) 
+Player : [1] MoveTo ([-3.677262], [-0.000000], [3.796067]) 
+Player : [1] MoveTo ([-4.565299], [-0.000000], [2.787510]) 
+Player : [1] MoveTo ([-4.565299], [-0.000000], [2.787510]) 
+Player : [0] MoveTo ([-12.474017], [0.000000], [-7.320275]) 
+Player : [0] MoveTo ([-12.474017], [0.000000], [-7.320275]) 
+Player : [1] MoveTo ([-4.231677], [-0.000000], [3.568180]) 
+Player : [1] MoveTo ([-4.231677], [-0.000000], [3.568180]) 
+Player : [1] MoveTo ([-5.560596], [-0.000000], [4.493272]) 
+Player : [0] MoveTo ([-8.105285], [0.000000], [-8.173761]) 
+Player : [1] MoveTo ([-5.560596], [-0.000000], [4.493272]) 
+Player : [0] MoveTo ([-8.105285], [0.000000], [-8.173761]) 
+Player : [1] MoveTo ([-5.058608], [-0.000000], [2.897427]) 
+Player : [1] MoveTo ([-5.058608], [-0.000000], [2.897427]) 
+Player : [0] MoveTo ([-0.331446], [0.000000], [-11.426523]) 
+Player : [0] MoveTo ([-0.331446], [0.000000], [-11.426523]) 
+Player : [1] MoveTo ([-4.449205], [0.000000], [-0.756704]) 
+Player : [1] MoveTo ([-4.449205], [0.000000], [-0.756704]) 
+Player : [1] MoveTo ([-1.826815], [0.000000], [-4.817812]) 
+Player : [1] MoveTo ([-1.826815], [0.000000], [-4.817812]) 
+Player : [1] MoveTo ([0.914307], [0.000000], [-7.390335]) 
+Player : [1] MoveTo ([0.914307], [0.000000], [-7.390335]) 
+Player : [1] MoveTo ([1.546644], [0.000000], [-7.256424]) 
+Player : [1] MoveTo ([1.546644], [0.000000], [-7.256424]) 
+Player : [1] MoveTo ([1.224790], [0.000000], [-7.456926]) 
+Player : [1] MoveTo ([1.224790], [0.000000], [-7.456926]) 
+Player : [1] MoveTo ([0.282639], [0.000000], [-7.851262]) 
+Player : [1] MoveTo ([0.282639], [0.000000], [-7.851262]) 
+Player : [0] MoveTo ([-4.225286], [0.000000], [-9.840964]) 
+Player : [0] MoveTo ([-4.225286], [0.000000], [-9.840964]) 
+Player : [1] MoveTo ([-0.149994], [0.000000], [-7.655199]) 
+Player : [1] MoveTo ([-0.149994], [0.000000], [-7.655199]) 
+Player : [1] MoveTo ([-0.274747], [0.000000], [-7.523253]) 
+Player : [1] MoveTo ([-0.274747], [0.000000], [-7.523253]) 
+Player : [1] MoveTo ([-2.993572], [0.000000], [-7.053695]) 
+Player : [1] MoveTo ([-2.993572], [0.000000], [-7.053695]) 
+Teleport_Tamer[0] to [0]
+Player : [1] MoveTo ([-2.903801], [0.947306], [-6.889474]) 
+Player : [1] MoveTo ([-2.903801], [0.947306], [-6.889474]) 
+Teleport_Tamer[1] to [1]
+Player : [0] MoveTo ([-17.518913], [0.000000], [-2.795771]) 
+Player : [0] MoveTo ([-17.518913], [0.000000], [-2.795771]) 
+Player : [1] MoveTo ([-3.479497], [0.000000], [-1.761021]) 
+Player : [1] MoveTo ([-3.479497], [0.000000], [-1.761021]) 
+Player : [1] MoveTo ([-3.383610], [-0.000000], [0.894269]) 
+Player : [1] MoveTo ([-3.383610], [-0.000000], [0.894269]) 
+Player : [1] MoveTo ([33.090176], [0.917408], [-6.260741]) 
+Player : [1] MoveTo ([33.090176], [0.917408], [-6.260741]) 
+Player : [0] MoveTo ([-39.414700], [1.547573], [-7.825886]) 
+Player : [0] MoveTo ([-39.414700], [1.547573], [-7.825886]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Player : [1] MoveTo ([33.080383], [0.933990], [-6.963028]) 
+Player : [1] MoveTo ([33.080383], [0.933990], [-6.963028]) 
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Battle Finish
+Battle Finish
+Player : [0] MoveTo ([-36.047344], [0.000000], [-0.608869]) 
+Player : [0] MoveTo ([-36.047344], [0.000000], [-0.608869]) 
+Player : [1] MoveTo ([37.992538], [0.368853], [3.853099]) 
+Player : [1] MoveTo ([37.992538], [0.368853], [3.853099]) 
+Player : [0] MoveTo ([-37.659897], [0.000000], [-3.155851]) 
+Player : [0] MoveTo ([-37.659897], [0.000000], [-3.155851]) 
+Player : [1] MoveTo ([37.874504], [0.279495], [3.788136]) 
+Player : [1] MoveTo ([37.874504], [0.279495], [3.788136]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-38.106640], [-0.000000], [-0.148217]) 
+Player : [0] MoveTo ([-38.106640], [-0.000000], [-0.148217]) 
+Player : [0] MoveTo ([-38.628880], [0.000000], [0.040468]) 
+Player : [0] MoveTo ([-38.628880], [0.000000], [0.040468]) 
+Player : [1] MoveTo ([38.289124], [0.000000], [-2.686622]) 
+Player : [1] MoveTo ([38.289124], [0.000000], [-2.686622]) 
+Player : [1] MoveTo ([36.347202], [0.000000], [-4.191110]) 
+Player : [1] MoveTo ([36.347202], [0.000000], [-4.191110]) 
+Teleport_Tamer[1] to [0]
+Teleport_Tamer[1] to [0]
+Player : [1] MoveTo ([-40.858765], [0.000000], [-0.356656]) 
+Player : [1] MoveTo ([-40.858765], [0.000000], [-0.356656]) 
+Player : [1] MoveTo ([-41.646217], [-0.000000], [2.024030]) 
+Player : [1] MoveTo ([-41.646217], [-0.000000], [2.024030]) 
+Player : [1] MoveTo ([-42.462399], [-0.000000], [3.330008]) 
+Player : [1] MoveTo ([-42.462399], [-0.000000], [3.330008]) 
+Player : [1] MoveTo ([-42.202003], [0.033972], [3.745678]) 
+Player : [1] MoveTo ([-42.202003], [0.033972], [3.745678]) 
+Player : [1] MoveTo ([-42.181686], [0.323032], [3.822266]) 
+Player : [1] MoveTo ([-42.181686], [0.323032], [3.822266]) 
+Picking Item OBJ
+Player : [1] MoveTo ([-41.259617], [0.000000], [-0.427148]) 
+Player : [1] MoveTo ([-41.259617], [0.000000], [-0.427148]) 
+Player : [1] MoveTo ([-40.964390], [0.000000], [-2.863140]) 
+Player : [1] MoveTo ([-40.964390], [0.000000], [-2.863140]) 
+Player : [1] MoveTo ([-39.086777], [0.069796], [-0.141909]) 
+Player : [1] MoveTo ([-39.086777], [0.069796], [-0.141909]) 
+Player : [1] MoveTo ([-37.799156], [-0.000000], [2.107711]) 
+Player : [1] MoveTo ([-37.799156], [-0.000000], [2.107711]) 
+Player : [1] MoveTo ([-39.148598], [-0.000000], [3.059785]) 
+Player : [1] MoveTo ([-39.148598], [-0.000000], [3.059785]) 
+Player : [1] MoveTo ([-42.283237], [-0.000000], [1.055308]) 
+Player : [1] MoveTo ([-42.283237], [-0.000000], [1.055308]) 
+Player : [1] MoveTo ([-42.730652], [0.000000], [-1.312090]) 
+Player : [1] MoveTo ([-42.730652], [0.000000], [-1.312090]) 
+Player : [1] MoveTo ([-42.604538], [0.000000], [-2.079863]) 
+Player : [1] MoveTo ([-42.604538], [0.000000], [-2.079863]) 
+Player : [1] MoveTo ([-39.676395], [0.000000], [-2.686622]) 
+Player : [1] MoveTo ([-39.676395], [0.000000], [-2.686622]) 
+Player : [1] MoveTo ([-37.991203], [-0.000000], [2.533103]) 
+Player : [1] MoveTo ([-37.991203], [-0.000000], [2.533103]) 
+Player : [1] MoveTo ([-40.469120], [-0.000000], [4.074184]) 
+Player : [1] MoveTo ([-40.469120], [-0.000000], [4.074184]) 
+Player : [1] MoveTo ([-41.876190], [0.000000], [-0.978564]) 
+Player : [1] MoveTo ([-41.876190], [0.000000], [-0.978564]) 
+Player : [1] MoveTo ([-40.443764], [0.000000], [-3.709934]) 
+Player : [1] MoveTo ([-40.443764], [0.000000], [-3.709934]) 
+Player : [1] MoveTo ([-37.800453], [0.000000], [-1.246033]) 
+Player : [1] MoveTo ([-37.800453], [0.000000], [-1.246033]) 
+Player : [1] MoveTo ([-40.163803], [-0.000000], [1.858114]) 
+Player : [1] MoveTo ([-40.163803], [-0.000000], [1.858114]) 
+Player : [1] MoveTo ([-41.677631], [0.000000], [-1.765387]) 
+Player : [1] MoveTo ([-41.677631], [0.000000], [-1.765387]) 
+Player : [1] MoveTo ([-39.404530], [0.000000], [-2.921414]) 
+Player : [1] MoveTo ([-39.404530], [0.000000], [-2.921414]) 
+Player : [1] MoveTo ([-39.059578], [-0.000000], [0.594038]) 
+Player : [1] MoveTo ([-39.059578], [-0.000000], [0.594038]) 
+Player : [1] MoveTo ([-42.609550], [0.000000], [0.001397]) 
+Player : [1] MoveTo ([-42.609550], [0.000000], [0.001397]) 
+Player : [1] MoveTo ([-39.908680], [0.000000], [-2.979419]) 
+Player : [1] MoveTo ([-39.908680], [0.000000], [-2.979419]) 
+Player : [1] MoveTo ([-38.484829], [-0.000000], [1.612632]) 
+Player : [1] MoveTo ([-38.484829], [-0.000000], [1.612632]) 
+Player : [1] MoveTo ([-41.347916], [-0.000000], [0.368871]) 
+Player : [1] MoveTo ([-41.347916], [-0.000000], [0.368871]) 
+Player : [1] MoveTo ([-38.756943], [0.000000], [-1.828896]) 
+Player : [1] MoveTo ([-38.756943], [0.000000], [-1.828896]) 
+Player : [1] MoveTo ([-37.590157], [-0.000000], [0.669905]) 
+Player : [1] MoveTo ([-37.590157], [-0.000000], [0.669905]) 
+Player : [1] MoveTo ([-41.184174], [-0.000000], [1.451221]) 
+Player : [1] MoveTo ([-41.184174], [-0.000000], [1.451221]) 
+Player : [1] MoveTo ([-41.115143], [0.000000], [-2.567538]) 
+Player : [1] MoveTo ([-41.115143], [0.000000], [-2.567538]) 
+Player : [1] MoveTo ([-39.466473], [0.000000], [-3.655251]) 
+Player : [1] MoveTo ([-39.466473], [0.000000], [-3.655251]) 
+Player : [1] MoveTo ([-36.827827], [0.000000], [0.001397]) 
+Player : [1] MoveTo ([-36.827827], [0.000000], [0.001397]) 
+Player : [1] MoveTo ([-39.668114], [-0.000000], [2.276424]) 
+Player : [1] MoveTo ([-39.668114], [-0.000000], [2.276424]) 
+Player : [1] MoveTo ([-40.899815], [0.000000], [-2.079863]) 
+Player : [1] MoveTo ([-40.899815], [0.000000], [-2.079863]) 
+Player : [1] MoveTo ([-37.543606], [0.000000], [-2.141833]) 
+Player : [1] MoveTo ([-37.543606], [0.000000], [-2.141833]) 
+Player : [1] MoveTo ([-37.499924], [0.000000], [-4.398867]) 
+Player : [1] MoveTo ([-37.499924], [0.000000], [-4.398867]) 
+Player : [1] MoveTo ([-39.401836], [0.000000], [-4.603022]) 
+Player : [1] MoveTo ([-39.401836], [0.000000], [-4.603022]) 
+Player : [1] MoveTo ([-39.061829], [0.667565], [-0.120958]) 
+Player : [1] MoveTo ([-39.061829], [0.667565], [-0.120958]) 
+Player : [1] MoveTo ([-41.857712], [0.000000], [-4.347282]) 
+Player : [1] MoveTo ([-41.857712], [0.000000], [-4.347282]) 
+Player : [1] MoveTo ([-42.075874], [0.000000], [-5.711512]) 
+Player : [1] MoveTo ([-42.075874], [0.000000], [-5.711512]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Battle Finish
+Player : [0] MoveTo ([-43.009171], [0.000000], [-1.985521]) 
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-41.999512], [0.538758], [4.308348]) 
+Picking Item OBJ
+Manage Finish
+Creep Die : [2] of [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Player : [0] MoveTo ([-42.620075], [0.000000], [-0.877991]) 
+Spawn Digimon [1]
+Player : [0] MoveTo ([-42.620075], [0.000000], [-0.877991]) 
+Battle Ready Finish
+Player : [0] MoveTo ([-42.589775], [0.000000], [-3.594936]) 
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-42.025124], [-0.000000], [2.863200]) 
+Player : [0] MoveTo ([-41.862823], [-0.000000], [5.217174]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-36.337158], [0.000000], [-3.808704]) 
+Player : [0] MoveTo ([-35.618778], [-0.000000], [1.861057]) 
+Battle Finish
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+AddUser: 0 172.30.1.44
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([5.308863], [0.000000], [-5.568535]) 
+Player : [1] MoveTo ([5.308863], [0.000000], [-5.568535]) 
+Player : [0] MoveTo ([2.143583], [0.000000], [-9.146152]) 
+Player : [0] MoveTo ([2.143583], [0.000000], [-9.146152]) 
+Player : [0] MoveTo ([4.793733], [1.115479], [-6.436356]) 
+Player : [0] MoveTo ([4.793733], [1.115479], [-6.436356]) 
+Player : [0] MoveTo ([2.478735], [0.000000], [-8.828040]) 
+Player : [0] MoveTo ([2.478735], [0.000000], [-8.828040]) 
+Player : [0] MoveTo ([-2.748603], [0.000000], [-9.224752]) 
+Player : [0] MoveTo ([-2.748603], [0.000000], [-9.224752]) 
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Player : [0] MoveTo ([-2.231790], [0.000000], [-5.959733]) 
+Player : [0] MoveTo ([-2.231790], [0.000000], [-5.959733]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Player : [0] MoveTo ([-37.322216], [0.000000], [-5.756464]) 
+Player : [0] MoveTo ([-37.322216], [0.000000], [-5.756464]) 
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [2] of [0]
+Creep Die : [2] of [1]
+Creep Die : [0] of [0]
+Player : [1] MoveTo ([37.985497], [-0.000000], [2.619610]) 
+Player : [1] MoveTo ([37.985497], [-0.000000], [2.619610]) 
+Player : [1] MoveTo ([37.251511], [-0.000000], [3.330012]) 
+Player : [1] MoveTo ([37.251511], [-0.000000], [3.330012]) 
+Creep Die : [0] of [1]
+Player : [1] MoveTo ([38.247837], [-0.000000], [5.055741]) 
+Player : [1] MoveTo ([38.247837], [-0.000000], [5.055741]) 
+Player : [1] MoveTo ([38.146023], [0.070628], [3.790096]) 
+Player : [1] MoveTo ([38.146023], [0.070628], [3.790096]) 
+Player : [1] MoveTo ([38.393314], [-0.000000], [4.557551]) 
+Player : [1] MoveTo ([38.393314], [-0.000000], [4.557551]) 
+Player : [1] MoveTo ([38.079418], [1.291313], [2.841575]) 
+Player : [1] MoveTo ([38.079418], [1.291313], [2.841575]) 
+Player : [1] MoveTo ([38.170883], [0.000000], [-2.326021]) 
+Player : [1] MoveTo ([38.170883], [0.000000], [-2.326021]) 
+Picking Item OBJ
+Player : [1] MoveTo ([38.561127], [0.000000], [-0.842778]) 
+Player : [1] MoveTo ([38.561127], [0.000000], [-0.842778]) 
+Player : [1] MoveTo ([38.116356], [-0.000000], [1.451222]) 
+Player : [1] MoveTo ([38.116356], [-0.000000], [1.451222]) 
+Battle Finish
+Player : [0] MoveTo ([-37.992867], [-0.000000], [0.523472]) 
+Player : [0] MoveTo ([-37.992867], [-0.000000], [0.523472]) 
+Battle Finish
+Player : [0] MoveTo ([-39.643120], [0.000000], [-0.788895]) 
+Player : [0] MoveTo ([-39.643120], [0.000000], [-0.788895]) 
+Player : [0] MoveTo ([-37.030010], [-0.000000], [0.622081]) 
+Player : [0] MoveTo ([-37.030010], [-0.000000], [0.622081]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-42.747337], [-0.000000], [3.979222]) 
+Player : [0] MoveTo ([-42.010555], [0.529254], [4.102360]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-41.436512], [0.000000], [-5.526373]) 
+Creep Die : [2] of [0]
+Player : [0] MoveTo ([-41.958416], [-0.000000], [3.512776]) 
+Player : [0] MoveTo ([-40.222061], [-0.000000], [2.361478]) 
+Player : [0] MoveTo ([-39.944397], [0.157277], [2.684141]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-41.193985], [0.000000], [-2.863139]) 
+Player : [0] MoveTo ([-39.724216], [-0.000000], [2.191850]) 
+Player : [0] MoveTo ([-40.000103], [0.689851], [2.782757]) 
+Creep Die : [0] of [0]
+Player : [0] MoveTo ([-40.421207], [0.000000], [-2.386819]) 
+Player : [0] MoveTo ([-37.523098], [-0.000000], [4.265797]) 
+Player : [0] MoveTo ([-36.937378], [0.102515], [3.747312]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-36.735802], [0.991455], [3.537448]) 
+Player : [0] MoveTo ([-38.639816], [0.000000], [-0.427148]) 
+Player : [0] MoveTo ([-37.236492], [-0.000000], [4.169679]) 
+Player : [0] MoveTo ([-40.775639], [-0.000000], [0.294632]) 
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Player : [1] MoveTo ([-2.369952], [0.000000], [-6.917289]) 
+Player : [1] MoveTo ([-2.369952], [0.000000], [-6.917289]) 
+Player : [1] MoveTo ([-1.593782], [0.000000], [-8.800354]) 
+Player : [1] MoveTo ([-1.593782], [0.000000], [-8.800354]) 
+Player : [1] MoveTo ([-0.338513], [0.000000], [-7.256423]) 
+Player : [1] MoveTo ([-0.338513], [0.000000], [-7.256423]) 
+Player : [1] MoveTo ([-0.545379], [0.000000], [-5.494743]) 
+Player : [1] MoveTo ([-0.545379], [0.000000], [-5.494743]) 
+Player : [1] MoveTo ([0.310834], [0.057882], [-5.451632]) 
+Player : [1] MoveTo ([0.310834], [0.057882], [-5.451632]) 
+Player : [1] MoveTo ([-0.021751], [1.171053], [-4.893662]) 
+Player : [1] MoveTo ([-0.021751], [1.171053], [-4.893662]) 
+Player : [1] MoveTo ([-0.670086], [0.000000], [-6.005085]) 
+Player : [1] MoveTo ([-0.670086], [0.000000], [-6.005085]) 
+Player : [1] MoveTo ([0.044292], [0.000000], [-6.148356]) 
+Player : [1] MoveTo ([0.044292], [0.000000], [-6.148356]) 
+Player : [1] MoveTo ([1.165390], [0.000000], [-5.568494]) 
+Player : [1] MoveTo ([1.165390], [0.000000], [-5.568494]) 
+Player : [1] MoveTo ([-0.690866], [0.000000], [-4.509110]) 
+Player : [1] MoveTo ([-0.690866], [0.000000], [-4.509110]) 
+Player : [1] MoveTo ([-1.001687], [0.000000], [-5.715161]) 
+Player : [1] MoveTo ([-1.001687], [0.000000], [-5.715161]) 
+Player : [1] MoveTo ([0.552979], [0.000000], [-6.641390]) 
+Player : [1] MoveTo ([0.552979], [0.000000], [-6.641390]) 
+Player : [1] MoveTo ([1.020206], [0.000000], [-6.005088]) 
+Player : [1] MoveTo ([1.020206], [0.000000], [-6.005088]) 
+Player : [1] MoveTo ([-0.392785], [0.000000], [-8.489646]) 
+Player : [1] MoveTo ([-0.392785], [0.000000], [-8.489646]) 
+Player : [1] MoveTo ([1.121868], [0.000000], [-4.894215]) 
+Player : [1] MoveTo ([1.121868], [0.000000], [-4.894215]) 
+Player : [1] MoveTo ([0.653478], [0.000000], [-7.851261]) 
+Player : [1] MoveTo ([0.653478], [0.000000], [-7.851261]) 
+Player : [1] MoveTo ([-1.378134], [0.000000], [-6.219591]) 
+Player : [1] MoveTo ([-1.378134], [0.000000], [-6.219591]) 
+Player : [1] MoveTo ([-1.372619], [0.000000], [-2.026785]) 
+Player : [1] MoveTo ([-1.372619], [0.000000], [-2.026785]) 
+Player : [1] MoveTo ([-2.642713], [-0.000000], [9.724378]) 
+Player : [1] MoveTo ([-2.642713], [-0.000000], [9.724378]) 
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Player : [1] MoveTo ([36.639816], [0.000000], [-3.545941]) 
+Player : [1] MoveTo ([36.639816], [0.000000], [-3.545941]) 
+Player : [1] MoveTo ([34.648151], [0.735197], [-6.704548]) 
+Player : [1] MoveTo ([34.648151], [0.735197], [-6.704548]) 
+Player : [1] MoveTo ([33.276806], [0.787593], [-6.649385]) 
+Player : [1] MoveTo ([33.276806], [0.787593], [-6.649385]) 
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Player : [1] MoveTo ([36.784801], [0.000000], [-3.208872]) 
+Player : [1] MoveTo ([36.784801], [0.000000], [-3.208872]) 
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [1] of [1]
+Creep Die : [0] of [0]
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 172.30.1.44
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [1] of [1]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Player : [0] MoveTo ([-42.180012], [0.367500], [3.854968]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-41.320129], [0.000000], [-0.214516]) 
+Player : [0] MoveTo ([-41.983803], [0.823926], [4.060778]) 
+Battle Finish
+Player : [0] MoveTo ([-41.431847], [0.000000], [-0.978564]) 
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Yokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [2] of [1]
+Battle Finish
+Creep Die : [0] of [1]
+Manage Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Battle Finish
+Creep Die : [0] of [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Battle Finish
+Manage Finish
+Battle Ready Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Battle Finish
+Creep Die : [0] of [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Battle Finish
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 172.30.1.44
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Fade In & Out Finish
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready Finish
+Battle Ready Finish
+Player : [1] MoveTo ([42.307072], [-0.000000], [1.753712]) 
+Player : [1] MoveTo ([42.307072], [-0.000000], [1.753712]) 
+Player : [1] MoveTo ([38.159916], [0.000000], [-2.700608]) 
+Player : [1] MoveTo ([38.159916], [0.000000], [-2.700608]) 
+Creep Die : [1] of [0]
+Player : [1] MoveTo ([39.644291], [0.000000], [-0.877991]) 
+Player : [1] MoveTo ([39.644291], [0.000000], [-0.877991]) 
+Creep Die : [1] of [1]
+Player : [0] MoveTo ([-41.952709], [-0.000000], [3.421113]) 
+Player : [0] MoveTo ([-41.952709], [-0.000000], [3.421113]) 
+Creep Die : [2] of [0]
+Spawn Digimon [3]
+Player : [0] MoveTo ([-41.716736], [1.691316], [2.623676]) 
+Player : [0] MoveTo ([-41.716736], [1.691316], [2.623676]) 
+Player : [0] MoveTo ([-44.481827], [0.000000], [0.518613]) 
+Player : [0] MoveTo ([-44.481827], [0.000000], [0.518613]) 
+Player : [0] MoveTo ([-42.263794], [0.000000], [-1.637459]) 
+Player : [0] MoveTo ([-42.263794], [0.000000], [-1.637459]) 
+Creep Die : [2] of [1]
+Player : [0] MoveTo ([-39.176464], [0.228541], [2.336764]) 
+Player : [0] MoveTo ([-39.176464], [0.228541], [2.336764]) 
+Spawn Digimon [4]
+Player : [0] MoveTo ([-40.513420], [-0.000000], [7.096849]) 
+Player : [0] MoveTo ([-40.513420], [-0.000000], [7.096849]) 
+Player : [0] MoveTo ([-43.258572], [0.000000], [-0.978564]) 
+Player : [0] MoveTo ([-43.258572], [0.000000], [-0.978564]) 
+Player : [0] MoveTo ([-42.317654], [0.000000], [-3.600350]) 
+Player : [0] MoveTo ([-42.317654], [0.000000], [-3.600350]) 
+Creep Die : [0] of [0]
+Player : [0] MoveTo ([-38.712257], [0.000000], [-1.892101]) 
+Player : [0] MoveTo ([-38.712257], [0.000000], [-1.892101]) 
+Player : [0] MoveTo ([-37.316578], [-0.000000], [3.239398]) 
+Player : [0] MoveTo ([-37.316578], [-0.000000], [3.239398]) 
+Player : [0] MoveTo ([-36.932438], [1.760511], [2.698313]) 
+Player : [0] MoveTo ([-36.932438], [1.760511], [2.698313]) 
+Player : [0] MoveTo ([-34.639313], [-0.000000], [6.099406]) 
+Player : [0] MoveTo ([-34.639313], [-0.000000], [6.099406]) 
+Spawn Digimon [5]
+Player : [0] MoveTo ([-37.219898], [-0.000000], [4.362472]) 
+Player : [0] MoveTo ([-37.219898], [-0.000000], [4.362472]) 
+Player : [0] MoveTo ([-38.354576], [0.000000], [-2.264938]) 
+Player : [0] MoveTo ([-38.354576], [0.000000], [-2.264938]) 
+Player : [1] MoveTo ([40.693409], [-0.000000], [6.177747]) 
+Player : [1] MoveTo ([40.693409], [-0.000000], [6.177747]) 
+Spawn Digimon [6]
+Player : [1] MoveTo ([35.066353], [-0.000000], [3.095142]) 
+Player : [1] MoveTo ([35.066353], [-0.000000], [3.095142]) 
+Player : [1] MoveTo ([33.487625], [-0.000000], [5.486065]) 
+Player : [1] MoveTo ([33.487625], [-0.000000], [5.486065]) 
+Spawn Digimon [7]
+Creep Die : [0] of [1]
+Player : [1] MoveTo ([38.032936], [0.000000], [-4.758570]) 
+Player : [1] MoveTo ([38.032936], [0.000000], [-4.758570]) 
+Teleport_Tamer[0] to [1]
+Teleport_Tamer[0] to [1]
+Player : [1] MoveTo ([47.581821], [-0.000000], [2.409592]) 
+Player : [1] MoveTo ([47.581821], [-0.000000], [2.409592]) 
+Player : [1] MoveTo ([45.895420], [-0.000000], [10.291819]) 
+Player : [1] MoveTo ([45.895420], [-0.000000], [10.291819]) 
+Player : [1] MoveTo ([45.895420], [-0.000000], [10.291819]) 
+Player : [1] MoveTo ([45.895420], [-0.000000], [10.291819]) 
+Spawn Digimon [8]
+Player : [0] MoveTo ([40.089222], [0.000000], [-3.600350]) 
+Player : [0] MoveTo ([40.089222], [0.000000], [-3.600350]) 
+Player : [0] MoveTo ([41.058098], [0.000000], [-0.427148]) 
+Player : [0] MoveTo ([41.058098], [0.000000], [-0.427148]) 
+Battle Finish
+Battle Finish
+Player : [0] MoveTo ([38.457111], [0.000000], [0.147234]) 
+Player : [0] MoveTo ([38.457111], [0.000000], [0.147234]) 
+Player : [0] MoveTo ([37.070621], [0.000000], [-4.753838]) 
+Player : [0] MoveTo ([37.070621], [0.000000], [-4.753838]) 
+Player : [0] MoveTo ([39.786880], [0.000000], [-4.653541]) 
+Player : [0] MoveTo ([39.786880], [0.000000], [-4.653541]) 
+Player : [0] MoveTo ([42.150681], [0.000000], [-4.450248]) 
+Player : [0] MoveTo ([42.150681], [0.000000], [-4.450248]) 
+Player : [0] MoveTo ([43.283257], [0.000000], [-1.179682]) 
+Player : [0] MoveTo ([43.283257], [0.000000], [-1.179682]) 
+Player : [0] MoveTo ([39.131020], [0.000000], [-1.573040]) 
+Player : [0] MoveTo ([39.131020], [0.000000], [-1.573040]) 
+Player : [0] MoveTo ([39.059887], [0.000000], [-3.489749]) 
+Player : [0] MoveTo ([39.059887], [0.000000], [-3.489749]) 
+Player : [0] MoveTo ([40.868507], [0.000000], [-2.979420]) 
+Player : [0] MoveTo ([40.868507], [0.000000], [-2.979420]) 
+Player : [0] MoveTo ([42.393887], [0.000000], [-0.705679]) 
+Player : [0] MoveTo ([42.393887], [0.000000], [-0.705679]) 
+Player : [1] MoveTo ([49.554012], [-0.000000], [4.952567]) 
+Player : [1] MoveTo ([49.554012], [-0.000000], [4.952567]) 
+Player : [1] MoveTo ([43.981277], [-0.000000], [1.023477]) 
+Player : [1] MoveTo ([43.981277], [-0.000000], [1.023477]) 
+Player : [1] MoveTo ([40.408543], [0.000000], [-1.654542]) 
+Player : [1] MoveTo ([40.408543], [0.000000], [-1.654542]) 
+Player : [1] MoveTo ([39.603039], [0.000000], [-2.387706]) 
+Player : [1] MoveTo ([39.603039], [0.000000], [-2.387706]) 
+Player : [1] MoveTo ([33.864655], [-0.000000], [2.078083]) 
+Player : [1] MoveTo ([33.864655], [-0.000000], [2.078083]) 
+Player : [1] MoveTo ([33.110481], [0.000000], [-0.877989]) 
+Player : [1] MoveTo ([33.110481], [0.000000], [-0.877989]) 
+Player : [1] MoveTo ([37.852524], [0.000000], [-5.756464]) 
+Player : [1] MoveTo ([37.852524], [0.000000], [-5.756464]) 
+Player : [1] MoveTo ([45.578190], [0.935905], [-6.541904]) 
+Player : [1] MoveTo ([45.578190], [0.935905], [-6.541904]) 
+Player : [0] MoveTo ([39.126740], [0.000000], [-1.443191]) 
+Player : [0] MoveTo ([39.126740], [0.000000], [-1.443191]) 
+Player : [0] MoveTo ([39.129658], [0.000000], [-2.921413]) 
+Player : [0] MoveTo ([39.129658], [0.000000], [-2.921413]) 
+Player : [1] MoveTo ([38.159275], [0.000000], [-4.952440]) 
+Player : [1] MoveTo ([38.159275], [0.000000], [-4.952440]) 
+Player : [0] MoveTo ([41.237019], [0.000000], [-2.921414]) 
+Player : [0] MoveTo ([41.237019], [0.000000], [-2.921414]) 
+Player : [0] MoveTo ([41.828892], [-0.000000], [0.594040]) 
+Player : [0] MoveTo ([41.828892], [-0.000000], [0.594040]) 
+Player : [0] MoveTo ([38.794037], [0.000000], [-0.497348]) 
+Player : [0] MoveTo ([38.794037], [0.000000], [-0.497348]) 
+Player : [0] MoveTo ([38.115005], [0.000000], [-2.203529]) 
+Player : [0] MoveTo ([38.115005], [0.000000], [-2.203529]) 
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[0] to [0]
+Player : [0] MoveTo ([-38.030140], [0.000000], [-4.032856]) 
+Player : [0] MoveTo ([-38.030140], [0.000000], [-4.032856]) 
+Player : [0] MoveTo ([-36.767120], [0.000000], [-4.398866]) 
+Player : [0] MoveTo ([-36.767120], [0.000000], [-4.398866]) 
+Player : [0] MoveTo ([-36.255508], [0.000000], [-5.711511]) 
+Player : [0] MoveTo ([-36.255508], [0.000000], [-5.711511]) 
+Teleport_Tamer[0] to [1]
+Teleport_Tamer[0] to [1]
+Manage Finish
+Manage Finish
+Battle Ready Finish
+Battle Ready Finish
+Player : [0] MoveTo ([37.256046], [0.000000], [-5.572936]) 
+Player : [0] MoveTo ([37.256046], [0.000000], [-5.572936]) 
+Player : [0] MoveTo ([37.577610], [1.547573], [-7.591115]) 
+Player : [0] MoveTo ([37.577610], [1.547573], [-7.591115]) 
+Player : [0] MoveTo ([31.879658], [1.150206], [-7.106873]) 
+Player : [0] MoveTo ([31.879658], [1.150206], [-7.106873]) 
+Player : [0] MoveTo ([34.535786], [0.100000], [-6.343132]) 
+Player : [0] MoveTo ([34.535786], [0.100000], [-6.343132]) 
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Spawn Digimon [1]
+Battle Ready Finish
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-42.125935], [0.488312], [3.990064]) 
+Spawn Digimon [2]
+Creep Die : [2] of [0]
+Player : [0] MoveTo ([-37.179150], [0.000000], [0.526882]) 
+Spawn Digimon [3]
+Player : [0] MoveTo ([-38.085773], [0.000000], [-4.757544]) 
+Player : [0] MoveTo ([-36.615089], [0.000000], [0.008309]) 
+Battle Finish
+Player : [0] MoveTo ([-34.608421], [-0.000000], [2.986224]) 
+Creep Die : [0] of [0]
+Player : [0] MoveTo ([-37.053383], [0.493588], [4.173867]) 
+Spawn Digimon [4]
+Player : [0] MoveTo ([-37.137150], [0.000000], [-1.041672]) 

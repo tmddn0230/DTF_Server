@@ -30,6 +30,7 @@ enum enProtocol
     prSyncTrReq, prSyncTrAck,
     prSetMoveReq, prSetMoveAck,
     prSetAttackReq, prSetAttackAck,
+    prSetWinReq, prSetWinAck,
     prSetTargetReq, prSetTargetAck,
     // 디지몬 스텟 동기화 관련
     prHpReq, prHpAck,

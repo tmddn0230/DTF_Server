@@ -470,6 +470,32 @@ struct stSetAttackAck : public stHeader
 	};
 };
 
+// prSetWinReq, prSetWinAck
+struct stSetWinReq : public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+
+	stSetWinReq()
+	{
+		UID = 0;
+		Digicode = 0;
+		SetHeader(prSetWinReq, sizeof(stSetWinReq));
+	};
+};
+
+struct stSetWinAck : public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+
+	stSetWinAck()
+	{
+		UID = 0;
+		Digicode = 0;
+		SetHeader(prSetWinAck, sizeof(stSetWinAck));
+	};
+};
 
 // prSetTargetReq, prSetTargetAck
 // 타겟 설정
