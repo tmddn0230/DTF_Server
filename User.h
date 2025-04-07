@@ -72,6 +72,7 @@ public: //RECV
 	void RecvDie(char* packet);
 	void RecvAttached(char* packet);
 	void RecvDetached(char* packet);
+	void RecvCreepHp(char* packet);
 	void RecvCreepDie(char* packet);
 	void RecvPicking(char* packet);
 	void RecvPickingObj(char* packet);
