@@ -17,9 +17,16 @@ User::User(void)
 	mUID = 0;
 	mIndex = INVALID_VALUE;
 
+
 	mSelectedTDigimon = enTamersDigimon::T_None;
 
 	memset(mName, 0x00, sizeof(mName));
+	
+	mMaxEnemyCombatCnt = 0;
+	mMaxMyCombatCnt = 0;
+
+	mEnemyCombatCnt = 0; // 전투중 계산되는 카운터
+	mMyCombatCnt = 0;	 // 전투중 계산되는 카운터
 }
 
 User::~User(void)
@@ -251,11 +258,19 @@ void User::Parse(int protocol, char* packet)
 	case prPickingReq:			RecvPicking(packet); break;
 	case prPickingObjReq:		RecvPickingObj(packet); break;
 	case prArgPickedReq:        RecvArgPicked(packet);   break;
+		// Flow
+	case prEncounterStart:      RecvEncountStart(packet); break;
 	case prEncounterFin:		RecvEncountFin(packet);	break; // 사실상 안쓰임
+	case prFadeInStart:			RecvFadeInStart(packet); break;
 	case prFadeInFin:			RecvFadeInFin(packet); break;
+	case prBattleReadyStart:	RecvBattleReadyStart(packet); break;
 	case prBattleReadyFin:		RecvBattleReadyFin(packet); break;
+	case prBattleStart:			RecvBattleStart(packet); break;
 	case prBattleFin:			RecvBattleFin(packet);	break;
+	case prManageStart:			RecvManageStart(packet); break;
 	case prManageFin:			RecvManageFin(packet); break;
+
+	case prRoundStart:			RecvRoundStart(packet); break;
 	case prRoundFin:			RecvRoundFin(packet); break;
 		//default:			SendDefault(packet);	break;
 	}
@@ -271,6 +286,20 @@ bool User::IsValidDigicode(int uid, int digicode)
 		return true;
 
 	return false;
+}
+
+void User::SetMaxCnt(int myMax, int enemyMax)
+{
+	mMaxMyCombatCnt = myMax;
+	mMaxEnemyCombatCnt = enemyMax;
+}
+
+void User::ClearCombatCnt()
+{
+	mMyCombatCnt = 0;
+	mEnemyCombatCnt = 0;
+	mMaxMyCombatCnt = 0;
+	mMaxEnemyCombatCnt = 0;
 }
 
 /*
@@ -405,19 +434,10 @@ void User::RecvStart(char* packet)
 	stStartGame req;
 	memcpy(&req, packet, sizeof(stStartGame));
 	
-	g_User.mWaitingCnt++;
-	if (g_User.mWaitingCnt == g_User.GetUserCount())
-	{
-		stEncounterStart ack;
+	Log("Start Game : [%d]", req.UID);
 
-		char buffer[64];
-		memset(buffer, 0x00, sizeof(buffer));
-		memcpy(buffer, &ack, sizeof(stEncounterStart));
-
-		g_User.SendAll(buffer, sizeof(stEncounterStart));
-		puts("Recv And Send All Packet");
-		g_User.mWaitingCnt = 0;
-	}
+	// 답신 x : 클라에서 StartGame 패킷과 Encounter 패킷을 동시에 보낼 예정
+	// 단순 Log 기록용
 }
 
 void User::RecvSelected(char* packet)
@@ -561,6 +581,22 @@ void User::RecvCreepDie(char* packet)
 	g_User.SendAll(buffer, sizeof(stCreepDieAck));
 
 	Log("Creep Die : [%d] of [%d]", req.Creep, req.UID);
+	mEnemyCombatCnt++;
+
+	if (mEnemyCombatCnt == mMaxEnemyCombatCnt)
+	{
+		// Combat Find 패킷 작성해서 보냄
+		stCombatEnd ack;
+
+		ack.uid = req.UID;
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+		memcpy(buffer, &ack, sizeof(stCombatEnd));
+		g_User.SendAll(buffer, sizeof(stCombatEnd));
+
+		Log("Combat Fin (Creep)");
+	}
 }
 
 void User::RecvPicking(char* packet)
@@ -780,10 +816,63 @@ void User::RecvSetMp(char* packet)
 	g_User.SendAll(buffer, sizeof(stMpAck));
 }
 
+void User::RecvEncountStart(char* packet)
+{
+	stEncounterStart req;
+	memcpy(&req, packet, sizeof(stEncounterStart));
+
+	g_User.mWaitingCnt++;
+	if (g_User.mWaitingCnt == g_User.GetUserCount())
+	{
+		stEncounterStart ack;
+		
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+		memcpy(buffer, &ack, sizeof(stEncounterStart));
+		
+		g_User.SendAll(buffer, sizeof(stEncounterStart));
+
+		g_User.mWaitingCnt = 0;
+	}
+	Log("Encounter!! : [%d]", this->mUID);
+}
+
 void User::RecvEncountFin(char* packet)
 {
 	stEncounterFin req;
 	memcpy(&req, packet, sizeof(stEncounterFin));
+
+	stEncounterFin ack;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+
+	memcpy(buffer, &ack, sizeof(stEncounterFin));
+	g_User.SendAll(buffer, sizeof(stEncounterFin));
+
+	Log("Encounter Fin : [%d]", this->mUID);
+
+	//g_User.mTimerCnt++;
+	//if (g_User.mTimerCnt == g_User.GetUserCount())
+	//{
+	//	// Fade-inout start
+	//	stFadeInStart ack;
+	//	ack.round = g_GameMgr.GetCurrentRoundType();
+	//	ack.timer = enTimerType::TT_Fade_In;
+	//
+	//	char buffer[64];
+	//	memset(buffer, 0x00, sizeof(buffer));
+	//
+	//	memcpy(buffer, &ack, sizeof(stFadeInStart));
+	//	g_User.SendAll(buffer, sizeof(stFadeInStart));
+	//	g_User.mTimerCnt = 0;
+	//}
+}
+
+void User::RecvFadeInStart(char* packet)
+{
+	stFadeInStart req;
+	memcpy(&req, packet, sizeof(stFadeInStart));
 
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
@@ -799,32 +888,117 @@ void User::RecvEncountFin(char* packet)
 		memcpy(buffer, &ack, sizeof(stFadeInStart));
 		g_User.SendAll(buffer, sizeof(stFadeInStart));
 		g_User.mTimerCnt = 0;
+
+		Log("Fade In & Out Start");
 	}
 }
 
 
 void User::RecvFadeInFin(char* packet)
 {
-	Log("Fade In & Out Finish");
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		// Fade-inout start
+		stFadeInFin ack;
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stFadeInFin));
+		g_User.SendAll(buffer, sizeof(stFadeInFin));
+		g_User.mTimerCnt = 0;
+
+		Log("Fade In & Out Finish");
+	}
+}
+
+void User::RecvBattleReadyStart(char* packet)
+{
+	stBattleReadyStart req;
+	memcpy(&req, packet, sizeof(stBattleReadyStart));
+
+	if (req.movingUID == 99)
+	{
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &req, sizeof(stBattleReadyStart));
+		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
+		g_User.mTimerCnt = 0;
+		Log("Battle Ready(Creep) Start");
+
+		return;
+	}
+
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+
+		int movingPlayerUid;
+		// 이동해야할 uid 지정해서 보내기
+		srand(static_cast<unsigned int>(time(0))); // 난수 초기화
+		int min = 0; // 최소값
+		int max = 1; // 최대값, 추후에 7까지 확장
+		movingPlayerUid = rand() % (max - min + 1) + min; // min ~ max 범위의 난수 생성
+
+		stBattleReadyStart ack;
+
+		ack.movingUID = movingPlayerUid;
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
+		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
+		g_User.mTimerCnt = 0;
+		Log("Battle Ready Start");
+	}
 }
 
 void User::RecvBattleReadyFin(char* packet)
+{
+	// max cnt set
+	stBattleReadyFin req;
+	memcpy(&req, packet, sizeof(stBattleReadyFin));
+
+	ClearCombatCnt();
+	SetMaxCnt(req.myMaxCnt, req.enemyMaxCnt);
+
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		stBattleReadyFin ack;
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stBattleReadyFin));
+		g_User.SendAll(buffer, sizeof(stBattleReadyFin));
+		g_User.mTimerCnt = 0;
+		Log("Battle Ready Finish");
+	}
+
+}
+
+void User::RecvBattleStart(char* packet)
 {
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
 		// Fade-inout start
 		stBattleStart ack;
-		
+
 		char buffer[64];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stBattleStart));
 		g_User.SendAll(buffer, sizeof(stBattleStart));
 		g_User.mTimerCnt = 0;
-	}
 
-	Log("Battle Ready Finish");
+		// 배틀 시작 시점, 적이 나와 있는 시점 
+
+	}
+	Log("Battle Start");
 }
 
 void User::RecvBattleFin(char* packet)
@@ -851,6 +1025,12 @@ void User::RecvBattleFin(char* packet)
 	Log("Battle Finish");
 }
 
+void User::RecvManageStart(char* packet)
+{
+
+	Log("Manage Start");
+}
+
 
 void User::RecvManageFin(char* packet)
 {
@@ -870,6 +1050,31 @@ void User::RecvManageFin(char* packet)
 
 	Log("Manage Finish");
 }
+
+void User::RecvRoundStart(char* packet)
+{
+	stRoundStart req;
+	memcpy(&req, packet, sizeof(stRoundStart));
+
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		g_GameMgr.NextRound(); // Round Count ++
+
+		stRoundStart ack;
+		ack.round = g_GameMgr.GetCurrentRoundType();
+		ack.timer = g_GameMgr.GetNextTimerType();
+
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
+
+		memcpy(buffer, &ack, sizeof(stRoundStart));
+		g_User.SendAll(buffer, sizeof(stRoundStart));
+		g_User.mTimerCnt = 0;
+	}
+	Log("Round Start");
+}
+
 
 void User::RecvRoundFin(char* packet)
 {
@@ -893,3 +1098,4 @@ void User::RecvRoundFin(char* packet)
 		g_User.mTimerCnt = 0;
 	}
 }
+

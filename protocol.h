@@ -50,7 +50,7 @@ enum enProtocol
     prEncounterStart, prEncounterFin,
     prFadeInStart, prFadeInFin,
     prBattleReadyStart, prBattleReadyFin,
-    prBattleStart, prBattleFin,
+    prBattleStart, prBattleFin, prCombatEnd,
     prManageStart, prManageFin,
 
     prRoundStart, prRoundFin,

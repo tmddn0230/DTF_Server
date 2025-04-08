@@ -887,18 +887,26 @@ struct stFadeInFin : public stHeader
 
 struct stBattleReadyStart : public stHeader
 {
+	int32 movingUID;
+
 	stBattleReadyStart()
 	{
-
+		movingUID = 0;
 		SetHeader(prBattleReadyStart, sizeof(stBattleReadyStart));
 	};
 };
 
 struct stBattleReadyFin : public stHeader
 {
+	int32 uid;
+	int32 myMaxCnt;
+	int32 enemyMaxCnt;
 
 	stBattleReadyFin()
 	{
+		uid = 0;
+		myMaxCnt = 0;
+		enemyMaxCnt = 0;
 		SetHeader(prBattleReadyFin, sizeof(stBattleReadyFin));
 	};
 };
@@ -921,6 +929,17 @@ struct stBattleFin : public stHeader
 		SetHeader(prBattleFin, sizeof(stBattleFin));
 	};
 };
+
+struct stCombatEnd : public stHeader
+{
+	int32 uid;
+	stCombatEnd()
+	{
+		uid = 0;
+		SetHeader(prCombatEnd, sizeof(stCombatEnd));
+	};
+};
+
 
 struct stManageStart : public stHeader
 {
