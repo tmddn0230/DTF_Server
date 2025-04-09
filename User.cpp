@@ -587,6 +587,8 @@ void User::RecvCreepDie(char* packet)
 	memcpy(buffer, &ack, sizeof(stCreepDieAck));
 	g_User.SendAll(buffer, sizeof(stCreepDieAck));
 	
+
+	// 여기야 여기 여기가ㅑ 문제
 	Log("Creep Die : [%d] of [%d]", req.Creep, req.UID);
 	g_User.mUser[req.UID].mEnemyCombatCnt++;
 	if (g_User.mUser[req.UID].mEnemyCombatCnt == g_User.mUser[req.UID].mMaxEnemyCombatCnt)
@@ -990,31 +992,21 @@ void User::RecvEncountFin(char* packet)
 	stEncounterFin req;
 	memcpy(&req, packet, sizeof(stEncounterFin));
 
-	stEncounterFin ack;
+	g_User.mTimerCnt++;
+	if (g_User.mTimerCnt == g_User.GetUserCount())
+	{
+		stEncounterFin ack;
 
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
+		char buffer[64];
+		memset(buffer, 0x00, sizeof(buffer));
 
-	memcpy(buffer, &ack, sizeof(stEncounterFin));
-	g_User.SendAll(buffer, sizeof(stEncounterFin));
+		memcpy(buffer, &ack, sizeof(stEncounterFin));
+		g_User.SendAll(buffer, sizeof(stEncounterFin));
 
-	Log("Encounter Fin : [%d]", this->mIndex);
+		Log("Encounter Fin");
 
-	//g_User.mTimerCnt++;
-	//if (g_User.mTimerCnt == g_User.GetUserCount())
-	//{
-	//	// Fade-inout start
-	//	stFadeInStart ack;
-	//	ack.round = g_GameMgr.GetCurrentRoundType();
-	//	ack.timer = enTimerType::TT_Fade_In;
-	//
-	//	char buffer[64];
-	//	memset(buffer, 0x00, sizeof(buffer));
-	//
-	//	memcpy(buffer, &ack, sizeof(stFadeInStart));
-	//	g_User.SendAll(buffer, sizeof(stFadeInStart));
-	//	g_User.mTimerCnt = 0;
-	//}
+		g_User.mTimerCnt = 0;
+	}
 }
 
 void User::RecvFadeInStart(char* packet)
@@ -1065,22 +1057,21 @@ void User::RecvBattleReadyStart(char* packet)
 	stBattleReadyStart req;
 	memcpy(&req, packet, sizeof(stBattleReadyStart));
 
-	if (req.movingUID == 99)
-	{
-		char buffer[64];
-		memset(buffer, 0x00, sizeof(buffer));
-
-		memcpy(buffer, &req, sizeof(stBattleReadyStart));
-		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
-		g_User.mTimerCnt = 0;
-		Log("Battle Ready(Creep) Start");
-
-		return;
-	}
-
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
+		if (req.movingUID == 99)
+		{
+			char buffer[64];
+			memset(buffer, 0x00, sizeof(buffer));
+
+			memcpy(buffer, &req, sizeof(stBattleReadyStart));
+			g_User.SendAll(buffer, sizeof(stBattleReadyStart));
+			g_User.mTimerCnt = 0;
+			Log("Battle Ready(Creep) Start");
+
+			return;
+		}
 
 		int movingPlayerUid;
 		// 이동해야할 uid 지정해서 보내기
@@ -1109,8 +1100,8 @@ void User::RecvBattleReadyFin(char* packet)
 	stBattleReadyFin req;
 	memcpy(&req, packet, sizeof(stBattleReadyFin));
 
-	ClearCombatCnt();
-	SetMaxCnt(req.myMaxCnt, req.enemyMaxCnt);
+	g_User.mUser[req.uid].ClearCombatCnt();
+	g_User.mUser[req.uid].SetMaxCnt(req.myMaxCnt, req.enemyMaxCnt);
 
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
@@ -1131,6 +1122,7 @@ void User::RecvBattleReadyFin(char* packet)
 void User::RecvBattleStart(char* packet)
 {
 	g_User.mTimerCnt++;
+
 	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
 		// Fade-inout start
@@ -1144,9 +1136,8 @@ void User::RecvBattleStart(char* packet)
 		g_User.mTimerCnt = 0;
 
 		// 배틀 시작 시점, 적이 나와 있는 시점 
-
+		Log("Battle Start");
 	}
-	Log("Battle Start");
 }
 
 void User::RecvBattleFin(char* packet)
@@ -1194,9 +1185,9 @@ void User::RecvManageFin(char* packet)
 		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
 		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
 		g_User.mTimerCnt = 0;
-	}
 
-	Log("Manage Finish");
+		Log("Manage Finish");
+	}
 }
 
 void User::RecvRoundStart(char* packet)
@@ -1218,8 +1209,10 @@ void User::RecvRoundStart(char* packet)
 		memcpy(buffer, &ack, sizeof(stRoundStart));
 		g_User.SendAll(buffer, sizeof(stRoundStart));
 		g_User.mTimerCnt = 0;
+
+		Log("Round Start");
 	}
-	Log("Round Start");
+
 }
 
 

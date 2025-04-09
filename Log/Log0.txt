@@ -21764,3 +21764,1197 @@ Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
 Digimon Team Fight ServerThread Start..TCPPort : 25000
 Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
 Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter!! : [1]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [1]
+Round Fin
+Fade In & Out Start
+Encounter Fin : [0]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+ArgPicked : [3]
+ArgPicked : [3]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+AddUser: 1 192.168.75.131
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Encounter Fin : [1]
+Round Fin
+Round Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [1]
+Encounter Fin : [0]
+Round Fin
+Round Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [1]
+Round Fin
+Encounter Fin : [0]
+Fade In & Out Start
+Round Fin
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!! : [1]
+Encounter!! : [0]
+Encounter Fin : [1]
+Round Fin
+Encounter Fin : [0]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+InValid Digicode in User[1]
+InValid Digicode in User[1]
+Battle Start
+InValid Digicode in User[1]
+Battle Start
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Bukamon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Combat Fin (Creep)
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+ArgPicked : [6]
+Failed Socket Create
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin : [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [1] of [1]
+Creep Die : [2] of [1]
+Combat Fin (Creep)
+Creep Die : [2] of [0]
+Combat Fin (Creep)
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!! : [1]
+Encounter!! : [0]
+Encounter Fin : [1]
+Round Fin
+Fade In & Out Start
+Encounter Fin : [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Round Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter!! : [1]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [1] of [1]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Battle Ready Finish
+Battle Start
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [2] of [1]
+Battle Finish
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [2] of [0]
+Combat Fin (Creep)
+Creep Die : [2] of [1]
+Combat Fin (Creep)
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Battle Finish
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter!! : [1]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Combat Fin (Creep)
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+AddUser: 1 192.168.75.131
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Encounter!! : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Creep Die : [0] of [0]
+Combat Fin (Creep)
+Creep Die : [0] of [1]
+Combat Fin (Creep)
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!! : [0]
+Encounter!! : [1]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Spawn Digimon [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Creep Die : [2] of [0]
+Creep Die : [2] of [1]
+Creep Die : [0] of [0]
+Combat Fin (Creep)
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Combat Fin (Creep)
+Creep Die : [0] of [1]
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+ArgPicked : [6]

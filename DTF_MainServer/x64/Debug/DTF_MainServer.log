@@ -1,15 +1,5 @@
-﻿  DTF_MainServer.cpp
+﻿  User.cpp
 D:\GitDesk\DTF_Server\GameManager.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\GitDesk\DTF_Server\DTF_MainServer.cpp(74,70): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
-D:\GitDesk\DTF_Server\DTF_MainServer.cpp(428,23): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
-D:\GitDesk\DTF_Server\DTF_MainServer.cpp(428,23): warning C4302: 'type cast': truncation from 'void *' to 'int'
-  User.cpp
-D:\GitDesk\DTF_Server\GameManager.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  UserManager.cpp
-D:\GitDesk\DTF_Server\GameManager.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  myGlobal.cpp
-D:\GitDesk\DTF_Server\GameManager.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Generating Code...
   DTF_MainServer.vcxproj -> D:\GitDesk\DTF_Server\x64\Debug\DTF_MainServer.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.
