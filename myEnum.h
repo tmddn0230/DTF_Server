@@ -155,6 +155,47 @@ enum enArgument
 	LevelUp				   // 레벨업
 };
 
+enum Synergyes
+{
+	S_None,
+	// 계열
+	Ancient,        // 고대종         (1)
+	AncientKing,    // 고대종의 왕 
+	Mechanized,     // 기계화군단
+	SurpriseParty,  // 깜짝파티단
+	RoyalKnights,   // 로얄나이츠
+	DarkMasters,    // 어둠의 사천왕  (6)
+	Academy,         // 아카데미
+	DarkEvolution,  // 암흑진화
+	Firelight,       // 점화단
+	Conqueror,       // 정복자
+	Supporter,       // 조력자        (11)
+	Enforcer,        // 집행자
+	EvilKings,       // 7대 마왕
+	// 직업
+	Sentinel,        // 감시자
+	Quickstriker,    // 기동타격대    
+	Bruiser,         // 난동꾼         (16)
+	Sorcerer,        // 마법사
+	Visionary,       // 선도자
+	Sniper,          // 저격수
+	Watcher,         // 주시자
+	Dominator,       // 지배자         (21)
+	PitFighter,      // 투사
+	Artillerist,     // 포수
+	FormSwapper,     // 형태변환자
+	// 협동
+	Geniuses,         // 또 다른 결말
+	UnlikelyDuo,      // 뜻밖의 2인조  (26)
+	Rival,            // 라이벌
+	Bancho,           // 반쵸
+	Reunion,          // 재회
+	Angel,            // 천사
+	Halloween,        // 할로윈        (31)
+	// 6코 전용
+	EmperorDragon,  // 용제(엑자몬)
+	BCHO,            // 블루디지조이드(알포스 브이드라몬)
+};
 
 // 라운드 종류
 enum enRoundType

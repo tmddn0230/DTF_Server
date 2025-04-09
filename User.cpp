@@ -14,7 +14,6 @@ User::User(void)
 
 	mSendSize = 0;
 
-	mUID = 0;
 	mIndex = INVALID_VALUE;
 
 
@@ -51,7 +50,6 @@ void User::Clear()
 
 	memset(mName, 0x00, sizeof(mName));
 
-	mUID = 0;
 	mIndex = INVALID_VALUE;
 
 	mThreadNum = INVALID_VALUE;
@@ -230,48 +228,56 @@ void User::Parse(int protocol, char* packet)
 {
 	switch (protocol)
 	{
-	case prLoginReq:			RecvLoginReq(packet);	break;
-	case prEnterLobbyReq:		RecvEnterLobby(packet);	break;
-	case prGetUserInfo:			RecvGetUserInfo(packet);	break;
-	case prEnterGame:	    	RecvEnterGame(packet);	break;
-	case prLoadingFinishgReq:   RecvLoadingFinish(packet);   break;
-	case prStartGame:			RecvStart(packet);   break;
-	case prSelectedReq:			RecvSelected(packet);   break;
-	case prTTelePortReq:		RecvTeleport_Tamer(packet);   break;
-	case prRClickedReq:         RecvRClicked(packet);   break;
-	case prLClickedReq:		    RecvLClicked(packet);   break;
-	case prBoughtReq:		    RecvBought(packet);   break;
-	case prSoldReq:			    RecvSold(packet);   break;
-	case prSpawnReq:			RecvSpawn(packet);		 break;
-	case prSyncTrReq:			RecvTransform(packet); break;
-	case prSetMoveReq:			RecvSetMove(packet); break;
-	case prSetAttackReq:		RecvSetAttack(packet); break;
-	case prSetWinReq:			RecvSetWin(packet); break;
-	case prSetTargetReq:		RecvTarget(packet);	break;
-	case prHpReq:				RecvSetHp(packet); break;
-	case prMpReq:				RecvSetMp(packet); break;
-	case prDieReq:			    RecvDie(packet);   break;
-	case prAttachedReq:		    RecvAttached(packet);   break;
-	case prDetachedReq:		    RecvDetached(packet);   break;
-	case prCreepHpReq:			RecvCreepHp(packet); break;
-	case prCreepDieReq:			RecvCreepDie(packet); break;
-	case prPickingReq:			RecvPicking(packet); break;
-	case prPickingObjReq:		RecvPickingObj(packet); break;
-	case prArgPickedReq:        RecvArgPicked(packet);   break;
-		// Flow
-	case prEncounterStart:      RecvEncountStart(packet); break;
-	case prEncounterFin:		RecvEncountFin(packet);	break; // 사실상 안쓰임
-	case prFadeInStart:			RecvFadeInStart(packet); break;
-	case prFadeInFin:			RecvFadeInFin(packet); break;
-	case prBattleReadyStart:	RecvBattleReadyStart(packet); break;
-	case prBattleReadyFin:		RecvBattleReadyFin(packet); break;
-	case prBattleStart:			RecvBattleStart(packet); break;
-	case prBattleFin:			RecvBattleFin(packet);	break;
-	case prManageStart:			RecvManageStart(packet); break;
-	case prManageFin:			RecvManageFin(packet); break;
-
-	case prRoundStart:			RecvRoundStart(packet); break;
-	case prRoundFin:			RecvRoundFin(packet); break;
+	case prLoginReq:			 RecvLoginReq(packet);	break;
+	case prEnterLobbyReq:		 RecvEnterLobby(packet);	break;
+	case prGetUserInfo:			 RecvGetUserInfo(packet);	break;
+	case prEnterGame:	    	 RecvEnterGame(packet);	break;
+	case prLoadingFinishgReq:    RecvLoadingFinish(packet);   break;
+	case prStartGame:			 RecvStart(packet);   break;
+	case prSelectedReq:			 RecvSelected(packet);   break;
+	case prTTelePortReq:		 RecvTeleport_Tamer(packet);   break;
+	case prRClickedReq:          RecvRClicked(packet);   break;
+	case prLClickedReq:		     RecvLClicked(packet);   break;
+	case prBoughtReq:		     RecvBought(packet);   break;
+	case prSoldReq:			     RecvSold(packet);   break;
+	case prSpawnReq:			 RecvSpawn(packet);		 break;
+	case prSyncTrReq:			 RecvTransform(packet); break;
+	case prSetMoveReq:			 RecvSetMove(packet); break;
+	case prSetAttackReq:		 RecvSetAttack(packet); break;
+	case prSetWinReq:			 RecvSetWin(packet); break;
+	case prSetTargetReq:		 RecvTarget(packet);	break;
+	case prHpReq:				 RecvSetHp(packet); break;
+	case prMpReq:				 RecvSetMp(packet); break;
+	case prDieReq:			     RecvDie(packet);   break;
+	case prAttachedReq:		     RecvAttached(packet);   break;
+	case prDetachedReq:		     RecvDetached(packet);   break;
+	case prCreepHpReq:			 RecvCreepHp(packet); break;
+	case prCreepDieReq:			 RecvCreepDie(packet); break;
+	case prPickingReq:			 RecvPicking(packet); break;
+	case prPickingObjReq:		 RecvPickingObj(packet); break;
+		// Arg					 
+	case prArgPickedReq:         RecvArgPicked(packet);   break;
+	case prArgBranchingOutChoice:RecvArgBranchingOutChoice(packet); break;
+	case prArgTitan:			 RecvArgTitan(packet); break;
+	case prArgCalledShot:		 RecvArgCalledShot(packet); break;
+	case prArgOverEncumbered:	 RecvArgOverEncumbered(packet); break;
+	case prArgFiresale:			 RecvArgFiresale(packet); break;
+	case prArgKingslayer:		 RecvArgKingslayer(packet); break;
+								 
+		// Flow					 
+	case prEncounterStart:       RecvEncountStart(packet); break;
+	case prEncounterFin:		 RecvEncountFin(packet);	break; // 사실상 안쓰임
+	case prFadeInStart:			 RecvFadeInStart(packet); break;
+	case prFadeInFin:			 RecvFadeInFin(packet); break;
+	case prBattleReadyStart:	 RecvBattleReadyStart(packet); break;
+	case prBattleReadyFin:		 RecvBattleReadyFin(packet); break;
+	case prBattleStart:			 RecvBattleStart(packet); break;
+	case prBattleFin:			 RecvBattleFin(packet);	break;
+	case prManageStart:			 RecvManageStart(packet); break;
+	case prManageFin:			 RecvManageFin(packet); break;
+								 
+	case prRoundStart:			 RecvRoundStart(packet); break;
+	case prRoundFin:			 RecvRoundFin(packet); break;
 		//default:			SendDefault(packet);	break;
 	}
 
@@ -382,7 +388,7 @@ void User::RecvGetUserInfo(char* packet)
 
 		stGetUserInfo ack;
 
-		ack.UID = g_User.GetUser(i)->mUID;
+		ack.UID = g_User.GetUser(i)->mIndex;
 		ack.selectedTD = g_User.GetUser(i)->mSelectedTDigimon;
 		memcpy(ack.playerID, &req.playerID, sizeof(req.playerID));
 
@@ -579,11 +585,10 @@ void User::RecvCreepDie(char* packet)
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stCreepDieAck));
 	g_User.SendAll(buffer, sizeof(stCreepDieAck));
-
+	
 	Log("Creep Die : [%d] of [%d]", req.Creep, req.UID);
-	mEnemyCombatCnt++;
-
-	if (mEnemyCombatCnt == mMaxEnemyCombatCnt)
+	g_User.mUser[req.UID].mEnemyCombatCnt++;
+	if (g_User.mUser[req.UID].mEnemyCombatCnt == g_User.mUser[req.UID].mMaxEnemyCombatCnt)
 	{
 		// Combat Find 패킷 작성해서 보냄
 		stCombatEnd ack;
@@ -640,11 +645,128 @@ void User::RecvPickingObj(char* packet)
 
 void User::RecvArgPicked(char* packet)
 {
-	stArgPicKedAck req;
-	memcpy(&req, packet, sizeof(stArgPicKedAck));
+	stArgPickedReq req;
+	memcpy(&req, packet, sizeof(stArgPickedReq));
 
-	g_User.SendOther(req.UID, packet, sizeof(stArgPicKedAck));
-	puts("Recv And Send All Packet");
+	stArgPickedAck ack;
+
+	ack.UID = req.UID;
+	ack.pickedArg = req.pickedArg;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgPickedAck));
+	g_User.SendAll(buffer, sizeof(stArgPickedAck));
+
+	Log("ArgPicked : [%d]", req.pickedArg);
+}
+
+void User::RecvArgBranchingOutChoice(char* packet)
+{
+	stArgBranchingOutChoice req;
+	memcpy(&req, packet, sizeof(stArgBranchingOutChoice));
+
+	stArgBranchingOutChoice ack;
+
+	ack.UID = req.UID;
+	ack.synergy = req.synergy;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgBranchingOutChoice));
+	g_User.SendAll(buffer, sizeof(stArgBranchingOutChoice));
+
+	Log("ArgBranchingOutChoice");
+}
+
+void User::RecvArgTitan(char* packet)
+{
+	stArgTitan req;
+	memcpy(&req, packet, sizeof(stArgTitan));
+
+	stArgTitan ack;
+
+	ack.UID = req.UID;
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgTitan));
+	g_User.SendAll(buffer, sizeof(stArgTitan));
+
+	Log("ArgTitan");
+}
+
+void User::RecvArgCalledShot(char* packet)
+{
+	stArgCalledShot req;
+	memcpy(&req, packet, sizeof(stArgTitan));
+
+	stArgCalledShot ack;
+
+	ack.UID = req.UID;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgCalledShot));
+	g_User.SendAll(buffer, sizeof(stArgCalledShot));
+
+	Log("ArgCalledShot");
+}
+
+void User::RecvArgOverEncumbered(char* packet)
+{
+	stArgOverEncumbered req;
+	memcpy(&req, packet, sizeof(stArgOverEncumbered));
+
+	stArgOverEncumbered ack;
+
+	ack.UID = req.UID;
+	ack.item1 = req.item1;
+	ack.item2 = req.item2;
+	ack.item3 = req.item3;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgOverEncumbered));
+	g_User.SendAll(buffer, sizeof(stArgOverEncumbered));
+
+	Log("ArgOverEncumbered");
+}
+
+void User::RecvArgFiresale(char* packet)
+{
+	stArgFireslae req;
+	memcpy(&req, packet, sizeof(stArgFireslae));
+
+	stArgFireslae ack;
+
+	ack.UID = req.UID;
+	memcpy(ack.digimonName, &req.digimonName, sizeof(req.digimonName));
+	ack.idx = req.idx;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgFireslae));
+	g_User.SendAll(buffer, sizeof(stArgFireslae));
+
+	Log("ArgFireslae");
+}
+
+void User::RecvArgKingslayer(char* packet)
+{
+	stArgKngslayer req;
+	memcpy(&req, packet, sizeof(stArgKngslayer));
+
+	stArgKngslayer ack;
+
+	ack.myUID = req.myUID;
+	ack.enemyUID = req.enemyUID;
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stArgKngslayer));
+	g_User.SendAll(buffer, sizeof(stArgKngslayer));
+
+	Log("ArgKngslayer");
 }
 
 
@@ -834,7 +956,7 @@ void User::RecvEncountStart(char* packet)
 
 		g_User.mWaitingCnt = 0;
 	}
-	Log("Encounter!! : [%d]", this->mUID);
+	Log("Encounter!! : [%d]", this->mIndex);
 }
 
 void User::RecvEncountFin(char* packet)
@@ -850,7 +972,7 @@ void User::RecvEncountFin(char* packet)
 	memcpy(buffer, &ack, sizeof(stEncounterFin));
 	g_User.SendAll(buffer, sizeof(stEncounterFin));
 
-	Log("Encounter Fin : [%d]", this->mUID);
+	Log("Encounter Fin : [%d]", this->mIndex);
 
 	//g_User.mTimerCnt++;
 	//if (g_User.mTimerCnt == g_User.GetUserCount())
@@ -1059,7 +1181,6 @@ void User::RecvRoundStart(char* packet)
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
-		g_GameMgr.NextRound(); // Round Count ++
 
 		stRoundStart ack;
 		ack.round = g_GameMgr.GetCurrentRoundType();
@@ -1084,18 +1205,43 @@ void User::RecvRoundFin(char* packet)
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
-		g_GameMgr.NextRound(); // Round Count ++
 
-		stRoundStart ack;
+		stRoundFin ack;
+
 		ack.round = g_GameMgr.GetCurrentRoundType();
 		ack.timer = g_GameMgr.GetNextTimerType();
 
 		char buffer[64];
 		memset(buffer, 0x00, sizeof(buffer));
 
-		memcpy(buffer, &ack, sizeof(stRoundStart));
-		g_User.SendAll(buffer, sizeof(stRoundStart));
+		memcpy(buffer, &ack, sizeof(stRoundFin));
+		g_User.SendAll(buffer, sizeof(stRoundFin));
 		g_User.mTimerCnt = 0;
+
+		g_GameMgr.NextRound(); // Round Count ++
+		Log("Round Fin");
 	}
+
+
+
+
+
+	//g_User.mTimerCnt++;
+	//if (g_User.mTimerCnt == g_User.GetUserCount())
+	//{
+	//	g_GameMgr.NextRound(); // Round Count ++
+	//
+	//	stRoundStart ack;
+	//	ack.round = g_GameMgr.GetCurrentRoundType();
+	//	ack.timer = g_GameMgr.GetNextTimerType();
+	//
+	//	char buffer[64];
+	//	memset(buffer, 0x00, sizeof(buffer));
+	//
+	//	memcpy(buffer, &ack, sizeof(stRoundStart));
+	//	g_User.SendAll(buffer, sizeof(stRoundStart));
+	//	g_User.mTimerCnt = 0;
+	//}
+
 }
 

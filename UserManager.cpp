@@ -70,7 +70,7 @@ User* UserManager::GetUser(int uid)
 	int i;
 	for (i = 0; i < MAX_USER; ++i)
 	{
-		if (mUser[i].mUID == uid)
+		if (mUser[i].mIndex == uid)
 			return &mUser[i];
 	}
 	return NULL;

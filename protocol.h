@@ -45,7 +45,13 @@ enum enProtocol
     prAttachedReq, prAttachedAck,
     prDetachedReq, prDetachedAck,
     // 증강 동기화 관련
-    prArgPickedReq, prArgPicKedAck,
+    prArgPickedReq, prArgPickedAck,
+    prArgBranchingOutChoice,
+    prArgTitan,
+    prArgCalledShot,
+    prArgOverEncumbered,
+    prArgFiresale,
+    prArgKingslayer,
     // 게임 플로우 타이머 관련
     prEncounterStart, prEncounterFin,
     prFadeInStart, prFadeInFin,

@@ -825,18 +825,100 @@ struct stArgPickedReq : public stHeader
 	};
 };
 
-struct stArgPicKedAck : public stHeader
+struct stArgPickedAck : public stHeader
 {
 	int32 UID;
 	enArgument pickedArg;
-	stArgPicKedAck()
+	stArgPickedAck()
 	{
 		UID = 0;
 		pickedArg = enArgument::None;
-		SetHeader(prArgPicKedAck, sizeof(stArgPicKedAck));
+		SetHeader(prArgPickedAck, sizeof(stArgPickedAck));
 	};
 };
 
+struct stArgBranchingOutChoice : public stHeader
+{
+	int32 UID;
+	Synergyes synergy;
+
+	stArgBranchingOutChoice()
+	{
+		UID = 0;
+		synergy = Synergyes::S_None;
+		SetHeader(prArgBranchingOutChoice, sizeof(stArgBranchingOutChoice));
+	};
+};
+
+struct stArgTitan : public stHeader
+{
+	int32 UID;
+
+
+	stArgTitan()
+	{
+		UID = 0;
+		SetHeader(prArgTitan, sizeof(stArgTitan));
+	};
+};
+
+struct stArgCalledShot : public stHeader
+{
+	int32 UID;
+
+	stArgCalledShot()
+	{
+		UID = 0;
+
+		SetHeader(prArgCalledShot, sizeof(stArgCalledShot));
+	};
+};
+
+struct stArgOverEncumbered : public stHeader
+{
+	int32 UID;
+	int32 item1;
+	int32 item2;
+	int32 item3;
+
+	stArgOverEncumbered()
+	{
+		UID = 0;
+		item1 = 0;
+		item2 = 0;
+		item3 = 0;
+		SetHeader(prArgOverEncumbered, sizeof(stArgOverEncumbered));
+	};
+};
+
+struct stArgFireslae : public stHeader
+{
+	int32 UID;
+	char digimonName[32];
+	int32 idx;
+
+	stArgFireslae()
+	{
+		UID = 0;
+		memset(digimonName, 0x00, sizeof(digimonName));
+		idx = 0;
+		SetHeader(prArgFiresale, sizeof(stArgFireslae));
+	};
+};
+
+struct stArgKngslayer : public stHeader
+{
+	int32 myUID;
+	int32 enemyUID;
+
+	stArgKngslayer()
+	{
+		myUID	 = 0;
+		enemyUID = 0;
+
+		SetHeader(prArgKingslayer, sizeof(stArgKngslayer));
+	};
+};
 
 /*
 ==================================================================
@@ -974,8 +1056,12 @@ struct stRoundStart : public stHeader
 
 struct stRoundFin : public stHeader
 {
+	enRoundType round;
+	enTimerType timer;
 	stRoundFin()
 	{
+		round = enRoundType::Type_None;
+		timer = enTimerType::TT_None;
 		SetHeader(prRoundFin, sizeof(stRoundFin));
 	};
 };

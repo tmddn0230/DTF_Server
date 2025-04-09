@@ -13,7 +13,6 @@ public:
 
 	int mThreadNum;
 	int mIndex;
-	int mUID;
 
 	int mRecvWrite;
 	char mRecvBuffer[MAX_RECV];
@@ -87,7 +86,15 @@ public: //RECV
 	void RecvCreepDie(char* packet);
 	void RecvPicking(char* packet);
 	void RecvPickingObj(char* packet);
+	// Arguments
 	void RecvArgPicked(char* packet);
+	void RecvArgBranchingOutChoice(char* packet);
+	void RecvArgTitan(char* packet);
+	void RecvArgCalledShot(char* packet);
+	void RecvArgOverEncumbered(char* packet);
+	void RecvArgFiresale(char* packet);
+	void RecvArgKingslayer(char* packet);
+
 	// Flow 
 	void RecvEncountStart(char* packet);
 	void RecvEncountFin(char* packet);
