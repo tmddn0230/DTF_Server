@@ -241,6 +241,7 @@ void User::Parse(int protocol, char* packet)
 	case prBoughtReq:		     RecvBought(packet);   break;
 	case prSoldReq:			     RecvSold(packet);   break;
 	case prSpawnReq:			 RecvSpawn(packet);		 break;
+	case prSpawnCreepReq:		 RecvSpawnCreep(packet); break;
 	case prSyncTrReq:			 RecvTransform(packet); break;
 	case prSetMoveReq:			 RecvSetMove(packet); break;
 	case prSetAttackReq:		 RecvSetAttack(packet); break;
@@ -798,6 +799,31 @@ void User::RecvSpawn(char* packet)
 	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
 	Log("Spawn Digimon [%d]", g_GameMgr.m_Digicode);
 }
+
+void User::RecvSpawnCreep(char* packet)
+{
+	stSpawnCreepReq req;
+	memcpy(&req, packet, sizeof(stSpawnCreepReq));
+
+	stSpawnCreepAck ack;
+
+	ack.UID = req.UID;
+	ack.TileIndex = req.TileIndex;
+	// CreepIdx ºÎ¿©
+	ack.CreepIdx = req.CreepIdx;
+
+	memcpy(ack.spawnDigimonName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
+
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSpawnCreepAck));
+
+	g_User.SendAll(buffer, sizeof(stSpawnCreepAck));
+
+	Log("Spawn Creep Digimon");
+}
+
 
 void User::RecvTransform(char* packet)
 {

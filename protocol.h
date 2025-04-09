@@ -26,6 +26,7 @@ enum enProtocol
     prBoughtReq, prBoughtAck,
     prSoldReq, prSoldAck,
     prSpawnReq, prSpawnAck,
+    prSpawnCreepReq, prSpawnCreepAck,
     // 디지몬 동작 동기화 관련
     prSyncTrReq, prSyncTrAck,
     prSetMoveReq, prSetMoveAck,

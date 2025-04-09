@@ -21760,3 +21760,7 @@ Teleport_Tamer[1] to [1]
 Fade In & Out Finish
 Round Start
 Round Start
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000

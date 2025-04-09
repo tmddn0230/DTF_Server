@@ -72,6 +72,7 @@ public: //RECV
 	void RecvBought(char* packet);
 	void RecvSold(char* packet);
 	void RecvSpawn(char* packet);
+	void RecvSpawnCreep(char* packet);
 	void RecvTransform(char* packet);
 	void RecvSetMove(char* packet);
 	void RecvSetAttack(char* packet);

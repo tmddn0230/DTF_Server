@@ -375,6 +375,40 @@ struct stSpawnAck : public stHeader
 	};
 };
 
+struct stSpawnCreepReq : public stHeader
+{
+	int32 UID;
+	int32 TileIndex;
+	int32 CreepIdx;
+	char  spawnDigimonName[32];
+
+	stSpawnCreepReq()
+	{
+		UID = 0;
+		TileIndex = 0;
+		CreepIdx = 0;
+		memset(spawnDigimonName, 0x00, sizeof(spawnDigimonName));
+		SetHeader(prSpawnCreepReq, sizeof(stSpawnCreepReq));
+	};
+};
+
+struct stSpawnCreepAck : public stHeader
+{
+	int32 UID;
+	int32 TileIndex;
+	int32 CreepIdx;
+	char  spawnDigimonName[32];
+
+	stSpawnCreepAck()
+	{
+		UID = 0;
+		TileIndex = 0;
+		CreepIdx = 0;
+		memset(spawnDigimonName, 0x00, sizeof(spawnDigimonName));
+		SetHeader(prSpawnCreepAck, sizeof(stSpawnCreepAck));
+	};
+};
+
 /*
 ==================================================================
 ================   디지몬 동작 관련 패킷   =======================
