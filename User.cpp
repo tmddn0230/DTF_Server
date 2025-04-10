@@ -603,7 +603,7 @@ void User::RecvCreepDie(char* packet)
 		memcpy(buffer, &ack, sizeof(stCombatEnd));
 		g_User.SendAll(buffer, sizeof(stCombatEnd));
 
-		Log("Combat Fin (Creep)");
+		Log("Combat Fin (Creep) [%d]", req.UID);
 	}
 }
 

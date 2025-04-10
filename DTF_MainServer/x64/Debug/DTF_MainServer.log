@@ -1,5 +1,5 @@
 ﻿  User.cpp
-D:\GitDesk\DTF_Server\GameManager.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  DTF_MainServer.vcxproj -> D:\GitDesk\DTF_Server\x64\Debug\DTF_MainServer.exe
+C:\Users\user\Documents\GitHub\DTF_Server\GameManager.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  DTF_MainServer.vcxproj -> C:\Users\user\Documents\GitHub\DTF_Server\x64\Debug\DTF_MainServer.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.
