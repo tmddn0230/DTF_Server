@@ -1090,7 +1090,7 @@ void User::RecvBattleReadyStart(char* packet)
 		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
 		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
 		g_User.mTimerCnt = 0;
-		Log("Battle Ready Start");
+		Log("Battle Ready Start Moving ID[%d]", movingPlayerUid);
 	}
 }
 
@@ -1177,13 +1177,13 @@ void User::RecvManageFin(char* packet)
 	if (g_User.mTimerCnt == g_User.GetUserCount())
 	{
 		// Fade-inout start
-		stBattleReadyStart ack;
+		stManageFin ack;
 
 		char buffer[64];
 		memset(buffer, 0x00, sizeof(buffer));
 
-		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
-		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
+		memcpy(buffer, &ack, sizeof(stManageFin));
+		g_User.SendAll(buffer, sizeof(stManageFin));
 		g_User.mTimerCnt = 0;
 
 		Log("Manage Finish");
