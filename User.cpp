@@ -228,25 +228,26 @@ void User::Parse(int protocol, char* packet)
 {
 	switch (protocol)
 	{
+		// 로그인 및 게임 시작 관련
 	case prLoginReq:			 RecvLoginReq(packet);	break;
 	case prEnterLobbyReq:		 RecvEnterLobby(packet);	break;
 	case prGetUserInfo:			 RecvGetUserInfo(packet);	break;
 	case prEnterGame:	    	 RecvEnterGame(packet);	break;
 	case prLoadingFinishgReq:    RecvLoadingFinish(packet);   break;
 	case prStartGame:			 RecvStart(packet);   break;
+		// 테이머 행동 관련
 	case prSelectedReq:			 RecvSelected(packet);   break;
 	case prTTelePortReq:		 RecvTeleport_Tamer(packet);   break;
 	case prRClickedReq:          RecvRClicked(packet);   break;
-	case prLClickedReq:		     RecvLClicked(packet);   break;
 	case prBoughtReq:		     RecvBought(packet);   break;
 	case prSoldReq:			     RecvSold(packet);   break;
 	case prSpawnReq:			 RecvSpawn(packet);		 break;
 	case prSpawnCreepReq:		 RecvSpawnCreep(packet); break;
+		// 디지몬 동기화 관련
 	case prSyncTrReq:			 RecvTransform(packet); break;
 	case prSetMoveReq:			 RecvSetMove(packet); break;
 	case prSetAttackReq:		 RecvSetAttack(packet); break;
 	case prSetWinReq:			 RecvSetWin(packet); break;
-	case prSetTargetReq:		 RecvTarget(packet);	break;
 	case prHpReq:				 RecvSetHp(packet); break;
 	case prMpReq:				 RecvSetMp(packet); break;
 	case prDieReq:			     RecvDie(packet);   break;
@@ -254,6 +255,7 @@ void User::Parse(int protocol, char* packet)
 	case prDetachedReq:		     RecvDetached(packet);   break;
 	case prCreepHpReq:			 RecvCreepHp(packet); break;
 	case prCreepDieReq:			 RecvCreepDie(packet); break;
+		// 장비 관련
 	case prPickingReq:			 RecvPicking(packet); break;
 	case prPickingObjReq:		 RecvPickingObj(packet); break;
 		// Arg					 
@@ -307,6 +309,16 @@ void User::ClearCombatCnt()
 	mEnemyCombatCnt = 0;
 	mMaxMyCombatCnt = 0;
 	mMaxEnemyCombatCnt = 0;
+}
+
+using namespace std::chrono;
+
+float User::GetServerTime()
+{
+	// std::chrono::high_resolution_clock::time_point
+	auto   now = std::chrono::high_resolution_clock::now(); // high_resolution_clock : 지금 시점의 고해상도(시간정밀도 : 나노초) 시간 
+	auto   duration = duration_cast<milliseconds>(now.time_since_epoch()); // now.time_since_epoch() : 1970.01.01(epoch) 부터 지금까지의 시간
+	return duration.count() / 1000.0f; // milliseconds 니까 1000 으로 나눠줌 , count : 시간값을 정수화 하여 알려줌 123ms->123
 }
 
 /*
@@ -501,15 +513,6 @@ void User::RecvRClicked(char* packet)
 
 	g_User.SendAll(buffer, sizeof(stRClickedAck));
 	Log("Player : [%d] MoveTo ([%f], [%f], [%f]) ", req.UID, req.v[0], req.v[1], req.v[2]);
-}
-
-void User::RecvLClicked(char* packet)
-{
-	stLClickedAck req;
-	memcpy(&req, packet, sizeof(stLClickedAck));
-
-	g_User.SendOther(req.UID, packet, sizeof(stLClickedAck));
-	puts("Recv And Send All Packet");
 }
 
 void User::RecvBought(char* packet)
@@ -910,24 +913,6 @@ void User::RecvSetWin(char* packet)
 	memcpy(buffer, &ack, sizeof(stSetWinAck));
 
 	g_User.SendAll(buffer, sizeof(stSetWinAck));
-}
-
-void User::RecvTarget(char* packet)
-{
-	stSetTargetReq req;
-	memcpy(&req, packet, sizeof(stSetTargetReq));
-
-	stSetTargetAck ack;
-
-	ack.UID = req.UID;
-	ack.myDigicode = req.myDigicode;
-	ack.tgDigicode = req.tgDigicode;
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSetTargetAck));
-
-	g_User.SendOther(req.UID, buffer, sizeof(stSetTargetAck));
 }
 
 void User::RecvSetHp(char* packet)

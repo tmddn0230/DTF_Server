@@ -58,6 +58,8 @@ public:
 	void SetMaxCnt(int myMax, int enemyMax);
 	void ClearCombatCnt();
 
+	float GetServerTime();
+
 public: //RECV
 	void RecvLoginReq(char* packet);
 	void RecvEnterLobby(char* packet);

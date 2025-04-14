@@ -21,7 +21,7 @@ enum enProtocol
     prSelectedReq, prSelectedAck,   // 초밥 선택
     prTTelePortReq, prTTelePortAck, // 텔레포트
     prRClickedReq, prRClickedAck, // 이동 신호
-    prLClickedReq, prLClickedAck,   // Drag Drop 시 Drop 에서 
+
     // 게임 정보 동기화 관련
     prBoughtReq, prBoughtAck,
     prSoldReq, prSoldAck,
@@ -32,7 +32,7 @@ enum enProtocol
     prSetMoveReq, prSetMoveAck,
     prSetAttackReq, prSetAttackAck,
     prSetWinReq, prSetWinAck,
-    prSetTargetReq, prSetTargetAck,
+
     // 디지몬 스텟 동기화 관련
     prHpReq, prHpAck,
     prMpReq, prMpAck,

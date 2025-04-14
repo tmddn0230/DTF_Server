@@ -252,34 +252,6 @@ struct stRClickedAck : public stHeader
 	};
 };
 
-//	prLClickedReq, prLClickedAck,
-// Drag and drop 시 변경된 타일의 위치
-struct stLClickedReq : public stHeader
-{
-	int32 UID;
-	int32 TileIndex;
-	stLClickedReq()
-	{
-		UID = 0;
-		TileIndex = 0;
-
-		SetHeader(prLClickedReq, sizeof(stLClickedReq));
-	};
-};
-
-struct stLClickedAck : public stHeader
-{
-	int32 UID;
-	int32 TileIndex;
-	stLClickedAck()
-	{
-		UID = 0;
-		TileIndex = 0;
-
-		SetHeader(prLClickedAck, sizeof(stLClickedAck));
-	};
-};
-
 /*
 ==================================================================
 ================   게임 플레이 관련 패킷   =======================
@@ -423,6 +395,7 @@ struct stSyncTrReq :public stHeader
 	float v[3];
 	float q[4];
 
+
 	stSyncTrReq()
 	{
 		UID = 0;
@@ -439,6 +412,7 @@ struct stSyncTrAck :public stHeader
 	int32 Digicode;
 	float v[3];
 	float q[4];
+	float serverTime;
 
 	stSyncTrAck()
 	{
@@ -468,11 +442,13 @@ struct stSetMoveAck : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
+	float serverTime;
 
 	stSetMoveAck()
 	{
 		UID = 0;
 		Digicode = 0;
+		serverTime = 0;
 		SetHeader(prSetMoveAck, sizeof(stSetMoveAck));
 	};
 };
@@ -495,11 +471,13 @@ struct stSetAttackAck : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
+	float serverTime;
 
 	stSetAttackAck()
 	{
 		UID = 0;
 		Digicode = 0;
+		serverTime = 0;
 		SetHeader(prSetAttackAck, sizeof(stSetAttackAck));
 	};
 };
@@ -522,44 +500,14 @@ struct stSetWinAck : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
+	float serverTime;
 
 	stSetWinAck()
 	{
 		UID = 0;
 		Digicode = 0;
+		serverTime = 0;
 		SetHeader(prSetWinAck, sizeof(stSetWinAck));
-	};
-};
-
-// prSetTargetReq, prSetTargetAck
-// 타겟 설정
-struct stSetTargetReq : public stHeader
-{
-	int32 UID;
-	int32 myDigicode;
-	int32 tgDigicode;
-
-	stSetTargetReq()
-	{
-		UID = 0;
-		myDigicode = 0;
-		tgDigicode = 0;
-		SetHeader(prSetTargetReq, sizeof(stSetTargetReq));
-	};
-};
-
-struct stSetTargetAck : public stHeader
-{
-	int32 UID;
-	int32 myDigicode;
-	int32 tgDigicode;
-
-	stSetTargetAck()
-	{
-		UID = 0;
-		myDigicode = 0;
-		tgDigicode = 0;
-		SetHeader(prSetTargetAck, sizeof(stSetTargetAck));
 	};
 };
 
@@ -584,12 +532,14 @@ struct stHpAck : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float Hp;
+	float serverTime;
 
 	stHpAck()
 	{
 		UID = 0;
 		Digicode = 0;
 		Hp = 0;
+		serverTime = 0;
 		SetHeader(prHpAck, sizeof(stHpAck));
 	};
 };
@@ -615,12 +565,14 @@ struct stMpAck : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float Mp;
+	float serverTime;
 
 	stMpAck()
 	{
 		UID = 0;
 		Digicode = 0;
 		Mp = 0;
+		serverTime = 0;
 		SetHeader(prMpAck, sizeof(stMpAck));
 	};
 };
@@ -644,11 +596,13 @@ struct stDieAck : public stHeader
 {
 	int32 UID;
 	enDigimon diedDigimon;
+	float serverTime;
+
 	stDieAck()
 	{
 		UID = 0;
 		diedDigimon = enDigimon::NoneDigimon;
-
+		serverTime = 0;
 		SetHeader(prDieAck, sizeof(stDieAck));
 	};
 };
