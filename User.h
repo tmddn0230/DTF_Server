@@ -70,7 +70,9 @@ public: //RECV
 	void RecvSelected(char* packet);
 	void RecvTeleport_Tamer(char* packet);
 	void RecvRClicked(char* packet);
-	void RecvLClicked(char* packet);
+
+	// Game Info
+	void RecvServerTime(char* packet);
 	void RecvBought(char* packet);
 	void RecvSold(char* packet);
 	void RecvSpawn(char* packet);
@@ -79,7 +81,7 @@ public: //RECV
 	void RecvSetMove(char* packet);
 	void RecvSetAttack(char* packet);
 	void RecvSetWin(char* packet);
-	void RecvTarget(char* packet);
+
 	void RecvSetHp(char* packet);
 	void RecvSetMp(char* packet);
 	void RecvDie(char* packet);

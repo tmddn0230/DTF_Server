@@ -26215,3 +26215,42 @@ Fade In & Out Finish
 Round Start
 ArgPicked : [5]
 ArgPicked : [5]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [391675.625000]
+Server Time : [391680.625000]
+Server Time : [391685.625000]
+Server Time : [391690.625000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [392607.718750]
+Server Time : [392612.718750]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [392708.625000]
+Server Time : [392713.625000]
+Failed Socket Create
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [393002.625000]
+Server Time : [393007.625000]
+Server Time : [393012.593750]
+AddUser: 0 192.168.75.232
+Server Time : [393059.500000]
+Server Time : [393064.468750]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [394474.125000]
+Server Time : [394479.093750]
+Server Time : [394484.125000]
+Server Time : [394489.125000]
+Server Time : [394494.125000]
+Server Time : [394499.125000]

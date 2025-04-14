@@ -239,6 +239,9 @@ void User::Parse(int protocol, char* packet)
 	case prSelectedReq:			 RecvSelected(packet);   break;
 	case prTTelePortReq:		 RecvTeleport_Tamer(packet);   break;
 	case prRClickedReq:          RecvRClicked(packet);   break;
+
+		// 게임 플레이 관련
+	case prServerTimeReq:		 RecvServerTime(packet); break;
 	case prBoughtReq:		     RecvBought(packet);   break;
 	case prSoldReq:			     RecvSold(packet);   break;
 	case prSpawnReq:			 RecvSpawn(packet);		 break;
@@ -316,9 +319,12 @@ using namespace std::chrono;
 float User::GetServerTime()
 {
 	// std::chrono::high_resolution_clock::time_point
-	auto   now = std::chrono::high_resolution_clock::now(); // high_resolution_clock : 지금 시점의 고해상도(시간정밀도 : 나노초) 시간 
-	auto   duration = duration_cast<milliseconds>(now.time_since_epoch()); // now.time_since_epoch() : 1970.01.01(epoch) 부터 지금까지의 시간
-	return duration.count() / 1000.0f; // milliseconds 니까 1000 으로 나눠줌 , count : 시간값을 정수화 하여 알려줌 123ms->123
+	// high_resolution_clock : 지금 시점의 고해상도(시간정밀도 : 나노초) 시간 
+	auto   now = std::chrono::high_resolution_clock::now();
+	// now.time_since_epoch() : 1970.01.01(epoch) 부터 지금까지의 시간
+	auto   duration = duration_cast<milliseconds>(now.time_since_epoch());
+	// milliseconds 니까 1000 으로 나눠줌 , count : 시간값을 정수화 하여 알려줌 123ms->123
+	return duration.count() / 1000.0f; 
 }
 
 /*
@@ -513,6 +519,24 @@ void User::RecvRClicked(char* packet)
 
 	g_User.SendAll(buffer, sizeof(stRClickedAck));
 	Log("Player : [%d] MoveTo ([%f], [%f], [%f]) ", req.UID, req.v[0], req.v[1], req.v[2]);
+}
+
+void User::RecvServerTime(char* packet)
+{
+	stServerTimeReq req;
+	memcpy(&req, packet, sizeof(stServerTimeReq));
+
+	stServerTimeAck ack;
+	ack.requestSendTime = req.requestSendTime;
+	ack.serverTime = GetServerTime();
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stServerTimeAck));
+
+	g_User.SendAll(buffer, sizeof(stServerTimeAck));
+
+	Log("Server Time : [%f]", ack.serverTime);
 }
 
 void User::RecvBought(char* packet)
@@ -839,6 +863,7 @@ void User::RecvTransform(char* packet)
 
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
+	ack.serverTime = req.serverTime;
 
 	if (g_User.mUser[req.UID].IsValidDigicode(req.UID, req.Digicode))
 	{

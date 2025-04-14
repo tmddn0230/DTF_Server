@@ -23,6 +23,7 @@ enum enProtocol
     prRClickedReq, prRClickedAck, // 이동 신호
 
     // 게임 정보 동기화 관련
+    prServerTimeReq, prServerTimeAck,
     prBoughtReq, prBoughtAck,
     prSoldReq, prSoldAck,
     prSpawnReq, prSpawnAck,

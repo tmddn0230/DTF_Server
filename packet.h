@@ -257,6 +257,31 @@ struct stRClickedAck : public stHeader
 ================   게임 플레이 관련 패킷   =======================
 ==================================================================
 */
+// 서버 시간 동기화용
+struct stServerTimeReq : public stHeader
+{
+	float requestSendTime = 0;
+
+	stServerTimeReq()
+	{
+		SetHeader(prServerTimeReq, sizeof(stServerTimeReq));
+	};
+};
+
+struct stServerTimeAck : public stHeader
+{
+	float requestSendTime = 0;
+	float serverTime = 0;
+
+	stServerTimeAck()
+	{
+		float serverTime = 0;
+
+		SetHeader(prServerTimeAck, sizeof(stServerTimeAck));
+	};
+};
+
+
 // 	prBoughtReq, prBoughtAck,
 //  디지몬 구매시 호출 , 구매한 디지몬 명단만 모든 클라에 넘겨주고 각 클라의 매니저 클래스에서 동기화 하면서 기물 컨트롤, 골드 컨트롤 
 struct stBoughtReq : public stHeader
@@ -394,7 +419,7 @@ struct stSyncTrReq :public stHeader
 	int32 Digicode;
 	float v[3];
 	float q[4];
-
+	float serverTime;
 
 	stSyncTrReq()
 	{
@@ -402,6 +427,7 @@ struct stSyncTrReq :public stHeader
 		Digicode = 0;
 		memset(v, 0, sizeof(v));
 		memset(q, 0, sizeof(q));
+		serverTime = 0;
 		SetHeader(prSyncTrReq, sizeof(stSyncTrReq));
 	};
 };
@@ -420,6 +446,7 @@ struct stSyncTrAck :public stHeader
 		Digicode = 0;
 		memset(v, 0, sizeof(v));
 		memset(q, 0, sizeof(q));
+		serverTime = 0;
 		SetHeader(prSyncTrAck, sizeof(stSyncTrAck));
 	};
 };
