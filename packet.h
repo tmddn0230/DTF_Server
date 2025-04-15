@@ -638,6 +638,42 @@ struct stDieAck : public stHeader
 ================   크립 동기화 관련 패킷   =======================
 ==================================================================
 */
+// prCreepTrReq, prCreepTrAck,
+struct stCreepTrReq : public stHeader
+{
+	int32 UID;
+	int32 Creep;
+	float v[3];
+	float q[4];
+
+	stCreepTrReq()
+	{
+		UID = 0;
+		Creep = 0;
+		memset(v, 0, sizeof(v));
+		memset(q, 0, sizeof(q));
+		SetHeader(prCreepTrReq, sizeof(stCreepTrReq));
+	};
+};
+
+struct stCreepTrAck : public stHeader
+{
+	int32 UID;
+	int32 Creep;
+	float v[3];
+	float q[4];
+
+	stCreepTrAck()
+	{
+		UID = 0;
+		Creep = 0;
+		memset(v, 0, sizeof(v));
+		memset(q, 0, sizeof(q));
+		SetHeader(prCreepTrAck, sizeof(stCreepTrAck));
+	};
+};
+
+
 // prCreepHpReq, prCreepHpAck,
 struct stCreepHpReq : public stHeader
 {

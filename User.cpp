@@ -256,6 +256,8 @@ void User::Parse(int protocol, char* packet)
 	case prDieReq:			     RecvDie(packet);   break;
 	case prAttachedReq:		     RecvAttached(packet);   break;
 	case prDetachedReq:		     RecvDetached(packet);   break;
+	
+	case prCreepTrReq:			 RecvCreepTR(packet); break;
 	case prCreepHpReq:			 RecvCreepHp(packet); break;
 	case prCreepDieReq:			 RecvCreepDie(packet); break;
 		// 장비 관련
@@ -582,6 +584,31 @@ void User::RecvDetached(char* packet)
 
 	g_User.SendOther(req.UID, packet, sizeof(stDetachedAck));
 	puts("Recv And Send All Packet");
+}
+
+void User::RecvCreepTR(char* packet)
+{
+	stCreepTrReq req;
+	memcpy(&req, packet, sizeof(stCreepTrReq));
+
+	stCreepTrAck ack;
+
+	ack.UID = req.UID;
+	ack.Creep = req.Creep;
+	for (int i = 0; i < 3; i++)
+	{
+		ack.v[i] = req.v[i];
+	}
+	for (int j = 0; j < 4; j++)
+	{
+		ack.q[j] = req.q[j];
+	}
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stCreepTrAck));
+
+	g_User.SendOther(req.UID, buffer, sizeof(stCreepTrAck));
 }
 
 void User::RecvCreepHp(char* packet)

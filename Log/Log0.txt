@@ -26254,3 +26254,353 @@ Server Time : [394484.125000]
 Server Time : [394489.125000]
 Server Time : [394494.125000]
 Server Time : [394499.125000]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [73318.546875]
+Server Time : [73323.539062]
+Server Time : [73328.546875]
+Server Time : [73333.554688]
+Server Time : [73338.554688]
+Server Time : [73343.554688]
+Server Time : [73348.562500]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Koromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [73526.203125]
+Server Time : [73531.203125]
+Server Time : [73536.195312]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [73997.953125]
+Server Time : [74002.945312]
+Server Time : [74007.953125]
+Server Time : [74012.960938]
+Server Time : [74017.968750]
+Server Time : [74023.226562]
+Server Time : [74028.234375]
+Server Time : [74033.359375]
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [74038.359375]
+Fade In & Out Finish
+Round Start
+Server Time : [74043.359375]
+Server Time : [74048.367188]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [74801.484375]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [77317.414062]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [80844.726562]
+Server Time : [80849.742188]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [82309.992188]
+Server Time : [82314.992188]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [82627.250000]
+AddUser: 0 172.30.1.72
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [82781.867188]
+Server Time : [82786.867188]
+Server Time : [82791.859375]
+Server Time : [82796.867188]
+Server Time : [82801.875000]
+Server Time : [82806.867188]
+Server Time : [82811.882812]
+Server Time : [82816.976562]
+Battle Finish
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [82821.984375]
+Fade In & Out Finish
+Round Start
+Server Time : [82826.984375]
+Server Time : [82831.992188]
+Server Time : [82836.984375]
+Server Time : [82842.000000]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [83269.320312]
+Server Time : [83274.328125]
+Creep Die : [1] of [0]
+Server Time : [83279.335938]
+Server Time : [83284.335938]
+Creep Die : [0] of [0]
+Server Time : [83289.335938]
+Server Time : [83294.351562]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Nyaromon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [85003.945312]
+Server Time : [85008.937500]
+Creep Die : [1] of [0]
+Server Time : [85013.929688]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.72]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.72
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [85247.085938]
+Server Time : [85252.093750]
+Server Time : [85257.093750]
+Creep Die : [1] of [0]
+Server Time : [85262.093750]
+Server Time : [85305.179688]
+Server Time : [85310.195312]
+Failed Socket Create

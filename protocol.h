@@ -39,6 +39,7 @@ enum enProtocol
     prMpReq, prMpAck,
     prDieReq, prDieAck,
     // 크립 동기화 관련
+    prCreepTrReq, prCreepTrAck,
     prCreepHpReq, prCreepHpAck,
     prCreepDieReq, prCreepDieAck,
     prPickingReq, prPickingAck,

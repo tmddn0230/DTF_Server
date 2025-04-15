@@ -87,6 +87,8 @@ public: //RECV
 	void RecvDie(char* packet);
 	void RecvAttached(char* packet);
 	void RecvDetached(char* packet);
+	// Creep
+	void RecvCreepTR(char* packet);
 	void RecvCreepHp(char* packet);
 	void RecvCreepDie(char* packet);
 	void RecvPicking(char* packet);

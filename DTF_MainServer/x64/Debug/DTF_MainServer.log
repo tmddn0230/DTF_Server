@@ -1,5 +1,15 @@
-﻿  User.cpp
-D:\GitDesk\DTF_Server\GameManager.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  DTF_MainServer.vcxproj -> D:\GitDesk\DTF_Server\x64\Debug\DTF_MainServer.exe
+﻿  DTF_MainServer.cpp
+C:\Users\user\Documents\GitHub\DTF_Server\GameManager.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\user\Documents\GitHub\DTF_Server\DTF_MainServer.cpp(74,70): warning C4312: '형식 캐스트': 'int'에서 더 큰 'void *'(으)로의 변환입니다.
+C:\Users\user\Documents\GitHub\DTF_Server\DTF_MainServer.cpp(428,23): warning C4311: '형식 캐스트': 'void *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\user\Documents\GitHub\DTF_Server\DTF_MainServer.cpp(428,23): warning C4302: '형식 캐스트': 'void *'에서 'int'(으)로 잘립니다.
+  User.cpp
+C:\Users\user\Documents\GitHub\DTF_Server\GameManager.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  UserManager.cpp
+C:\Users\user\Documents\GitHub\DTF_Server\GameManager.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  myGlobal.cpp
+C:\Users\user\Documents\GitHub\DTF_Server\GameManager.h(4,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  코드를 생성하고 있습니다...
+  DTF_MainServer.vcxproj -> C:\Users\user\Documents\GitHub\DTF_Server\x64\Debug\DTF_MainServer.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.
