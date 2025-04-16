@@ -21,10 +21,7 @@ User::User(void)
 
 	memset(mName, 0x00, sizeof(mName));
 	
-	mMaxEnemyCombatCnt = 0;
 	mMaxMyCombatCnt = 0;
-
-	mEnemyCombatCnt = 0; // 전투중 계산되는 카운터
 	mMyCombatCnt = 0;	 // 전투중 계산되는 카운터
 }
 
@@ -283,7 +280,7 @@ void User::Parse(int protocol, char* packet)
 	case prBattleFin:			 RecvBattleFin(packet);	break;
 	case prManageStart:			 RecvManageStart(packet); break;
 	case prManageFin:			 RecvManageFin(packet); break;
-								 
+	case prCombatEnd:		     RecvCombatEnd(packet); break;
 	case prRoundStart:			 RecvRoundStart(packet); break;
 	case prRoundFin:			 RecvRoundFin(packet); break;
 		//default:			SendDefault(packet);	break;
@@ -302,18 +299,15 @@ bool User::IsValidDigicode(int uid, int digicode)
 	return false;
 }
 
-void User::SetMaxCnt(int myMax, int enemyMax)
+void User::SetMaxCnt(int myMax)
 {
 	mMaxMyCombatCnt = myMax;
-	mMaxEnemyCombatCnt = enemyMax;
 }
 
 void User::ClearCombatCnt()
 {
 	mMyCombatCnt = 0;
-	mEnemyCombatCnt = 0;
 	mMaxMyCombatCnt = 0;
-	mMaxEnemyCombatCnt = 0;
 }
 
 using namespace std::chrono;
@@ -641,24 +635,7 @@ void User::RecvCreepDie(char* packet)
 	memcpy(buffer, &ack, sizeof(stCreepDieAck));
 	g_User.SendAll(buffer, sizeof(stCreepDieAck));
 	
-
-	// 여기야 여기 여기가ㅑ 문제
 	Log("Creep Die : [%d] of [%d]", req.Creep, req.UID);
-	g_User.mUser[req.UID].mEnemyCombatCnt++;
-	if (g_User.mUser[req.UID].mEnemyCombatCnt == g_User.mUser[req.UID].mMaxEnemyCombatCnt)
-	{
-		// Combat Find 패킷 작성해서 보냄
-		stCombatEnd ack;
-
-		ack.uid = req.UID;
-
-		char buffer[64];
-		memset(buffer, 0x00, sizeof(buffer));
-		memcpy(buffer, &ack, sizeof(stCombatEnd));
-		g_User.SendAll(buffer, sizeof(stCombatEnd));
-
-		Log("Combat Fin (Creep) [%d]", req.UID);
-	}
 }
 
 void User::RecvPicking(char* packet)
@@ -1138,7 +1115,7 @@ void User::RecvBattleReadyFin(char* packet)
 	memcpy(&req, packet, sizeof(stBattleReadyFin));
 
 	g_User.mUser[req.uid].ClearCombatCnt();
-	g_User.mUser[req.uid].SetMaxCnt(req.myMaxCnt, req.enemyMaxCnt);
+	g_User.mUser[req.uid].SetMaxCnt(req.myMaxCnt);
 
 	g_User.mTimerCnt++;
 	if (g_User.mTimerCnt == g_User.GetUserCount())
@@ -1199,6 +1176,22 @@ void User::RecvBattleFin(char* packet)
 		}
 	}
 	Log("Battle Finish");
+}
+
+void User::RecvCombatEnd(char* packet)
+{
+	stCombatEnd req;
+	memcpy(&req, packet, sizeof(stCombatEnd));
+	// Combat Find 패킷 작성해서 보냄
+	stCombatEnd ack;
+	
+	ack.uid = req.uid;
+	ack.serverTime = GetServerTime();
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stCombatEnd));
+	g_User.SendAll(buffer, sizeof(stCombatEnd));
 }
 
 void User::RecvManageStart(char* packet)

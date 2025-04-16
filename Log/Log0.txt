@@ -27036,3 +27036,7 @@ Server Time : [497048.937500]
 Creep Die : [0] of [0]
 Combat Fin (Creep) [0]
 Server Time : [497053.906250]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.87]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.87]
+Digimon Team Fight ServerThread Start..TCPPort : 25000

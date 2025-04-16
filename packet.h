@@ -1033,13 +1033,11 @@ struct stBattleReadyFin : public stHeader
 {
 	int32 uid;
 	int32 myMaxCnt;
-	int32 enemyMaxCnt;
 
 	stBattleReadyFin()
 	{
 		uid = 0;
 		myMaxCnt = 0;
-		enemyMaxCnt = 0;
 		SetHeader(prBattleReadyFin, sizeof(stBattleReadyFin));
 	};
 };
@@ -1066,9 +1064,12 @@ struct stBattleFin : public stHeader
 struct stCombatEnd : public stHeader
 {
 	int32 uid;
+	float serverTime;
+
 	stCombatEnd()
 	{
 		uid = 0;
+		serverTime = 0;
 		SetHeader(prCombatEnd, sizeof(stCombatEnd));
 	};
 };

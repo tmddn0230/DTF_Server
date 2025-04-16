@@ -26,10 +26,8 @@ public:
 
 	std::list<int> mydigimonCodes;
 
-	int mEnemyCombatCnt; // 전투 중 카운팅할 적군의 수
 	int mMyCombatCnt;	 // 전투 중 카운팅할 내 디지몬의 수
 
-	int mMaxEnemyCombatCnt; // 비교를 위한 최대값
 	int mMaxMyCombatCnt;	// 비교를 위한 최대값
 
 public:
@@ -55,7 +53,7 @@ public:
 
 // Combat
 	// 전투 시작시 받을 패킷에서 설정
-	void SetMaxCnt(int myMax, int enemyMax);
+	void SetMaxCnt(int myMax);
 	void ClearCombatCnt();
 
 	float GetServerTime();
@@ -113,6 +111,7 @@ public: //RECV
 	void RecvBattleReadyFin(char* packet);
 	void RecvBattleStart(char* packet);
 	void RecvBattleFin(char* packet);
+	void RecvCombatEnd(char* packet);
 	void RecvManageStart(char* packet);
 	void RecvManageFin(char* packet);
 };
