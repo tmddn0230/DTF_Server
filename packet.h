@@ -609,11 +609,11 @@ struct stMpAck : public stHeader
 struct stDieReq : public stHeader
 {
 	int32 UID;
-	enDigimon diedDigimon;
+	
+
 	stDieReq()
 	{
 		UID = 0;
-		diedDigimon = enDigimon::NoneDigimon;
 
 		SetHeader(prDieReq, sizeof(stDieReq));
 	};
@@ -622,13 +622,11 @@ struct stDieReq : public stHeader
 struct stDieAck : public stHeader
 {
 	int32 UID;
-	enDigimon diedDigimon;
 	float serverTime;
 
 	stDieAck()
 	{
 		UID = 0;
-		diedDigimon = enDigimon::NoneDigimon;
 		serverTime = 0;
 		SetHeader(prDieAck, sizeof(stDieAck));
 	};
@@ -1063,12 +1061,12 @@ struct stBattleFin : public stHeader
 
 struct stCombatEnd : public stHeader
 {
-	int32 uid;
-	float serverTime;
+	public int32 winnerUID;
+	public float serverTime;
 
 	stCombatEnd()
 	{
-		uid = 0;
+		winnerUID = 0;
 		serverTime = 0;
 		SetHeader(prCombatEnd, sizeof(stCombatEnd));
 	};

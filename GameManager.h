@@ -9,6 +9,8 @@ class GameManager
 public:
 	int m_Digicode = 0;
 
+	int movingUID = 0; // 현 2인 플레이 체제, 확장시 자료형 변경
+
 private:
 	/*
 	0 : 시작 조우자 
@@ -32,7 +34,7 @@ private:
 		{0,  enRoundType::Type_Encounter},   // 시작 캐러셀
 		{1,  enRoundType::Type_Creep},       // 1라운드 PvE
 		{2,  enRoundType::Type_ArgSelect},   // temp : 증강
-		{3,  enRoundType::Type_Rolling},     // temp : 초밥
+		{3,  enRoundType::Type_Combat},      // temp : PVP
 		//{2,  enRoundType::Type_Creep},     // 1라운드 PvE
 		//{3,  enRoundType::Type_Creep},     // 1라운드 PvE
 		{4,  enRoundType::Type_ArgSelect},   // 2라운드 증강

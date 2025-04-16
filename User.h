@@ -26,8 +26,8 @@ public:
 
 	std::list<int> mydigimonCodes;
 
-	int mMyCombatCnt;	 // 전투 중 카운팅할 내 디지몬의 수
 
+	int mMyCombatCnt;	 // 전투 중 카운팅할 내 디지몬의 수
 	int mMaxMyCombatCnt;	// 비교를 위한 최대값
 
 public:

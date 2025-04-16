@@ -27040,3 +27040,5 @@ Host Name Is [ YU-LAPTOP ] IP : [172.30.1.87]
 Digimon Team Fight ServerThread Start..TCPPort : 25000
 Host Name Is [ YU-LAPTOP ] IP : [172.30.1.87]
 Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000

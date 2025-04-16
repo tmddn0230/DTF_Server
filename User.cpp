@@ -302,6 +302,7 @@ bool User::IsValidDigicode(int uid, int digicode)
 void User::SetMaxCnt(int myMax)
 {
 	mMaxMyCombatCnt = myMax;
+	mMyCombatCnt = myMax;
 }
 
 void User::ClearCombatCnt()
@@ -555,11 +556,40 @@ void User::RecvSold(char* packet)
 
 void User::RecvDie(char* packet)
 {
-	stDieAck req;
-	memcpy(&req, packet, sizeof(stDieAck));
+	stDieReq req;
+	memcpy(&req, packet, sizeof(stDieReq));
+	// 죽은 유닛의 UID를 받았으니 해당하는 CNT -- 
+	g_User.mUser[req.UID].mMyCombatCnt--;
+
+	stDieAck ack;
+	// Die 처리를 위한 패킷
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stDieAck));
 
 	g_User.SendOther(req.UID, packet, sizeof(stDieAck));
-	puts("Recv And Send All Packet");
+	Log("Die Current Die Count : [%d]", g_User.mUser[req.UID].mMyCombatCnt);
+
+	if (g_User.mUser[req.UID].mMyCombatCnt == 0) // 누구라도 0이 된 값이 있다면 바로 combat fin 
+	{
+		stCombatEnd combatack;
+		for (int i = 0; i < g_User.GetUserCount(); i++)
+		{
+			if (i != req.UID)
+			{
+				// Winner
+				combatack.winnerUID = i;
+				combatack.serverTime = GetServerTime();
+
+				char _buffer[64];
+				memset(_buffer, 0x00, sizeof(_buffer));
+				memcpy(_buffer, &combatack, sizeof(stCombatEnd));
+
+				g_User.SendAll(packet, sizeof(stCombatEnd));
+				Log("Combat End : Winner [%d]", combatack.winnerUID);
+			}
+		}
+	}
 }
 
 void User::RecvAttached(char* packet)
@@ -1087,16 +1117,15 @@ void User::RecvBattleReadyStart(char* packet)
 			return;
 		}
 
-		int movingPlayerUid;
 		// 이동해야할 uid 지정해서 보내기
 		srand(static_cast<unsigned int>(time(0))); // 난수 초기화
 		int min = 0; // 최소값
 		int max = 1; // 최대값, 추후에 7까지 확장
-		movingPlayerUid = rand() % (max - min + 1) + min; // min ~ max 범위의 난수 생성
+		g_GameMgr.movingUID = rand() % (max - min + 1) + min; // min ~ max 범위의 난수 생성
 
 		stBattleReadyStart ack;
 
-		ack.movingUID = movingPlayerUid;
+		ack.movingUID = g_GameMgr.movingUID;
 
 		char buffer[64];
 		memset(buffer, 0x00, sizeof(buffer));
@@ -1104,7 +1133,7 @@ void User::RecvBattleReadyStart(char* packet)
 		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
 		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
 		g_User.mTimerCnt = 0;
-		Log("Battle Ready Start Moving ID[%d]", movingPlayerUid);
+		Log("Battle Ready Start Moving ID[%d]", ack.movingUID);
 	}
 }
 
