@@ -1061,8 +1061,8 @@ struct stBattleFin : public stHeader
 
 struct stCombatEnd : public stHeader
 {
-	public int32 winnerUID;
-	public float serverTime;
+	int32 winnerUID;
+	float serverTime;
 
 	stCombatEnd()
 	{

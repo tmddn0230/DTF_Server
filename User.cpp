@@ -1214,7 +1214,7 @@ void User::RecvCombatEnd(char* packet)
 	// Combat Find 패킷 작성해서 보냄
 	stCombatEnd ack;
 	
-	ack.uid = req.uid;
+	ack.winnerUID = req.winnerUID;
 	ack.serverTime = GetServerTime();
 
 	char buffer[64];
