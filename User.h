@@ -78,6 +78,7 @@ public: //RECV
 	void RecvTransform(char* packet);
 	void RecvSetMove(char* packet);
 	void RecvSetAttack(char* packet);
+	void RecvSetSpecial(char* packet);
 	void RecvSetWin(char* packet);
 
 	void RecvSetHp(char* packet);

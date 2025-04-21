@@ -247,6 +247,7 @@ void User::Parse(int protocol, char* packet)
 	case prSyncTrReq:			 RecvTransform(packet); break;
 	case prSetMoveReq:			 RecvSetMove(packet); break;
 	case prSetAttackReq:		 RecvSetAttack(packet); break;
+	case prSetSpecialReq:	     RecvSetSpecial(packet); break;
 	case prSetWinReq:			 RecvSetWin(packet); break;
 	case prHpReq:				 RecvSetHp(packet); break;
 	case prMpReq:				 RecvSetMp(packet); break;
@@ -932,6 +933,8 @@ void User::RecvSetMove(char* packet)
 
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
 
 	char buffer[64];
 	memset(buffer, 0x00, sizeof(buffer));
@@ -949,12 +952,33 @@ void User::RecvSetAttack(char* packet)
 
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
 
 	char buffer[64];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stSetAttackAck));
 
 	g_User.SendAll(buffer, sizeof(stSetAttackAck));
+}
+
+void User::RecvSetSpecial(char* packet)
+{
+	stSetSpecialReq req;
+	memcpy(&req, packet, sizeof(stSetSpecialReq));
+
+	stSetSpecialAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
+
+	char buffer[64];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetSpecialAck));
+
+	g_User.SendAll(buffer, sizeof(stSetSpecialAck));
 }
 
 void User::RecvSetWin(char* packet)
@@ -966,6 +990,8 @@ void User::RecvSetWin(char* packet)
 
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
 
 	char buffer[64];
 	memset(buffer, 0x00, sizeof(buffer));

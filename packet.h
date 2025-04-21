@@ -456,11 +456,12 @@ struct stSetMoveReq : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
-
+	float ChangeStateTime;
 	stSetMoveReq()
 	{
 		UID = 0;
 		Digicode = 0;
+		ChangeStateTime = 0;
 		SetHeader(prSetMoveReq, sizeof(stSetMoveReq));
 	};
 };
@@ -469,12 +470,14 @@ struct stSetMoveAck : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
+	float ChangeStateTime;
 	float serverTime;
 
 	stSetMoveAck()
 	{
 		UID = 0;
 		Digicode = 0;
+		ChangeStateTime = 0;
 		serverTime = 0;
 		SetHeader(prSetMoveAck, sizeof(stSetMoveAck));
 	};
@@ -485,11 +488,12 @@ struct stSetAttackReq : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
-
+	float ChangeStateTime;
 	stSetAttackReq()
 	{
 		UID = 0;
 		Digicode = 0;
+		ChangeStateTime = 0;
 		SetHeader(prSetAttackReq, sizeof(stSetMoveReq));
 	};
 };
@@ -498,14 +502,48 @@ struct stSetAttackAck : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
+	float ChangeStateTime;
 	float serverTime;
 
 	stSetAttackAck()
 	{
 		UID = 0;
 		Digicode = 0;
+		ChangeStateTime = 0;
 		serverTime = 0;
 		SetHeader(prSetAttackAck, sizeof(stSetAttackAck));
+	};
+};
+
+// prSetSpecialReq, prSetSpecialAck,
+struct stSetSpecialReq : public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+	float ChangeStateTime;
+	stSetSpecialReq()
+	{
+		UID = 0;
+		Digicode = 0;
+		ChangeStateTime = 0;
+		SetHeader(prSetSpecialReq, sizeof(stSetSpecialReq));
+	};
+};
+
+struct stSetSpecialAck : public stHeader
+{
+	int32 UID;
+	int32 Digicode;
+	float ChangeStateTime;
+	float serverTime;
+
+	stSetSpecialAck()
+	{
+		UID = 0;
+		Digicode = 0;
+		ChangeStateTime = 0;
+		serverTime = 0;
+		SetHeader(prSetSpecialAck, sizeof(stSetSpecialAck));
 	};
 };
 
@@ -514,11 +552,12 @@ struct stSetWinReq : public stHeader
 {
 	int32 UID;
 	int32 Digicode;
-
+	float ChangeStateTime;
 	stSetWinReq()
 	{
 		UID = 0;
 		Digicode = 0;
+		ChangeStateTime = 0;
 		SetHeader(prSetWinReq, sizeof(stSetWinReq));
 	};
 };
@@ -528,11 +567,12 @@ struct stSetWinAck : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float serverTime;
-
+	float ChangeStateTime;
 	stSetWinAck()
 	{
 		UID = 0;
 		Digicode = 0;
+		ChangeStateTime = 0;
 		serverTime = 0;
 		SetHeader(prSetWinAck, sizeof(stSetWinAck));
 	};
