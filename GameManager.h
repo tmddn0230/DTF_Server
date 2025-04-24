@@ -55,6 +55,8 @@ private:
 		{17, enRoundType::Type_Boss}         // 3라운드 보스
 	};
 
+
+
 public:
 	// Get
 	enRoundType GetCurrentRoundType() { return roundList[m_Round].second; }

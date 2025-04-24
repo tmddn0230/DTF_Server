@@ -32620,3 +32620,1308 @@ Server Time : [24054.251953]
 Server Time : [24060.972656]
 Server Time : [24065.974609]
 Failed Socket Create
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [681544.562500]
+Server Time : [681549.562500]
+Server Time : [681554.562500]
+Server Time : [681559.625000]
+Server Time : [681564.625000]
+Server Time : [681569.625000]
+Server Time : [681574.562500]
+Server Time : [681579.562500]
+Server Time : [681584.562500]
+Server Time : [681589.562500]
+Server Time : [681594.625000]
+Server Time : [681599.625000]
+Server Time : [681604.625000]
+Server Time : [681609.625000]
+Server Time : [681614.562500]
+Server Time : [681619.562500]
+Server Time : [681624.562500]
+Server Time : [681629.625000]
+Server Time : [681634.625000]
+Server Time : [681639.625000]
+Server Time : [681644.625000]
+Server Time : [681649.625000]
+AddUser: 1 192.168.75.131
+Server Time : [681654.562500]
+Server Time : [681656.812500]
+Server Time : [681659.562500]
+Server Time : [681661.812500]
+Server Time : [681664.625000]
+Server Time : [681666.875000]
+Server Time : [681669.625000]
+Server Time : [681671.875000]
+Server Time : [681674.625000]
+Server Time : [681676.875000]
+Server Time : [681679.625000]
+Server Time : [681681.875000]
+Server Time : [681684.625000]
+Server Time : [681686.875000]
+Server Time : [681689.625000]
+Server Time : [681691.875000]
+Server Time : [681694.625000]
+Server Time : [681696.875000]
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [681699.625000]
+Server Time : [681701.875000]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [681708.562500]
+Server Time : [681711.187500]
+Server Time : [681713.562500]
+Server Time : [681716.187500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [681718.500000]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Terriermon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [681721.125000]
+Server Time : [681723.562500]
+Battle Ready Finish
+Battle Start
+Server Time : [681726.125000]
+Server Time : [681728.562500]
+Server Time : [681731.187500]
+Creep Die : [1] of [0]
+Server Time : [681733.562500]
+Creep Die : [1] of [1]
+Server Time : [681736.187500]
+Creep Die : [2] of [0]
+Server Time : [681738.562500]
+Server Time : [681741.187500]
+Server Time : [681743.562500]
+Creep Die : [2] of [1]
+Server Time : [681746.187500]
+Creep Die : [0] of [0]
+Server Time : [681748.562500]
+Server Time : [681751.187500]
+Server Time : [681753.625000]
+Server Time : [681756.187500]
+Creep Die : [0] of [1]
+Server Time : [681758.562500]
+Server Time : [681761.125000]
+Server Time : [681763.562500]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [681766.125000]
+Fade In & Out Finish
+Round Start
+Server Time : [681768.562500]
+ArgPicked : [3]
+ArgCalledShot
+Server Time : [681771.125000]
+ArgPicked : [5]
+Server Time : [681773.562500]
+Server Time : [681776.187500]
+Server Time : [681778.625000]
+Server Time : [681781.187500]
+Server Time : [681783.625000]
+Server Time : [681786.187500]
+Server Time : [681788.625000]
+Server Time : [681791.187500]
+Server Time : [681793.625000]
+Server Time : [681796.250000]
+Server Time : [681798.562500]
+Server Time : [681801.187500]
+Server Time : [681803.562500]
+Server Time : [681806.187500]
+Server Time : [681808.562500]
+Server Time : [681811.187500]
+Server Time : [681813.625000]
+Server Time : [681816.187500]
+Manage Finish
+Battle Ready Start Moving ID[1]
+Server Time : [681818.625000]
+Server Time : [681821.187500]
+Server Time : [681823.625000]
+Server Time : [681826.250000]
+Battle Ready Finish
+Battle Start
+Server Time : [681828.625000]
+Server Time : [681831.250000]
+Server Time : [681833.625000]
+Server Time : [681836.250000]
+Server Time : [681838.562500]
+Server Time : [681841.187500]
+Server Time : [681843.562500]
+Server Time : [681846.375000]
+Server Time : [681848.625000]
+Server Time : [681851.187500]
+Server Time : [681853.625000]
+Server Time : [681856.250000]
+Server Time : [681858.625000]
+Server Time : [681861.250000]
+Server Time : [681863.625000]
+Server Time : [681866.250000]
+PVP Battle Finish
+Teleport_Tamer[0] to [0]
+Spawn Digimon [Veemon] : code [3]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Server Time : [681871.250000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [682384.187500]
+AddUser: 1 192.168.75.131
+Server Time : [682389.187500]
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Server Time : [682394.625000]
+Start Game : [1]
+Encounter!!
+Server Time : [682394.937500]
+Server Time : [682399.437500]
+Server Time : [682399.812500]
+Server Time : [682404.437500]
+Server Time : [682404.812500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [682409.437500]
+Server Time : [682409.812500]
+Battle Ready Finish
+Battle Start
+Battle Start
+Server Time : [682414.375000]
+Server Time : [682414.875000]
+Server Time : [682419.375000]
+Server Time : [682419.812500]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [682424.437500]
+Server Time : [682424.937500]
+Creep Die : [2] of [0]
+Creep Die : [2] of [1]
+Server Time : [682429.437500]
+Server Time : [682429.812500]
+Creep Die : [0] of [0]
+Server Time : [682434.437500]
+Server Time : [682434.812500]
+Creep Die : [0] of [1]
+Server Time : [682439.437500]
+Server Time : [682439.875000]
+Server Time : [682444.437500]
+Server Time : [682444.875000]
+Server Time : [682449.437500]
+Server Time : [682449.875000]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [682454.375000]
+Server Time : [682454.875000]
+Fade In & Out Finish
+Round Start
+Round Start
+ArgPicked : [1]
+ArgPicked : [1]
+ArgBranchingOutChoice
+ArgBranchingOutChoice
+Server Time : [682459.875000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [682849.937500]
+Server Time : [682854.937500]
+Server Time : [682859.875000]
+Server Time : [682864.875000]
+AddUser: 1 192.168.75.131
+Server Time : [682869.875000]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [682874.312500]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Server Time : [682875.312500]
+Encounter!!
+Server Time : [682879.375000]
+Server Time : [682880.062500]
+Server Time : [682884.375000]
+Server Time : [682885.125000]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [682889.437500]
+Server Time : [682890.125000]
+Battle Ready Finish
+Battle Start
+Server Time : [682894.375000]
+Server Time : [682895.125000]
+Server Time : [682899.375000]
+Creep Die : [1] of [1]
+Server Time : [682900.125000]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Server Time : [682904.437500]
+Server Time : [682905.062500]
+Creep Die : [2] of [0]
+Server Time : [682909.437500]
+Server Time : [682910.062500]
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Server Time : [682914.437500]
+Server Time : [682915.125000]
+Server Time : [682919.687500]
+Server Time : [682920.125000]
+Server Time : [682924.500000]
+Server Time : [682925.125000]
+Server Time : [682929.437500]
+Server Time : [682930.125000]
+Creep Battle Finish [1]
+Creep Battle Finish [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [682934.437500]
+Server Time : [682935.125000]
+Fade In & Out Finish
+Round Start
+Round Start
+ArgPicked : [2]
+ArgPicked : [2]
+ArgTitan
+ArgTitan
+Server Time : [682939.437500]
+Server Time : [682940.125000]
+Server Time : [682944.437500]
+Server Time : [682945.062500]
+Server Time : [682950.125000]
+ArgPicked : [1]
+ArgPicked : [1]
+ArgBranchingOutChoice
+ArgBranchingOutChoice
+AddUser: 1 192.168.75.131
+Server Time : [682956.125000]
+Server Time : [682961.062500]
+Server Time : [682966.062500]
+Server Time : [682971.062500]
+Server Time : [682976.125000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [683262.875000]
+Server Time : [683267.812500]
+AddUser: 1 192.168.75.131
+Server Time : [683272.812500]
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [683274.812500]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [683277.812500]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [683279.812500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [683301.312500]
+AddUser: 1 192.168.75.131
+Server Time : [683306.312500]
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [683308.375000]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [683312.125000]
+Server Time : [683314.000000]
+Server Time : [683317.125000]
+Server Time : [683319.000000]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [683322.125000]
+Server Time : [683324.062500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Guilmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [683327.187500]
+Battle Ready Finish
+Battle Start
+Server Time : [683329.000000]
+Server Time : [683332.187500]
+Server Time : [683334.000000]
+Creep Die : [1] of [0]
+Server Time : [683337.125000]
+Server Time : [683339.062500]
+Creep Die : [1] of [1]
+Creep Die : [2] of [0]
+Server Time : [683342.187500]
+Creep Die : [2] of [1]
+Server Time : [683344.000000]
+Server Time : [683347.125000]
+Server Time : [683349.062500]
+Creep Die : [0] of [0]
+Server Time : [683352.125000]
+Server Time : [683354.125000]
+Server Time : [683357.187500]
+Server Time : [683359.062500]
+Server Time : [683362.187500]
+Server Time : [683364.062500]
+Server Time : [683367.187500]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [683369.000000]
+Fade In & Out Finish
+Round Start
+Server Time : [683372.187500]
+ArgPicked : [3]
+ArgCalledShot
+Server Time : [683374.062500]
+Server Time : [683379.062500]
+Server Time : [683561.750000]
+ArgPicked : [2]
+ArgTitan
+Server Time : [683566.750000]
+Server Time : [683566.937500]
+Server Time : [683571.750000]
+Server Time : [683571.875000]
+Server Time : [683576.750000]
+Server Time : [683576.875000]
+Server Time : [683581.750000]
+Server Time : [683581.937500]
+Server Time : [683586.750000]
+Server Time : [683586.937500]
+Server Time : [683591.750000]
+Server Time : [683591.937500]
+Server Time : [683596.750000]
+Server Time : [683596.937500]
+Server Time : [683601.750000]
+Server Time : [683601.937500]
+Manage Finish
+Battle Ready Start Moving ID[0]
+Server Time : [683606.812500]
+Server Time : [683606.937500]
+Server Time : [683611.750000]
+Server Time : [683611.875000]
+Battle Ready Finish
+Battle Start
+Server Time : [683616.750000]
+Server Time : [683616.937500]
+Server Time : [683621.812500]
+Server Time : [683621.937500]
+Server Time : [683626.812500]
+Server Time : [683627.062500]
+Server Time : [683631.812500]
+Server Time : [683631.937500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [684210.250000]
+Server Time : [684215.250000]
+Server Time : [684220.250000]
+Server Time : [684225.187500]
+AddUser: 1 192.168.75.131
+Server Time : [684230.250000]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [684232.125000]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [684235.187500]
+Server Time : [684237.687500]
+Server Time : [684240.187500]
+Server Time : [684242.750000]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [684245.187500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Veemon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [684247.750000]
+Server Time : [684250.250000]
+Battle Ready Finish
+Battle Start
+Server Time : [684252.750000]
+Server Time : [684255.250000]
+Server Time : [684257.750000]
+Server Time : [684260.250000]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [684262.750000]
+Server Time : [684265.187500]
+Creep Die : [2] of [0]
+Server Time : [684267.812500]
+Creep Die : [2] of [1]
+Server Time : [684270.187500]
+Creep Die : [0] of [0]
+Server Time : [684272.750000]
+Server Time : [684275.187500]
+Server Time : [684277.750000]
+Server Time : [684280.250000]
+Server Time : [684282.750000]
+Server Time : [684285.250000]
+Server Time : [684287.812500]
+Server Time : [684290.250000]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [684292.812500]
+Fade In & Out Finish
+Round Start
+Server Time : [684295.250000]
+ArgPicked : [4]
+ArgOverEncumbered
+Server Time : [684297.812500]
+Server Time : [684300.250000]
+ArgPicked : [1]
+ArgBranchingOutChoice
+Server Time : [684302.812500]
+Server Time : [684305.187500]
+Server Time : [684307.750000]
+Server Time : [684310.187500]
+Server Time : [684312.750000]
+Server Time : [684315.250000]
+Server Time : [684317.937500]
+Server Time : [684320.250000]
+Server Time : [684322.812500]
+Server Time : [684325.250000]
+Server Time : [684327.812500]
+Server Time : [684330.250000]
+Server Time : [684332.812500]
+Server Time : [684335.250000]
+Server Time : [684337.812500]
+Server Time : [684340.250000]
+Server Time : [684342.875000]
+Manage Finish
+Battle Ready Start Moving ID[0]
+Server Time : [684345.250000]
+Server Time : [684347.875000]
+Server Time : [684350.250000]
+Server Time : [684352.875000]
+Battle Ready Finish
+Battle Start
+Server Time : [684355.250000]
+Server Time : [684357.875000]
+Server Time : [684360.250000]
+Server Time : [684362.875000]
+Server Time : [684365.250000]
+Server Time : [684367.875000]
+Server Time : [684370.250000]
+Server Time : [684372.875000]
+Server Time : [684375.312500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [684926.812500]
+AddUser: 1 192.168.75.131
+Server Time : [684931.750000]
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [684935.125000]
+Server Time : [684936.812500]
+Server Time : [684940.187500]
+Server Time : [684941.812500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [684945.125000]
+Server Time : [684946.812500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Impmon] : code [1]
+Spawn Digimon [Hawkmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [684950.125000]
+Server Time : [684951.812500]
+Battle Ready Finish
+Battle Start
+Server Time : [684955.125000]
+Server Time : [684956.812500]
+Server Time : [684960.125000]
+Server Time : [684961.812500]
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Server Time : [684965.312500]
+Server Time : [684966.875000]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Server Time : [684970.187500]
+Server Time : [684971.812500]
+Creep Die : [0] of [1]
+Server Time : [684975.312500]
+Server Time : [684976.812500]
+Creep Die : [0] of [0]
+Server Time : [684980.187500]
+Server Time : [684981.812500]
+Server Time : [684985.125000]
+Server Time : [684986.812500]
+Server Time : [684990.125000]
+Server Time : [684991.875000]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [684995.187500]
+Fade In & Out Finish
+Round Start
+Server Time : [684996.875000]
+ArgPicked : [1]
+ArgBranchingOutChoice
+ArgPicked : [4]
+ArgOverEncumbered
+Server Time : [685000.187500]
+Server Time : [685001.875000]
+Server Time : [685005.187500]
+Server Time : [685006.875000]
+Server Time : [685010.187500]
+Server Time : [685011.812500]
+Server Time : [685015.187500]
+Server Time : [685016.812500]
+Server Time : [685020.187500]
+Server Time : [685021.875000]
+Server Time : [685025.187500]
+Server Time : [685026.875000]
+Server Time : [685030.187500]
+Server Time : [685031.875000]
+Server Time : [685035.187500]
+Server Time : [685036.875000]
+Server Time : [685040.250000]
+Server Time : [685041.875000]
+Server Time : [685045.187500]
+Manage Finish
+Battle Ready Start Moving ID[1]
+Server Time : [685046.875000]
+Server Time : [685050.187500]
+Server Time : [685051.875000]
+Server Time : [685055.250000]
+Battle Ready Finish
+Battle Start
+Server Time : [685056.875000]
+Server Time : [685060.312500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [685612.937500]
+AddUser: 1 192.168.75.131
+Server Time : [685618.000000]
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [685621.062500]
+Server Time : [685623.000000]
+Server Time : [685625.812500]
+Server Time : [685627.937500]
+Server Time : [685630.812500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [685632.937500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Hawkmon] : code [2]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [685635.812500]
+Server Time : [685638.000000]
+Battle Ready Finish
+Battle Start
+Server Time : [685640.750000]
+Server Time : [685643.000000]
+Server Time : [685645.812500]
+Creep Die : [1] of [0]
+Server Time : [685648.000000]
+Creep Die : [1] of [1]
+Server Time : [685650.812500]
+Creep Die : [2] of [0]
+Server Time : [685653.000000]
+Creep Die : [2] of [1]
+Server Time : [685655.812500]
+Server Time : [685658.000000]
+Creep Die : [0] of [0]
+Creep Die : [0] of [1]
+Server Time : [685660.812500]
+Server Time : [685663.000000]
+Server Time : [685665.812500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [685927.437500]
+Server Time : [685932.437500]
+Server Time : [685937.437500]
+Server Time : [685942.375000]
+Server Time : [685947.375000]
+Server Time : [685952.437500]
+Server Time : [685957.437500]
+Server Time : [685962.437500]
+Server Time : [685967.437500]
+Server Time : [685972.437500]
+Server Time : [685977.437500]
+Server Time : [685982.375000]
+Server Time : [685987.437500]
+Server Time : [685992.437500]
+AddUser: 1 192.168.75.131
+Server Time : [685997.437500]
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [686000.000000]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [686002.437500]
+Server Time : [686005.062500]
+Server Time : [686007.437500]
+Server Time : [686010.125000]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [686012.437500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Impmon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Server Time : [686015.312500]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [686017.437500]
+Battle Ready Finish
+Battle Start
+Server Time : [686020.125000]
+Server Time : [686022.437500]
+Server Time : [686025.062500]
+Server Time : [686027.437500]
+Creep Die : [1] of [1]
+Server Time : [686030.062500]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Server Time : [686032.437500]
+Server Time : [686035.250000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Bukamon ]
+Enter Lobby
+Server Time : [686160.562500]
+AddUser: 1 192.168.75.131
+Server Time : [686165.562500]
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [686169.625000]
+Server Time : [686170.625000]
+Server Time : [686174.562500]
+Server Time : [686175.625000]
+Encounter Fin
+Round Fin
+Server Time : [686179.750000]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [686180.625000]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Guilmon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [686184.812500]
+Server Time : [686185.625000]
+Battle Ready Finish
+Battle Start
+Server Time : [686189.625000]
+Server Time : [686190.562500]
+Server Time : [686194.625000]
+Creep Die : [1] of [1]
+Server Time : [686195.562500]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Server Time : [686199.625000]
+Server Time : [686200.625000]
+Creep Die : [2] of [0]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Koromon ]
+Enter Lobby
+Server Time : [686402.875000]
+Server Time : [686407.875000]
+AddUser: 1 192.168.75.131
+Server Time : [686412.875000]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [686415.250000]
+Server Time : [686417.937500]
+Server Time : [686419.937500]
+Server Time : [686422.937500]
+Server Time : [686424.937500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [686427.875000]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [686429.937500]
+Battle Ready Finish
+Battle Start
+Server Time : [686432.875000]
+Server Time : [686435.000000]
+Server Time : [686437.875000]
+Server Time : [686440.000000]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [686442.875000]
+Creep Die : [2] of [0]
+Server Time : [686445.000000]
+Creep Die : [2] of [1]
+Server Time : [686447.875000]
+Server Time : [686450.000000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Server Time : [686582.125000]
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [686587.125000]
+AddUser: 1 192.168.75.131
+Server Time : [686592.125000]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [686596.375000]
+Server Time : [686597.187500]
+Server Time : [686601.375000]
+Server Time : [686602.187500]
+Encounter Fin
+Server Time : [686606.312500]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [686607.187500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Veemon] : code [1]
+Spawn Digimon [Guilmon] : code [2]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [686611.312500]
+Server Time : [686612.187500]
+Battle Ready Finish
+Battle Start
+Server Time : [686616.437500]
+Server Time : [686617.125000]
+Server Time : [686621.375000]
+Server Time : [686622.125000]
+Creep Die : [1] of [0]
+Server Time : [686626.375000]
+Creep Die : [1] of [1]
+Server Time : [686627.187500]
+Server Time : [686631.375000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [686765.500000]
+Server Time : [686770.500000]
+AddUser: 1 192.168.75.131
+Server Time : [686775.500000]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [686778.000000]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [686780.500000]
+Server Time : [686783.062500]
+Server Time : [686785.562500]
+Server Time : [686788.062500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [686790.500000]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Impmon] : code [2]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Server Time : [686793.000000]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [686795.500000]
+Battle Ready Finish
+Battle Start
+Server Time : [686798.062500]
+Server Time : [686800.500000]
+Server Time : [686803.062500]
+Server Time : [686805.500000]
+Creep Die : [1] of [1]
+Server Time : [686808.062500]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Server Time : [686810.500000]
+Server Time : [686813.062500]
+Creep Die : [2] of [0]
+Server Time : [686815.562500]
+Creep Die : [0] of [1]
+Server Time : [686818.125000]
+Server Time : [686820.562500]
+Server Time : [686823.125000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+Server Time : [687054.375000]
+Server Time : [687059.375000]
+Server Time : [687064.375000]
+Server Time : [687069.375000]
+AddUser: 1 192.168.75.131
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [687074.437500]
+Enter Game
+Server Time : [687075.312500]
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [687079.437500]
+Server Time : [687080.375000]
+Server Time : [687084.437500]
+Server Time : [687085.375000]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [687089.437500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Veemon] : code [1]
+Spawn Digimon [Hawkmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [687090.437500]
+Battle Ready Finish
+Battle Start
+Server Time : [687094.375000]
+Server Time : [687095.375000]
+Server Time : [687099.375000]
+Server Time : [687100.437500]
+Creep Die : [1] of [0]
+Server Time : [687104.437500]
+Server Time : [687105.437500]
+Creep Die : [1] of [1]
+Creep Die : [2] of [0]
+Server Time : [687109.437500]
+Server Time : [687110.375000]
+Creep Die : [2] of [1]
+Server Time : [687114.437500]
+Creep Die : [0] of [0]
+Server Time : [687115.375000]
+Server Time : [687119.437500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tanemon ]
+Enter Lobby
+Server Time : [687756.812500]
+Server Time : [687761.812500]
+AddUser: 1 192.168.75.131
+Server Time : [687766.812500]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [687770.687500]
+Server Time : [687771.750000]
+Server Time : [687775.750000]
+Server Time : [687776.750000]
+Encounter Fin
+Round Fin
+Server Time : [687780.875000]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [687781.812500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Impmon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [687785.750000]
+Server Time : [687786.812500]
+Battle Ready Finish
+Battle Start
+Server Time : [687790.750000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [688077.312500]
+AddUser: 1 192.168.75.131
+Server Time : [688082.312500]
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [688087.312500]
+Server Time : [688087.562500]
+Server Time : [688092.312500]
+Server Time : [688092.562500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [688097.250000]
+Server Time : [688097.562500]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Terriermon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [688102.250000]
+Server Time : [688102.812500]
+Battle Ready Finish
+Battle Start
+Server Time : [688107.312500]
+Server Time : [688107.500000]
+Server Time : [688112.312500]
+Server Time : [688112.562500]
+Server Time : [688117.312500]
+Server Time : [688117.562500]
+Server Time : [688122.312500]
+Server Time : [688122.562500]
+Server Time : [688127.312500]
+Server Time : [688127.562500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+AddUser: 1 192.168.75.131
+Server Time : [688266.125000]
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Server Time : [688271.500000]
+Start Game : [1]
+Encounter!!
+Server Time : [688272.125000]
+Server Time : [688276.250000]
+Server Time : [688277.125000]
+Server Time : [688281.187500]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [688282.125000]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Guilmon] : code [2]
+Spawn Digimon [Hawkmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [688286.250000]
+Server Time : [688287.187500]
+Battle Ready Finish
+Battle Start
+Server Time : [688291.250000]
+Server Time : [688292.187500]
+Server Time : [688296.250000]
+Server Time : [688297.125000]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [688301.250000]
+Server Time : [688302.125000]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Server Time : [688306.250000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [689229.187500]
+Server Time : [689234.187500]
+Server Time : [689239.187500]
+Server Time : [689244.187500]
+Server Time : [689249.125000]
+Server Time : [689254.187500]
+Server Time : [689259.187500]
+Server Time : [689264.187500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [689296.000000]
+Server Time : [689301.000000]
+Server Time : [689306.062500]
+Server Time : [689311.062500]
+Server Time : [689316.062500]
+Server Time : [689321.000000]
+Server Time : [689326.000000]
+Server Time : [689331.000000]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 192.168.75.232
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [689482.687500]
+Server Time : [689487.750000]
+Server Time : [689492.750000]
+Server Time : [689497.750000]
+Server Time : [689502.750000]
+Server Time : [689507.687500]
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ DESKTOP-A1CLUOE ] IP : [192.168.75.232]
+Digimon Team Fight ServerThread Start..TCPPort : 25000

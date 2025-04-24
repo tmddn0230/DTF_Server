@@ -1,6 +1,8 @@
 #include "GameManager.h"
 
 
+
+
 enTimerType GameManager::GetNextTimerType()
 {
 	enTimerType _timer;

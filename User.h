@@ -56,7 +56,7 @@ public:
 	void SetMaxCnt(int myMax);
 	void ClearCombatCnt();
 
-	float GetServerTime();
+
 
 public: //RECV
 	void RecvLoginReq(char* packet);

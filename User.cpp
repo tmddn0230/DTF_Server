@@ -312,18 +312,6 @@ void User::ClearCombatCnt()
 	mMaxMyCombatCnt = 0;
 }
 
-using namespace std::chrono;
-
-float User::GetServerTime()
-{
-	// std::chrono::high_resolution_clock::time_point
-	// high_resolution_clock : 지금 시점의 고해상도(시간정밀도 : 나노초) 시간 
-	auto   now = std::chrono::high_resolution_clock::now();
-	// now.time_since_epoch() : 1970.01.01(epoch) 부터 지금까지의 시간
-	auto   duration = duration_cast<milliseconds>(now.time_since_epoch());
-	// milliseconds 니까 1000 으로 나눠줌 , count : 시간값을 정수화 하여 알려줌 123ms->123
-	return duration.count() / 1000.0f; 
-}
 
 /*
 Login 에서 UID 를 부여 할 것 본인만 주고 받음
@@ -527,7 +515,7 @@ void User::RecvServerTime(char* packet)
 
 	stServerTimeAck ack;
 	ack.requestSendTime = req.requestSendTime;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	char buffer[sizeof(stServerTimeAck)];
 	memset(buffer, 0x00, sizeof(buffer));
@@ -654,7 +642,7 @@ void User::RecvSetMove(char* packet)
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
 	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	char buffer[sizeof(stSetMoveAck)];
 	memset(buffer, 0x00, sizeof(buffer));
@@ -673,7 +661,7 @@ void User::RecvSetAttack(char* packet)
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
 	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	char buffer[sizeof(stSetAttackAck)];
 	memset(buffer, 0x00, sizeof(buffer));
@@ -692,7 +680,7 @@ void User::RecvSetSpecial(char* packet)
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
 	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	char buffer[sizeof(stSetSpecialAck)];
 	memset(buffer, 0x00, sizeof(buffer));
@@ -711,7 +699,7 @@ void User::RecvSetWin(char* packet)
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
 	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	char buffer[sizeof(stSetWinAck)];
 	memset(buffer, 0x00, sizeof(buffer));
@@ -768,7 +756,7 @@ void User::RecvDie(char* packet)
 	ack.UID = req.UID;
 	ack.Digicode = req.Digicode;
 	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	// Die 처리를 위한 패킷
 	char buffer[sizeof(stDieAck)];
@@ -787,7 +775,7 @@ void User::RecvDie(char* packet)
 			{
 				// Winner
 				combatack.winnerUID = i;
-				combatack.serverTime = GetServerTime();
+				combatack.serverTime = g_User.GetServerTime();
 
 				char _buffer[64];
 				memset(_buffer, 0x00, sizeof(_buffer));
@@ -1272,7 +1260,7 @@ void User::RecvCombatEnd(char* packet)
 	stCombatEnd ack;
 	
 	ack.winnerUID = req.winnerUID;
-	ack.serverTime = GetServerTime();
+	ack.serverTime = g_User.GetServerTime();
 
 	char buffer[sizeof(stCombatEnd)];
 	memset(buffer, 0x00, sizeof(buffer));

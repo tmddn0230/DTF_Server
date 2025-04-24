@@ -2,6 +2,7 @@
 #include "User.h"
 
 
+using namespace std::chrono;
 
 class UserManager
 {
@@ -28,5 +29,6 @@ public:
 	void SendMsg(char* buff, int size, int FID);
 
 	int GetUserCount();
+	float GetServerTime();
 };
 

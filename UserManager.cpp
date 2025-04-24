@@ -123,3 +123,16 @@ int UserManager::GetUserCount()
 	}
 	return nCount;
 }
+
+
+
+float UserManager::GetServerTime()
+{
+	// std::chrono::high_resolution_clock::time_point
+	// high_resolution_clock : 지금 시점의 고해상도(시간정밀도 : 나노초) 시간 
+	auto   now = std::chrono::high_resolution_clock::now();
+	// now.time_since_epoch() : 1970.01.01(epoch) 부터 지금까지의 시간
+	auto   duration = duration_cast<milliseconds>(now.time_since_epoch());
+	// milliseconds 니까 1000 으로 나눠줌 , count : 시간값을 정수화 하여 알려줌 123ms->123
+	return duration.count() / 1000.0f;
+}
