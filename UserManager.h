@@ -1,6 +1,8 @@
 #pragma once
 #include "User.h"
 
+
+
 class UserManager
 {
 public:
@@ -8,11 +10,6 @@ public:
 	User mUser[MAX_USER];
 	int mPreIndex;
 	int mChatIndex;
-
-	int mRoundCnt = 0;
-	int mTimerCnt = 0;
-	int mWaitingCnt = 0;
-	int mCombatCnt = 0;
 
 	bool mbStart;
 

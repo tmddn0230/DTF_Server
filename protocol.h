@@ -68,7 +68,7 @@ enum enProtocol
     PROTOCOL_END
 };
 
-
+    
 
 struct stHeader
 {

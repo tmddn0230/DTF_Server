@@ -30053,3 +30053,2570 @@ Fade In & Out Finish
 Round Start
 Server Time : [28686.728516]
 Server Time : [28691.736328]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.98
+Login :[ T_Yokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Server Time : [1203.021973]
+Server Time : [1208.015991]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [1213.022949]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [1218.125000]
+Battle Ready Finish
+Battle Start
+Server Time : [1223.041992]
+Server Time : [1228.037964]
+Creep Die : [1] of [0]
+Player : [0] MoveTo ([-45.114700], [-0.000000], [1.982841]) 
+Server Time : [1233.036011]
+Player : [0] MoveTo ([-43.447498], [0.487627], [4.249597]) 
+Player : [0] MoveTo ([-39.610558], [0.409669], [5.401117]) 
+Picking Item
+Creep Die : [2] of [0]
+Player : [0] MoveTo ([-39.245598], [0.000000], [-1.453937]) 
+Picking Item OBJ
+Server Time : [1238.052002]
+Server Time : [1243.042969]
+Creep Die : [0] of [0]
+Server Time : [1248.052002]
+Server Time : [1253.961060]
+Player : [0] MoveTo ([-34.682480], [-0.000000], [4.059025]) 
+Player : [0] MoveTo ([-36.348122], [-0.000000], [3.453984]) 
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+ArgPicked : [1]
+ArgBranchingOutChoice
+Server Time : [1293.255005]
+Player : [0] MoveTo ([-36.481285], [0.000000], [-2.816518]) 
+Player : [0] MoveTo ([-37.195457], [0.000000], [-6.060646]) 
+Player : [0] MoveTo ([-40.067287], [-0.000000], [0.351228]) 
+Player : [0] MoveTo ([-37.624283], [0.758529], [-3.697932]) 
+Server Time : [1303.265991]
+Server Time : [1308.267944]
+Server Time : [1313.272949]
+Server Time : [1318.274048]
+Server Time : [1323.327026]
+Player : [0] MoveTo ([-39.945686], [0.000000], [-5.034534]) 
+Server Time : [1333.286011]
+Player : [0] MoveTo ([-39.217651], [0.000000], [-2.586332]) 
+Player : [0] MoveTo ([-39.494896], [0.056510], [-4.220798]) 
+Player : [0] MoveTo ([-38.585545], [0.000000], [-2.032534]) 
+Server Time : [1343.298950]
+Player : [0] MoveTo ([-40.000080], [0.000000], [-4.907434]) 
+Player : [0] MoveTo ([-36.217987], [0.000000], [-0.937071]) 
+Server Time : [1348.303955]
+AddUser: 0 172.30.1.98
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!! : [0]
+Server Time : [1377.020020]
+Server Time : [1382.029053]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [1387.038940]
+Fade In & Out Finish
+Round Start
+Player : [0] MoveTo ([-39.083336], [0.000000], [-5.222539]) 
+Player : [0] MoveTo ([-39.561817], [1.547573], [-7.503717]) 
+Server Time : [1392.043945]
+Server Time : [1397.045044]
+Player : [0] MoveTo ([-35.697075], [0.000000], [-1.283862]) 
+Player : [0] MoveTo ([-37.115467], [0.000000], [-0.937072]) 
+Player : [0] MoveTo ([-38.334579], [0.745108], [-5.064257]) 
+Server Time : [1402.052979]
+Server Time : [1407.061035]
+Player : [0] MoveTo ([-36.008606], [-0.000000], [1.557570]) 
+Player : [0] MoveTo ([-37.753590], [0.847740], [-3.200343]) 
+Player : [0] MoveTo ([-37.872086], [0.915071], [-3.183023]) 
+Server Time : [1412.068970]
+Server Time : [1417.071045]
+Server Time : [1422.088989]
+Server Time : [1427.082031]
+Server Time : [1432.108032]
+Player : [0] MoveTo ([-34.252144], [-0.000000], [0.545400]) 
+Server Time : [1437.095947]
+Player : [0] MoveTo ([-38.048958], [0.656271], [-3.619616]) 
+Spawn Digimon [2]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [15465.075195]
+Server Time : [15470.080078]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [15475.076172]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Impmon] : code [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [15480.078125]
+Server Time : [15485.080078]
+Server Time : [15490.083984]
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Server Time : [15651.011719]
+Server Time : [15656.016602]
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [15666.023438]
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [15671.711914]
+Server Time : [15676.715820]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Terriermon] : code [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [15681.717773]
+Battle Ready Finish
+Battle Start
+Server Time : [15686.722656]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.98
+Login :[ T_Tanemon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [16140.603516]
+Server Time : [16145.612305]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [16150.619141]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [16229.928711]
+Server Time : [16234.940430]
+Server Time : [16239.939453]
+Server Time : [16244.956055]
+Server Time : [16249.953125]
+Server Time : [16254.958984]
+Server Time : [16259.963867]
+Server Time : [16264.970703]
+Creep Battle Finish [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [16269.973633]
+Fade In & Out Finish
+Round Start
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Motimon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [16597.810547]
+Server Time : [16602.816406]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [16607.818359]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Guilmon] : code [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [16628.531250]
+Battle Ready Finish
+Battle Start
+Server Time : [16633.548828]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Server Time : [16679.445312]
+Server Time : [16684.443359]
+Server Time : [16689.449219]
+Server Time : [16694.457031]
+Server Time : [16699.462891]
+Server Time : [16704.462891]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [16710.359375]
+Server Time : [16715.361328]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [16720.376953]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Guilmon] : code [1]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [17045.179688]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Server Time : [17519.343750]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [17525.078125]
+Server Time : [17530.076172]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Impmon] : code [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [17535.083984]
+Battle Ready Finish
+Battle Start
+Server Time : [17540.087891]
+Server Time : [17545.095703]
+Server Time : [17550.095703]
+Creep Die : [1] of [0]
+Server Time : [17560.109375]
+Server Time : [17565.109375]
+Server Time : [17570.109375]
+Creep Die : [0] of [0]
+Server Time : [17575.111328]
+Creep Battle Finish [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Server Time : [17580.121094]
+Fade In & Out Finish
+Round Start
+ArgPicked : [1]
+ArgBranchingOutChoice
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [17639.072266]
+AddUser: 1 172.30.1.98
+Server Time : [17644.066406]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Server Time : [17649.080078]
+Enter Game
+Start Game : [0]
+Send User Info [0]
+Encounter!!
+Server Time : [17654.787109]
+Server Time : [17655.427734]
+Server Time : [17659.789062]
+Player : [1] MoveTo ([9.147391], [-0.000000], [10.194380]) 
+Player : [1] MoveTo ([9.147391], [-0.000000], [10.194380]) 
+Server Time : [17660.429688]
+Player : [1] MoveTo ([7.548180], [0.000000], [-2.733463]) 
+Player : [1] MoveTo ([7.548180], [0.000000], [-2.733463]) 
+Player : [1] MoveTo ([7.592642], [0.800873], [-3.688640]) 
+Player : [1] MoveTo ([7.592642], [0.800873], [-3.688640]) 
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Player : [1] MoveTo ([7.336559], [0.000000], [-5.217928]) 
+Player : [1] MoveTo ([7.336559], [0.000000], [-5.217928]) 
+Player : [1] MoveTo ([43.309902], [0.000000], [-3.042533]) 
+Player : [1] MoveTo ([43.309902], [0.000000], [-3.042533]) 
+Server Time : [17664.796875]
+Server Time : [17665.435547]
+Fade In & Out Finish
+Server Time : [17669.806641]
+Server Time : [17670.435547]
+Player : [1] MoveTo ([40.787247], [0.000000], [-0.307903]) 
+Player : [1] MoveTo ([40.787247], [0.000000], [-0.307903]) 
+Player : [1] MoveTo ([38.158501], [0.000000], [-3.696840]) 
+Player : [1] MoveTo ([38.158501], [0.000000], [-3.696840]) 
+Server Time : [17674.804688]
+Server Time : [17675.447266]
+Server Time : [17680.447266]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tanemon ]
+Enter Lobby
+Server Time : [17697.652344]
+AddUser: 1 172.30.1.98
+Server Time : [17702.658203]
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Enter Game
+Start Game : [0]
+Send User Info [0]
+Server Time : [17706.441406]
+Server Time : [17708.335938]
+Server Time : [17711.453125]
+Server Time : [17713.347656]
+Server Time : [17718.351562]
+Server Time : [17723.355469]
+Server Time : [17728.359375]
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Koromon ]
+Enter Lobby
+Server Time : [17792.582031]
+AddUser: 1 172.30.1.98
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [17797.587891]
+Server Time : [17799.246094]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [17803.275391]
+Server Time : [17805.019531]
+Server Time : [17808.279297]
+Server Time : [17810.023438]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [17813.283203]
+Fade In & Out Finish
+Server Time : [17815.035156]
+Server Time : [17818.279297]
+Server Time : [17820.031250]
+Server Time : [17823.283203]
+Server Time : [17825.031250]
+Server Time : [17828.287109]
+Server Time : [17830.048828]
+Server Time : [17835.044922]
+Server Time : [17840.052734]
+Server Time : [17845.060547]
+Server Time : [17850.060547]
+Server Time : [17855.062500]
+Server Time : [17860.064453]
+Server Time : [17865.078125]
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.98
+AddUser: 1 172.30.1.44
+Server Time : [17937.076172]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [17953.173828]
+AddUser: 1 172.30.1.98
+Server Time : [17958.179688]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [17961.554688]
+Server Time : [17963.179688]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [17969.800781]
+Server Time : [17969.839844]
+Server Time : [17974.804688]
+Server Time : [17974.837891]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Server Time : [17979.816406]
+Server Time : [17979.851562]
+Server Time : [17984.816406]
+Server Time : [17984.851562]
+Server Time : [17989.820312]
+Server Time : [17989.847656]
+Server Time : [17994.828125]
+Server Time : [17994.857422]
+Server Time : [17999.824219]
+Server Time : [17999.859375]
+Server Time : [18004.824219]
+Server Time : [18004.855469]
+Server Time : [18009.835938]
+Server Time : [18009.863281]
+Server Time : [18014.832031]
+Server Time : [18014.865234]
+Server Time : [18019.841797]
+Server Time : [18019.867188]
+Server Time : [18024.851562]
+Server Time : [18024.878906]
+Server Time : [18029.847656]
+Server Time : [18029.880859]
+Server Time : [18034.847656]
+Server Time : [18034.878906]
+Server Time : [18039.855469]
+Server Time : [18039.888672]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [18072.296875]
+Server Time : [18077.302734]
+Server Time : [18082.300781]
+Server Time : [18087.308594]
+AddUser: 1 172.30.1.98
+Server Time : [18092.308594]
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [18097.087891]
+Server Time : [18097.316406]
+Server Time : [18102.093750]
+Server Time : [18102.316406]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [18107.769531]
+Server Time : [18108.042969]
+Server Time : [18112.767578]
+Server Time : [18113.039062]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [18117.777344]
+Server Time : [18118.052734]
+Battle Ready Finish
+Battle Start
+Server Time : [18122.804688]
+Server Time : [18123.068359]
+Server Time : [18128.060547]
+Server Time : [18133.068359]
+Creep Die : [1] of [1]
+Server Time : [18138.062500]
+Server Time : [18142.783203]
+Server Time : [18143.076172]
+Server Time : [18147.792969]
+Server Time : [18148.123047]
+Server Time : [18152.804688]
+Server Time : [18153.132812]
+Server Time : [18157.804688]
+Server Time : [18158.132812]
+Creep Battle Finish [1]
+Creep Battle Finish [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [18162.806641]
+Fade In & Out Finish
+Round Start
+ArgPicked : [2]
+ArgTitan
+Server Time : [18167.822266]
+Server Time : [18172.820312]
+Server Time : [18177.824219]
+Server Time : [18182.824219]
+Server Time : [18187.826172]
+Server Time : [18192.833984]
+Server Time : [18197.847656]
+Server Time : [18202.843750]
+Server Time : [18207.855469]
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Server Time : [18691.500000]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [18696.496094]
+Server Time : [18701.500000]
+Server Time : [18706.513672]
+Server Time : [18711.513672]
+Server Time : [18716.521484]
+Server Time : [18721.527344]
+Server Time : [18726.531250]
+Server Time : [18731.544922]
+Server Time : [18736.539062]
+AddUser: 1 172.30.1.98
+Server Time : [18741.544922]
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Server Time : [18746.888672]
+Encounter!!
+Server Time : [18747.091797]
+Server Time : [18751.609375]
+Server Time : [18752.099609]
+Server Time : [18756.617188]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [18757.095703]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Veemon] : code [1]
+Spawn Digimon [Terriermon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [18761.615234]
+Server Time : [18762.107422]
+Battle Ready Finish
+Battle Start
+Server Time : [18766.615234]
+Server Time : [18767.140625]
+Server Time : [18771.640625]
+Server Time : [18772.121094]
+Server Time : [18776.630859]
+Server Time : [18777.128906]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [18781.623047]
+Server Time : [18782.164062]
+Creep Die : [2] of [0]
+Server Time : [18786.640625]
+Server Time : [18787.136719]
+Server Time : [18791.640625]
+Creep Die : [0] of [0]
+Server Time : [18792.138672]
+Creep Die : [2] of [1]
+Server Time : [18796.648438]
+Server Time : [18797.156250]
+Server Time : [18801.658203]
+Server Time : [18802.152344]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Server Time : [18806.654297]
+Server Time : [18807.640625]
+Creep Die : [0] of [1]
+Server Time : [18811.660156]
+Server Time : [18812.646484]
+Server Time : [18816.660156]
+Server Time : [18817.646484]
+Server Time : [18823.191406]
+Server Time : [18828.195312]
+Server Time : [18833.189453]
+Server Time : [18838.205078]
+Server Time : [18843.207031]
+Server Time : [18848.212891]
+Server Time : [18853.214844]
+Server Time : [18858.220703]
+Server Time : [18863.220703]
+Server Time : [18868.228516]
+Server Time : [18873.232422]
+Server Time : [18878.236328]
+Server Time : [18883.238281]
+Server Time : [18888.244141]
+Server Time : [18893.246094]
+Server Time : [18898.251953]
+Server Time : [18903.255859]
+Server Time : [18908.255859]
+Server Time : [18913.255859]
+Server Time : [18918.257812]
+Server Time : [18923.263672]
+Server Time : [18928.271484]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Yokomon ]
+Enter Lobby
+Server Time : [18962.775391]
+Server Time : [18967.773438]
+Server Time : [18972.787109]
+Server Time : [18977.783203]
+Server Time : [18982.783203]
+AddUser: 1 172.30.1.98
+Server Time : [18987.787109]
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [18992.335938]
+Server Time : [18992.884766]
+Server Time : [18997.337891]
+Server Time : [18997.880859]
+Player : [1] MoveTo ([18.806297], [-0.000000], [2.073957]) 
+Player : [1] MoveTo ([18.806297], [-0.000000], [2.073957]) 
+Player : [1] MoveTo ([4.544581], [0.000000], [-4.825101]) 
+Player : [1] MoveTo ([4.544581], [0.000000], [-4.825101]) 
+Player : [1] MoveTo ([2.400876], [0.000000], [-6.891016]) 
+Player : [1] MoveTo ([2.400876], [0.000000], [-6.891016]) 
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [19002.347656]
+Server Time : [19002.894531]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [19007.343750]
+Server Time : [19007.900391]
+Battle Ready Finish
+Battle Start
+Server Time : [19012.363281]
+Server Time : [19012.919922]
+Creep Die : [1] of [1]
+Server Time : [19017.351562]
+Server Time : [19017.910156]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Server Time : [19022.406250]
+Server Time : [19022.914062]
+Creep Die : [2] of [0]
+Server Time : [19027.376953]
+Server Time : [19027.912109]
+Creep Die : [0] of [0]
+Creep Die : [0] of [1]
+Server Time : [19032.367188]
+Server Time : [19032.917969]
+Server Time : [19037.369141]
+Server Time : [19037.921875]
+Server Time : [19042.376953]
+Server Time : [19042.923828]
+Server Time : [19047.384766]
+Server Time : [19047.927734]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Server Time : [19052.390625]
+Server Time : [19052.935547]
+ArgPicked : [6]
+ArgPicked : [5]
+Server Time : [19057.396484]
+Server Time : [19057.943359]
+Server Time : [19062.392578]
+Server Time : [19062.941406]
+Server Time : [19067.404297]
+Server Time : [19067.947266]
+Server Time : [19072.412109]
+Server Time : [19072.943359]
+Server Time : [19077.419922]
+Server Time : [19077.955078]
+Spawn Digimon [Guilmon] : code [3]
+Server Time : [19082.417969]
+Spawn Digimon [Veemon] : code [4]
+Server Time : [19082.955078]
+Server Time : [19087.417969]
+Server Time : [19087.964844]
+Server Time : [19092.447266]
+Server Time : [19092.968750]
+Server Time : [19097.435547]
+Server Time : [19097.966797]
+Manage Finish
+Server Time : [19102.435547]
+Server Time : [19102.968750]
+Server Time : [19107.443359]
+Server Time : [19107.980469]
+Battle Ready Finish
+Battle Start
+Server Time : [19112.451172]
+Server Time : [19112.980469]
+Server Time : [19117.457031]
+Server Time : [19117.980469]
+Server Time : [19122.466797]
+Server Time : [19122.978516]
+Server Time : [19127.464844]
+Server Time : [19127.992188]
+Player : [0] MoveTo ([-38.792782], [0.000000], [-5.960991]) 
+Player : [0] MoveTo ([-38.792782], [0.000000], [-5.960991]) 
+Server Time : [19132.476562]
+Player : [0] MoveTo ([-38.423439], [0.981058], [-6.879124]) 
+Player : [0] MoveTo ([-38.423439], [0.981058], [-6.879124]) 
+Server Time : [19132.994141]
+Player : [1] MoveTo ([32.299637], [-0.000000], [-0.215626]) 
+Player : [1] MoveTo ([32.299637], [-0.000000], [-0.215626]) 
+Server Time : [19137.476562]
+Player : [1] MoveTo ([33.327496], [-0.000000], [8.561655]) 
+Player : [1] MoveTo ([33.327496], [-0.000000], [8.561655]) 
+Player : [1] MoveTo ([37.794258], [-0.000000], [10.774789]) 
+Player : [1] MoveTo ([37.794258], [-0.000000], [10.774789]) 
+Player : [1] MoveTo ([42.026402], [-0.000000], [7.623301]) 
+Player : [1] MoveTo ([42.026402], [-0.000000], [7.623301]) 
+Spawn Digimon [Impmon] : code [5]
+Server Time : [19142.484375]
+Spawn Digimon [Veemon] : code [6]
+Spawn Digimon [Hawkmon] : code [7]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [23945.062500]
+Server Time : [23950.066406]
+Server Time : [23955.080078]
+Server Time : [23960.076172]
+AddUser: 1 172.30.1.98
+Server Time : [23965.083984]
+Server Time : [23970.080078]
+Server Time : [23970.642578]
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [23975.828125]
+Server Time : [23976.363281]
+Server Time : [23980.824219]
+Server Time : [23981.367188]
+Encounter Fin
+Round Fin
+Server Time : [23985.835938]
+Server Time : [23986.369141]
+Server Time : [23990.839844]
+Server Time : [23991.373047]
+Player : [1] MoveTo ([9.094303], [-0.000000], [17.848457]) 
+Player : [1] MoveTo ([9.094303], [-0.000000], [17.848457]) 
+Player : [1] MoveTo ([5.966994], [0.000000], [-4.625702]) 
+Player : [1] MoveTo ([5.966994], [0.000000], [-4.625702]) 
+Player : [0] MoveTo ([1.529507], [0.000000], [-9.099648]) 
+Player : [0] MoveTo ([1.529507], [0.000000], [-9.099648]) 
+Server Time : [23995.847656]
+Server Time : [23996.380859]
+Server Time : [24000.851562]
+Server Time : [24001.388672]
+Failed Socket Create
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [24040.894531]
+AddUser: 1 172.30.1.98
+Server Time : [24045.896484]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [24051.621094]
+Player : [1] MoveTo ([-3.289555], [0.000000], [-3.596717]) 
+Player : [1] MoveTo ([-3.289555], [0.000000], [-3.596717]) 
+Server Time : [24051.888672]
+Player : [1] MoveTo ([-2.019382], [0.000000], [-5.697836]) 
+Player : [1] MoveTo ([-2.019382], [0.000000], [-5.697836]) 
+Server Time : [24056.623047]
+Server Time : [24056.890625]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [24061.619141]
+Server Time : [24061.896484]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Player : [1] MoveTo ([39.709793], [0.000000], [-3.482606]) 
+Player : [1] MoveTo ([39.709793], [0.000000], [-3.482606]) 
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [24066.632812]
+Battle Ready Finish
+Battle Start
+Server Time : [24066.902344]
+Server Time : [24071.636719]
+Server Time : [24071.896484]
+Creep Die : [1] of [1]
+Server Time : [24076.640625]
+Server Time : [24076.900391]
+Creep Die : [2] of [1]
+Creep Die : [1] of [0]
+Server Time : [24081.644531]
+Server Time : [24081.910156]
+Creep Die : [2] of [0]
+Creep Die : [0] of [1]
+Server Time : [24086.638672]
+Creep Die : [0] of [0]
+Server Time : [24086.904297]
+Server Time : [24091.644531]
+Server Time : [24091.904297]
+Server Time : [24096.652344]
+Server Time : [24096.912109]
+Server Time : [24101.656250]
+Server Time : [24101.916016]
+Server Time : [24106.660156]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [24106.919922]
+Fade In & Out Finish
+Round Start
+Server Time : [24111.664062]
+Server Time : [24111.919922]
+ArgPicked : [4]
+ArgOverEncumbered
+Server Time : [24116.667969]
+ArgPicked : [1]
+ArgBranchingOutChoice
+Server Time : [24116.923828]
+Server Time : [24121.671875]
+Server Time : [24121.925781]
+Server Time : [24126.679688]
+Server Time : [24126.927734]
+Spawn Digimon [Terriermon] : code [3]
+Spawn Digimon [Terriermon] : code [4]
+Spawn Digimon [Veemon] : code [5]
+Spawn Digimon [Guilmon] : code [6]
+Server Time : [24131.679688]
+Server Time : [24131.935547]
+Server Time : [24136.679688]
+Server Time : [24136.943359]
+Server Time : [24141.679688]
+Server Time : [24141.945312]
+Spawn Digimon [Impmon] : code [7]
+Spawn Digimon [Veemon] : code [8]
+Server Time : [24146.683594]
+Server Time : [24146.949219]
+Spawn Digimon [Hawkmon] : code [9]
+Server Time : [24151.691406]
+Server Time : [24151.951172]
+Server Time : [24156.703125]
+Server Time : [24156.955078]
+Manage Finish
+Server Time : [24161.707031]
+Server Time : [24161.970703]
+Server Time : [24166.710938]
+Server Time : [24166.978516]
+Battle Ready Finish
+Battle Start
+Server Time : [24171.718750]
+Server Time : [24171.976562]
+Server Time : [24176.724609]
+Player : [0] MoveTo ([-41.964073], [-0.000000], [5.747538]) 
+Player : [0] MoveTo ([-41.964073], [-0.000000], [5.747538]) 
+Server Time : [24176.988281]
+Player : [0] MoveTo ([-41.749443], [0.636273], [4.078734]) 
+Player : [0] MoveTo ([-41.749443], [0.636273], [4.078734]) 
+Player : [0] MoveTo ([-41.945488], [0.675054], [3.907040]) 
+Player : [0] MoveTo ([-41.945488], [0.675054], [3.907040]) 
+Picking Item OBJ
+Player : [0] MoveTo ([-39.336552], [0.535892], [2.337578]) 
+Player : [0] MoveTo ([-39.336552], [0.535892], [2.337578]) 
+Picking Item
+Player : [0] MoveTo ([-36.723392], [0.549273], [3.853876]) 
+Player : [0] MoveTo ([-36.723392], [0.549273], [3.853876]) 
+Server Time : [24181.728516]
+Spawn Digimon [Hawkmon] : code [10]
+Server Time : [24181.990234]
+Player : [0] MoveTo ([-42.016994], [0.496326], [0.803678]) 
+Player : [0] MoveTo ([-42.016994], [0.496326], [0.803678]) 
+Player : [0] MoveTo ([-43.539375], [0.327808], [4.047502]) 
+Player : [0] MoveTo ([-43.539375], [0.327808], [4.047502]) 
+Player : [0] MoveTo ([-43.058041], [-0.000000], [7.948454]) 
+Player : [0] MoveTo ([-43.058041], [-0.000000], [7.948454]) 
+Player : [0] MoveTo ([-42.292892], [0.760745], [4.016517]) 
+Player : [0] MoveTo ([-42.292892], [0.760745], [4.016517]) 
+Player : [0] MoveTo ([-42.292892], [0.760745], [4.016517]) 
+Player : [0] MoveTo ([-42.292892], [0.760745], [4.016517]) 
+Player : [0] MoveTo ([-42.475101], [1.715084], [3.295068]) 
+Player : [0] MoveTo ([-42.475101], [1.715084], [3.295068]) 
+Player : [0] MoveTo ([-43.083519], [2.215186], [3.534220]) 
+Player : [0] MoveTo ([-43.083519], [2.215186], [3.534220]) 
+Player : [0] MoveTo ([-42.942287], [2.670684], [2.803018]) 
+Player : [0] MoveTo ([-42.942287], [2.670684], [2.803018]) 
+Player : [0] MoveTo ([-43.815678], [-0.000000], [3.573364]) 
+Player : [0] MoveTo ([-43.815678], [-0.000000], [3.573364]) 
+Player : [0] MoveTo ([-42.624256], [-0.000000], [0.605404]) 
+Player : [0] MoveTo ([-42.624256], [-0.000000], [0.605404]) 
+Server Time : [24186.732422]
+Player : [0] MoveTo ([-42.119884], [-0.000000], [3.573362]) 
+Player : [0] MoveTo ([-42.119884], [-0.000000], [3.573362]) 
+Player : [0] MoveTo ([-42.343575], [2.276324], [3.210889]) 
+Player : [0] MoveTo ([-42.343575], [2.276324], [3.210889]) 
+Server Time : [24186.984375]
+Player : [0] MoveTo ([-42.370110], [2.676959], [2.576885]) 
+Player : [0] MoveTo ([-42.370110], [2.676959], [2.576885]) 
+Player : [0] MoveTo ([-42.319828], [2.841459], [2.211713]) 
+Player : [0] MoveTo ([-42.319828], [2.841459], [2.211713]) 
+Player : [0] MoveTo ([-40.351128], [0.381744], [3.856808]) 
+Player : [0] MoveTo ([-40.351128], [0.381744], [3.856808]) 
+Player : [0] MoveTo ([-42.862720], [1.041903], [7.893178]) 
+Player : [0] MoveTo ([-42.862720], [1.041903], [7.893178]) 
+Player : [0] MoveTo ([-43.089661], [-0.000000], [4.867286]) 
+Player : [0] MoveTo ([-43.089661], [-0.000000], [4.867286]) 
+Player : [0] MoveTo ([-43.151489], [-0.000000], [4.745276]) 
+Player : [0] MoveTo ([-43.151489], [-0.000000], [4.745276]) 
+Player : [0] MoveTo ([-42.502392], [-0.000000], [5.877164]) 
+Player : [0] MoveTo ([-42.502392], [-0.000000], [5.877164]) 
+Player : [0] MoveTo ([-42.423431], [0.817785], [4.890539]) 
+Player : [0] MoveTo ([-42.423431], [0.817785], [4.890539]) 
+Player : [0] MoveTo ([-42.528694], [0.679477], [4.251583]) 
+Player : [0] MoveTo ([-42.528694], [0.679477], [4.251583]) 
+Player : [0] MoveTo ([-41.880348], [0.793832], [1.025330]) 
+Player : [0] MoveTo ([-41.880348], [0.793832], [1.025330]) 
+Player : [0] MoveTo ([-39.533520], [0.000000], [-1.928756]) 
+Player : [0] MoveTo ([-39.533520], [0.000000], [-1.928756]) 
+Player : [0] MoveTo ([-37.960911], [0.000000], [-2.676364]) 
+Player : [0] MoveTo ([-37.960911], [0.000000], [-2.676364]) 
+Server Time : [24191.740234]
+Player : [0] MoveTo ([-37.098099], [0.000000], [-3.518600]) 
+Player : [0] MoveTo ([-37.098099], [0.000000], [-3.518600]) 
+Server Time : [24191.998047]
+Player : [0] MoveTo ([-40.195583], [0.821521], [-5.089764]) 
+Player : [0] MoveTo ([-40.195583], [0.821521], [-5.089764]) 
+Player : [0] MoveTo ([-41.261578], [0.000000], [-4.495570]) 
+Player : [0] MoveTo ([-41.261578], [0.000000], [-4.495570]) 
+Player : [0] MoveTo ([-42.245663], [0.716089], [-5.253197]) 
+Player : [0] MoveTo ([-42.245663], [0.716089], [-5.253197]) 
+Player : [1] MoveTo ([38.057098], [-0.000000], [6.162308]) 
+Player : [1] MoveTo ([38.057098], [-0.000000], [6.162308]) 
+Player : [0] MoveTo ([-43.591354], [0.657648], [-5.158797]) 
+Player : [0] MoveTo ([-43.591354], [0.657648], [-5.158797]) 
+Player : [0] MoveTo ([-42.939079], [0.569447], [-3.805871]) 
+Player : [0] MoveTo ([-42.939079], [0.569447], [-3.805871]) 
+Player : [0] MoveTo ([-42.381588], [0.000000], [-5.339421]) 
+Player : [0] MoveTo ([-42.381588], [0.000000], [-5.339421]) 
+Player : [0] MoveTo ([-40.511322], [0.000000], [-2.603542]) 
+Player : [0] MoveTo ([-40.511322], [0.000000], [-2.603542]) 
+Picking Item OBJ
+Player : [1] MoveTo ([41.923363], [-0.000000], [3.218283]) 
+Player : [1] MoveTo ([41.923363], [-0.000000], [3.218283]) 
+Picking Item
+Player : [1] MoveTo ([45.621384], [-0.000000], [4.946407]) 
+Player : [1] MoveTo ([45.621384], [-0.000000], [4.946407]) 
+Server Time : [24196.736328]
+Picking Item OBJ
+Server Time : [24197.003906]
+Server Time : [24201.748047]
+Server Time : [24202.005859]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Server Time : [26307.779297]
+Server Time : [26312.455078]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Yokomon ]
+Enter Lobby
+Server Time : [26663.732422]
+Server Time : [26668.728516]
+Server Time : [26673.730469]
+Server Time : [26678.736328]
+AddUser: 1 172.30.1.98
+Server Time : [26683.740234]
+Server Time : [26685.322266]
+Server Time : [26688.742188]
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [26690.326172]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [26695.392578]
+Player : [1] MoveTo ([-1.326418], [0.000000], [-10.782594]) 
+Player : [1] MoveTo ([-1.326418], [0.000000], [-10.782594]) 
+Server Time : [26698.246094]
+Player : [1] MoveTo ([4.455646], [0.000000], [-11.477130]) 
+Player : [1] MoveTo ([4.455646], [0.000000], [-11.477130]) 
+Player : [1] MoveTo ([8.772089], [0.000000], [-5.697837]) 
+Player : [1] MoveTo ([8.772089], [0.000000], [-5.697837]) 
+Player : [1] MoveTo ([8.188374], [0.000000], [-2.287618]) 
+Player : [1] MoveTo ([8.188374], [0.000000], [-2.287618]) 
+Server Time : [26700.408203]
+Player : [1] MoveTo ([5.731219], [0.000000], [-2.622885]) 
+Player : [1] MoveTo ([5.731219], [0.000000], [-2.622885]) 
+Player : [1] MoveTo ([5.285131], [0.000000], [-5.120455]) 
+Player : [1] MoveTo ([5.285131], [0.000000], [-5.120455]) 
+Player : [1] MoveTo ([4.975274], [0.516653], [-5.404341]) 
+Player : [1] MoveTo ([4.975274], [0.516653], [-5.404341]) 
+Player : [1] MoveTo ([4.872750], [0.902391], [-5.616292]) 
+Player : [1] MoveTo ([4.872750], [0.902391], [-5.616292]) 
+Player : [1] MoveTo ([4.773366], [1.276314], [-5.821753]) 
+Player : [1] MoveTo ([4.773366], [1.276314], [-5.821753]) 
+Player : [1] MoveTo ([4.681313], [1.622654], [-6.012056]) 
+Player : [1] MoveTo ([4.681313], [1.622654], [-6.012056]) 
+Player : [1] MoveTo ([4.590227], [1.965355], [-6.200361]) 
+Player : [1] MoveTo ([4.590227], [1.965355], [-6.200361]) 
+Player : [1] MoveTo ([4.494933], [2.323891], [-6.397367]) 
+Player : [1] MoveTo ([4.494933], [2.323891], [-6.397367]) 
+Player : [1] MoveTo ([4.401951], [2.673725], [-6.589591]) 
+Player : [1] MoveTo ([4.401951], [2.673725], [-6.589591]) 
+Server Time : [26703.255859]
+Player : [1] MoveTo ([4.301652], [3.051088], [-6.796942]) 
+Player : [1] MoveTo ([4.301652], [3.051088], [-6.796942]) 
+Player : [1] MoveTo ([4.201638], [3.427383], [-7.003705]) 
+Player : [1] MoveTo ([4.201638], [3.427383], [-7.003705]) 
+Player : [1] MoveTo ([4.102728], [3.799523], [-7.208185]) 
+Player : [1] MoveTo ([4.102728], [3.799523], [-7.208185]) 
+Player : [1] MoveTo ([4.010382], [4.146966], [-7.399096]) 
+Player : [1] MoveTo ([4.010382], [4.146966], [-7.399096]) 
+Player : [1] MoveTo ([3.910214], [4.523840], [-7.606177]) 
+Player : [1] MoveTo ([3.910214], [4.523840], [-7.606177]) 
+Player : [1] MoveTo ([3.812927], [4.889872], [-7.807302]) 
+Player : [1] MoveTo ([3.812927], [4.889872], [-7.807302]) 
+Player : [1] MoveTo ([3.715955], [5.254721], [-8.007776]) 
+Player : [1] MoveTo ([3.715955], [5.254721], [-8.007776]) 
+Player : [1] MoveTo ([3.618542], [5.621227], [-8.209161]) 
+Player : [1] MoveTo ([3.618542], [5.621227], [-8.209161]) 
+Player : [1] MoveTo ([3.525592], [5.970942], [-8.401320]) 
+Player : [1] MoveTo ([3.525592], [5.970942], [-8.401320]) 
+Player : [1] MoveTo ([3.431041], [6.326684], [-8.596789]) 
+Player : [1] MoveTo ([3.431041], [6.326684], [-8.596789]) 
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Player : [1] MoveTo ([3.335678], [6.685475], [-8.793936]) 
+Player : [1] MoveTo ([3.335678], [6.685475], [-8.793936]) 
+Player : [1] MoveTo ([3.240763], [7.042586], [-8.990158]) 
+Player : [1] MoveTo ([3.240763], [7.042586], [-8.990158]) 
+Player : [1] MoveTo ([3.147890], [7.392010], [-9.182156]) 
+Player : [1] MoveTo ([3.147890], [7.392010], [-9.182156]) 
+Server Time : [26705.410156]
+Player : [1] MoveTo ([3.055893], [7.738142], [-9.372347]) 
+Player : [1] MoveTo ([3.055893], [7.738142], [-9.372347]) 
+Player : [1] MoveTo ([24.835167], [0.000000], [-5.011511]) 
+Player : [1] MoveTo ([24.835167], [0.000000], [-5.011511]) 
+Player : [1] MoveTo ([32.625622], [0.000000], [-5.097548]) 
+Player : [1] MoveTo ([32.625622], [0.000000], [-5.097548]) 
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [26708.257812]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Player : [1] MoveTo ([33.535984], [1.547573], [-7.689981]) 
+Player : [1] MoveTo ([33.535984], [1.547573], [-7.689981]) 
+Server Time : [26710.404297]
+Battle Ready Finish
+Battle Start
+Server Time : [26713.275391]
+Server Time : [26715.417969]
+Server Time : [26718.265625]
+Server Time : [26720.408203]
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Server Time : [26723.267578]
+Server Time : [26725.423828]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Server Time : [26728.292969]
+Server Time : [26730.423828]
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Server Time : [26733.275391]
+Server Time : [26735.427734]
+Server Time : [26738.279297]
+Server Time : [26740.421875]
+Server Time : [26743.279297]
+Server Time : [26745.423828]
+Server Time : [26748.296875]
+Server Time : [26750.439453]
+Creep Battle Finish [1]
+Creep Battle Finish [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [26753.300781]
+Fade In & Out Finish
+Round Start
+Round Start
+Server Time : [26755.435547]
+Server Time : [26758.300781]
+ArgPicked : [3]
+ArgPicked : [3]
+ArgCalledShot
+ArgCalledShot
+ArgPicked : [4]
+ArgPicked : [4]
+ArgOverEncumbered
+ArgOverEncumbered
+Server Time : [26760.447266]
+Server Time : [26763.304688]
+Server Time : [26765.443359]
+Server Time : [26768.320312]
+Server Time : [26770.457031]
+Server Time : [26773.320312]
+Server Time : [26775.460938]
+Server Time : [26778.324219]
+Server Time : [26780.462891]
+Server Time : [26783.332031]
+Server Time : [26785.468750]
+Server Time : [26788.343750]
+Server Time : [26790.472656]
+Server Time : [26793.339844]
+Server Time : [26795.466797]
+Server Time : [26798.339844]
+Server Time : [26800.472656]
+Server Time : [26803.351562]
+Manage Finish
+Server Time : [26805.474609]
+Server Time : [26808.353516]
+Server Time : [26810.476562]
+Server Time : [26813.361328]
+Battle Ready Finish
+Battle Start
+Server Time : [26815.490234]
+Server Time : [26818.361328]
+Server Time : [26820.486328]
+Server Time : [26823.367188]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [28164.171875]
+AddUser: 1 172.30.1.98
+Server Time : [28169.171875]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Server Time : [28175.400391]
+Start Game : [1]
+Encounter!!
+Server Time : [28176.345703]
+Player : [1] MoveTo ([12.262220], [-0.000000], [4.088895]) 
+Player : [1] MoveTo ([12.262220], [-0.000000], [4.088895]) 
+Player : [1] MoveTo ([6.063576], [0.000000], [-8.505192]) 
+Player : [1] MoveTo ([6.063576], [0.000000], [-8.505192]) 
+Server Time : [28180.398438]
+Player : [1] MoveTo ([4.190073], [0.000000], [-7.067916]) 
+Player : [1] MoveTo ([4.190073], [0.000000], [-7.067916]) 
+Player : [1] MoveTo ([4.190073], [0.000000], [-7.067916]) 
+Player : [1] MoveTo ([4.190073], [0.000000], [-7.067916]) 
+Player : [1] MoveTo ([3.846952], [1.565372], [-7.774080]) 
+Player : [1] MoveTo ([3.846952], [1.565372], [-7.774080]) 
+Player : [1] MoveTo ([3.914393], [1.257696], [-7.635283]) 
+Player : [1] MoveTo ([3.914393], [1.257696], [-7.635283]) 
+Server Time : [28181.359375]
+Player : [1] MoveTo ([3.833021], [1.628929], [-7.802752]) 
+Player : [1] MoveTo ([3.833021], [1.628929], [-7.802752]) 
+Player : [1] MoveTo ([3.750862], [2.003752], [-7.971840]) 
+Player : [1] MoveTo ([3.750862], [2.003752], [-7.971840]) 
+Player : [1] MoveTo ([3.672360], [2.361887], [-8.133400]) 
+Player : [1] MoveTo ([3.672360], [2.361887], [-8.133400]) 
+Player : [1] MoveTo ([3.592617], [2.725687], [-8.297516]) 
+Player : [1] MoveTo ([3.592617], [2.725687], [-8.297516]) 
+Player : [1] MoveTo ([3.509432], [3.105188], [-8.468714]) 
+Player : [1] MoveTo ([3.509432], [3.105188], [-8.468714]) 
+Player : [1] MoveTo ([3.424877], [3.490936], [-8.642731]) 
+Player : [1] MoveTo ([3.424877], [3.490936], [-8.642731]) 
+Player : [1] MoveTo ([3.340782], [3.874593], [-8.815804]) 
+Player : [1] MoveTo ([3.340782], [3.874593], [-8.815804]) 
+Player : [1] MoveTo ([3.253489], [4.272831], [-8.995456]) 
+Player : [1] MoveTo ([3.253489], [4.272831], [-8.995456]) 
+Player : [1] MoveTo ([3.173569], [4.637438], [-9.159936]) 
+Player : [1] MoveTo ([3.173569], [4.637438], [-9.159936]) 
+Player : [1] MoveTo ([3.086419], [5.035030], [-9.339296]) 
+Player : [1] MoveTo ([3.086419], [5.035030], [-9.339296]) 
+Player : [1] MoveTo ([3.007037], [5.397179], [-9.502666]) 
+Player : [1] MoveTo ([3.007037], [5.397179], [-9.502666]) 
+Player : [1] MoveTo ([2.925420], [5.769529], [-9.670639]) 
+Player : [1] MoveTo ([2.925420], [5.769529], [-9.670639]) 
+Player : [1] MoveTo ([2.844336], [6.139443], [-9.837513]) 
+Player : [1] MoveTo ([2.844336], [6.139443], [-9.837513]) 
+Player : [1] MoveTo ([2.779720], [6.434232], [-9.970497]) 
+Player : [1] MoveTo ([2.779720], [6.434232], [-9.970497]) 
+Player : [1] MoveTo ([2.694333], [6.823778], [-10.146227]) 
+Player : [1] MoveTo ([2.694333], [6.823778], [-10.146227]) 
+Player : [1] MoveTo ([2.653933], [7.008089], [-10.229372]) 
+Player : [1] MoveTo ([2.653933], [7.008089], [-10.229372]) 
+Player : [1] MoveTo ([2.571862], [7.382509], [-10.398279]) 
+Player : [1] MoveTo ([2.571862], [7.382509], [-10.398279]) 
+Player : [1] MoveTo ([2.531600], [7.566187], [-10.481139]) 
+Player : [1] MoveTo ([2.531600], [7.566187], [-10.481139]) 
+Player : [1] MoveTo ([2.449005], [7.942997], [-10.651124]) 
+Player : [1] MoveTo ([2.449005], [7.942997], [-10.651124]) 
+Player : [1] MoveTo ([2.416085], [8.093185], [-10.718876]) 
+Player : [1] MoveTo ([2.416085], [8.093185], [-10.718876]) 
+Player : [1] MoveTo ([2.335528], [8.460695], [-10.884665]) 
+Player : [1] MoveTo ([2.335528], [8.460695], [-10.884665]) 
+Player : [1] MoveTo ([2.251253], [8.845168], [-11.058107]) 
+Player : [1] MoveTo ([2.251253], [8.845168], [-11.058107]) 
+Player : [1] MoveTo ([2.187221], [9.137293], [-11.189889]) 
+Player : [1] MoveTo ([2.187221], [9.137293], [-11.189889]) 
+Player : [1] MoveTo ([2.113736], [9.472538], [-11.341124]) 
+Player : [1] MoveTo ([2.113736], [9.472538], [-11.341124]) 
+Player : [1] MoveTo ([2.064957], [9.695074], [-11.441513]) 
+Player : [1] MoveTo ([2.064957], [9.695074], [-11.441513]) 
+Player : [1] MoveTo ([1.982970], [10.069113], [-11.610248]) 
+Player : [1] MoveTo ([1.982970], [10.069113], [-11.610248]) 
+Player : [1] MoveTo ([1.911048], [10.397229], [-11.758265]) 
+Player : [1] MoveTo ([1.911048], [10.397229], [-11.758265]) 
+Player : [1] MoveTo ([1.832609], [10.755078], [-11.919697]) 
+Player : [1] MoveTo ([1.832609], [10.755078], [-11.919697]) 
+Server Time : [28185.400391]
+Player : [1] MoveTo ([1.777345], [11.007202], [-12.033434]) 
+Player : [1] MoveTo ([1.777345], [11.007202], [-12.033434]) 
+Encounter Fin
+Round Fin
+Player : [1] MoveTo ([1.704402], [11.339976], [-12.183554]) 
+Player : [1] MoveTo ([1.704402], [11.339976], [-12.183554]) 
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Player : [1] MoveTo ([1.650690], [11.585018], [-12.294096]) 
+Player : [1] MoveTo ([1.650690], [11.585018], [-12.294096]) 
+Player : [1] MoveTo ([1.569319], [11.956244], [-12.461561]) 
+Player : [1] MoveTo ([1.569319], [11.956244], [-12.461561]) 
+Player : [1] MoveTo ([1.485545], [12.338432], [-12.633972]) 
+Player : [1] MoveTo ([1.485545], [12.338432], [-12.633972]) 
+Player : [1] MoveTo ([1.404954], [12.706098], [-12.799831]) 
+Player : [1] MoveTo ([1.404954], [12.706098], [-12.799831]) 
+Player : [1] MoveTo ([1.340857], [12.998519], [-12.931747]) 
+Player : [1] MoveTo ([1.340857], [12.998519], [-12.931747]) 
+Player : [1] MoveTo ([4.840876], [0.000000], [-7.049722]) 
+Player : [1] MoveTo ([4.840876], [0.000000], [-7.049722]) 
+Player : [1] MoveTo ([13.462260], [0.000000], [-6.828323]) 
+Player : [1] MoveTo ([13.462260], [0.000000], [-6.828323]) 
+Server Time : [28186.361328]
+Player : [1] MoveTo ([42.530567], [0.834127], [-6.762581]) 
+Player : [1] MoveTo ([42.530567], [0.834127], [-6.762581]) 
+Fade In & Out Finish
+Round Start
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Spawn Digimon [Guilmon] : code [3]
+Spawn Digimon [Renamon] : code [4]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [28191.361328]
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [28196.056641]
+Server Time : [28196.369141]
+Battle Ready Finish
+Battle Start
+Server Time : [28201.277344]
+Server Time : [28201.488281]
+Creep Die : [1] of [1]
+Server Time : [28206.376953]
+Server Time : [28206.609375]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [28211.068359]
+Server Time : [28211.382812]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Server Time : [28216.072266]
+Creep Die : [2] of [1]
+Server Time : [28216.392578]
+Server Time : [28221.072266]
+Server Time : [28221.394531]
+Creep Die : [0] of [1]
+Creep Die : [0] of [1]
+Server Time : [28226.074219]
+Server Time : [28226.392578]
+Server Time : [28231.082031]
+Server Time : [28231.402344]
+Server Time : [28236.080078]
+Server Time : [28236.410156]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [28241.087891]
+Fade In & Out Finish
+Round Start
+Server Time : [28241.406250]
+ArgPicked : [6]
+Server Time : [28246.091797]
+Server Time : [28246.419922]
+ArgPicked : [2]
+ArgTitan
+Server Time : [28251.089844]
+Server Time : [28251.423828]
+Server Time : [28256.099609]
+Server Time : [28256.427734]
+Server Time : [28261.099609]
+Server Time : [28261.425781]
+Server Time : [28266.103516]
+Server Time : [28266.431641]
+Server Time : [28271.105469]
+Server Time : [28271.443359]
+Server Time : [28276.109375]
+Server Time : [28276.439453]
+Server Time : [28281.119141]
+Server Time : [28281.443359]
+Server Time : [28286.455078]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Tokomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [28351.298828]
+Server Time : [28356.304688]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [28403.828125]
+Enter Game
+Start Game : [0]
+Encounter!!
+Server Time : [28409.472656]
+Server Time : [28414.478516]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [28419.484375]
+Battle Ready Finish
+Battle Start
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Server Time : [28459.121094]
+Server Time : [28464.132812]
+Server Time : [28469.132812]
+Server Time : [28474.136719]
+Server Time : [28479.146484]
+Server Time : [28484.152344]
+Server Time : [28489.158203]
+Server Time : [28494.158203]
+Server Time : [28499.160156]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.44]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.44
+Login :[ T_Nyaromon ]
+Enter Lobby
+Server Time : [28641.382812]
+Server Time : [28646.384766]
+Server Time : [28651.384766]
+AddUser: 1 172.30.1.98
+Server Time : [28656.384766]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [28662.595703]
+Server Time : [28664.111328]
+Server Time : [28667.599609]
+Server Time : [28669.132812]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [28672.597656]
+Server Time : [28674.123047]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Veemon] : code [1]
+Spawn Digimon [Terriermon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [28677.603516]
+Player : [1] MoveTo ([36.821857], [0.000000], [-2.193215]) 
+Player : [1] MoveTo ([36.821857], [0.000000], [-2.193215]) 
+Server Time : [28679.128906]
+Battle Ready Finish
+Battle Start
+Player : [1] MoveTo ([36.586094], [0.000000], [-5.468474]) 
+Player : [1] MoveTo ([36.586094], [0.000000], [-5.468474]) 
+Server Time : [28682.599609]
+Server Time : [28684.148438]
+Server Time : [28687.607422]
+Server Time : [28689.140625]
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Server Time : [28692.628906]
+Server Time : [28694.140625]
+Server Time : [28697.615234]
+Creep Die : [2] of [0]
+Server Time : [28699.146484]
+Creep Die : [0] of [0]
+Creep Die : [2] of [1]
+Server Time : [28702.617188]
+Server Time : [28704.156250]
+Server Time : [28707.621094]
+Server Time : [28709.156250]
+Creep Die : [0] of [1]
+Server Time : [28712.628906]
+Server Time : [28714.179688]
+Server Time : [28717.632812]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Server Time : [28719.203125]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Server Time : [28722.628906]
+Server Time : [28724.183594]
+ArgPicked : [6]
+ArgPicked : [2]
+ArgTitan
+Server Time : [28727.638672]
+Server Time : [28729.191406]
+Player : [1] MoveTo ([34.007942], [1.547573], [-8.313282]) 
+Player : [1] MoveTo ([34.007942], [1.547573], [-8.313282]) 
+Server Time : [28732.640625]
+Server Time : [28734.197266]
+Server Time : [28737.638672]
+Server Time : [28739.193359]
+Server Time : [28742.646484]
+Server Time : [28744.197266]
+Server Time : [28747.648438]
+Server Time : [28749.199219]
+Server Time : [28752.660156]
+Server Time : [28754.203125]
+Server Time : [28757.660156]
+Server Time : [28759.212891]
+Server Time : [28762.660156]
+Server Time : [28764.216797]
+Server Time : [28767.664062]
+Server Time : [28769.212891]
+Manage Finish
+Server Time : [28778.193359]
+Battle Ready Start Moving ID[1]
+Server Time : [28798.597656]
+Server Time : [28798.597656]
+Server Time : [28798.599609]
+Server Time : [28798.599609]
+Server Time : [28798.599609]
+Battle Ready Finish
+Server Time : [28798.601562]
+Server Time : [28798.603516]
+Server Time : [28798.603516]
+Server Time : [28798.605469]
+Server Time : [28798.609375]
+Battle Start
+Server Time : [28799.271484]
+Server Time : [28802.712891]
+Server Time : [28804.248047]
+Server Time : [28807.689453]
+Server Time : [28809.255859]
+Server Time : [28812.695312]
+Server Time : [28814.259766]
+Server Time : [28817.707031]
+Server Time : [28819.271484]
+Server Time : [28822.712891]
+Server Time : [28824.275391]
+Server Time : [28827.720703]
+Server Time : [28829.275391]
+Server Time : [28832.720703]
+Server Time : [28834.279297]
+Server Time : [28837.724609]
+PVP Battle Finish
+ArgKngslayer
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [28839.279297]
+Fade In & Out Finish
+Round Start
+Server Time : [28842.726562]
+ArgPicked : [6]
+ArgPicked : [6]
+Server Time : [28844.287109]
+ArgPicked : [2]
+ArgPicked : [2]
+ArgTitan
+ArgTitan
+Server Time : [28849.312500]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [14384.238281]
+Server Time : [14389.240234]
+AddUser: 1 172.30.1.98
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [14394.250000]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [14401.784180]
+Server Time : [14403.257812]
+Server Time : [14406.780273]
+Server Time : [14408.264648]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [14411.782227]
+Server Time : [14413.259766]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Hawkmon] : code [2]
+Battle Ready(Creep) Start
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [14416.786133]
+Battle Ready Finish
+Battle Start
+Server Time : [14418.271484]
+Server Time : [14421.801758]
+Server Time : [14423.265625]
+Server Time : [14426.794922]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [14428.280273]
+Server Time : [14431.800781]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Server Time : [14433.292969]
+Server Time : [14436.796875]
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Server Time : [14438.297852]
+Server Time : [14441.797852]
+Server Time : [14443.287109]
+Server Time : [14446.806641]
+Server Time : [14448.290039]
+Server Time : [14451.807617]
+Server Time : [14453.291016]
+Server Time : [14456.813477]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [14458.296875]
+Fade In & Out Finish
+Round Start
+Server Time : [14461.817383]
+ArgPicked : [1]
+ArgBranchingOutChoice
+Server Time : [14463.308594]
+Server Time : [14466.817383]
+Server Time : [14468.308594]
+Spawn Digimon [Renamon] : code [3]
+ArgPicked : [2]
+ArgTitan
+Server Time : [14471.822266]
+Spawn Digimon [Impmon] : code [4]
+Spawn Digimon [Hawkmon] : code [5]
+Spawn Digimon [Hawkmon] : code [6]
+Server Time : [14473.313477]
+Spawn Digimon [Terriermon] : code [7]
+Server Time : [14476.832031]
+Spawn Digimon [Guilmon] : code [8]
+Server Time : [14478.334961]
+Spawn Digimon [Guilmon] : code [9]
+Server Time : [14481.827148]
+Server Time : [14483.325195]
+Server Time : [14486.832031]
+Server Time : [14488.332031]
+Server Time : [14491.839844]
+Server Time : [14493.335938]
+Server Time : [14496.846680]
+Server Time : [14498.341797]
+Server Time : [14501.847656]
+Server Time : [14503.339844]
+Server Time : [14506.849609]
+Server Time : [14508.348633]
+Manage Finish
+Battle Ready Start Moving ID[1]
+Server Time : [14511.852539]
+Server Time : [14513.387695]
+Server Time : [14516.879883]
+Server Time : [14518.366211]
+Battle Ready Finish
+Battle Start
+Server Time : [14522.300781]
+Server Time : [14524.461914]
+Server Time : [14528.360352]
+Server Time : [14529.237305]
+Server Time : [14531.874023]
+Server Time : [14533.372070]
+Server Time : [14536.881836]
+Server Time : [14538.371094]
+Server Time : [14541.883789]
+Server Time : [14543.373047]
+Server Time : [14546.892578]
+Server Time : [14548.397461]
+Server Time : [14551.898438]
+Server Time : [14553.380859]
+Server Time : [14556.902344]
+Server Time : [14558.381836]
+PVP Battle Finish
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [14561.905273]
+Server Time : [14563.394531]
+Fade In & Out Finish
+Round Start
+Server Time : [14566.930664]
+Server Time : [14571.927734]
+Server Time : [14576.923828]
+Server Time : [14581.927734]
+ArgPicked : [4]
+ArgPicked : [4]
+ArgOverEncumbered
+ArgOverEncumbered
+Server Time : [14586.967773]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Server Time : [14795.238281]
+Server Time : [14800.235352]
+Server Time : [14805.238281]
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [14810.245117]
+Server Time : [14815.246094]
+AddUser: 1 172.30.1.98
+Login :[ T_Tsunomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [14820.250000]
+Server Time : [14823.001953]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [14825.335938]
+Server Time : [14828.076172]
+Server Time : [14830.339844]
+Server Time : [14833.079102]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [14835.345703]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Renamon] : code [1]
+Spawn Digimon [Terriermon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [14838.084961]
+Server Time : [14840.347656]
+Battle Ready Finish
+Battle Start
+Server Time : [14843.100586]
+Server Time : [14845.359375]
+Server Time : [14848.095703]
+Creep Die : [1] of [0]
+Server Time : [14850.380859]
+Creep Die : [1] of [1]
+Server Time : [14853.126953]
+Server Time : [14858.096680]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [14982.216797]
+AddUser: 1 172.30.1.98
+AddUser: 0 172.30.1.78
+Server Time : [15016.416992]
+Login :[ T_Tsunomon ]
+Enter Lobby
+AddUser: 1 172.30.1.98
+Server Time : [15021.411133]
+Login :[ T_Koromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Server Time : [15026.938477]
+Start Game : [1]
+Encounter!!
+Server Time : [15028.494141]
+Server Time : [15031.942383]
+Server Time : [15033.500000]
+Server Time : [15036.954102]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [15038.498047]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Guilmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [15041.953125]
+Server Time : [15043.498047]
+Battle Ready Finish
+Battle Start
+Server Time : [15046.963867]
+Server Time : [15048.498047]
+Server Time : [15051.958984]
+Server Time : [15053.500977]
+Creep Die : [1] of [0]
+Creep Die : [1] of [1]
+Server Time : [15056.969727]
+Server Time : [15058.502930]
+Creep Die : [2] of [0]
+Creep Die : [2] of [1]
+Server Time : [15061.990234]
+Server Time : [15063.510742]
+Creep Die : [0] of [0]
+Server Time : [15066.982422]
+Server Time : [15068.515625]
+Server Time : [15071.984375]
+Server Time : [15073.527344]
+Server Time : [15076.980469]
+Server Time : [15078.523438]
+Server Time : [15081.978516]
+Server Time : [15083.530273]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Fade In & Out Finish
+Round Start
+Server Time : [15088.526367]
+Server Time : [15093.531250]
+Server Time : [15098.540039]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Server Time : [15188.004883]
+Server Time : [15192.997070]
+Login :[ T_Koromon ]
+Enter Lobby
+Server Time : [15198.009766]
+AddUser: 1 172.30.1.98
+Login :[ T_Motimon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [15203.014648]
+Server Time : [15205.442383]
+Server Time : [15208.023438]
+Server Time : [15210.443359]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [15213.112305]
+Server Time : [15215.536133]
+Server Time : [15218.114258]
+Server Time : [15220.543945]
+Encounter Fin
+Round Fin
+Server Time : [15223.121094]
+Server Time : [15225.542969]
+Server Time : [15228.126953]
+Server Time : [15230.544922]
+Server Time : [15233.130859]
+Server Time : [15235.546875]
+Server Time : [15238.125977]
+Server Time : [15240.548828]
+Player : [1] MoveTo ([1.697667], [0.000000], [-7.758743]) 
+Player : [1] MoveTo ([1.697667], [0.000000], [-7.758743]) 
+Server Time : [15245.553711]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [15278.897461]
+AddUser: 1 172.30.1.98
+Server Time : [15283.896484]
+Login :[ T_Bukamon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [15288.516602]
+Server Time : [15288.993164]
+Server Time : [15293.521484]
+Server Time : [15294.000000]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [15298.527344]
+Server Time : [15299.001953]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Terriermon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [15303.536133]
+Server Time : [15304.004883]
+Server Time : [15308.539062]
+Server Time : [15309.000000]
+Server Time : [15313.541016]
+Creep Die : [1] of [0]
+Server Time : [15314.013672]
+Creep Die : [1] of [1]
+Creep Die : [2] of [0]
+Server Time : [15318.536133]
+Server Time : [15319.029297]
+Server Time : [15323.542969]
+Server Time : [15324.023438]
+Creep Die : [0] of [0]
+Creep Die : [2] of [1]
+Server Time : [15328.549805]
+Server Time : [15329.023438]
+Server Time : [15333.553711]
+Server Time : [15334.025391]
+Creep Die : [0] of [1]
+Server Time : [15338.552734]
+Server Time : [15339.031250]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [15343.557617]
+Server Time : [15344.037109]
+Fade In & Out Finish
+Round Start
+ArgPicked : [6]
+Server Time : [15348.570312]
+Server Time : [15349.051758]
+ArgPicked : [5]
+Server Time : [15353.567383]
+Server Time : [15354.047852]
+Server Time : [15358.565430]
+Server Time : [15359.056641]
+Server Time : [15363.574219]
+Server Time : [15364.061523]
+Server Time : [15368.578125]
+Server Time : [15369.064453]
+Spawn Digimon [Veemon] : code [3]
+Server Time : [15373.577148]
+Server Time : [15374.069336]
+Server Time : [15378.580078]
+Server Time : [15379.071289]
+Spawn Digimon [Veemon] : code [4]
+Spawn Digimon [Renamon] : code [5]
+Server Time : [15383.599609]
+Server Time : [15384.087891]
+Spawn Digimon [Impmon] : code [6]
+Server Time : [15388.586914]
+Server Time : [15389.087891]
+Server Time : [15393.584961]
+Server Time : [15394.090820]
+Manage Finish
+Battle Ready Start Moving ID[1]
+Battle Ready Start Moving ID[1]
+Server Time : [15398.593750]
+Server Time : [15399.091797]
+Server Time : [15403.594727]
+Server Time : [15404.100586]
+Battle Ready Finish
+Battle Start
+Server Time : [15408.601562]
+Server Time : [15409.101562]
+Server Time : [15413.605469]
+Server Time : [15418.613281]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tsunomon ]
+Enter Lobby
+Server Time : [15509.474609]
+Server Time : [15514.474609]
+Server Time : [15519.487305]
+Server Time : [15524.488281]
+Server Time : [15529.490234]
+Server Time : [15534.484375]
+Server Time : [15539.493164]
+Server Time : [15544.500977]
+AddUser: 1 172.30.1.98
+Server Time : [15549.499023]
+Login :[ T_Nyaromon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [15550.641602]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [15554.577148]
+Server Time : [15555.735352]
+Server Time : [15559.577148]
+Server Time : [15560.743164]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Round Fin
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [15564.583008]
+Fade In & Out Finish
+Round Start
+Server Time : [15565.749023]
+ArgPicked : [6]
+Server Time : [15569.586914]
+Server Time : [15570.748047]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [15595.137695]
+AddUser: 1 172.30.1.98
+Server Time : [15600.141602]
+Server Time : [15600.989258]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [15605.504883]
+Server Time : [15606.080078]
+Server Time : [15610.502930]
+Server Time : [15611.088867]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [15615.505859]
+Server Time : [15616.092773]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Veemon] : code [1]
+Spawn Digimon [Impmon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [15620.504883]
+Server Time : [15621.095703]
+Battle Ready Finish
+Battle Start
+Server Time : [15625.523438]
+Server Time : [15626.111328]
+Server Time : [15630.522461]
+Server Time : [15631.103516]
+Creep Die : [1] of [1]
+Creep Die : [1] of [0]
+Server Time : [15635.519531]
+Server Time : [15636.109375]
+Creep Die : [2] of [1]
+Server Time : [15640.516602]
+Creep Die : [2] of [0]
+Server Time : [15641.113281]
+Creep Die : [0] of [1]
+Creep Die : [0] of [0]
+Server Time : [15645.527344]
+Server Time : [15646.114258]
+Server Time : [15650.531250]
+Server Time : [15651.121094]
+Server Time : [15655.534180]
+Server Time : [15656.125977]
+Server Time : [15661.012695]
+Server Time : [15661.124023]
+Creep Battle Finish [1]
+Creep Battle Finish [0]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Fade In & Out Finish
+Round Start
+Server Time : [15666.013672]
+Server Time : [15666.130859]
+ArgPicked : [1]
+ArgBranchingOutChoice
+ArgPicked : [2]
+ArgTitan
+Server Time : [15671.022461]
+Server Time : [15671.138672]
+Server Time : [15676.016602]
+Server Time : [15676.141602]
+Spawn Digimon [Hawkmon] : code [3]
+Spawn Digimon [Guilmon] : code [4]
+Server Time : [15681.023438]
+Server Time : [15681.162109]
+Spawn Digimon [Terriermon] : code [5]
+Server Time : [15686.037109]
+Server Time : [15686.148438]
+Spawn Digimon [Renamon] : code [6]
+Server Time : [15691.044922]
+Server Time : [15691.158203]
+Spawn Digimon [Impmon] : code [7]
+Server Time : [15696.050781]
+Server Time : [15696.159180]
+Spawn Digimon [Renamon] : code [8]
+Server Time : [15701.066406]
+Server Time : [15701.208984]
+Server Time : [15706.061523]
+Server Time : [15706.176758]
+Server Time : [15711.064453]
+Server Time : [15711.181641]
+Manage Finish
+Battle Ready Start Moving ID[0]
+Server Time : [15716.075195]
+Server Time : [15716.192383]
+Server Time : [15721.086914]
+Server Time : [15721.191406]
+Battle Ready Finish
+Battle Start
+Server Time : [15726.333984]
+Server Time : [15726.441406]
+Server Time : [15732.033203]
+Server Time : [15732.216797]
+Server Time : [15736.101562]
+Server Time : [15736.204102]
+Server Time : [15741.102539]
+Server Time : [15741.215820]
+Server Time : [15746.102539]
+Server Time : [15746.211914]
+Server Time : [15751.110352]
+Server Time : [15751.220703]
+Server Time : [15756.114258]
+Server Time : [15756.226562]
+Server Time : [15761.116211]
+Server Time : [15761.236328]
+PVP Battle Finish
+Teleport_Tamer[1] to [1]
+Server Time : [15766.236328]
+Fade In & Out Finish
+Round Start
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tsunomon ]
+Enter Lobby
+Enter Game
+Start Game : [0]
+Encounter!!
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [19415.421875]
+Server Time : [19420.423828]
+AddUser: 1 172.30.1.98
+Server Time : [19425.423828]
+Login :[ T_Tokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [0]
+Start Game : [1]
+Encounter!!
+Server Time : [19430.216797]
+Server Time : [19431.052734]
+Server Time : [19435.214844]
+Server Time : [19436.048828]
+Encounter Fin
+Server Time : [19440.218750]
+Server Time : [19441.056641]
+Server Time : [19445.224609]
+Server Time : [19446.560547]
+Server Time : [19450.224609]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Motimon ]
+Enter Lobby
+Server Time : [19475.580078]
+AddUser: 1 172.30.1.98
+Login :[ T_Yokomon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [19481.175781]
+Server Time : [19481.896484]
+Server Time : [19486.183594]
+Server Time : [19486.908203]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[1] to [1]
+Teleport_Tamer[0] to [0]
+Server Time : [19491.185547]
+Server Time : [19491.912109]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Battle Ready Finish
+Battle Start
+Server Time : [19496.189453]
+Server Time : [19496.927734]
+Server Time : [19501.203125]
+Server Time : [19501.910156]
+Creep Die : [1] of [1]
+Server Time : [19506.193359]
+Creep Die : [1] of [0]
+Server Time : [19506.912109]
+Creep Die : [2] of [1]
+Creep Die : [2] of [0]
+Server Time : [19511.199219]
+Server Time : [19511.916016]
+Creep Die : [0] of [1]
+Server Time : [19516.203125]
+Server Time : [19516.919922]
+Creep Die : [0] of [0]
+Server Time : [19521.214844]
+Server Time : [19521.931641]
+Server Time : [19526.218750]
+Server Time : [19526.927734]
+Server Time : [19531.216797]
+Server Time : [19531.933594]
+Creep Battle Finish [0]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [19536.226562]
+Server Time : [19536.933594]
+Fade In & Out Finish
+Round Start
+Server Time : [19541.228516]
+ArgPicked : [3]
+ArgCalledShot
+ArgPicked : [2]
+ArgTitan
+Server Time : [19541.939453]
+Server Time : [19546.232422]
+Server Time : [19546.943359]
+Server Time : [19551.228516]
+Server Time : [19551.955078]
+Spawn Digimon [Veemon] : code [3]
+Server Time : [19556.238281]
+Spawn Digimon [Terriermon] : code [4]
+Server Time : [19556.957031]
+Spawn Digimon [Guilmon] : code [5]
+Spawn Digimon [Guilmon] : code [6]
+Server Time : [19561.240234]
+Server Time : [19561.957031]
+Server Time : [19566.244141]
+Server Time : [19566.962891]
+Server Time : [19571.248047]
+Server Time : [19571.968750]
+Server Time : [19576.246094]
+Server Time : [19576.972656]
+Server Time : [19581.248047]
+Server Time : [19581.980469]
+Server Time : [19586.259766]
+Server Time : [19586.980469]
+Manage Finish
+Battle Ready Start Moving ID[1]
+Battle Ready Start Moving ID[1]
+Server Time : [19591.267578]
+Server Time : [19592.003906]
+Server Time : [19596.269531]
+Server Time : [19597.015625]
+Battle Ready Finish
+Battle Start
+Server Time : [19601.523438]
+Server Time : [19602.855469]
+Server Time : [19606.277344]
+Server Time : [19607.015625]
+Server Time : [19611.308594]
+Server Time : [19612.015625]
+Server Time : [19616.283203]
+Server Time : [19617.023438]
+Server Time : [19621.292969]
+Server Time : [19622.031250]
+Server Time : [19626.296875]
+Server Time : [19627.027344]
+Server Time : [19631.294922]
+Server Time : [19632.035156]
+Server Time : [19636.304688]
+Server Time : [19637.033203]
+PVP Battle Finish
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [19641.306641]
+Server Time : [19642.072266]
+Fade In & Out Finish
+Round Start
+ArgPicked : [6]
+ArgPicked : [6]
+ArgPicked : [2]
+ArgPicked : [2]
+InValid Digicode in User[1]
+ArgTitan
+ArgTitan
+Server Time : [19647.044922]
+Host Name Is [ YU-LAPTOP ] IP : [172.30.1.78]
+Digimon Team Fight ServerThread Start..TCPPort : 25000
+AddUser: 0 172.30.1.78
+Login :[ T_Tokomon ]
+Enter Lobby
+Server Time : [23880.640625]
+AddUser: 1 172.30.1.98
+Login :[ T_Tanemon ]
+Enter Lobby
+Send My Info
+Send User Info [0]
+Server Time : [23885.648438]
+Enter Game
+Start Game : [1]
+Start Game : [0]
+Encounter!!
+Server Time : [23888.611328]
+Server Time : [23890.906250]
+Server Time : [23893.619141]
+Server Time : [23895.908203]
+Encounter Fin
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [23898.623047]
+Fade In & Out Finish
+Round Start
+Spawn Digimon [Hawkmon] : code [1]
+Spawn Digimon [Renamon] : code [2]
+Battle Ready(Creep) Start
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Spawn Creep Digimon
+Server Time : [23900.916016]
+Server Time : [23903.628906]
+Battle Ready Finish
+Battle Start
+Server Time : [23905.931641]
+Server Time : [23908.628906]
+Server Time : [23910.923828]
+Creep Die : [1] of [1]
+Server Time : [23913.632812]
+Creep Die : [1] of [0]
+Creep Die : [2] of [1]
+Server Time : [23915.929688]
+Creep Die : [2] of [0]
+Server Time : [23918.642578]
+Server Time : [23920.937500]
+Creep Die : [0] of [1]
+Server Time : [23923.644531]
+Creep Die : [0] of [0]
+Server Time : [23925.937500]
+Server Time : [23928.644531]
+Server Time : [23930.941406]
+Server Time : [23933.650391]
+Server Time : [23935.953125]
+Server Time : [23938.654297]
+Server Time : [23940.949219]
+Creep Battle Finish [0]
+Server Time : [23943.656250]
+Creep Battle Finish [1]
+Round Fin
+Fade In & Out Start
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [23945.957031]
+Fade In & Out Finish
+Round Start
+Round Start
+Server Time : [23948.660156]
+ArgPicked : [2]
+ArgPicked : [2]
+ArgTitan
+ArgTitan
+ArgPicked : [1]
+ArgPicked : [1]
+ArgBranchingOutChoice
+ArgBranchingOutChoice
+Server Time : [23950.951172]
+Server Time : [23953.660156]
+Server Time : [23955.955078]
+Server Time : [23958.656250]
+Server Time : [23960.951172]
+Spawn Digimon [Renamon] : code [3]
+Server Time : [23963.664062]
+Spawn Digimon [Veemon] : code [4]
+Server Time : [23965.960938]
+Spawn Digimon [Impmon] : code [5]
+Spawn Digimon [Terriermon] : code [6]
+Spawn Digimon [Guilmon] : code [7]
+Server Time : [23968.667969]
+Server Time : [23970.960938]
+Server Time : [23973.671875]
+Server Time : [23975.968750]
+Server Time : [23978.673828]
+Server Time : [23980.964844]
+Server Time : [23983.679688]
+Server Time : [23985.966797]
+Server Time : [23988.679688]
+Server Time : [23990.968750]
+Server Time : [23993.691406]
+Server Time : [23995.968750]
+Manage Finish
+Battle Ready Start Moving ID[1]
+Server Time : [23998.687500]
+Server Time : [24000.996094]
+Server Time : [24003.687500]
+Server Time : [24005.988281]
+Battle Ready Finish
+Battle Start
+Server Time : [24010.255859]
+Server Time : [24010.988281]
+Server Time : [24013.691406]
+Server Time : [24015.996094]
+Server Time : [24019.236328]
+Server Time : [24020.992188]
+Server Time : [24024.240234]
+Server Time : [24026.000000]
+Server Time : [24029.242188]
+Server Time : [24031.007812]
+Server Time : [24034.244141]
+Server Time : [24036.007812]
+Server Time : [24039.236328]
+Server Time : [24041.013672]
+Server Time : [24044.244141]
+Server Time : [24046.019531]
+PVP Battle Finish
+Teleport_Tamer[0] to [0]
+Teleport_Tamer[1] to [1]
+Server Time : [24049.283203]
+Fade In & Out Finish
+Round Start
+Server Time : [24051.027344]
+ArgPicked : [2]
+ArgPicked : [2]
+ArgPicked : [2]
+ArgTitan
+ArgTitan
+ArgTitan
+Server Time : [24054.251953]
+Server Time : [24060.972656]
+Server Time : [24065.974609]
+Failed Socket Create

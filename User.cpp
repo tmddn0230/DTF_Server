@@ -345,7 +345,7 @@ void User::RecvLoginReq(char* packet)
 
 
 
-	char buffer[128];
+	char buffer[sizeof(stLoginAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 
 	memcpy(buffer, &ack, sizeof(stLoginAck));
@@ -365,7 +365,7 @@ void User::RecvEnterLobby(char* packet)
 	ack.UID = req.UID;// test code
 	ack.selectedTD = req.selectedTD;
 
-	char buffer[64];	
+	char buffer[sizeof(stEnterLobbyAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stEnterLobbyAck));
 
@@ -384,7 +384,7 @@ void User::RecvEnterLobby(char* packet)
 	infoack.selectedTD = req.selectedTD;
 	memcpy(infoack.playerID, &g_User.mUser[req.UID].mName, sizeof(g_User.mUser[req.UID].mName));
 
-	char infobuffer[64];
+	char infobuffer[sizeof(stMyInfo)];
 	memset(infobuffer, 0x00, sizeof(infobuffer));
 	memcpy(infobuffer, &infoack, sizeof(stMyInfo));
 
@@ -409,7 +409,7 @@ void User::RecvGetUserInfo(char* packet)
 		ack.selectedTD = g_User.GetUser(i)->mSelectedTDigimon;
 		memcpy(ack.playerID, &req.playerID, sizeof(req.playerID));
 
-		char buffer[64];
+		char buffer[sizeof(stGetUserInfo)];
 		memcpy(buffer, &ack, sizeof(stGetUserInfo));
 		
 		g_User.Send(req.UID, buffer, sizeof(stGetUserInfo));
@@ -420,13 +420,13 @@ void User::RecvGetUserInfo(char* packet)
 
 void User::RecvEnterGame(char* packet)
 {
-	stEnterGame req;
-	req.Result = 1;
+	stEnterGame ack;
+	ack.Result = 1;
 
 
-	char buffer[64];	
+	char buffer[sizeof(stEnterGame)];
 	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &req, sizeof(stEnterGame));
+	memcpy(buffer, &ack, sizeof(stEnterGame));
 
 	g_User.SendAll(buffer, sizeof(stEnterGame));
 
@@ -443,12 +443,11 @@ void User::RecvLoadingFinish(char* packet)
 
 	ack.UID = req.UID;
 
-	char buffer[64];	
+	char buffer[sizeof(stLoadingFinishAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stLoadingFinishAck));
 
 	g_User.SendAll(buffer, sizeof(stLoadingFinishAck));
-	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
 	Log("Loading Finish");
 }
 
@@ -458,18 +457,18 @@ void User::RecvStart(char* packet)
 	memcpy(&req, packet, sizeof(stStartGame));
 	
 	Log("Start Game : [%d]", req.UID);
-
 	// 답신 x : 클라에서 StartGame 패킷과 Encounter 패킷을 동시에 보낼 예정
 	// 단순 Log 기록용
 }
 
+// 테이머 동작 동기화 관련
 void User::RecvSelected(char* packet)
 {
 	stSelectedAck ack;
 	memcpy(&ack, packet, sizeof(stSelectedAck));
 
 	//g_User.SendOther(req.UID, packet, sizeof(stSelectedAck));
-	char buffer[64];
+	char buffer[sizeof(stSelectedAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 
 	memcpy(buffer, &ack, sizeof(stSelectedAck));
@@ -511,7 +510,7 @@ void User::RecvRClicked(char* packet)
 		ack.v[i] = req.v[i];
 	}
 
-    char buffer[64];
+    char buffer[sizeof(stRClickedAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stRClickedAck));
 
@@ -519,6 +518,8 @@ void User::RecvRClicked(char* packet)
 	Log("Player : [%d] MoveTo ([%f], [%f], [%f]) ", req.UID, req.v[0], req.v[1], req.v[2]);
 }
 
+
+// 게임 정보 동기화 관련
 void User::RecvServerTime(char* packet)
 {
 	stServerTimeReq req;
@@ -528,7 +529,7 @@ void User::RecvServerTime(char* packet)
 	ack.requestSendTime = req.requestSendTime;
 	ack.serverTime = GetServerTime();
 
-	char buffer[64];
+	char buffer[sizeof(stServerTimeAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stServerTimeAck));
 
@@ -555,6 +556,207 @@ void User::RecvSold(char* packet)
 	puts("Recv And Send All Packet");
 }
 
+
+
+void User::RecvSpawn(char* packet)
+{
+	stSpawnReq req;
+	memcpy(&req, packet, sizeof(stSpawnReq));
+
+	stSpawnAck ack;
+
+	ack.UID = req.UID;
+	ack.spawnedSeatIndex = req.spawnedSeatIndex;
+	// DIGICODE 부여
+	ack.digicode = g_GameMgr.m_Digicode;
+	g_GameMgr.m_Digicode++;
+	// 서버에서 디지몬 관리
+	g_User.mUser[ack.UID].mydigimonCodes.push_back(ack.digicode);
+
+	memcpy(ack.spawnDigimonName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
+	
+	char buffer[sizeof(stSpawnAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSpawnAck));
+
+	g_User.SendAll(buffer, sizeof(stSpawnAck));
+	Log("Spawn Digimon [%s] : code [%d]", req.spawnDigimonName, g_GameMgr.m_Digicode);
+}
+
+void User::RecvSpawnCreep(char* packet)
+{
+	stSpawnCreepReq req;
+	memcpy(&req, packet, sizeof(stSpawnCreepReq));
+
+	stSpawnCreepAck ack;
+
+	ack.UID = req.UID;
+	ack.TileIndex = req.TileIndex;
+	// CreepIdx 부여
+	ack.CreepIdx = req.CreepIdx;
+
+	memcpy(ack.spawnDigimonName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
+
+
+	char buffer[sizeof(stSpawnCreepAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSpawnCreepAck));
+
+	g_User.SendAll(buffer, sizeof(stSpawnCreepAck));
+
+	Log("Spawn Creep Digimon");
+}
+
+// 디지몬 동작 동기화 관련
+
+void User::RecvTransform(char* packet)
+{
+	stSyncTrReq req;
+	memcpy(&req, packet, sizeof(stSyncTrReq));
+
+	stSyncTrAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.serverTime = req.serverTime; // 클라의 Syncservertime
+
+	if (g_User.mUser[req.UID].IsValidDigicode(req.UID, req.Digicode))
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			ack.v[i] = req.v[i];
+		}
+		for (int j = 0; j < 4; j++)
+		{
+			ack.q[j] = req.q[j];
+		}
+
+		char buffer[sizeof(stSyncTrAck)];
+		memset(buffer, 0x00, sizeof(buffer));
+		memcpy(buffer, &ack, sizeof(stSyncTrAck));
+
+		g_User.SendOther(req.UID, buffer, sizeof(stSyncTrAck));
+	}
+	else
+	{
+		Log("InValid Digicode in User[%d]", req.UID);
+	}
+
+}
+
+void User::RecvSetMove(char* packet)
+{
+	stSetMoveReq req;
+	memcpy(&req, packet, sizeof(stSetMoveReq));
+
+	stSetMoveAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
+
+	char buffer[sizeof(stSetMoveAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetMoveAck));
+
+	g_User.SendAll(buffer, sizeof(stSetMoveAck));
+}
+
+void User::RecvSetAttack(char* packet)
+{
+	stSetAttackReq req;
+	memcpy(&req, packet, sizeof(stSetAttackReq));
+
+	stSetAttackAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
+
+	char buffer[sizeof(stSetAttackAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetAttackAck));
+
+	g_User.SendAll(buffer, sizeof(stSetAttackAck));
+}
+
+void User::RecvSetSpecial(char* packet)
+{
+	stSetSpecialReq req;
+	memcpy(&req, packet, sizeof(stSetSpecialReq));
+
+	stSetSpecialAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
+
+	char buffer[sizeof(stSetSpecialAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetSpecialAck));
+
+	g_User.SendAll(buffer, sizeof(stSetSpecialAck));
+}
+
+void User::RecvSetWin(char* packet)
+{
+	stSetWinReq req;
+	memcpy(&req, packet, sizeof(stSetWinReq));
+
+	stSetWinAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
+
+	char buffer[sizeof(stSetWinAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stSetWinAck));
+
+	g_User.SendAll(buffer, sizeof(stSetWinAck));
+}
+
+void User::RecvSetHp(char* packet)
+{
+	stHpReq req;
+	memcpy(&req, packet, sizeof(stHpReq));
+
+	stHpAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.Hp = req.Hp;
+
+	char buffer[sizeof(stHpAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stHpAck));
+
+	g_User.SendAll(buffer, sizeof(stHpAck));
+}
+
+void User::RecvSetMp(char* packet)
+{
+	stMpReq req;
+	memcpy(&req, packet, sizeof(stMpReq));
+
+	stMpAck ack;
+
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.Mp = req.Mp;
+
+	char buffer[sizeof(stMpAck)];
+	memset(buffer, 0x00, sizeof(buffer));
+	memcpy(buffer, &ack, sizeof(stMpAck));
+
+	g_User.SendAll(buffer, sizeof(stMpAck));
+}
+
+
 void User::RecvDie(char* packet)
 {
 	stDieReq req;
@@ -563,8 +765,13 @@ void User::RecvDie(char* packet)
 	g_User.mUser[req.UID].mMyCombatCnt--;
 
 	stDieAck ack;
+	ack.UID = req.UID;
+	ack.Digicode = req.Digicode;
+	ack.ChangeStateTime = req.ChangeStateTime;
+	ack.serverTime = GetServerTime();
+
 	// Die 처리를 위한 패킷
-	char buffer[64];
+	char buffer[sizeof(stDieAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stDieAck));
 
@@ -593,24 +800,7 @@ void User::RecvDie(char* packet)
 	}
 }
 
-void User::RecvAttached(char* packet)
-{
-	stAttachedAck req;
-	memcpy(&req, packet, sizeof(stAttachedAck));
-
-	g_User.SendOther(req.UID, packet, sizeof(stAttachedAck));
-	puts("Recv And Send All Packet");
-}
-
-void User::RecvDetached(char* packet)
-{
-	stDetachedAck req;
-	memcpy(&req, packet, sizeof(stDetachedAck));
-
-	g_User.SendOther(req.UID, packet, sizeof(stDetachedAck));
-	puts("Recv And Send All Packet");
-}
-
+// 크립 동기화 관련
 void User::RecvCreepTR(char* packet)
 {
 	stCreepTrReq req;
@@ -629,7 +819,7 @@ void User::RecvCreepTR(char* packet)
 		ack.q[j] = req.q[j];
 	}
 
-	char buffer[64];
+	char buffer[sizeof(stCreepTrAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stCreepTrAck));
 
@@ -646,10 +836,10 @@ void User::RecvCreepHp(char* packet)
 	ack.Creep = req.Creep;
 	ack.value = req.value;
 
-	char buffer[64];
+	char buffer[sizeof(stCreepHpAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stCreepHpAck));
-	g_User.SendAll(buffer, sizeof(stCreepHpAck));
+	g_User.SendOther(req.UID, buffer, sizeof(stCreepHpAck));
 }
 
 void User::RecvCreepDie(char* packet)
@@ -661,10 +851,10 @@ void User::RecvCreepDie(char* packet)
 	ack.UID = req.UID;
 	ack.Creep = req.Creep;
 
-	char buffer[64];
+	char buffer[sizeof(stCreepDieAck)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stCreepDieAck));
-	g_User.SendAll(buffer, sizeof(stCreepDieAck));
+	g_User.SendOther(req.UID, buffer, sizeof(stCreepDieAck));
 	
 	Log("Creep Die : [%d] of [%d]", req.Creep, req.UID);
 }
@@ -707,7 +897,25 @@ void User::RecvPickingObj(char* packet)
 	Log("Picking Item OBJ");
 }
 
+// 장비 동기화 관련
+void User::RecvAttached(char* packet)
+{
+	stAttachedAck req;
+	memcpy(&req, packet, sizeof(stAttachedAck));
 
+	g_User.SendOther(req.UID, packet, sizeof(stAttachedAck));
+	puts("Recv And Send All Packet");
+}
+
+void User::RecvDetached(char* packet)
+{
+	stDetachedAck req;
+	memcpy(&req, packet, sizeof(stDetachedAck));
+
+	g_User.SendOther(req.UID, packet, sizeof(stDetachedAck));
+	puts("Recv And Send All Packet");
+}
+// 증강 동기화 관련
 void User::RecvArgPicked(char* packet)
 {
 	stArgPickedReq req;
@@ -834,227 +1042,33 @@ void User::RecvArgKingslayer(char* packet)
 	Log("ArgKngslayer");
 }
 
-
-
-void User::RecvSpawn(char* packet)
-{
-	stSpawnReq req;
-	memcpy(&req, packet, sizeof(stSpawnReq));
-
-	stSpawnAck ack;
-
-	ack.UID = req.UID;
-	ack.spawnedSeatIndex = req.spawnedSeatIndex;
-	// DIGICODE 부여
-	ack.digicode = g_GameMgr.m_Digicode;
-	g_GameMgr.m_Digicode++;
-	// 서버에서 디지몬 관리
-	g_User.mUser[ack.UID].mydigimonCodes.push_back(ack.digicode);
-
-	memcpy(ack.spawnDigimonName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
-	// mName 저장
-	memcpy(g_User.mUser[ack.UID].mName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSpawnAck));
-
-	g_User.SendAll( buffer, sizeof(stSpawnAck));
-	//g_User.SendOther(req.UID, buffer, sizeof(stLoadingFinishAck));
-	Log("Spawn Digimon [%d]", g_GameMgr.m_Digicode);
-}
-
-void User::RecvSpawnCreep(char* packet)
-{
-	stSpawnCreepReq req;
-	memcpy(&req, packet, sizeof(stSpawnCreepReq));
-
-	stSpawnCreepAck ack;
-
-	ack.UID = req.UID;
-	ack.TileIndex = req.TileIndex;
-	// CreepIdx 부여
-	ack.CreepIdx = req.CreepIdx;
-
-	memcpy(ack.spawnDigimonName, &req.spawnDigimonName, sizeof(req.spawnDigimonName));
-
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSpawnCreepAck));
-
-	g_User.SendAll(buffer, sizeof(stSpawnCreepAck));
-
-	Log("Spawn Creep Digimon");
-}
-
-
-void User::RecvTransform(char* packet)
-{
-	stSyncTrReq req;
-	memcpy(&req, packet, sizeof(stSyncTrReq));
-
-	stSyncTrAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.serverTime = req.serverTime;
-
-	if (g_User.mUser[req.UID].IsValidDigicode(req.UID, req.Digicode))
-	{
-		for (int i = 0; i < 3; i++)
-		{
-			ack.v[i] = req.v[i];
-		}
-		for (int j = 0; j < 4; j++)
-		{
-			ack.q[j] = req.q[j];
-		}
-
-		char buffer[64];
-		memset(buffer, 0x00, sizeof(buffer));
-		memcpy(buffer, &ack, sizeof(stSyncTrAck));
-
-		g_User.SendOther(req.UID, buffer, sizeof(stSyncTrAck));
-	}
-	else
-	{
-		Log("InValid Digicode in User[%d]", req.UID);
-	}
-	
-}
-
-void User::RecvSetMove(char* packet)
-{
-	stSetMoveReq req;
-	memcpy(&req, packet, sizeof(stSetMoveReq));
-
-	stSetMoveAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSetMoveAck));
-
-	g_User.SendAll(buffer, sizeof(stSetMoveAck));
-}
-
-void User::RecvSetAttack(char* packet)
-{
-	stSetAttackReq req;
-	memcpy(&req, packet, sizeof(stSetAttackReq));
-
-	stSetAttackAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSetAttackAck));
-
-	g_User.SendAll(buffer, sizeof(stSetAttackAck));
-}
-
-void User::RecvSetSpecial(char* packet)
-{
-	stSetSpecialReq req;
-	memcpy(&req, packet, sizeof(stSetSpecialReq));
-
-	stSetSpecialAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSetSpecialAck));
-
-	g_User.SendAll(buffer, sizeof(stSetSpecialAck));
-}
-
-void User::RecvSetWin(char* packet)
-{
-	stSetWinReq req;
-	memcpy(&req, packet, sizeof(stSetWinReq));
-
-	stSetWinAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.ChangeStateTime = req.ChangeStateTime;
-	ack.serverTime = GetServerTime();
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stSetWinAck));
-
-	g_User.SendAll(buffer, sizeof(stSetWinAck));
-}
-
-void User::RecvSetHp(char* packet)
-{
-	stHpReq req;
-	memcpy(&req, packet, sizeof(stHpReq));
-
-	stHpAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.Hp = req.Hp;
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stHpAck));
-
-	g_User.SendAll(buffer, sizeof(stHpAck));
-}
-
-void User::RecvSetMp(char* packet)
-{
-	stMpReq req;
-	memcpy(&req, packet, sizeof(stMpReq));
-
-	stMpAck ack;
-
-	ack.UID = req.UID;
-	ack.Digicode = req.Digicode;
-	ack.Mp = req.Mp;
-
-	char buffer[64];
-	memset(buffer, 0x00, sizeof(buffer));
-	memcpy(buffer, &ack, sizeof(stMpAck));
-
-	g_User.SendAll(buffer, sizeof(stMpAck));
-}
+/*
+==================================================================
+================   게임 플로우 관련 패킷   =======================
+==================================================================
+*/
 
 void User::RecvEncountStart(char* packet)
 {
 	stEncounterStart req;
 	memcpy(&req, packet, sizeof(stEncounterStart));
 
-	g_User.mWaitingCnt++;
-	if (g_User.mWaitingCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		stEncounterStart ack;
 		
-		char buffer[64];
+		char buffer[sizeof(stEncounterStart)];
 		memset(buffer, 0x00, sizeof(buffer));
 		memcpy(buffer, &ack, sizeof(stEncounterStart));
 		
 		g_User.SendAll(buffer, sizeof(stEncounterStart));
 
-		g_User.mWaitingCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
+		Log("Encounter!!");
 	}
-	Log("Encounter!! : [%d]", this->mIndex);
+
 }
 
 void User::RecvEncountFin(char* packet)
@@ -1062,12 +1076,12 @@ void User::RecvEncountFin(char* packet)
 	stEncounterFin req;
 	memcpy(&req, packet, sizeof(stEncounterFin));
 
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		stEncounterFin ack;
 
-		char buffer[64];
+		char buffer[sizeof(stEncounterFin)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stEncounterFin));
@@ -1075,7 +1089,7 @@ void User::RecvEncountFin(char* packet)
 
 		Log("Encounter Fin");
 
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 	}
 }
 
@@ -1084,20 +1098,20 @@ void User::RecvFadeInStart(char* packet)
 	stFadeInStart req;
 	memcpy(&req, packet, sizeof(stFadeInStart));
 
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		// Fade-inout start
 		stFadeInStart ack;
 		ack.round = g_GameMgr.GetCurrentRoundType();
 		ack.timer = enTimerType::TT_Fade_In;
 
-		char buffer[64];
+		char buffer[sizeof(stFadeInStart)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stFadeInStart));
 		g_User.SendAll(buffer, sizeof(stFadeInStart));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 
 		Log("Fade In & Out Start");
 	}
@@ -1106,17 +1120,22 @@ void User::RecvFadeInStart(char* packet)
 
 void User::RecvFadeInFin(char* packet)
 {
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	stFadeInFin req;
+	memcpy(&req, packet, sizeof(stFadeInFin));
+
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		// Fade-inout start
 		stFadeInFin ack;
-		char buffer[64];
+		ack.UID = 99;
+
+		char buffer[sizeof(stFadeInFin)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stFadeInFin));
 		g_User.SendAll(buffer, sizeof(stFadeInFin));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 
 		Log("Fade In & Out Finish");
 	}
@@ -1127,17 +1146,17 @@ void User::RecvBattleReadyStart(char* packet)
 	stBattleReadyStart req;
 	memcpy(&req, packet, sizeof(stBattleReadyStart));
 
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		if (req.movingUID == 99)
 		{
-			char buffer[64];
+			char buffer[sizeof(stBattleReadyStart)];
 			memset(buffer, 0x00, sizeof(buffer));
 
 			memcpy(buffer, &req, sizeof(stBattleReadyStart));
 			g_User.SendAll(buffer, sizeof(stBattleReadyStart));
-			g_User.mTimerCnt = 0;
+			g_GameMgr.mReadyUIDs.clear();
 			Log("Battle Ready(Creep) Start");
 
 			return;
@@ -1150,15 +1169,16 @@ void User::RecvBattleReadyStart(char* packet)
 		g_GameMgr.movingUID = rand() % (max - min + 1) + min; // min ~ max 범위의 난수 생성
 
 		stBattleReadyStart ack;
-
+		ack.UID = req.UID;
 		ack.movingUID = g_GameMgr.movingUID;
 
-		char buffer[64];
+		char buffer[sizeof(stBattleReadyStart)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stBattleReadyStart));
 		g_User.SendAll(buffer, sizeof(stBattleReadyStart));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
+
 		Log("Battle Ready Start Moving ID[%d]", ack.movingUID);
 	}
 }
@@ -1172,17 +1192,17 @@ void User::RecvBattleReadyFin(char* packet)
 	g_User.mUser[req.uid].ClearCombatCnt();
 	g_User.mUser[req.uid].SetMaxCnt(req.myMaxCnt);
 
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.uid);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		stBattleReadyFin ack;
 
-		char buffer[64];
+		char buffer[sizeof(stBattleReadyFin)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stBattleReadyFin));
 		g_User.SendAll(buffer, sizeof(stBattleReadyFin));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 		Log("Battle Ready Finish");
 	}
 
@@ -1190,19 +1210,21 @@ void User::RecvBattleReadyFin(char* packet)
 
 void User::RecvBattleStart(char* packet)
 {
-	g_User.mTimerCnt++;
+	stBattleStart req;
+	memcpy(&req, packet, sizeof(stBattleStart));
 
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		// Fade-inout start
 		stBattleStart ack;
 
-		char buffer[64];
+		char buffer[sizeof(stBattleStart)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stBattleStart));
 		g_User.SendAll(buffer, sizeof(stBattleStart));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 
 		// 배틀 시작 시점, 적이 나와 있는 시점 
 		Log("Battle Start");
@@ -1211,28 +1233,37 @@ void User::RecvBattleStart(char* packet)
 
 void User::RecvBattleFin(char* packet)
 {
+	stBattleFin req;
+	memcpy(&req, packet, sizeof(stBattleFin));
+
 	if (g_GameMgr.GetCurrentRoundType() != enRoundType::Type_Creep)
 	{
+
 		// 크립 제외한 라운드 -> 무빙 타이머, Fade IN
-		g_User.mTimerCnt++;
-		if (g_User.mTimerCnt == g_User.GetUserCount())
+		g_GameMgr.mReadyUIDs.insert(req.UID);
+		if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 		{
 			// Fade-inout start
 			stFadeInStart ack;
 			ack.round = g_GameMgr.GetCurrentRoundType();
 			ack.timer = enTimerType::TT_Fade_In;
 
-			char buffer[64];
+			char buffer[sizeof(stFadeInStart)];
 			memset(buffer, 0x00, sizeof(buffer));
 
 			memcpy(buffer, &ack, sizeof(stFadeInStart));
 			g_User.SendAll(buffer, sizeof(stFadeInStart));
-			g_User.mTimerCnt = 0;
+			g_GameMgr.mReadyUIDs.clear();
+			Log("PVP Battle Finish");
 		}
 	}
-	Log("Battle Finish");
+	else
+	{
+		Log("Creep Battle Finish [%d]", req.UID);
+	}
 }
 
+// 아마 호출되지 않음
 void User::RecvCombatEnd(char* packet)
 {
 	stCombatEnd req;
@@ -1243,12 +1274,13 @@ void User::RecvCombatEnd(char* packet)
 	ack.winnerUID = req.winnerUID;
 	ack.serverTime = GetServerTime();
 
-	char buffer[64];
+	char buffer[sizeof(stCombatEnd)];
 	memset(buffer, 0x00, sizeof(buffer));
 	memcpy(buffer, &ack, sizeof(stCombatEnd));
 	g_User.SendAll(buffer, sizeof(stCombatEnd));
 }
 
+// 아마 호출되지 않음
 void User::RecvManageStart(char* packet)
 {
 
@@ -1258,18 +1290,22 @@ void User::RecvManageStart(char* packet)
 
 void User::RecvManageFin(char* packet)
 {
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	stManageFin req;
+	memcpy(&req, packet, sizeof(stManageFin));
+
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 		// Fade-inout start
 		stManageFin ack;
+		ack.UID = req.UID;
 
-		char buffer[64];
+		char buffer[sizeof(stManageFin)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stManageFin));
 		g_User.SendAll(buffer, sizeof(stManageFin));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 
 		Log("Manage Finish");
 	}
@@ -1280,20 +1316,20 @@ void User::RecvRoundStart(char* packet)
 	stRoundStart req;
 	memcpy(&req, packet, sizeof(stRoundStart));
 
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 
 		stRoundStart ack;
 		ack.round = g_GameMgr.GetCurrentRoundType();
 		ack.timer = g_GameMgr.GetNextTimerType();
 
-		char buffer[64];
+		char buffer[sizeof(stRoundStart)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stRoundStart));
 		g_User.SendAll(buffer, sizeof(stRoundStart));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 
 		Log("Round Start");
 	}
@@ -1306,8 +1342,8 @@ void User::RecvRoundFin(char* packet)
 	stRoundFin req;
 	memcpy(&req, packet, sizeof(stRoundFin));
 
-	g_User.mTimerCnt++;
-	if (g_User.mTimerCnt == g_User.GetUserCount())
+	g_GameMgr.mReadyUIDs.insert(req.UID);
+	if (g_GameMgr.mReadyUIDs.size() == g_User.GetUserCount())
 	{
 
 		stRoundFin ack;
@@ -1315,12 +1351,12 @@ void User::RecvRoundFin(char* packet)
 		ack.round = g_GameMgr.GetCurrentRoundType();
 		ack.timer = g_GameMgr.GetNextTimerType();
 
-		char buffer[64];
+		char buffer[sizeof(stRoundFin)];
 		memset(buffer, 0x00, sizeof(buffer));
 
 		memcpy(buffer, &ack, sizeof(stRoundFin));
 		g_User.SendAll(buffer, sizeof(stRoundFin));
-		g_User.mTimerCnt = 0;
+		g_GameMgr.mReadyUIDs.clear();
 
 		g_GameMgr.NextRound(); // Round Count ++
 		Log("Round Fin");

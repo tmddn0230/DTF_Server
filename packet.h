@@ -457,11 +457,13 @@ struct stSetMoveReq : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float ChangeStateTime;
+	float ClientSyncServerTime;
 	stSetMoveReq()
 	{
 		UID = 0;
 		Digicode = 0;
 		ChangeStateTime = 0;
+		ClientSyncServerTime = 0;
 		SetHeader(prSetMoveReq, sizeof(stSetMoveReq));
 	};
 };
@@ -489,11 +491,14 @@ struct stSetAttackReq : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float ChangeStateTime;
+	float ClientSyncServerTime;
+
 	stSetAttackReq()
 	{
 		UID = 0;
 		Digicode = 0;
 		ChangeStateTime = 0;
+		ClientSyncServerTime = 0;
 		SetHeader(prSetAttackReq, sizeof(stSetMoveReq));
 	};
 };
@@ -521,11 +526,13 @@ struct stSetSpecialReq : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float ChangeStateTime;
+	float ClientSyncServerTime;
 	stSetSpecialReq()
 	{
 		UID = 0;
 		Digicode = 0;
 		ChangeStateTime = 0;
+		ClientSyncServerTime = 0;
 		SetHeader(prSetSpecialReq, sizeof(stSetSpecialReq));
 	};
 };
@@ -553,11 +560,13 @@ struct stSetWinReq : public stHeader
 	int32 UID;
 	int32 Digicode;
 	float ChangeStateTime;
+	float ClientSyncServerTime;
 	stSetWinReq()
 	{
 		UID = 0;
 		Digicode = 0;
 		ChangeStateTime = 0;
+		ClientSyncServerTime = 0;
 		SetHeader(prSetWinReq, sizeof(stSetWinReq));
 	};
 };
@@ -649,12 +658,16 @@ struct stMpAck : public stHeader
 struct stDieReq : public stHeader
 {
 	int32 UID;
-	
+	int32 Digicode;
+	float serverTime;
+	float ChangeStateTime;
 
 	stDieReq()
 	{
 		UID = 0;
-
+		Digicode = 0;
+		ChangeStateTime = 0;
+		serverTime = 0;
 		SetHeader(prDieReq, sizeof(stDieReq));
 	};
 };
@@ -662,11 +675,15 @@ struct stDieReq : public stHeader
 struct stDieAck : public stHeader
 {
 	int32 UID;
+	int32 Digicode;
 	float serverTime;
+	float ChangeStateTime;
 
 	stDieAck()
 	{
 		UID = 0;
+		Digicode = 0;
+		ChangeStateTime = 0;
 		serverTime = 0;
 		SetHeader(prDieAck, sizeof(stDieAck));
 	};
@@ -1011,22 +1028,26 @@ struct stArgKngslayer : public stHeader
 
 /*
 ==================================================================
-================   게임 시스템 관련 패킷   =======================
+================   게임 플로우 관련 패킷   =======================
 ==================================================================
 */
 
 struct stEncounterStart : public stHeader
 {
+	int32 UID;
 	stEncounterStart()
 	{
+		UID = 0;
 		SetHeader(prEncounterStart, sizeof(stEncounterStart));
 	};
 };
 
 struct stEncounterFin : public stHeader
 {
+	int32 UID;
 	stEncounterFin()
 	{
+		UID = 0;
 		SetHeader(prEncounterFin, sizeof(stEncounterFin));
 	};
 };
@@ -1034,11 +1055,13 @@ struct stEncounterFin : public stHeader
 
 struct stFadeInStart : public stHeader
 {
+	int32 UID;
 	enRoundType round;
 	enTimerType	timer;
 
 	stFadeInStart()
 	{
+		UID = 0;
 		round = enRoundType::Type_None;
 		timer = enTimerType::TT_Fade_In;
 		SetHeader(prFadeInStart, sizeof(stFadeInStart));
@@ -1058,10 +1081,12 @@ struct stFadeInFin : public stHeader
 
 struct stBattleReadyStart : public stHeader
 {
+	int32 UID;
 	int32 movingUID;
 
 	stBattleReadyStart()
 	{
+		UID = 0;
 		movingUID = 0;
 		SetHeader(prBattleReadyStart, sizeof(stBattleReadyStart));
 	};
@@ -1083,18 +1108,20 @@ struct stBattleReadyFin : public stHeader
 
 struct stBattleStart : public stHeader
 {
+	int32 UID;
 	stBattleStart()
 	{
-
+		UID = 0;
 		SetHeader(prBattleStart, sizeof(stBattleStart));
 	};
 };
 
 struct stBattleFin : public stHeader
 {
-
+	int32 UID;
 	stBattleFin()
 	{
+		UID = 0;
 		SetHeader(prBattleFin, sizeof(stBattleFin));
 	};
 };
@@ -1115,17 +1142,20 @@ struct stCombatEnd : public stHeader
 
 struct stManageStart : public stHeader
 {
+	int32 UID;
 	stManageStart()
 	{
-
+		UID = 0;
 		SetHeader(prManageStart, sizeof(stManageStart));
 	};
 };
 
 struct stManageFin : public stHeader
 {
+	int32 UID;
 	stManageFin()
 	{
+		UID = 0;
 		SetHeader(prManageFin, sizeof(stManageFin));
 	};
 };
@@ -1133,11 +1163,13 @@ struct stManageFin : public stHeader
 
 struct stRoundStart : public stHeader
 {
+	int32 UID;
 	enRoundType round;
 	enTimerType timer;
 
 	stRoundStart()
 	{
+		UID = 0;
 		round = enRoundType::Type_None;
 		timer = enTimerType::TT_None;
 		SetHeader(prRoundStart, sizeof(stRoundStart));
@@ -1146,10 +1178,12 @@ struct stRoundStart : public stHeader
 
 struct stRoundFin : public stHeader
 {
+	int32 UID;
 	enRoundType round;
 	enTimerType timer;
 	stRoundFin()
 	{
+		UID = 0;
 		round = enRoundType::Type_None;
 		timer = enTimerType::TT_None;
 		SetHeader(prRoundFin, sizeof(stRoundFin));

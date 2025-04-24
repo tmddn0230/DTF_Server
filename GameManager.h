@@ -7,6 +7,8 @@ class GameManager
 {
 
 public:
+	std::unordered_set<int> mReadyUIDs;
+
 	int m_Digicode = 0;
 
 	int movingUID = 0; // 현 2인 플레이 체제, 확장시 자료형 변경
